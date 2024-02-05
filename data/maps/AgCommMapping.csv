@@ -1,0 +1,26 @@
+regsector,AgCOMM,AgCOMM1
+biomass,biomass,biomass
+regional wheat,Wheat,Staples
+regional rice,Rice,Staples
+regional corn,Corn,Staples
+regional othergrain,OtherGrain,Staples
+regional root_tuber,RootTuber,Staples
+regional oilcrop,OilCrop,Other Crops
+regional soybean,Soybean,Other Crops
+regional oilpalm,OilPalm,Other Crops
+regional legumes,Legumes,Other Crops
+regional fibercrop,FiberCrop,Other Crops
+regional sugarcrop,SugarCrop,Other Crops
+regional nuts_seeds,NutsSeeds,Other Crops
+regional fruits,Fruits,Other Crops
+regional vegetables,Vegetables,Other Crops
+regional misccrop,MiscCrop,Other Crops
+regional beef,Beef,Livestock
+regional dairy,Dairy,Livestock
+regional sheepgoat,SheepGoat,Livestock
+regional pork,Pork,Livestock
+regional poultry,Poultry,Livestock
+OtherMeat_Fish,OtherMeat_Fish,Livestock
+Pasture,Pasture,Pasture
+FodderHerb,FodderHerb,Fodder
+FodderGrass,FodderGrass,Fodder
