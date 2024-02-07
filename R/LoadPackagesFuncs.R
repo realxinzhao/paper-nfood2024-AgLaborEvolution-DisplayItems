@@ -27,7 +27,7 @@ theme0 <- theme(
   strip.background = element_rect(fill="grey95"),
   strip.text = element_text(size = 16),
   #plot.title = element_text(hjust = 0.5,margin=margin(0,0,15,0)),
-  plot.title = element_text(hjust = 0.5, face = "bold"),
+  plot.title = element_text(hjust = 0, face = "bold"),
   plot.margin = margin(t = 10, r = 15, b = 10, l = 10) #panel.spacing = unit(1, "lines"),
 )
 

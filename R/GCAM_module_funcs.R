@@ -33,30 +33,30 @@ LoadProjectData <- function(.DFNAME, .DIR_MODULE = "FigData"){
 
 
 
-read_csv_bind <- function(.multiCSVpath){
-
-  library(doParallel)
-  myCluster <-
-    makeCluster(4, # number of cores to use
-                type = "PSOCK") # type of cluster
-  #detectCores()
-  registerDoParallel(myCluster)
-
-  foreach(csvDir = .multiCSVpath,
-          .combine=rbind,
-          .packages = "dplyr" ,.errorhandling = "remove"
-  ) %dopar% {
-    readr::read_csv(csvDir, skip = 1)%>%
-      select(-matches("^X")) %>%
-      na.omit() %>%
-      filter(scenario != "scenario") %>%
-      mutate(scenario = gsub(",date.*$", "", scenario)) %>%
-      gcamdata::gather_years()
-  } -> df
-
-  stopCluster(myCluster)
-  return(df)
-}
+# read_csv_bind <- function(.multiCSVpath){
+#
+#   library(doParallel)
+#   myCluster <-
+#     makeCluster(4, # number of cores to use
+#                 type = "PSOCK") # type of cluster
+#   #detectCores()
+#   registerDoParallel(myCluster)
+#
+#   foreach(csvDir = .multiCSVpath,
+#           .combine=rbind,
+#           .packages = "dplyr" ,.errorhandling = "remove"
+#   ) %dopar% {
+#     readr::read_csv(csvDir, skip = 1)%>%
+#       select(-matches("^X")) %>%
+#       na.omit() %>%
+#       filter(scenario != "scenario") %>%
+#       mutate(scenario = gsub(",date.*$", "", scenario)) %>%
+#       gcamdata::gather_years()
+#   } -> df
+#
+#   stopCluster(myCluster)
+#   return(df)
+# }
 
 
 Load_GCAM <- function(
