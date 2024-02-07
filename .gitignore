@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 data/AgLabor/V2024/*
+output/AgLabor/ProjectRDS/*.RDS
