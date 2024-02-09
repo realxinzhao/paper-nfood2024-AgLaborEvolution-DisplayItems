@@ -27,8 +27,7 @@ Load_GCAM(projnm = Project, versionnm = Version, return_availscen = T)
 Load_GCAM(projnm = Project, versionnm = Version, return_availquery = T)
 
 
-
-PathPerQuery -> .multiCSVpath
+# Modify/customize read csv function ----
 read_csv_bind <- function(.multiCSVpath){
 
   library(doParallel)
@@ -56,10 +55,6 @@ read_csv_bind <- function(.multiCSVpath){
 }
 
 
-
-
-
-
 # Load everything into lists ----
 Load_GCAM(projnm = Project, versionnm = "V2024", outputlistnm = "ListV2024")
 
@@ -68,11 +63,11 @@ Load_GCAM(projnm = Project, versionnm = "V2024", outputlistnm = "ListV2024")
 dir.create(file.path(DIR_OUTPUT, Project, "ProjectRDS"), showWarnings = F)
 ListV2024 %>% saveRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("ListV2024", ".RDS")))
 
-
+# Load the list [when needed]
 ListV2024 <- readRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("ListV2024", ".RDS")))
 
 
-# Module functions
+# Module functions ----
 DIR_MODULE = "AgLabor"
 PluckBind <- function(.query ){
   ListV2024 %>% purrr::pluck(.query) %>%
@@ -81,7 +76,6 @@ PluckBind <- function(.query ){
 
 
 
-PluckBind("Aggland") %>% distinct(branch)
 
 
 
