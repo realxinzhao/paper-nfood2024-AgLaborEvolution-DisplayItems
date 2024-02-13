@@ -17,7 +17,7 @@ ListV2024 %>% purrr::pluck("LaborPrice") %>%
   mutate(branch = scenario, scenario = ss) ->
   AgWage_32
 
-AgLabor_32 %>%
+AgWage_32 %>%
   left_join(ListV2024 %>% purrr::pluck("LaborDemandSec") %>%
               mutate(branch = scenario, scenario = ss) %>%
               Agg_reg(region) %>% rename(labor = value), by = c("scenario", "region", "year") ) %>%
@@ -46,6 +46,16 @@ ListV2024 %>% purrr::pluck("LaborDemandSec") %>%
   summarise(value = sum(value), .groups = "drop") ->
   AgLabor_32
 
+# use any scenario's base year data to calculate the base year regional labor weight
+AgLabor_32 %>%
+  filter(year == 2015) %>%
+  filter(scenario == "para_static") %>%
+  group_by(scenario, year) %>%
+  mutate(TL = sum(value),
+         weight = value / TL) %>%
+  ungroup() ->
+  L.weight.base
+
 # plot AR10 labor stat ----
 
 driver <- readRDS("data/input/DRIVER.RDS")
@@ -71,24 +81,30 @@ AgLabor_32 %>%
   df.key.32
 
 df.key.32 %>%
+  left_join_error_no_match(L.weight.base %>% select(region, weight), by = c("region")) %>%
   group_by(scenario, REG10_AR6, year) %>%
   summarise(phy.labor = sum(phy.labor),
             eff.labor = sum(eff.labor),
-            exp = sum(wage*phy.labor)) %>%
-  mutate(eta = eff.labor / phy.labor,
-         wage = exp / phy.labor) %>%
-  select(-exp, region = REG10_AR6) ->
+            exp = sum(wage*phy.labor),
+            eta = sum(eta*weight)) %>% # use base-year labor weights to aggregate eta (driver)
+  mutate(wage = exp / phy.labor) %>%
+  # mutate(eta.realized = eff.labor / phy.labor) %>% # realized aggregated labor productivity(eta)
+  select(-exp, region = REG10_AR6) %>%
+  ungroup() ->
   df.key.AR10
 
 df.key.32 %>%
+  left_join_error_no_match(L.weight.base %>% select(region, weight), by = c("region")) %>%
   group_by(scenario, year) %>%
   summarise(phy.labor = sum(phy.labor),
             eff.labor = sum(eff.labor),
-            exp = sum(wage*phy.labor)) %>%
-  mutate(eta = eff.labor / phy.labor,
-         wage = exp / phy.labor) %>%
+            exp = sum(wage*phy.labor),
+            eta = sum(eta*weight)) %>%
+  mutate(wage = exp / phy.labor) %>%
+  # mutate(eta.realized = eff.labor / phy.labor) %>%
   mutate(region = "World") %>%
-  select(names(df.key.AR10)) ->
+  select(names(df.key.AR10)) %>%
+  ungroup() ->
   df.key.glb
 
 
