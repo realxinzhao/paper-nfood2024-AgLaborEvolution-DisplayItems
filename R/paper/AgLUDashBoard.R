@@ -254,6 +254,23 @@ PAgPrice %>%
 
 ## Carbon emissions ----
 
+
+pCEM %>%
+  filter(scenario == "Evolving") %>%
+  ggplot + facet_wrap(~region, nrow = 1, scales = "free") +
+  guides(colour = guide_legend(order = 2),
+         fill = guide_legend(order = 1)) +
+  geom_hline(yintercept = 0) +
+  geom_area(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
+            color = "black", size = 0.4) +
+  geom_line(data = pCEM %>% Agg_reg(region) %>%  mutate(ss = "Net Total"),
+            aes(x = year, y = value, color = ss ), size = 1.2, linetype = 5) +
+  labs(x = "Year", y = expression(paste(GtCO[2], " per year")), fill = "Sector", color = "") +
+  scale_fill_brewer(palette = "RdBu", direction = -1) +
+  scale_color_manual(values = "red") +
+  theme_bw() + theme0 + theme1  -> A9; A9
+
+
 ## NonCO2 GHG emissions ----
 
 
@@ -265,7 +282,8 @@ PAgPrice %>%
   (A6 + ggtitle("(F) Supply utilization accounts for staple crops by region") + theme(axis.title.x = element_blank(), legend.position = "right") + labs(fill = "SUA element (Panel F-G)"))/
   (A7 + ggtitle("(G) Supply utilization accounts for ruminants by region") + theme(axis.title.x = element_blank(), legend.position = "none") )/
   (A8 + ggtitle("(H) Agricultural prices by sector and region") + theme(legend.position = "right")+ labs(color = "Sector (Panel H)")) +
-  patchwork::plot_layout(guides = "collect", heights = rep(1, 8)) -> pp
+  (A9 + ggtitle("(I) Carbon dioxide emissions by sector and region") + theme(legend.position = "right")+ labs(fill = "Sector (Panel I)")) +
+  patchwork::plot_layout(guides = "collect", heights = rep(1, 9)) -> pp
 
 pp %>% Write_png(.name = "LaborLandWaterEvo_reg", .DIR_MODULE = DIR_MODULE, h = 24, w = 22)
 

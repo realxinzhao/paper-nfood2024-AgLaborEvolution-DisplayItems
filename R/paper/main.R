@@ -55,6 +55,7 @@ read_csv_bind <- function(.multiCSVpath){
 }
 
 
+
 # Load everything into lists ----
 Load_GCAM(projnm = Project, versionnm = "V2024", outputlistnm = "ListV2024")
 
