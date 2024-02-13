@@ -3,7 +3,6 @@
 DIR_MODULE = "Fig2"
 
 
-
 ListV2024 %>% names()
 
 
@@ -100,6 +99,16 @@ Pfertilizer %>% Agg_reg(sector) %>% mutate(region = "World") %>%
   bind_rows(Pfertilizer) -> Pfertilizer
 
 
+## Emissions ----
+
+source("R/paper/Emissions.R")
+
+## CO2 ----
+pCEM %>% Agg_reg(sector) %>% mutate(region = "World") %>%
+  bind_rows(pCEM) -> pCEM
+## nonCO2 GHG ----
+pNCEM %>% Agg_reg(sector) %>% mutate(region = "World") %>%
+  bind_rows(pNCEM) -> pNCEM
 
 ## Ag SUA & prices----
 ### source AgBalElement here ----
@@ -255,23 +264,53 @@ PAgPrice %>%
 ## Carbon emissions ----
 
 
-pCEM %>%
-  filter(scenario == "Evolving") %>%
+pCEM %>% filter(scenario == "Evolving") %>%
+  group_by(scenario, region, sector) %>%
+  Fill_annual(CUMULATIVE = T) %>% mutate(value = value / 1000) %>%
+  ungroup() ->
+  pCEM1
+
+pCEM1 %>%
   ggplot + facet_wrap(~region, nrow = 1, scales = "free") +
   guides(colour = guide_legend(order = 2),
          fill = guide_legend(order = 1)) +
   geom_hline(yintercept = 0) +
   geom_area(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
             color = "black", size = 0.4) +
-  geom_line(data = pCEM %>% Agg_reg(region) %>%  mutate(ss = "Net Total"),
-            aes(x = year, y = value, color = ss ), size = 1.2, linetype = 5) +
-  labs(x = "Year", y = expression(paste(GtCO[2], " per year")), fill = "Sector", color = "") +
+  geom_line(data = pCEM1 %>% Agg_reg(region) %>%  mutate(ss = "Net Total"),
+            aes(x = year, y = value, color = ss ), size = 1.2, linetype = 2) +
+  labs(x = "Year", y = expression(paste("Trillion ", tCO[2])), fill = "Sector", color = "") +
   scale_fill_brewer(palette = "RdBu", direction = -1) +
   scale_color_manual(values = "red") +
+  scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
   theme_bw() + theme0 + theme1  -> A9; A9
 
-
 ## NonCO2 GHG emissions ----
+
+pNCEM %>% filter(scenario == "Evolving") %>%
+  group_by(scenario, region, sector) %>%
+  Fill_annual(CUMULATIVE = T) %>% mutate(value = value) %>%
+  ungroup() ->
+  pNCEM1
+
+pNCEM1 %>%
+  ggplot + facet_wrap(~region, nrow = 1, scales = "free") +
+  geom_hline(yintercept = 0) +
+  geom_area(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
+            color = "black") +
+  labs(x = "Year", fill = "Source",
+       y = expression(paste(GtCO[2]-eq.))) +
+  scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
+  scale_fill_brewer(palette = "Set1", direction = -1,
+                    labels = c(expression(paste(CH[4], " Agriculture")),
+                               expression(paste(CH[4], " Energy")),
+                               expression(paste(CH[4], " Unmanaged Land")),
+                               expression(paste(N[2], "O Agriculture")),
+                               expression(paste(N[2], "O Energy")),
+                               expression(paste(CH[4], " Unmanaged Land")),
+                               "Other GHGs")) +
+  theme_bw() + theme0 + theme1 -> A10; A10
+
 
 
 (A1 + ggtitle("(A) Land cover and use by sector and region")+ labs(fill = "Land (Panel A)")+theme(axis.title.x = element_blank(), legend.position = "right") )/
@@ -281,9 +320,10 @@ pCEM %>%
   (A5 + ggtitle("(E) Fertilizer use by sector and region") + theme(axis.title.x = element_blank(), legend.position = "none")) /
   (A6 + ggtitle("(F) Supply utilization accounts for staple crops by region") + theme(axis.title.x = element_blank(), legend.position = "right") + labs(fill = "SUA element (Panel F-G)"))/
   (A7 + ggtitle("(G) Supply utilization accounts for ruminants by region") + theme(axis.title.x = element_blank(), legend.position = "none") )/
-  (A8 + ggtitle("(H) Agricultural prices by sector and region") + theme(legend.position = "right")+ labs(color = "Sector (Panel H)")) +
-  (A9 + ggtitle("(I) Carbon dioxide emissions by sector and region") + theme(legend.position = "right")+ labs(fill = "Sector (Panel I)")) +
-  patchwork::plot_layout(guides = "collect", heights = rep(1, 9)) -> pp
+  (A8 + ggtitle("(H) Agricultural prices by sector and region") + theme(axis.title.x = element_blank(),legend.position = "right")+ labs(color = "Sector (Panel H)")) +
+  (A9 + ggtitle("(I) Cumulative carbon dioxide emissions by sector and region") + theme(axis.title.x = element_blank(),legend.position = "right")+ labs(fill = "Sector (Panel I)")) +
+  (A10 + ggtitle("(J) Cumulative non-carbon dioxide GHG emissions by sector and region") + theme(legend.position = "right")+ labs(fill = "Sector (Panel J)")) +
+  patchwork::plot_layout(guides = "collect", heights = rep(1, 10)) -> pp
 
 pp %>% Write_png(.name = "LaborLandWaterEvo_reg", .DIR_MODULE = DIR_MODULE, h = 24, w = 22)
 
@@ -291,24 +331,24 @@ pp %>% Write_png(.name = "LaborLandWaterEvo_reg", .DIR_MODULE = DIR_MODULE, h = 
 
 
 
-df %>%   filter(region %in% REG_1,
-                year %in% c(2020, 2050, 2100)) %>%
-  mutate(year = as.character(year)) %>%
-  ggplot +   #facet_wrap(~region+scenario, scale = "free_y", nrow = 2) +
-  facet_grid(region~scenario, scale = "free_y") +
-  geom_hline(yintercept = 0) +
-  geom_bar(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
-           color = "black") +
-  labs(x = "Year", y = "Million People") +
-  scale_fill_brewer(palette = "Set2",
-                    name = "Sector", direction = -1) +
-  theme_bw() + theme0 +
-  theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), legend.text.align = 0,
-        strip.background = element_rect(fill="grey99"),
-        strip.text = element_text(size = 16),
-        panel.grid = element_blank(),
-        panel.spacing.y = unit(0.5, "lines"),
-        panel.spacing.x = unit(0.5, "lines")) -> A1; A1
+# df %>%   filter(region %in% REG_1,
+#                 year %in% c(2020, 2050, 2100)) %>%
+#   mutate(year = as.character(year)) %>%
+#   ggplot +   #facet_wrap(~region+scenario, scale = "free_y", nrow = 2) +
+#   facet_grid(region~scenario, scale = "free_y") +
+#   geom_hline(yintercept = 0) +
+#   geom_bar(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
+#            color = "black") +
+#   labs(x = "Year", y = "Million People") +
+#   scale_fill_brewer(palette = "Set2",
+#                     name = "Sector", direction = -1) +
+#   theme_bw() + theme0 +
+#   theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), legend.text.align = 0,
+#         strip.background = element_rect(fill="grey99"),
+#         strip.text = element_text(size = 16),
+#         panel.grid = element_blank(),
+#         panel.spacing.y = unit(0.5, "lines"),
+#         panel.spacing.x = unit(0.5, "lines")) -> A1; A1
 
 
 

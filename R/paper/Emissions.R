@@ -3,17 +3,6 @@
 ## Read in GWP mapping ----
 readr::read_csv("data/maps/GWP.csv") -> GWP
 
-PluckBind <- function(.query ){
-  ListV2024 %>% purrr::pluck(.query) %>%
-    mutate(branch = scenario, scenario = ss) %>%
-    filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-    rename(region0 = region) %>%
-    left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6), by = "region0") %>%
-    mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                             labels = c("Evolving", "Static")))
-}
-
-
 
 # calculate the imbal between CEM and NCEM_sector, which is resource prod emissions
 # for both CO2 and nonCO2
@@ -34,14 +23,6 @@ PluckBind <- function(.query ){
 
 
 
-
-
-
-
-
-
-
-
 # carbon and map sectors ----
 NCEM_All %>% filter(GHG == "CO2") %>%
   mutate(sector = case_when(
@@ -56,15 +37,11 @@ NCEM_All %>% filter(GHG == "CO2") %>%
     grepl("cement|industrial|fertilizer|water|alumina|chemical|construction|mining|iron|agricultural", sector) ~ "Industry",
     grepl("N2O|CH4|Other GHGs", sector) ~ "Non-CO2 GHG",
     TRUE ~ sector)
-  ) %>% filter(sector != "Non-CO2 GHG") %>% distinct(sector)
+  ) %>% filter(sector != "Non-CO2 GHG") %>%
   #mutate(sector = replace(sector, sector %in% c("Building", "Industry", "Transport"), "Final energy")) %>%
   Agg_reg(sector, region) %>%
   mutate(value = value / 1000 * 44/12) %>% filter(year >= 2015) %>%
   mutate(year = as.character(year)) -> NCEM_sector_agg_reg
-
-NCEM_sector_agg_reg %>% Agg_reg(sector) -> NCEM_sector_agg
-
-NCEM_sector_agg %>% Agg_reg() -> NCEM_sector_agg_Total
 
 
 NCEM_sector_agg_reg %>% mutate(year = as.integer(year)) %>%
@@ -75,48 +52,16 @@ NCEM_sector_agg_reg %>% mutate(year = as.integer(year)) %>%
                          levels = c("Electricity", "Other energy trans.",
                                     "Final energy",
                                     "1G bio-feedstock",
-                                    "2G bio-feedstock", "LULUCF") ) ) %>%
-  group_by(scenario, region, sector) %>%
-  Fill_annual(CUMULATIVE = T) %>% mutate(value = value / 1000) %>% ungroup() -> df
-
-df %>% Agg_reg(sector) %>% mutate(region = "World") %>%
-  bind_rows(df) -> pCEM
-
-pCEM %>%
-  filter(scenario == "Evolving") %>%
-  ggplot + facet_wrap(~region, scales = "free") +
-  guides(colour = guide_legend(order = 2),
-         fill = guide_legend(order = 1)) +
-  geom_hline(yintercept = 0) +
-  geom_area(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
-            color = "black", size = 0.4) +
-  geom_line(data = pCEM %>% Agg_reg(region) %>%  mutate(ss = "Net Total"),
-           aes(x = year, y = value, color = ss ), size = 1.2, linetype = 5) +
-  labs(x = "Year", y = expression(paste(GtCO[2], " per year")), fill = "Sector", color = "") +
-  scale_fill_brewer(palette = "RdBu", name = "Source", direction = -1) +
-  scale_color_manual(values = "red") +
-  theme_bw() + theme0 + theme1  -> A1; A1
+                                    "2G bio-feedstock", "LULUCF") ) ) -> pCEM
 
 
-
-Pland %>% Agg_reg(land, region) %>%
-  group_by_at(vars(-scenario, -value)) %>% mutate(value = value - value[scenario == "Static"]) %>%
-  filter(scenario == "Evolving") %>% mutate(value = value / 1000) %>%
-  ggplot +   facet_wrap(~region, nrow = 1, scales = "free_y") +
-  geom_hline(yintercept = 0) +
-  geom_bar(aes(x = year, y = value, fill = land), stat = "identity", position = "stack",
-           color = "black") +
-  labs(x = "Year", y = "Billion hectare", fill = "Land") +
-  scale_fill_brewer(palette = "Spectral", direction = -1) +
-  theme_bw() + theme0 + theme1  -> A1; A1
 
 # NonCO2 details ----
 
-"NCEM_sector" %>% PluckBind() %>%
+NCEM_All %>%
   filter(!GHG %in% c("CO2"))%>%
   mutate(GHG = replace(GHG, grepl("SO2_", GHG), "SO2_3")) %>%
-  left_join(GWP %>% replace_na(list(AR6all = 0)),
-                           by = "GHG") %>%
+  left_join(GWP %>% replace_na(list(AR6all = 0)), by = "GHG") %>%
   mutate(GHG1 = if_else(GHG1 == "Other GHGs", GHG1, GHG)) %>%
   mutate(GHG1 = if_else(sector == "UnmanagedLand", paste0(GHG1, "_UnMGMTLand"), GHG1)) %>%
   group_by(scenario, region, sector = GHG1, year) %>%
@@ -132,27 +77,10 @@ Pland %>% Agg_reg(land, region) %>%
     sector %in% c("N2O") ~ "N2O_En",
     TRUE ~ sector)
   ) %>%
-  Agg_reg(sector) %>%
-  mutate(value = value / 1000 * 44/12) %>% filter(year >= 2015) ->
-  NonCO2Check
+  Agg_reg(sector, region) %>%
+  mutate(value = value / 1000 * 44/12) %>%
+  filter(year >= 2015, sector != "Other GHGs_UnMGMTLand") %>%
+  mutate(year = as.integer(year)) ->
+  pNCEM
 
-
-NonCO2Check %>% filter(sector != "Other GHGs_UnMGMTLand") %>%
-  mutate(year = as.integer(year)) %>%
-  ggplot + facet_wrap(~scenario) +
-  geom_hline(yintercept = 0) +
-  geom_area(aes(x = year, y = value, fill = sector), stat = "identity", position = "stack",
-            color = "black") +
-  labs(x = "Year", fill = "Source",
-       y = expression(paste(GtCO[2]-equivalent, " per year"))) +
-  scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
-  scale_fill_brewer(palette = "Set1", direction = -1,
-                    labels = c(expression(paste(CH[4], " Agriculture")),
-                               expression(paste(CH[4], " Energy")),
-                               expression(paste(CH[4], " Unmanaged Land")),
-                               expression(paste(N[2], "O Agriculture")),
-                               expression(paste(N[2], "O Energy")),
-                               expression(paste(CH[4], " Unmanaged Land")),
-                               "Other GHGs")) +
-    theme_bw() + theme0 + theme1
 
