@@ -64,7 +64,19 @@ bind_rows(
         Agg_reg(branch, region, sector = tolower(sector), element = "Production")
     )
 ) -> AgElement_SUA
+# ** Done AgElement_SUA ----
 
+AgElement_SUA %>% filter(element == "Production") %>%
+  spread(element, value) %>%
+  left_join_error_no_match(
+    "Agprices" %>% PluckBind() %>%
+      bind_rows("Meatprices" %>% PluckBind()) %>%
+      mutate(sector = tolower(sector)) %>%
+      rename(Price = value) %>% select(-Units),
+    by = c("scenario", "branch", "region", "sector", "year") ) ->
+  AgMeatPrice
+
+# **Done AgMeatPrice----
 
 AgElement_SUA %>% filter(element == "Production") %>%
   spread(element, value) %>%
@@ -93,10 +105,9 @@ AgElement_SUA %>% filter(element == "Production") %>%
   AgElement_AreaYieldPrice
 
 
-AgElement_SUA %>%
-  bind_rows(AgElement_AreaYieldPrice) -> AgElement
+# AgElement_SUA %>%
+#   bind_rows(AgElement_AreaYieldPrice) -> AgElement
 
-AgElement_AreaYieldPrice %>% distinct(element)
 
 
 # Good with data ----
@@ -122,6 +133,7 @@ c(brewer.pal(n = length(ELEMAll), name = "BrBG")[1:length(ElEMSupply)],
 ) -> ColUpdate
 
 
+# PSUA ----
 AgElement_SUA %>%
   rename(region0 = region) %>%
   left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6)) %>%
@@ -133,7 +145,18 @@ AgElement_SUA %>%
   mutate(element = factor(element, levels = ELEMLevel,
                           labels = ELEMLabel)) -> PSUA
 
-PSUA %>% Agg_reg(sector, element) %>% mutate(region = "World") %>%
-  bind_rows(PSUA) -> PSUA
+# PAgPrice ----
+AgMeatPrice %>%
+  rename(region0 = region) %>%
+  left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6), by = "region0") %>%
+  rename(sector0 = sector) %>%
+  left_join_error_no_match(
+    MapAgCOMM %>% transmute(sector0 = tolower(AgCOMM), sector = AgCOMM2),
+    by = "sector0") %>%
+  filter(sector != "Pasture", year >= 2015) %>%
+  group_by_at(vars(scenario, year, branch, region, sector)) %>%
+  summarise(value = weighted.mean(Price, w = Production), prod = sum(Production), .groups = "drop") %>%
+  drop_na() ->
+  PAgPrice
 
 

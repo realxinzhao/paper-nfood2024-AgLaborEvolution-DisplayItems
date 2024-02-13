@@ -5,7 +5,10 @@ DIR_MODULE = "Fig2"
 
 
 ListV2024 %>% names()
+
+
 REG_1 <- c("World", "AFRICA", "CHINA+", "INDIA+", "NORTH_AM")
+COMMSector <- c("Energy crops", "Staple crops", "Oil crops", "Fodder crops", "Other crops", "Livestock", "Forest")
 
 PluckBind <- function(.query ){
   ListV2024 %>% purrr::pluck(.query) %>%
@@ -25,12 +28,11 @@ PluckBind <- function(.query ){
     PluckBind("CapitalDemandSec") %>%
       Agg_reg(sector, region)
   ) %>%
-  left_join(
-    MapAgCOMM %>% select(sector = AgCOMM, AgCOMM2)
-  ) %>% mutate(AgCOMM2 = if_else(is.na(AgCOMM2), sector, AgCOMM2)) %>%
+  left_join_error_no_match(
+    MapAgCOMM %>% select(sector = AgCOMM, AgCOMM2), by = "sector"
+  ) %>%
   Agg_reg(sector = AgCOMM2, region) %>%
-  mutate(sector = factor(sector, levels = c("biomass", "Staples", "OilCrop", "Other Crops", "Livestock", "Forest" ),
-                         labels = c("Energy crops", "Staple crops", "Oil Crops", "Other Crops", "Livestock", "Forest"))) %>%
+  mutate(sector = factor(sector, levels = COMMSector)) %>%
   Agg_reg(sector, region) %>%
   filter(year >= 2015) %>%
   mutate(value = value * gdp_deflator(2015, 1975)/1000)-> Pcapital
@@ -42,12 +44,11 @@ PluckBind("LaborDemandSec") %>%
     PluckBind("LaborDemandSec") %>%
       Agg_reg(sector, region)
   ) %>%
-  left_join(
-    MapAgCOMM %>% select(sector = AgCOMM, AgCOMM2)
-  ) %>% mutate(AgCOMM2 = if_else(is.na(AgCOMM2), sector, AgCOMM2)) %>%
+  left_join_error_no_match(
+    MapAgCOMM %>% select(sector = AgCOMM, AgCOMM2), by = "sector"
+  ) %>%
   Agg_reg(sector = AgCOMM2, region) %>%
-  mutate(sector = factor(sector, levels = c("biomass", "Staples", "OilCrop", "Other Crops", "Livestock", "Forest" ),
-                         labels = c("Energy crops", "Staple crops", "Oil Crops", "Other Crops", "Livestock", "Forest"))) %>%
+  mutate(sector = factor(sector, levels = COMMSector)) %>%
   Agg_reg(sector, region)%>%
   filter(year >= 2015) -> Plabor
 
@@ -82,37 +83,60 @@ Pland %>% Agg_reg(land) %>% mutate(region = "World") %>%
   mutate(sector1 = if_else(grepl("elec", sector1), "Elec.", sector1)) %>%
   mutate(sector1 = if_else(grepl("Ag|Elec", sector1), sector1, "Others")) %>%
   filter(sector1 == "Ag") %>%
-  left_join(MapAgCOMM %>% select(sector = AgCOMM, sector2 = AgCOMM2)) %>%
-  mutate(sector2 = factor(sector2, levels = c("biomass", "Staples", "OilCrop", "Other Crops", "Livestock", "Forest" ),
-                          labels = c("Energy crops", "Staple crops", "Oil Crops", "Other Crops", "Livestock", "Forest"))) %>%
+  left_join_error_no_match(MapAgCOMM %>% select(sector = AgCOMM, sector2 = AgCOMM2), by = "sector"
+                           ) %>%
+  mutate(sector2 = factor(sector2, levels = COMMSector)) %>%
   Agg_reg(region, sector = sector2) -> Pwater
 
 Pwater %>% Agg_reg(sector) %>% mutate(region = "World") %>%
   bind_rows(Pwater) -> Pwater
 
-## Ag Fertizer
+## Ag Fertilizer ----
 "FertizerUse" %>% PluckBind %>% filter(year >= 2015) %>% filter(sector != "Exports_fertilizer") %>%
   left_join(MapAgCOMM %>% select(sector = AgCOMM, sector2 = AgCOMM2)) %>%
-  mutate(sector2 = factor(sector2, levels = c("biomass", "Staples", "OilCrop", "Other Crops", "Livestock", "Forest" ),
-                          labels = c("Energy crops", "Staple crops", "Oil Crops", "Other Crops", "Livestock", "Forest"))) %>%
+  mutate(sector2 = factor(sector2, levels = COMMSector)) %>%
   Agg_reg(region, sector = sector2) -> Pfertilizer
 Pfertilizer %>% Agg_reg(sector) %>% mutate(region = "World") %>%
   bind_rows(Pfertilizer) -> Pfertilizer
 
 
+
+## Ag SUA & prices----
+### source AgBalElement here ----
+
+source("R/paper/AgBalElement_Storage.R")
+
+c(brewer.pal(n = length(ELEMAll), name = "BrBG")[1:length(ElEMSupply)],
+  brewer.pal(n = length(ELEMAll), name = "BrBG")[length(ElEMSupply)+1:length(ELEMDemand)]
+) -> ColUpdate
+
+
+PSUA %>% Agg_reg(sector, element) %>% mutate(region = "World") %>%
+  bind_rows(PSUA) -> PSUA
+
+PAgPrice %>%
+  group_by_at(vars(scenario, year, branch, sector)) %>%
+  summarise(value = weighted.mean(value, w = prod), prod = sum(prod), .groups = "drop") %>%
+  drop_na() %>% mutate(region = "World") %>%
+  bind_rows(PAgPrice) %>%
+  mutate(sector = factor(sector, levels = COMMSector)) ->
+  PAgPrice
+
+
+
 # Reference plot ----
 
+## theme1 ----
 theme1 <- theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), legend.text.align = 0,
                 strip.background = element_rect(fill="grey99"),
-                strip.text = element_text(size = 13),
+                strip.text = element_text(size = 12),
                 axis.text.x.bottom = element_text(size = 12),
                 axis.text.y = element_text(size = 12),
                 panel.grid = element_blank(),
                 panel.spacing.y = unit(0.5, "lines"),
                 panel.spacing.x = unit(0.5, "lines"))
 
-## labor ----
-
+## Land ----
 Pland %>% Agg_reg(land, region) %>%
   filter(scenario == "Evolving") %>% mutate(value = value / 1000) %>%
   ggplot +   facet_wrap(~region, nrow = 1, scales = "free_y") +
@@ -123,6 +147,7 @@ Pland %>% Agg_reg(land, region) %>%
   scale_fill_brewer(palette = "Spectral", direction = -1) +
   theme_bw() + theme0 + theme1  -> A1; A1
 
+## Labor ----
 Plabor %>% #filter(region != "World") %>%
   filter(scenario == "Evolving") %>%
   ggplot + facet_wrap(~region, scale = "free_y", nrow = 1) +
@@ -133,6 +158,7 @@ Plabor %>% #filter(region != "World") %>%
   scale_fill_brewer(palette = "Set2", direction = 1) +
   theme_bw() + theme0 + theme1 -> A2; A2
 
+## Capital ----
 Pcapital %>% #filter(region != "World") %>%
   filter(scenario == "Evolving") %>%
   ggplot + facet_wrap(~region, scale = "free_y", nrow = 1) +
@@ -143,7 +169,7 @@ Pcapital %>% #filter(region != "World") %>%
   scale_fill_brewer(palette = "Set2", name = "Sector", direction = 1) +
   theme_bw() + theme0 + theme1 -> A3; A3
 
-
+## Water ----
 Pwater %>% filter(scenario == "Evolving") %>%  mutate(value = value / 1000) %>%
   ggplot +   facet_wrap(~region, nrow = 1, scales = "free_y") +
   geom_hline(yintercept = 0) +
@@ -154,6 +180,7 @@ Pwater %>% filter(scenario == "Evolving") %>%  mutate(value = value / 1000) %>%
                     name = "Sector", direction = 1) +
   theme_bw() + theme0 + theme1 -> A4; A4
 
+## Fertilzer ----
 Pfertilizer %>% filter(scenario == "Evolving") %>%
   ggplot + facet_wrap(~region, nrow = 1, scales = "free_y") +
   geom_hline(yintercept = 0) +
@@ -165,13 +192,7 @@ Pfertilizer %>% filter(scenario == "Evolving") %>%
   theme_bw() + theme0 + theme1 -> A5; A5
 
 
-# source AgBalElement here
-
-source("R/paper/AgBalElement_Storage.R")
-
-c(brewer.pal(n = length(ELEMAll), name = "BrBG")[1:length(ElEMSupply)],
-  brewer.pal(n = length(ELEMAll), name = "BrBG")[length(ElEMSupply)+1:length(ELEMDemand)]
-) -> ColUpdate
+## Ag SUA ----
 
 PSUA %>%
   filter(sector %in% tolower(c("Corn", "Wheat", "Rice", "OtherGrain", "RootTuber"))) %>%
@@ -199,7 +220,6 @@ PSUA %>%
   Agg_reg(element, region) %>%
   filter(scenario == "Evolving") %>% mutate(value = value) %>%
   ggplot +
-
   guides(colour = guide_legend(order = 2),
          fill = guide_legend(order = 1)) +
   #facet_grid(~scenario, scales = "free_y") +
@@ -216,17 +236,38 @@ PSUA %>%
   theme_bw() + theme0 + theme1 -> A7; A7
 
 
+## Ag prices ----
+
+PAgPrice %>%
+  filter(scenario == "Evolving") %>%
+  Proc_Diff(type = "R", -year, -prod) %>%
+  ggplot +
+  facet_wrap(~region, nrow = 1, scales = "fixed") +
+  geom_hline(yintercept = 1) +
+  geom_line(aes(x=year, y=value, color=sector), size = 1.4) +
+  #scale_color_brewer(palette = "Set1", direction = 1) +
+  scale_color_npg() +
+  scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
+  labs(x = "Year", y = "Index (2015 = 1)", color = "Sector") +
+  theme_bw() + theme0 + theme1  -> A8; A8
+
+
+## Carbon emissions ----
+
+## NonCO2 GHG emissions ----
+
 
 (A1 + ggtitle("(A) Land cover and use by sector and region")+ labs(fill = "Land (Panel A)")+theme(axis.title.x = element_blank(), legend.position = "right") )/
 (A2 + ggtitle("(B) Agricultural labor input by sector and region") + theme(axis.title.x = element_blank(), legend.position = "right")  + labs(fill = "Sector (Panels B-E)"))/
   (A3 + ggtitle("(C) Agricultural capital input by sector and region") + theme(axis.title.x = element_blank(), legend.position = "none") )/
   (A4 + ggtitle("(D) Agricultural water withdrawal by sector and region") + theme(axis.title.x = element_blank(),legend.position = "none")) /
   (A5 + ggtitle("(E) Fertilizer use by sector and region") + theme(axis.title.x = element_blank(), legend.position = "none")) /
-  (A6 + ggtitle("(F) Supply utilization accounts for staple crops by region") + theme(axis.title.x = element_blank(), legend.position = "right") + labs(fill = "SUA element (Panel F)")) +
-  (A7 + ggtitle("(F) Supply utilization accounts for ruminants by region") + theme(legend.position = "none") ) +
-  patchwork::plot_layout(guides = "collect") -> pp
+  (A6 + ggtitle("(F) Supply utilization accounts for staple crops by region") + theme(axis.title.x = element_blank(), legend.position = "right") + labs(fill = "SUA element (Panel F-G)"))/
+  (A7 + ggtitle("(G) Supply utilization accounts for ruminants by region") + theme(axis.title.x = element_blank(), legend.position = "none") )/
+  (A8 + ggtitle("(H) Agricultural prices by sector and region") + theme(legend.position = "right")+ labs(color = "Sector (Panel H)")) +
+  patchwork::plot_layout(guides = "collect", heights = rep(1, 8)) -> pp
 
-pp %>% Write_png(.name = "LaborLandWaterEvo_reg", .DIR_MODULE = DIR_MODULE, h = 20, w = 22)
+pp %>% Write_png(.name = "LaborLandWaterEvo_reg", .DIR_MODULE = DIR_MODULE, h = 24, w = 22)
 
 
 
