@@ -42,7 +42,7 @@ read_csv_bind <- function(.multiCSVpath){
           .packages = "dplyr" ,.errorhandling = "remove"
   ) %dopar% {
     readr::read_csv(csvDir, skip = 1)%>%
-      select(-matches("^X")) %>%
+      select(-matches("^X|\\...")) %>%
       na.omit() %>%
       filter(scenario != "scenario") %>%
       mutate(scenario = gsub(",date.*$", "", scenario)) %>%
@@ -54,8 +54,7 @@ read_csv_bind <- function(.multiCSVpath){
   return(df)
 }
 
-
-
+rm(ListV2024)
 # Load everything into lists ----
 Load_GCAM(projnm = Project, versionnm = "V2024", outputlistnm = "ListV2024")
 

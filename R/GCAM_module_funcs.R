@@ -47,7 +47,7 @@ LoadProjectData <- function(.DFNAME, .DIR_MODULE = "FigData"){
 #           .packages = "dplyr" ,.errorhandling = "remove"
 #   ) %dopar% {
 #     readr::read_csv(csvDir, skip = 1)%>%
-#       select(-matches("^X")) %>%
+#       select(-matches("^X|\\...")) %>%
 #       na.omit() %>%
 #       filter(scenario != "scenario") %>%
 #       mutate(scenario = gsub(",date.*$", "", scenario)) %>%
