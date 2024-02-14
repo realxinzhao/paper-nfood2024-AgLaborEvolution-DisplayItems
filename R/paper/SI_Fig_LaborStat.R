@@ -1,17 +1,22 @@
 
 ListV2024 %>% names()
 
-PluckBind <- function(.query ){
-  ListV2024 %>% purrr::pluck(.query) %>%
-    mutate(branch = scenario, scenario = ss) %>%
-    filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-    rename(region0 = region) %>%
-    left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6), by = "region0") %>%
-    mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                             labels = c("Evolving", "Static")))
-}
+## theme1 ----
+theme1 <- theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), legend.text.align = 0,
+                strip.background = element_rect(fill="grey99"),
+                strip.text = element_text(size = 12),
+                axis.text.x.bottom = element_text(size = 12),
+                axis.text.y = element_text(size = 12),
+                panel.grid.minor = element_blank(),
+                panel.grid.major = element_line(linetype = 2, color = "grey80", size = 0.3),
+                panel.spacing.y = unit(0.5, "lines"),
+                panel.spacing.x = unit(0.5, "lines"))
 
 
+
+# Getting data ready ----
+
+### start with wage ----
 ListV2024 %>% purrr::pluck("LaborPrice") %>%
   mutate(region = gsub("Labor_Ag", "", market)) %>%
   mutate(branch = scenario, scenario = ss) ->
@@ -28,15 +33,15 @@ AgWage_32 %>%
             labor = sum(labor), .groups = "drop") ->
   AgWage
 
-# plot AR10 ag wage rate ----
-AgWage %>% filter(year >= 2015) %>%
-  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                           labels = c("Evolving", "Static"))) %>%
-  filter(scenario == "Evolving") %>%
-  Proc_Diff(type = "R", -year, -labor) %>%
-  ggplot() + facet_wrap(~scenario) +
-  geom_line(aes(x = year, y = value, color = region))
+### plot AR10 ag wage rate ----
+# AgWage %>% filter(year >= 2015) %>%
+#   filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
+#   mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
+#                            labels = c("Evolving", "Static"))) %>%
+#   filter(scenario == "Evolving") %>%
+#   Proc_Diff(type = "R", -year, -labor) %>%
+#   ggplot() + facet_wrap(~scenario) +
+#   geom_line(aes(x = year, y = value, color = region))
 
 
 ListV2024 %>% purrr::pluck("LaborDemandSec") %>%
@@ -56,7 +61,7 @@ AgLabor_32 %>%
   ungroup() ->
   L.weight.base
 
-# plot AR10 labor stat ----
+### driver data ----
 
 driver <- readRDS("data/input/DRIVER.RDS")
 
@@ -108,17 +113,30 @@ df.key.32 %>%
   df.key.glb
 
 
+# plots ----
 df.key.AR10 %>%
   bind_rows(df.key.glb) %>%
   filter(year >= 2015) %>%
   filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
   mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
                            labels = c("Evolving", "Static"))) %>%
-  filter(scenario == "Evolving") %>%
+  #filter(scenario != "Evolving") %>%
   gather(var, value, phy.labor: wage) %>%
+  mutate(var = factor(var, levels = c("phy.labor", "eta", "eff.labor", "wage"),
+                      labels = c("Agricultural labor", "Labor productivity", "Effective labor", "Agricultural wage"))) %>%
   Proc_Diff(type = "R", -year) %>%
-  ggplot() + facet_wrap(~region, ncol = 11) +
-  geom_line(aes(x = year, y = value, color = var))
+  ggplot() + facet_wrap(~region, nrow = 3, ncol = 5) +
+  geom_hline(yintercept = 1, size = 0.4) +
+  geom_line(aes(x = year, y = value, color = var, linetype = scenario, size = var, alpha = scenario)) +
+  labs(x = "Year", y = "Index (2015 = 1)", color = "Variable", alpha = "Scenario",
+       linetype = "Scenario", size = "Variable") +
+  scale_color_brewer(palette = "Set1", direction = -1) +
+  scale_size_manual(values = c(1.3, 1.3, 1, 1)) +
+  scale_alpha_manual(values = c(1, 0.9)) +
+  scale_linetype_manual(values = c(1, 5)) +
+  scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
+  theme_bw() + theme0 + theme1 + theme_leg -> pp
 
+pp %>% Write_png(.name = "LaborStat", .DIR_MODULE = DIR_MODULE, h = 10, w = 13)
 
 
