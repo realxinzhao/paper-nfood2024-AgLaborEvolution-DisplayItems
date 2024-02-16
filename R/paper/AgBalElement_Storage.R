@@ -151,7 +151,7 @@ AgMeatPrice %>%
   left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6), by = "region0") %>%
   rename(sector0 = sector) %>%
   left_join_error_no_match(
-    MapAgCOMM %>% transmute(sector0 = tolower(AgCOMM), sector = AgCOMM2),
+    MapAgCOMM %>% transmute(sector0 = tolower(AgCOMM), sector = AgCOMM3),
     by = "sector0") %>%
   filter(sector != "Pasture", year >= 2015) %>%
   group_by_at(vars(scenario, year, branch, region, sector)) %>%
