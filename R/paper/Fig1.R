@@ -2,6 +2,7 @@
 # Fig.1 Main ----
 
 # load data ----
+DIR_MODULE = "AgLabor"
 driver <- readRDS("data/input/DRIVER.RDS")
 metric <- readRDS("data/input/metrics.RDS")
 output <- readRDS("data/input/output.RDS")
@@ -109,8 +110,8 @@ df.1.range %>% bind_rows(eta.range) %>%
   mutate(year = factor(year, levels = c(1975, 2050, 2100),
                        labels = c("1975 - 2015", "2015 - 2050", "2015 - 2100"))) %>%
   mutate(var = factor(var, levels = c("pop", "LF", "rural", "ag labor", "eta", "Output"),
-                      labels = c("Total Population", "Labor Force", "Rural Population", "Agiculture Labor",
-                                 "Labor Productivity", "Agricultural Output"))) ->
+                      labels = c("Total population", "Labor force", "Rural population", "Agiculture labor",
+                                 "Labor productivity", "Agricultural output"))) ->
   df_pointrange
 
 df.1.all %>% bind_rows(plot.eta) %>%
@@ -119,8 +120,8 @@ df.1.all %>% bind_rows(plot.eta) %>%
   mutate(year = factor(year, levels = c(1975, 2050, 2100),
                        labels = c("1975 - 2015", "2015 - 2050", "2015 - 2100"))) %>%
   mutate(var = factor(var, levels = c("pop", "LF", "rural", "ag labor", "eta", "Output"),
-                      labels = c("Total Population", "Labor Force", "Rural Population", "Agiculture Labor",
-                                 "Labor Productivity", "Agricultural Output"))) %>%
+                      labels = c("Total population", "Labor force", "Rural population", "Agiculture labor",
+                                 "Labor productivity", "Agricultural output"))) %>%
   filter(REG %in% REG_1) ->
   df_points
 
@@ -144,7 +145,7 @@ df.driver.lev %>%
   na.omit() %>% filter(var == "ag labor") %>%
   left_join(cluster) %>%
   group_by(REG, year) %>% summarize(value = sum(value)) %>% ungroup() %>%
-  mutate(value = value / 1000) %>%
+  mutate(value = value / 1000) %>% filter(year >= 1975) %>%
   ggplot() +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
   geom_hline(yintercept = 0, color = "black") +
@@ -156,7 +157,7 @@ df.driver.lev %>%
   scale_y_continuous(expand = c(0, 0), limits = c(0, 1.1)) +
   theme_bw() + theme0 + theme_leg +
   theme(legend.position = "right") +
-  labs(x = "Year", y = "Billion People", fill = "Region (Panels A & B)") +
+  labs(x = "Year", y = "Billion people", fill = "Region (Panels A & B)") +
   ggtitle("(A) Agricultural labor input") +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"),
         plot.margin = margin(t = 10, r = 18, b = 10, l = 10)) -> p1; p1
@@ -168,7 +169,7 @@ df.driver.lev %>%
   left_join(cluster) %>%
   group_by(REG, year) %>% summarize(value = sum(value)) %>% ungroup() %>%
   group_by(REG) %>%
-  mutate(value = value - value [year == 2015]) %>%
+  mutate(value = value - value [year == 2015]) %>% filter(year >= 1975) %>%
   ggplot() +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
   geom_vline(xintercept = 2015, linetype = 2, size = 0.6, color = "grey50") +
@@ -182,7 +183,7 @@ df.driver.lev %>%
   scale_y_continuous(expand = c(0, 0), limits = c(-180, 180), breaks = seq(-150, 150, 50) ) +
   theme_bw() + theme0 + theme_leg +
   theme(legend.position = "none") +
-  labs(x = "Year", y = "Million People (2015 = 0)", fill = "Region", color = "Region") +
+  labs(x = "Year", y = "Million people (2015 = 0)", fill = "Region", color = "Region") +
   ggtitle("(B) Agricultural labor input change (2015 = 0)") +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"),
         plot.margin = margin(t = 10, r = 18, b = 10, l = 10)) -> p2
@@ -200,12 +201,13 @@ df.driver.lev %>%
   filter(year >= 1975) %>%
   filter(var != "eff") %>%
   mutate(var = factor(var, levels = c("pop", "LF", "rural", "ag labor", "Effective labor"),
-                      labels = c("Total Population", "Labor Force", "Rural Population", "Agiculture Labor", "Effective Labor"))) %>%
+                      labels = c("Total population", "Labor force", "Rural population", "Agiculture labor",
+                                 "Effective labor"))) %>%
   ggplot() +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
   geom_vline(xintercept = 2015, linetype = 2, size = 0.6, color = "grey50") +
   geom_line(aes(x = year, y = value/1000, color = var), size = 1.3) +
-  labs(x = "Year", y = paste0("Billion People"), color = "Variable") +
+  labs(x = "Year", y = paste0("Billion people"), color = "Variable") +
   scale_x_continuous(expand = c(0, 0), breaks = c(1975, 2000, 2015, 2050, 2075, 2100)) +
   scale_y_continuous(expand = c(0, 0), limits = c(0, 10)) +
   scale_color_brewer(palette = "Dark2") +
@@ -229,7 +231,7 @@ ggplot() +
              aes(x = year, y = index, group = interaction(year, var), shape = REG, fill = var),
              color = "black", size = 3, alpha = 0.8,
              position = position_dodge(width = 0.75)) +
-  labs(x = "Period", y = "Growth Rate (%)", color = "Variable", shape = "Region (Panel D)", fill = "Variable") +
+  labs(x = "Period", y = "Growth rate (%)", color = "Variable", shape = "Region (Panel D)", fill = "Variable") +
   scale_color_brewer(palette = "Dark2") +
   scale_fill_brewer(palette = "Dark2") +
   scale_shape_manual(values = c(22:24, 21)) +
@@ -280,7 +282,7 @@ df.driver.lev %>%
   filter(year >= 1975) %>%
   filter(var != "eff") %>%
   mutate(var = factor(var, levels = c("pop", "LF", "rural", "ag labor", "Effective labor"),
-                      labels = c("Total Population", "Labor Force", "Rural Population", "Agiculture Labor", "Effective Labor"))) %>%
+                      labels = c("Total population", "Labor force", "Rural population", "Agiculture labor", "Effective labor"))) %>%
   ggplot() +
   facet_wrap(~REG, nrow = 2, scale = "free_y") +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
