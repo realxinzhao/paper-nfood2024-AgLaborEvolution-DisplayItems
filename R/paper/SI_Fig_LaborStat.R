@@ -124,7 +124,12 @@ df.key.AR10 %>%
   gather(var, value, phy.labor: wage) %>%
   mutate(var = factor(var, levels = c("phy.labor", "eta", "eff.labor", "wage"),
                       labels = c("Agricultural labor", "Labor productivity", "Effective labor", "Agricultural wage"))) %>%
-  Proc_Diff(type = "R", -year) %>%
+  Proc_Diff(type = "R", -year) ->
+  Plaborstat
+
+Plaborstat %>% saveRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("Plaborstat", ".RDS")))
+
+Plaborstat %>%
   ggplot() + facet_wrap(~region, nrow = 3, ncol = 5) +
   geom_hline(yintercept = 1, size = 0.4) +
   geom_line(aes(x = year, y = value, color = var, linetype = scenario, size = var, alpha = scenario)) +
@@ -138,5 +143,8 @@ df.key.AR10 %>%
   theme_bw() + theme0 + theme1 + theme_leg -> pp
 
 pp %>% Write_png(.name = "LaborStat", .DIR_MODULE = DIR_MODULE, h = 10, w = 13)
+
+
+
 
 

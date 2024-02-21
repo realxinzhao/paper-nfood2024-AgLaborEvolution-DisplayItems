@@ -111,3 +111,71 @@ Fill_annual <- function(.df, CUMULATIVE = FALSE,
   return(.df1)
 }
 
+
+
+## Function to plot basin map directly ----
+
+
+ggcamMapBasin <- function(.data,
+                          Facet_Var = NULL,
+                          cut = FALSE, # note that add on scale_fill_viridis_b is much better
+                          nbreak = 10,
+                          return_data_only = FALSE){
+
+  windowsFonts("Arial" = windowsFont("Arial"))
+  assertthat::assert_that(is.character(all_of(Facet_Var))|is.null(Facet_Var))
+
+  # Join sf
+  # adding in areas exist in map but not in .data as zero
+  merge(map_424_sf %>% as_tibble() %>%  select(region, basin),
+        .data %>% distinct_at( vars(Facet_Var)))  %>%
+    # setdiff existing combinations
+    setdiff(.data %>% distinct_at(vars("region", "basin", Facet_Var)) ) ->
+    .data_needadd
+
+  .data_needadd %>%
+    merge(
+      .data %>% select_at(vars(-"value", -"region", -"basin", -Facet_Var)) %>% distinct()
+    ) %>%
+    mutate(value = 0) %>%
+    bind_rows(.data) ->
+    .data
+
+  map_424_sf %>%
+    left_join(.data, by = c("region", "basin")) %>%
+    replace_na(list(value = 0)) -> .data
+
+  # using discrete data when cut with nbreak
+  if (cut == TRUE) {
+    Fr = floor(min(.data$value, na.rm = T)*10)/10
+    Ce =  ceiling(max(.data$value, na.rm = T) *10)/10
+    breaks = round(seq(Fr, Ce, (Ce - Fr)/nbreak), 1)
+
+    .data %>%
+      mutate(value = cut(value,unique(breaks))) -> .data
+  }
+
+  # return data only otherwise base map
+  if (return_data_only == TRUE) {
+    return(.data)
+  }
+
+  # mapping use ggplot
+  .data %>%
+    ggplot() +
+    geom_sf(aes(fill = value), color = "black", size = 0.3) +
+    theme_bw() +
+    scale_y_continuous(expand = c(0.03, 0.03)) + scale_x_continuous(expand = c(0.01, 0.01)) +
+    theme(panel.grid.major = element_line(colour = 'transparent'), #panel.border =element_blank(),
+          panel.border = element_rect(color = "black", size =1),
+          axis.text = element_blank(), axis.ticks = element_blank(),
+          text = element_text(family= "Arial", size = 15),
+          strip.background = element_blank(),
+          strip.text = element_text(vjust = 0.5, margin = margin(0.4,0.4,0.4,0.4, "lines"),
+                                    size = 16 #, face = "bold"
+          ),
+          panel.spacing.y = unit(0.8, "lines"),
+          panel.spacing.x = unit(0.8, "lines") )
+
+}
+

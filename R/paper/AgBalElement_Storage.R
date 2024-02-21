@@ -117,7 +117,7 @@ c("Corn", "Wheat", "Rice", "OtherGrain", "RootTuber",
   "SugarCrop", "Legumes", "NutsSeeds", "MiscCrop",
   "Vegetables", "Fruits",
   "Beef", "Dairy", "SheepGoat", "Pork", "Poultry",
-  "OtherMeat_Fish") ->
+  "OtherMeatFish") ->
   GCAMCOMM
 
 c("Production", "Import") -> ElEMSupply

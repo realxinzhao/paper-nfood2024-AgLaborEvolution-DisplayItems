@@ -112,7 +112,7 @@ PSUA %>%
 
 
 PSUA %>%
-  filter(sector %in% tolower(c("Beef", "SheepGoat"))) %>%
+  filter(sector %in% tolower(c("Beef"))) %>% # , "SheepGoat"
   Agg_reg(element, region) %>%
   ProcScen() %>%
   mutate(value = value) %>%
@@ -143,8 +143,9 @@ PAgPrice %>% select(-branch) %>%
   facet_wrap(~region, nrow = 1, scales = "fixed") +
   geom_hline(yintercept = 1) +
   geom_line(aes(x=year, y=value, color=sector), size = 1.4) +
+  scale_color_brewer(palette = "Dark2", direction = 1) +
   #scale_color_brewer(palette = "Set1", direction = 1) +
-  scale_color_npg() +
+  #scale_color_npg() +
   scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
   labs(x = "Year", y = "Index (Static = 1)", color = "Sector") +
   theme_bw() + theme0 + theme1  -> A8; A8
@@ -208,7 +209,7 @@ pNCEM1 %>%
   (A4 + ggtitle("(D) Agricultural water withdrawal by sector and region") + theme(axis.title.x = element_blank(),legend.position = "none")) /
   (A5 + ggtitle("(E) Fertilizer use by sector and region") + theme(axis.title.x = element_blank(), legend.position = "none")) /
   (A6 + ggtitle("(F) Supply utilization accounts for staple crops by region") + theme(axis.title.x = element_blank(), legend.position = "right") + labs(fill = "SUA element (Panel F-G)"))/
-  (A7 + ggtitle("(G) Supply utilization accounts for ruminants by region") + theme(axis.title.x = element_blank(), legend.position = "none") )/
+  (A7 + ggtitle("(G) Supply utilization accounts for beef products by region") + theme(axis.title.x = element_blank(), legend.position = "none") )/
   (A8 + ggtitle("(H) Agricultural prices by sector and region") + theme(axis.title.x = element_blank(),legend.position = "right")+ labs(color = "Sector (Panel H)")) +
   (A9 + ggtitle("(I) Cumulative carbon dioxide emissions by sector and region") + theme(axis.title.x = element_blank(),legend.position = "right")+ labs(fill = "Sector (Panel I)")) +
   (A10 + ggtitle("(J) Cumulative non-carbon dioxide GHG emissions by sector and region") + theme(legend.position = "right")+ labs(fill = "Sector (Panel J)")) +

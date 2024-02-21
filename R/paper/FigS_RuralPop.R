@@ -50,7 +50,7 @@ RuralPOP %>% #filter(year %in% c(2015, 2050, 2100)) %>%
   ggplot +   facet_wrap(~region, nrow = 2, scales = "free_y") +
   #geom_hline(yintercept = 0) +
   geom_line(aes(x = year, y = value, group = interaction(region, scenario), color = scenario), size = 1) +
-  labs(x = "Year", y = "Million People", fill = "Scenario") +
+  labs(x = "Year", y = "Million People", Color = "Scenario") +
   scale_color_brewer(palette = "Set2", direction = -1) +
   theme_bw() + theme0 +
   theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), legend.text.align = 0,
