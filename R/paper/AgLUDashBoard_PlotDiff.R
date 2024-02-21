@@ -1,9 +1,6 @@
-# Fig 2
+
 
 DIR_MODULE = "AgLabor"
-
-
-ListV2024 %>% names()
 
 
 # Difference plot ----
@@ -215,6 +212,6 @@ pNCEM1 %>%
   (A10 + ggtitle("(J) Cumulative non-carbon dioxide GHG emissions by sector and region") + theme(legend.position = "right")+ labs(fill = "Sector (Panel J)")) +
   patchwork::plot_layout(guides = "collect", heights = rep(1, 10)) -> pp
 
-pp %>% Write_png(.name = "AgLU_Evo_Sta", .DIR_MODULE = DIR_MODULE, h = 24, w = 22)
+pp %>% Write_png(.name = "AgLUDB_Evo_Sta", .DIR_MODULE = DIR_MODULE, h = 24, w = 22)
 
 

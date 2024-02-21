@@ -27,7 +27,8 @@ theme1 <- theme(axis.text.x = element_text(angle = 30, hjust = 0.9, vjust = 1), 
                 panel.grid.minor = element_blank(),
                 panel.grid.major = element_line(linetype = 2, color = "grey80", size = 0.3),
                 panel.spacing.y = unit(0.5, "lines"),
-                panel.spacing.x = unit(0.5, "lines"))
+                panel.spacing.x = unit(0.5, "lines"),
+                legend.justification = "left")
 
 
 # plots ----
@@ -118,8 +119,8 @@ PAgPrice %>%
        linetype = "Scenario", size = "Sector") +
   scale_color_brewer(palette = "Dark2", direction = 1) +
   scale_size_manual(values = c(1, 1, 1, 1)) +
-  scale_alpha_manual(values = c(1, 0.9)) +
-  scale_linetype_manual(values = c(1, 5)) +
+  scale_alpha_manual(values = c(1, 0.9), guide = "none") +
+  scale_linetype_manual(values = c(1, 5), guide = "none") +
   scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
   scale_y_continuous(n.breaks = 6) +
   theme_bw() + theme0 + theme1 + theme(legend.key.width = unit(.8, "cm")) -> A4;A4
@@ -131,16 +132,16 @@ PAgPrice %>%
     labs(color = "Variable (Panel A)", size = "Variable (Panel A)", linetype = "Scenario (Panels A & D)", alpha = "Scenario (Panels A & D)"))/
 (A2 + ggtitle("(B) Agricultural labor input by sector") +
    theme(axis.title.x = element_blank(), legend.position = "right")  +
-   labs(fill = "Sector (Panel B)", linetype = "Scenario (Panels B-D)", alpha = "Scenario (Panels B-D)"))/
+   labs(fill = "Sector (Panel B)", linetype = "Scenario (Panels B-C)", alpha = "Scenario (Panels B-C)"))/
 (A3 + ggtitle("(C) Supply utilization accounts for staple crops")+ labs(fill = "SUA element (Panels C)")+
    theme(axis.title.x = element_blank(), legend.position = "right") ) /
   (A4 + ggtitle("(D) Agricultural prices by sector") +
-     theme(axis.title.x = element_blank(),legend.position = "right")+
+     theme(axis.title.x = element_blank(),legend.position = "right", legend.justification = "left")+
      labs(color = "Sector (Panel D)", size = "Sector (Panel D)", linetype = "Scenario (Panels A & D)", alpha = "Scenario (Panels A & D)")) +
-  patchwork::plot_layout(guides = "collect") -> pp
+  patchwork::plot_layout(guides = "keep") -> pp
 
 
-pp %>% Write_png(.name = "AgLU_Compare_agec", .DIR_MODULE = DIR_MODULE, h = 14, w = 14)
+pp %>% Write_png(.name = "LaborMarketEvo_AgLU", .DIR_MODULE = DIR_MODULE, h = 14, w = 14)
 
 
 
@@ -307,7 +308,6 @@ CLUC_cum %>% Agg_reg() %>%
   mutate(value = as.character(round(value, 0))) ->
   NetCLUCValue
 
-Lname = paste0("LUC Carbon\n ", expression(paste(GtCO[2])))
 CLUC_cum1 %>%
   ggcamMapBasin(Facet_Var = "scenario") +
   facet_wrap(~scenario) +
@@ -317,27 +317,25 @@ CLUC_cum1 %>%
   scale_fill_fermenter(n.breaks = 6,
                        palette = "YlGnBu", na.value="white", direction = 1,
                        expression(paste(GtCO[2], " (Panel D)")) ) +
-  #scale_fill_distiller(palette = c("RdYlBu"), direction = -1, na.value="white", name = expression(paste(GtCO[2])))+
-  # scale_fill_viridis_c(
-  #   option = "plasma",
-  #   direction = 1,
-  #   name = expression(paste(GtCO[2])) ) +
-  theme(legend.key.width = unit(1.5,"line"), legend.key.height=unit(2,"line"),
-        plot.title = element_text(hjust = 0, face = "bold")) -> A8
+  theme(legend.key.width = unit(1.5,"line"), legend.key.height=unit(1.8,"line"),
+        plot.title = element_text(hjust = 0, face = "bold"),
+        legend.justification = "left") -> A8
 
-
-
-(A5 + ggtitle("(A) Land use change relative to 2015")+ labs(fill = "Land (Panel A)", linetype = "Scenario (Panels A-C)", alpha = "Scenario (Panels A-C)")+
+((A5 + ggtitle("(A) Land use change relative to 2015")+ labs(fill = "Land (Panel A)", linetype = "Scenario (Panels A-C)", alpha = "Scenario (Panels A-C)")+
     theme(axis.title.x = element_blank(), legend.position = "right") ) /
 (A6 + ggtitle("(B) Agricultural water withdrawal") +
      theme(axis.title.x = element_blank(),legend.position = "right") + labs(fill = "Sector (Panel B)"))/
 (A7 + ggtitle("(C) Cumulative agriculture and land use change emissions since 2020") +
     theme(axis.title.x = element_blank(),legend.position = "right")+
     labs(fill = "Source (Panel C)", size = "Sector (Panel C)")) +
-  (A8 + ggtitle("(D) Cumulative land use change emissions (2020 - 2100) by GCAM region")) +
-  patchwork::plot_layout(guides = "collect", heights = c(1,1,1,1)) -> pp
+  patchwork::plot_layout(guides = "collect") ) -> AA
 
-pp %>% Write_png(.name = "AgLU_Compare_envir", .DIR_MODULE = DIR_MODULE, h = 14, w = 14)
+AA/(A8 + ggtitle("(D) Cumulative land use change emissions (2020 - 2100) by GCAM region") +
+      theme(axis.title.x = element_blank(),legend.position = "right")) +
+  patchwork::plot_layout(guides = "keep", widths = 1) ->
+  pp
+
+pp %>% Write_png(.name = "LaborMarketEvo_Envir", .DIR_MODULE = DIR_MODULE, h = 14, w = 14)
 
 
 
