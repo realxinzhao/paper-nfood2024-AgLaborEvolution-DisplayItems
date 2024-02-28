@@ -131,7 +131,7 @@ PSUA %>%
 
 ## Ag prices ----
 
-PAgPrice %>% select(-branch) %>%
+PAgPrice %>%
   filter(scenario %in% c("Static", "Evolving")) %>%
   group_by_at(vars(-scenario, -value, -prod)) %>%
   mutate(value = value / value[scenario == "Static"]) %>%

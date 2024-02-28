@@ -37,7 +37,7 @@ theme1 <- theme(axis.text.x = element_text(angle = 30, hjust = 0.9, vjust = 1), 
 
 Plaborstat <- readRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("Plaborstat", ".RDS")))
 
-Plaborstat%>%
+Plaborstat %>%
   filter(region %in% c("World", "AFRICA", "CHINA+", "NORTH_AM")) %>%
   mutate(region = factor(region, levels = c("World", "AFRICA", "CHINA+", "NORTH_AM") )) %>%
   ggplot() + facet_wrap(~region, nrow = 3, ncol = 5) +
@@ -50,7 +50,7 @@ Plaborstat%>%
   scale_alpha_manual(values = c(1, 0.9)) +
   scale_linetype_manual(values = c(1, 5)) +
   scale_x_continuous(breaks = c(2025, 2050 ,2075, 2100)) +
-  theme_bw() + theme0 + theme1 + theme(legend.key.width = unit(.8, "cm")) -> A1
+  theme_bw() + theme0 + theme1 + theme(legend.key.width = unit(.8, "cm")) -> A1;A1
 
 
 ## Labor ----
@@ -108,7 +108,7 @@ PSUA %>%
 
 ## Ag prices ----
 
-PAgPrice %>%
+PAgPrice %>% filter(scenario %in% c("Evolving", "Static")) %>%
   Proc_Diff(type = "R", -year, -prod) %>%
   filter(region %in% c("World", "AFRICA", "CHINA+", "NORTH_AM")) %>%
   mutate(region = factor(region, levels = c("World", "AFRICA", "CHINA+", "NORTH_AM") )) %>%
@@ -325,7 +325,7 @@ CLUC_cum1 %>%
     theme(axis.title.x = element_blank(), legend.position = "right") ) /
 (A6 + ggtitle("(B) Agricultural water withdrawal") +
      theme(axis.title.x = element_blank(),legend.position = "right") + labs(fill = "Sector (Panel B)"))/
-(A7 + ggtitle("(C) Cumulative agriculture and land use change emissions since 2020") +
+(A7 + ggtitle("(C) Cumulative agricultural and land use change emissions since 2020") +
     theme(axis.title.x = element_blank(),legend.position = "right")+
     labs(fill = "Source (Panel C)", size = "Sector (Panel C)")) +
   patchwork::plot_layout(guides = "collect") ) -> AA
@@ -343,38 +343,6 @@ pp %>% Write_png(.name = "LaborMarketEvo_Envir", .DIR_MODULE = DIR_MODULE, h = 1
 
 # Done ----
 
-# check others ----
-ListV2024 %>% purrr::pluck("MeanTemp") %>%
-  mutate(branch = scenario, scenario = ss) %>%
-  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                           labels = c("Evolving", "Static"))) %>%
-  select(-ss, -branch) %>%
-  spread(scenario, value) %>%
-  mutate(diff = Evolving - Static) %>%
-  filter(year == 2100) -> A
 
-
-ListV2024 %>% purrr::pluck("ForcingTotal") %>%
-  mutate(branch = scenario, scenario = ss) %>%
-  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                           labels = c("Evolving", "Static"))) %>%
-  select(-ss, -branch) %>%
-  spread(scenario, value) %>%
-  mutate(diff = Evolving - Static) %>%
-  filter(year == 2100) -> A
-
-
-ListV2024 %>% purrr::pluck("Fooddemandca") %>%
-  mutate(branch = scenario, scenario = ss) %>%
-  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                           labels = c("Evolving", "Static"))) %>%
-  select(-ss, -branch) %>%
-  #Agg_reg() %>%
-  spread(scenario, value) %>%
-  mutate(diff = Evolving / Static) %>%
-  filter(year == 2100) -> A
 
 

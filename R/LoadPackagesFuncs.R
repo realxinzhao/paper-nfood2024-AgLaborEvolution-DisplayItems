@@ -9,7 +9,8 @@ readr::read_csv("data/maps/AgCommMapping.csv") -> MapAgCOMM
 
 # Load ggplot themes ----
 fontfamily = "Arial"
-windowsFonts("Arial" = windowsFont("Arial"))
+fontfamily = "sans"
+#windowsFonts("Arial" = windowsFont("Arial"))
 
 theme0 <- theme(
   #panel.grid.minor = element_line(size = 0.1, linetype = 2,colour = "grey75"),panel.grid.major = element_line(size = 0.1, linetype = 2,colour = "grey75"),
@@ -49,6 +50,10 @@ Write_png <- function(.plot, .name, .DIR_MODULE, w = 10, h = 10, r = 300){
   dir.create(file.path(DIR_OUTPUT, Project, .DIR_MODULE), showWarnings = F)
 
   ggsave(file.path(DIR_OUTPUT, Project, .DIR_MODULE, paste0(.name,".png")),
+         plot = .plot,
+         width = w, height = h, dpi = r)
+
+  ggsave(file.path(DIR_OUTPUT, Project, .DIR_MODULE, paste0(.name,".svg")),
          plot = .plot,
          width = w, height = h, dpi = r)
 

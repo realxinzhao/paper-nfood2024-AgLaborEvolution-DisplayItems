@@ -2,7 +2,8 @@
 ListV2024 %>% names()
 
 ## theme1 ----
-theme1 <- theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), legend.text.align = 0,
+
+theme1 <- theme(axis.text.x = element_text(angle = 30, hjust = 0.9, vjust = 1), legend.text.align = 0,
                 strip.background = element_rect(fill="grey99"),
                 strip.text = element_text(size = 12),
                 axis.text.x.bottom = element_text(size = 12),
@@ -10,7 +11,8 @@ theme1 <- theme(axis.text.x = element_text(angle = 40, hjust = 0.9, vjust = 1), 
                 panel.grid.minor = element_blank(),
                 panel.grid.major = element_line(linetype = 2, color = "grey80", size = 0.3),
                 panel.spacing.y = unit(0.5, "lines"),
-                panel.spacing.x = unit(0.5, "lines"))
+                panel.spacing.x = unit(0.5, "lines"),
+                legend.justification = "left")
 
 
 
@@ -32,6 +34,23 @@ AgWage_32 %>%
   summarize(value = weighted.mean(value, weight = labor),
             labor = sum(labor), .groups = "drop") ->
   AgWage
+
+# c("para_ls_SSP2", "para_gamma_hi", "para_gamma_lo",
+#   "para_ls_SSP5", "para_ls_SSP3",  "para_eta6", "para_eta1",  "para_static") -> ScenAll
+# c("Evolving", "High Elas.", "Low Elas.",
+#   "High transition", "Low transition", "High productivity", "Low productivity",  "Static") -> ScenAllLabel
+#
+# AgWage %>% filter(year >= 2015) %>%
+#   group_by(scenario, year) %>%
+#   summarize(value = weighted.mean(value, weight = labor),
+#             labor = sum(labor), .groups = "drop") %>%
+#   filter(scenario %in% ScenAll) %>%
+#     mutate(scenario = factor(scenario, levels = ScenAll,
+#                              labels = ScenAllLabel)) %>%
+#   filter(grepl("trans|Evol", scenario)) %>%
+#     Proc_Diff(type = "R", -year, -labor) %>%
+#     ggplot() + #facet_wrap(~scenario) +
+#     geom_line(aes(x = year, y = value, color = scenario))
 
 ### plot AR10 ag wage rate ----
 # AgWage %>% filter(year >= 2015) %>%
@@ -114,6 +133,20 @@ df.key.32 %>%
 
 
 # plots ----
+
+df.key.AR10 %>%
+  bind_rows(df.key.glb) %>%
+  filter(year >= 2015) %>%
+  gather(var, value, phy.labor: wage) %>%
+  mutate(var = factor(var, levels = c("phy.labor", "eta", "eff.labor", "wage"),
+                      labels = c("Agricultural labor", "Labor productivity",
+                                 "Effective labor", "Agricultural wage"))) ->
+  Plaborstat_AllScens
+
+Plaborstat_AllScens %>%
+  saveRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("Plaborstat_AllScens", ".RDS")))
+
+
 df.key.AR10 %>%
   bind_rows(df.key.glb) %>%
   filter(year >= 2015) %>%
@@ -144,7 +177,51 @@ Plaborstat %>%
 
 pp %>% Write_png(.name = "LaborStat", .DIR_MODULE = DIR_MODULE, h = 10, w = 13)
 
+# FigS_Productivity ----
 
+c("para_ls_SSP2", "para_gamma_hi", "para_gamma_lo",
+  "para_ls_SSP5", "para_ls_SSP3",  "para_eta6", "para_eta1",  "para_static") -> ScenAll
+c("Evolving", "High Elas.", "Low Elas.",
+  "High transition", "Low transition", "High productivity", "Low productivity",  "Static") -> ScenAllLabel
+
+
+Plaborstat_AllScens %>%
+  filter(var == "Labor productivity") %>%
+  filter(scenario %in% c("para_eta6", "para_ls_SSP2", "para_eta1", "para_static")) %>%
+  mutate(scenario = factor(scenario, levels = c("para_eta6", "para_ls_SSP2", "para_eta1", "para_static"),
+                           labels = c("High productivity", "Evolving", "Low productivity",  "Static"))) %>%
+  filter(year >= 2015) -> df
+
+df %>% filter(region == "World", year %in% c(2015, 2050, 2100)) %>%
+  mutate(year = as.character(year)) %>%
+  ggplot +   facet_wrap(~scenario, nrow = 1) +
+  geom_hline(yintercept = 0) +
+  geom_bar(aes(x = year, y = value, fill = scenario), stat = "identity", position = "stack",
+           color = "black") +
+  geom_hline(yintercept = 1, linetype = 2, color = "gray") +
+  geom_hline(yintercept = 3, linetype = 2, color = "gray") +
+  geom_hline(yintercept = 5, linetype = 2, color = "gray") +
+  labs(x = "Year", y = "Index (2015 = 1)", Color = "Scenario", fill = "Scenario") +
+  scale_fill_brewer(palette = "PuOr", direction = -1) +
+  scale_y_continuous(breaks = 1:6) +
+  theme_bw() + theme0 +  theme1 -> A1; A1
+
+df %>% filter(region != "World") %>%
+  ggplot +   facet_wrap(~region, ncol = 5, scales = "fixed") +
+  geom_hline(yintercept = 1) +
+  geom_line(aes(x = year, y = value, group = interaction(region, scenario),
+                color = scenario), size = 1) +
+  labs(x = "Year", y = "Index (2015 = 1)", color = "Scenario") +
+  scale_color_brewer(palette = "PuOr", direction = -1) +
+  scale_y_continuous(breaks = 1:6) +
+  theme_bw() + theme0 + theme1 -> A2
+
+
+(A1 + ggtitle("(A) Global mean agricultural labor productivity growth") ) /
+  (A2 + ggtitle("(B) Regional (R10) agricultural labor productivity growth")) +
+  plot_layout(guides = "collect", heights = c(1,1.8)) -> pp
+
+pp %>% Write_png(.name = "FigS_Productivity", .DIR_MODULE = DIR_MODULE, h = 12, w = 12)
 
 
 

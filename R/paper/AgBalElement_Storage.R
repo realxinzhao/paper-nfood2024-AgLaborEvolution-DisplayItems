@@ -5,16 +5,6 @@
 MapAgCOMM %>% pull(regsector)
 
 
-PluckBind <- function(.query ){
-  ListV2024 %>% purrr::pluck(.query) %>%
-    mutate(branch = scenario, scenario = ss) %>%
-    filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-    # rename(region0 = region) %>%
-    # left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6)) %>%
-    mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                             labels = c("Evolving", "Static")))
-}
-
 
 ## Start with demand ----
 "AgBal" %>% PluckBind() %>%
@@ -136,14 +126,15 @@ c(brewer.pal(n = length(ELEMAll), name = "BrBG")[1:length(ElEMSupply)],
 # PSUA ----
 AgElement_SUA %>%
   rename(region0 = region) %>%
-  left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6)) %>%
+  left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6), by = "region0") %>%
   filter(year >= 2015, element %in% ELEMAll) %>%
-  Agg_reg(branch, element, sector, region) %>%
+  Agg_reg(branch, element, sector, region) %>% filter(sector %in% tolower(GCAMCOMM)) %>%
   mutate(sector = factor(sector, levels = tolower(GCAMCOMM))) %>%
   mutate(DS = if_else(element %in% ElEMSupply, "Supply", "Demand")) %>%
   mutate(value = if_else(!element %in% ElEMSupply, -value, value)) %>%
   mutate(element = factor(element, levels = ELEMLevel,
-                          labels = ELEMLabel)) -> PSUA
+                          labels = ELEMLabel)) %>%
+  select(-branch) -> PSUA
 
 # PAgPrice ----
 AgMeatPrice %>%
@@ -156,7 +147,7 @@ AgMeatPrice %>%
   filter(sector != "Pasture", year >= 2015) %>%
   group_by_at(vars(scenario, year, branch, region, sector)) %>%
   summarise(value = weighted.mean(Price, w = Production), prod = sum(Production), .groups = "drop") %>%
-  drop_na() ->
+  drop_na() %>% select(-branch) ->
   PAgPrice
 
 

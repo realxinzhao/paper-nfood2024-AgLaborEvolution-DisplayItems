@@ -27,6 +27,74 @@ Load_GCAM(projnm = Project, versionnm = Version, return_availscen = T)
 Load_GCAM(projnm = Project, versionnm = Version, return_availquery = T)
 
 
+# Load the saved list ----
+ListV2024 <- readRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("ListV2024", ".RDS")))
+
+
+# Fig.1 ----
+source("R/paper/Fig1.R")
+
+# Figs.3 - 5 and SIs ----
+# source data
+source("R/paper/AgLUDashBoard_Data.R")
+
+ScenName = "Evolving"
+source("R/paper/AgLUDashBoard_SingleScen.R")
+ScenName = "Static"
+source("R/paper/AgLUDashBoard_SingleScen.R")
+
+# Diff between Evolving and Static
+source("R/paper/AgLUDashBoard_PlotDiff.R")
+
+
+source("R/paper/Figs3and4.R")
+
+# Fig.5 and SIs ----
+source("R/paper/Figs5Sens.R")
+
+
+# check others ----
+ListV2024 %>% purrr::pluck("MeanTemp") %>%
+  mutate(branch = scenario, scenario = ss) %>%
+  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
+  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
+                           labels = c("Evolving", "Static"))) %>%
+  select(-ss, -branch) %>%
+  spread(scenario, value) %>%
+  mutate(diff = Evolving - Static) %>%
+  filter(year == 2100) -> A
+
+
+ListV2024 %>% purrr::pluck("ForcingTotal") %>%
+  mutate(branch = scenario, scenario = ss) %>%
+  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
+  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
+                           labels = c("Evolving", "Static"))) %>%
+  select(-ss, -branch) %>%
+  spread(scenario, value) %>%
+  mutate(diff = Evolving - Static) %>%
+  filter(year == 2100) -> A
+
+
+ListV2024 %>% purrr::pluck("Fooddemandca") %>%
+  mutate(branch = scenario, scenario = ss) %>%
+  filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
+  mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
+                           labels = c("Evolving", "Static"))) %>%
+  select(-ss, -branch) %>%
+  #Agg_reg() %>%
+  spread(scenario, value) %>%
+  mutate(diff = Evolving / Static) %>%
+  filter(year == 2100) -> A
+
+
+
+
+
+
+# *******************-----------
+# Functions and code to save data ----
+
 # Modify/customize read csv function ----
 read_csv_bind <- function(.multiCSVpath){
 
@@ -63,44 +131,40 @@ Load_GCAM(projnm = Project, versionnm = "V2024", outputlistnm = "ListV2024")
 dir.create(file.path(DIR_OUTPUT, Project, "ProjectRDS"), showWarnings = F)
 ListV2024 %>% saveRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("ListV2024", ".RDS")))
 
-# Load the list [when needed]
-ListV2024 <- readRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("ListV2024", ".RDS")))
-
-
-# Module functions ----
-DIR_MODULE = "AgLabor"
-PluckBind <- function(.query ){
-  ListV2024 %>% purrr::pluck(.query) %>%
-    mutate(branch = scenario, scenario = ss)
-}
 
 
 
 
 
 
-# SPA plot func ----
-Proc0 <- function(.data){
-  .data %>%
-    mutate(policy = if_else(grepl("2p6", scenario), "2p6", "ref.")) %>%
-    mutate(policy = factor(policy, level = c("ref.", "2p6"))) %>%
-    mutate(SSP = gsub("GCAM_|_2p6","", scenario)) %>%
-    mutate(SSP = if_else(!SSP %in% paste0("SSP", seq(5)), "core", SSP))}
 
 
-
-gg_proc0 <- function(.data, unit = bquote(~W/m^2)){
-  ggplot(.data) +
-    geom_line(aes(x=year, y=value, color=branch)) +
-    theme_bw() + theme0 + theme_leg +
-    theme(
-      legend.title = element_text(angle = 0, color = "black", size = 15, hjust= 0)) +
-    scale_color_brewer(name = "SSP", palette = "Dark2") +
-    scale_linetype_manual(values = c (2, 1), name = "Branch") +
-    scale_size_manual(values = c(1.2, 2), name = "Policy") +
-    scale_alpha_manual(values = c(0.95, 1), name = "Policy") +
-    labs(y = unit , x = "Year")
-}
-
-
-
+#
+#
+#
+#
+# # SPA plot func ----
+# Proc0 <- function(.data){
+#   .data %>%
+#     mutate(policy = if_else(grepl("2p6", scenario), "2p6", "ref.")) %>%
+#     mutate(policy = factor(policy, level = c("ref.", "2p6"))) %>%
+#     mutate(SSP = gsub("GCAM_|_2p6","", scenario)) %>%
+#     mutate(SSP = if_else(!SSP %in% paste0("SSP", seq(5)), "core", SSP))}
+#
+#
+#
+# gg_proc0 <- function(.data, unit = bquote(~W/m^2)){
+#   ggplot(.data) +
+#     geom_line(aes(x=year, y=value, color=branch)) +
+#     theme_bw() + theme0 + theme_leg +
+#     theme(
+#       legend.title = element_text(angle = 0, color = "black", size = 15, hjust= 0)) +
+#     scale_color_brewer(name = "SSP", palette = "Dark2") +
+#     scale_linetype_manual(values = c (2, 1), name = "Branch") +
+#     scale_size_manual(values = c(1.2, 2), name = "Policy") +
+#     scale_alpha_manual(values = c(0.95, 1), name = "Policy") +
+#     labs(y = unit , x = "Year")
+# }
+#
+#
+#

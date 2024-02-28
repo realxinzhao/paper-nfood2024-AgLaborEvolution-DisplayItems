@@ -10,16 +10,22 @@ REG_1 <- c("World", "AFRICA", "CHINA+", "INDIA+", "NORTH_AM")
 COMMSector <- c("Energy crops", "Staple crops", "Oil crops", #"Fodder crops",
                 "Other crops", "Livestock", "Forest")
 
+c("para_ls_SSP2", "para_gamma_hi", "para_gamma_lo",
+  "para_ls_SSP5", "para_ls_SSP3",  "para_eta6", "para_eta1",  "para_static") -> ScenAll
+c("Evolving", "High Elas.", "Low Elas.",
+  "High transition", "Low transition", "High productivity", "Low productivity",  "Static") -> ScenAllLabel
+
 PluckBind <- function(.query ){
   ListV2024 %>% purrr::pluck(.query) %>%
     mutate(branch = scenario, scenario = ss) %>%
     rename(region0 = region) %>%
     left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6),
                              by = "region0") %>%
-    filter(scenario %in% c("para_ls_SSP2", "para_static")) %>%
-    mutate(scenario = factor(scenario, levels = c("para_ls_SSP2", "para_static"),
-                             labels = c("Evolving", "Static")))
+    filter(scenario %in% ScenAll) %>%
+    mutate(scenario = factor(scenario, levels = ScenAll,
+                             labels = ScenAllLabel))
 }
+
 
 
 # Get data ready ----
@@ -119,6 +125,18 @@ pNCEM %>% Agg_reg(sector) %>% mutate(region = "World") %>%
 ## Ag SUA & prices----
 ### source AgBalElement here ----
 
+PluckBind <- function(.query ){
+  ListV2024 %>% purrr::pluck(.query) %>%
+    mutate(branch = scenario, scenario = ss) %>%
+    # rename(region0 = region) %>%
+    # left_join_error_no_match(Regmapping %>% select(region0 = region, region = REG10_AR6),
+    #                          by = "region0") %>%
+    filter(scenario %in% ScenAll) %>%
+    mutate(scenario = factor(scenario, levels = ScenAll,
+                             labels = ScenAllLabel))
+}
+
+
 source("R/paper/AgBalElement_Storage.R")
 
 c(brewer.pal(n = length(ELEMAll), name = "BrBG")[1:length(ElEMSupply)],
@@ -127,10 +145,10 @@ c(brewer.pal(n = length(ELEMAll), name = "BrBG")[1:length(ElEMSupply)],
 
 
 PSUA %>% Agg_reg(sector, element) %>% mutate(region = "World") %>%
-  bind_rows(PSUA) -> PSUA
+  bind_rows(PSUA)  -> PSUA
 
 PAgPrice %>%
-  group_by_at(vars(scenario, year, branch, sector)) %>%
+  group_by_at(vars(scenario, year, sector)) %>%
   summarise(value = weighted.mean(value, w = prod), prod = sum(prod), .groups = "drop") %>%
   drop_na() %>% mutate(region = "World") %>%
   bind_rows(PAgPrice) %>%
