@@ -158,6 +158,23 @@ PAgPrice %>%
 
 
 
+# others ----
+
+# "Fooddemand" %>% PluckBind() %>%
+#   Agg_reg(sector = technology) %>% mutate(region = "World") %>%
+#   bind_rows(
+#     PluckBind("Fooddemand") %>%
+#       Agg_reg(sector = technology, region)
+#   ) %>%
+#   left_join_error_no_match(
+#     MapAgCOMM %>% select(sector = AgCOMM, AgCOMM3), by = "sector"
+#   ) %>%
+#   Agg_reg(sector = AgCOMM3, region) %>%
+#   mutate(sector = factor(sector, levels = COMMSector)) %>%
+#   filter(year == 2015, region == "World") %>%
+#   filter(scenario %in% c("Evolving", "Static")) %>%
+#   Agg_reg(sector)
+
 
 
 

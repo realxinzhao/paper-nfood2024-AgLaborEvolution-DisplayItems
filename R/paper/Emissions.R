@@ -113,6 +113,48 @@ NCEM_All %>%
   mutate(sector0 = factor(sector0, levels = c("Rice", "Ruminants", "Others"))) ->
   pNCEM_sector
 
+c("Corn", "Wheat", "Rice", "OtherGrain", "RootTuber",
+  "Soybean", "OilCrop", "OilPalm", "FiberCrop",
+  "SugarCrop", "Legumes", "NutsSeeds", "MiscCrop",
+  "Vegetables", "Fruits", "FodderGrass", "FodderHerb", "biomass",
+  "Beef", "Dairy", "SheepGoat", "Pork", "Poultry") ->
+  GCAMCOMMem
+
+c("Corn", "Wheat", "Rice", "OtherGrain", "RootTuber",
+  "Soybean", "OilCrop", "OilPalm", "FiberCrop",
+  "SugarCrop", "Legumes", "NutsSeeds", "MiscCrop",
+  "Vegetables", "Fruits", "FodderGrass", "FodderHerb", "Energy crops",
+  "Beef", "Dairy", "SheepGoat", "Pork", "Poultry") ->
+  GCAMCOMMem1
+
+NCEM_All %>%
+  filter(!GHG %in% c("CO2"))%>%
+  mutate(GHG = replace(GHG, grepl("SO2_", GHG), "SO2_3")) %>%
+  left_join(GWP %>% replace_na(list(AR6all = 0)), by = "GHG") %>%
+  mutate(GHG1 = if_else(GHG1 == "Other GHGs", GHG1, GHG)) %>%
+  mutate(GHG1 = if_else(sector == "UnmanagedLand", paste0(GHG1, "_UnMGMTLand"), GHG1)) %>%
+  group_by(scenario, region, sector0 = sector, sector = GHG1, year) %>%
+  summarise(GHGnc_AR6 = sum(value * AR6all)/1000,
+            GHGnc_AR5 = sum(value * AR5all)/1000,
+            GHGnc_AR4 = sum(value * AR4all)/1000, .groups = "drop") %>%
+  select(-GHGnc_AR5) %>% rename(value = GHGnc_AR6) %>%
+  mutate(value = value * 1000 * 12 / 44) %>% # convert to MTC
+  filter(grepl("AGR|AWB", sector)) %>%
+  mutate(sector = case_when(
+    sector %in% c("CH4_AGR", "CH4_AWB") ~ "CH4_Ag",
+    sector %in% c("CH4") ~ "CH4_En",
+    sector %in% c("N2O_AGR", "N2O_AWB") ~ "N2O_Ag",
+    sector %in% c("N2O") ~ "N2O_En",
+    TRUE ~ sector)
+  ) %>%
+  filter(grepl("Resource", sector0) == F) %>%
+  Agg_reg(sector0, sector, region) %>%
+  mutate(value = value / 1000 * 44/12) %>%
+  mutate(year = as.integer(year)) %>%
+  mutate(sector0 = factor(sector0, levels = GCAMCOMMem, labels = GCAMCOMMem1)) ->
+  pNCEM_sector00
+
+
 
 
 pNCEM_sector %>%

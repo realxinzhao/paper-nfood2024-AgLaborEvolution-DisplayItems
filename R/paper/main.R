@@ -9,6 +9,7 @@ library(dplyr)
 library(gcamdata)
 library(purrr)
 library(patchwork)
+library(RColorBrewer)
 
 source("R/LoadPackagesFuncs.R")
 source("R/GCAM_module_funcs.R")
