@@ -407,18 +407,26 @@
 <text transform='translate(20.89,252.71) rotate(-90)' style='font-size: 15.00px; font-family: "Arial";' textLength='10.25px' lengthAdjust='spacingAndGlyphs'>−</text>
 <text transform='translate(20.89,239.68) rotate(-90)' style='font-size: 15.00px; font-family: "Arial";' textLength='8.34px' lengthAdjust='spacingAndGlyphs'>e</text>
 <text transform='translate(20.89,231.35) rotate(-90)' style='font-size: 15.00px; font-family: "Arial";' textLength='8.34px' lengthAdjust='spacingAndGlyphs'>q</text>
-<rect x='586.64' y='227.88' width='118.42' height='66.89' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='592.12' y='245.69' style='font-size: 15.00px; font-family: "Arial";' textLength='47.51px' lengthAdjust='spacingAndGlyphs'>Source</text>
-<rect x='592.12' y='254.74' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='592.83' y='255.45' width='15.86' height='15.86' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #D95F02;' />
-<rect x='592.12' y='272.02' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='592.83' y='272.73' width='15.86' height='15.86' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #1B9E77;' />
-<text x='616.87' y='266.49' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>C</text>
-<text x='625.54' y='266.49' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>H</text>
-<text x='634.21' y='268.67' style='font-size: 8.40px; font-family: "Arial";' textLength='4.67px' lengthAdjust='spacingAndGlyphs'>4</text>
-<text x='638.87' y='266.49' style='font-size: 12.00px; font-family: "Arial";' textLength='60.03px' lengthAdjust='spacingAndGlyphs'> Agriculture</text>
-<text x='616.87' y='283.77' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>N</text>
-<text x='625.54' y='285.95' style='font-size: 8.40px; font-family: "Arial";' textLength='4.67px' lengthAdjust='spacingAndGlyphs'>2</text>
-<text x='630.20' y='283.77' style='font-size: 12.00px; font-family: "Arial";' textLength='69.37px' lengthAdjust='spacingAndGlyphs'>O Agriculture</text>
+<rect x='586.64' y='188.96' width='81.08' height='66.89' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='592.12' y='206.76' style='font-size: 15.00px; font-family: "Arial";' textLength='59.18px' lengthAdjust='spacingAndGlyphs'>Scenario</text>
+<rect x='592.12' y='215.81' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='592.83' y='216.52' width='15.86' height='15.86' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #595959;' />
+<rect x='592.12' y='233.09' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='592.83' y='233.80' width='15.86' height='15.86' style='stroke-width: 1.07; stroke-dasharray: 9.96,4.27; stroke-linecap: square; stroke-linejoin: miter; fill: #595959; fill-opacity: 0.80;' />
+<text x='616.87' y='228.75' style='font-size: 12.00px; font-family: "Arial";' textLength='45.37px' lengthAdjust='spacingAndGlyphs'>Evolving</text>
+<text x='616.87' y='246.03' style='font-size: 12.00px; font-family: "Arial";' textLength='30.02px' lengthAdjust='spacingAndGlyphs'>Static</text>
+<rect x='586.64' y='266.81' width='118.42' height='66.89' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='592.12' y='284.61' style='font-size: 15.00px; font-family: "Arial";' textLength='47.51px' lengthAdjust='spacingAndGlyphs'>Source</text>
+<rect x='592.12' y='293.67' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='592.83' y='294.37' width='15.86' height='15.86' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #D95F02;' />
+<rect x='592.12' y='310.95' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='592.83' y='311.65' width='15.86' height='15.86' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #1B9E77;' />
+<text x='616.87' y='305.42' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>C</text>
+<text x='625.54' y='305.42' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>H</text>
+<text x='634.21' y='307.60' style='font-size: 8.40px; font-family: "Arial";' textLength='4.67px' lengthAdjust='spacingAndGlyphs'>4</text>
+<text x='638.87' y='305.42' style='font-size: 12.00px; font-family: "Arial";' textLength='60.03px' lengthAdjust='spacingAndGlyphs'> Agriculture</text>
+<text x='616.87' y='322.70' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>N</text>
+<text x='625.54' y='324.88' style='font-size: 8.40px; font-family: "Arial";' textLength='4.67px' lengthAdjust='spacingAndGlyphs'>2</text>
+<text x='630.20' y='322.70' style='font-size: 12.00px; font-family: "Arial";' textLength='69.37px' lengthAdjust='spacingAndGlyphs'>O Agriculture</text>
 </g>
 </svg>

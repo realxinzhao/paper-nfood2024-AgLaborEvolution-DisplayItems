@@ -207,6 +207,7 @@ df %>% filter(region == "World", year %in% c(2015, 2050, 2100)) %>%
   theme_bw() + theme0 +  theme1 -> A1; A1
 
 df %>% filter(region != "World") %>%
+  Proc_Diff(type = "R", -year) %>%
   ggplot +   facet_wrap(~region, ncol = 5, scales = "fixed") +
   geom_hline(yintercept = 1) +
   geom_line(aes(x = year, y = value, group = interaction(region, scenario),

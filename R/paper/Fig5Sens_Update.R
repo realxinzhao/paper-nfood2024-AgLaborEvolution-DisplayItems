@@ -1,5 +1,8 @@
 # Sensitivity
 
+# The variable SensYear is an input
+
+
 
 ## theme1 ----
 
@@ -52,7 +55,7 @@ Plaborstat_AllScens <-
 
 Plot_Sens <- function(.df,
                       .ScenRM = c("Static0"),
-                      .Year = 2100,
+                      .Year = SensYear,
                       .Type = "R",
                       .Unit = "Index (Evolving = 1)",
                       .ReturnData = F){
@@ -194,7 +197,7 @@ PAgPrice %>% select(-prod) %>%
 pp1/pp2 +
   patchwork::plot_layout(guides = "collect") -> pp3
 
-pp3 %>% Write_png(.name = "Sens_LaborMarket", .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
+#pp3 %>% Write_png(.name = paste0("Sens_LaborMarket_", SensYear), .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
 
 
 # Main envir ----
@@ -255,7 +258,7 @@ p_sens_fert + p_sens_water + patchwork::plot_spacer() + pleg + plot_layout(width
   p_sens_ems +
   patchwork::plot_layout(heights = c(2.5, 1, 1)) -> pp
 
-pp %>% Write_png(.name = "Sens_LandEnvir", .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
+#pp %>% Write_png(.name = paste0("Sens_LandEnvir_", SensYear), .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
 
 
 
@@ -335,7 +338,7 @@ pNCEM1 %>% filter(grepl("Ag", sector)) %>%
   p_sens_ems +
   patchwork::plot_layout(guides = "collect") -> ppp
 
-ppp %>% Write_png(.name = "Sens_Fig5", .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
+ppp %>% Write_png(.name = paste0("Sens_Fig5_", SensYear), .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
 
 
 
@@ -395,7 +398,7 @@ pp1/
   pp3  +
   patchwork::plot_layout(heights = c(1, 2.5, 1)) -> pp
 
-pp %>% Write_png(.name = "Sens_Fig5SI", .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
+pp %>% Write_png(.name = paste0("Sens_Fig5_SI", SensYear), .DIR_MODULE = DIR_MODULE, h = 14, w = 13)
 
 
 

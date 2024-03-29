@@ -51,7 +51,12 @@ source("R/paper/AgLUDashBoard_PlotDiff.R")
 source("R/paper/Figs3and4.R")
 
 # Fig.5 and SIs ----
+
+SensYear <- 2050
 source("R/paper/Fig5Sens.R")
+SensYear <- 2100
+source("R/paper/Fig5Sens.R")
+
 
 
 # check others ----
@@ -135,37 +140,3 @@ ListV2024 %>% saveRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("ListV
 
 
 
-
-
-
-
-
-#
-#
-#
-#
-# # SPA plot func ----
-# Proc0 <- function(.data){
-#   .data %>%
-#     mutate(policy = if_else(grepl("2p6", scenario), "2p6", "ref.")) %>%
-#     mutate(policy = factor(policy, level = c("ref.", "2p6"))) %>%
-#     mutate(SSP = gsub("GCAM_|_2p6","", scenario)) %>%
-#     mutate(SSP = if_else(!SSP %in% paste0("SSP", seq(5)), "core", SSP))}
-#
-#
-#
-# gg_proc0 <- function(.data, unit = bquote(~W/m^2)){
-#   ggplot(.data) +
-#     geom_line(aes(x=year, y=value, color=branch)) +
-#     theme_bw() + theme0 + theme_leg +
-#     theme(
-#       legend.title = element_text(angle = 0, color = "black", size = 15, hjust= 0)) +
-#     scale_color_brewer(name = "SSP", palette = "Dark2") +
-#     scale_linetype_manual(values = c (2, 1), name = "Branch") +
-#     scale_size_manual(values = c(1.2, 2), name = "Policy") +
-#     scale_alpha_manual(values = c(0.95, 1), name = "Policy") +
-#     labs(y = unit , x = "Year")
-# }
-#
-#
-#

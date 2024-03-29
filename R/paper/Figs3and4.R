@@ -259,13 +259,14 @@ pNCEM_sector1 %>% filter(region != "World") %>%
   geom_bar(aes(x = scenarioYear, y = value, fill = sector, linetype = scenario, alpha = scenario),
            stat = "identity", position = "stack",
            color = "black") +
-  labs(x = "Scenario & Year", fill = "Source", y = expression(paste(GtCO[2]-eq))) +
+  labs(x = "Scenario & Year", fill = "Source", linetype = "Scenario", alpha = "Scenario",
+       y = expression(paste(GtCO[2]-eq))) +
   scale_fill_brewer(palette = "Dark2", direction = -1,
                     labels = c(expression(paste(CH[4], " Agriculture")),
                                expression(paste(N[2], "O Agriculture"))
                                ) ) +
-  scale_alpha_manual(values = c(1, 0.8), guide = "none") +
-  scale_linetype_manual(values = c(1, 5), guide = "none") +
+  scale_alpha_manual(values = c(1, 0.8)) +
+  scale_linetype_manual(values = c(1, 5)) +
   theme_bw() + theme0 + theme1 -> pp; pp
 pp %>% Write_png(.name = "AgLU_Compare_GHGSector", .DIR_MODULE = DIR_MODULE, h = 8, w = 10)
 
@@ -286,13 +287,14 @@ pNCEM_sector1 %>% filter(region == "World") %>%
   geom_bar(aes(x = scenarioYear, y = value, fill = sector, linetype = scenario, alpha = scenario),
            stat = "identity", position = "stack",
            color = "black") +
-  labs(x = "Scenario & Year", fill = "Source", y = expression(paste(GtCO[2]-eq))) +
+  labs(x = "Scenario & Year", fill = "Source", linetype = "Scenario", alpha = "Scenario",
+       y = expression(paste(GtCO[2]-eq))) +
   scale_fill_brewer(palette = "Dark2", direction = -1,
                     labels = c(expression(paste(CH[4], " Agriculture")),
                                expression(paste(N[2], "O Agriculture"))
                     ) ) +
-  scale_alpha_manual(values = c(1, 0.8), guide = "none") +
-  scale_linetype_manual(values = c(1, 5), guide = "none") +
+  scale_alpha_manual(values = c(1, 0.8)) +
+  scale_linetype_manual(values = c(1, 5)) +
   theme_bw() + theme0 + theme1 +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) -> pp1; pp1
 
@@ -308,13 +310,14 @@ pNCEM_sector00  %>%
   #geom_hline(yintercept = 100, linetype = 2, color = "grey80", size = 0.3) +
   geom_hline(yintercept = 0) +
   geom_line(aes(x = year, y = value, color = sector, linetype = scenario), size = 1.2) +
-  labs(x = "Year", color = "Source", y = expression(paste(GtCO[2]-eq))) +
+  labs(x = "Year", color = "Source", linetype = "Scenario", alpha = "Scenario",
+       y = expression(paste(GtCO[2]-eq))) +
   scale_color_brewer(palette = "Dark2", direction = -1,
                     labels = c(expression(paste(CH[4], " Agriculture")),
                                expression(paste(N[2], "O Agriculture"))
                     ) ) +
   scale_alpha_manual(values = c(1, 0.8), guide = "none") +
-  scale_linetype_manual(values = c(1, 5), guide = "none") +
+  scale_linetype_manual(values = c(1, 5)) +
   theme_bw() + theme0 + theme1 +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) -> pp2; pp2
 
