@@ -7,7 +7,7 @@ driver <- readRDS("data/input/DRIVER.RDS")
 metric <- readRDS("data/input/metrics.RDS")
 output <- readRDS("data/input/output.RDS")
 
-cluster <- Regmapping %>% select(region, REG = REG10_AR6)
+cluster <- Regmapping %>% select(region, REG = REG10_AR6, REG5 = REG5_AR6)
 
 theme0 <- theme0 +
   theme(  panel.grid.major = element_blank(),
@@ -142,8 +142,8 @@ driver %>%
 df.driver.lev %>%
   gather(var, value, mult:eff) %>%
   filter(var != "mult") %>%
-  na.omit() %>% filter(var == "ag labor") %>%
-  left_join(cluster) %>%
+  na.omit() %>% filter(var == "ag labor") %>% as_tibble() %>%
+  left_join_error_no_match(as_tibble(cluster)) %>%
   group_by(REG, year) %>% summarize(value = sum(value)) %>% ungroup() %>%
   mutate(value = value / 1000) %>% filter(year >= 1975) %>%
   ggplot() +

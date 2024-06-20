@@ -27,7 +27,7 @@ G6,Australia_NZ,Australia,Australia,Australia,PAC_OECD,Pacific OECD,OECD and EU,
 G19,Japan,Japan,Japan,Japan,PAC_OECD,Pacific OECD,OECD and EU,OECD90 and EU (and EU candidate) countries
 G28,South Korea,S. Korea,S. Korea,S. Korea,PAC_OECD,Pacific OECD,OECD and EU,OECD90 and EU (and EU candidate) countries
 G10,Central Asia,C. Asia,C. Asia,C. Asia,REF_ECON,Reforming Economies of Eastern Europe and the Former Soviet Union; primarily Russia,Reforming economies,Countries from the Reforming Ecomonies of the Former Soviet Union
-G22,Pakistan,Pakistan,Pakistan,Pakistan,REF_ECON,Reforming Economies of Eastern Europe and the Former Soviet Union; primarily Russia,Reforming economies,Countries from the Reforming Ecomonies of the Former Soviet Union
+G22,Pakistan,Pakistan,Pakistan,Pakistan,INDIA+,Countries of South Asia; primarily India,Asia,Asian countries except Japan
 G23,Russia,Russia,Russia,Russia,REF_ECON,Reforming Economies of Eastern Europe and the Former Soviet Union; primarily Russia,Reforming economies,Countries from the Reforming Ecomonies of the Former Soviet Union
 G18,Indonesia,Indonesia,Indonesia,Indonesia,REST_ASIA,Other countries of Asia,Asia,Asian countries except Japan
 G29,Southeast Asia,SE. Asia,SE. Asia,SE. Asia,REST_ASIA,Other countries of Asia,Asia,Asian countries except Japan
