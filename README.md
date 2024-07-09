@@ -12,7 +12,7 @@ Joint Global Change Research Institute, Pacific Northwest National Laboratory
 
 # Instruction
 ## Access to the data needed
-The source csv files (queried from GCAM output database) can be downloaded at the Zenodo archive: 
+The source csv files (queried from GCAM output database) and the processed RDS data (for ths repo) can be downloaded at the Zenodo archive: 
 
 
 ## Running the R project
@@ -21,7 +21,7 @@ Download the entire R project and run `R/main.R`. The script load data and sourc
 
 ## Package output and size
 The package output includes figures and datasets (`output/*` included in this repo). 
-The size of the output figure folder is about 40MB. 
+The size of the output figure folder is about 44MB. 
 The ProjectRDS data folder is about 170MB. 
 The raw csv data (not required) is about 270MB
 
@@ -61,11 +61,11 @@ loaded via a namespace (and not attached):
 ```
 
 Key Figures
-![Image](output/AgLabor/AgLabor/Fig1.png)
-Fig. 1 Historical trends and future projections of agricultural labor-related metrics. Panel (A) presents agricultural labor input by region (stacked areas; see Table S2 for R10 region mappings), and Panel (B) shows the corresponding changes (lines) over time. Panel (C) shows changes in population and labor-related metrics at the world level. Panel (D) shows the growth rate of key variables by region and period. The point-range plots show values for key regions (shape of the point) and R10 region ranges (whiskers). Vertical dotted lines, where applicable, highlight 2003 (red) and 2015 (gray). Data in 2015 or earlier (gray background areas) are historical observations compiled based on USDA or ILO data (Methods). Data after 2015 are projections from the SSP database (population and labor force) or GCAM (agricultural labor, labor productivity, and output). The agricultural labor data presented labor in the primary crop, livestock, and forestry production but did not include labor in the fishery sector (3% globally).
+![Image](output/AgLabor/AgLabor/Fig1_annotated.svg)
+Fig. 1 Historical trends and future projections of agricultural labor-related metrics. Panel (A) presents agricultural labor input by region (stacked areas; see Table S2 for the IPCC R10 region mapping), and Panel (B) shows the corresponding changes (lines) over time relative to 2015. Panel (C) presents changes in population and labor-related metrics at the world level. Panel (D) shows the growth rate of key variables by region and period. The point-range plots show values for key regions (shape of the point) and R10 region ranges (whiskers). Vertical dotted lines, where applicable, highlight 2003 (red) and 2015 (gray). Data from 1975 to 2015 (gray background areas) are historical observations compiled based on USDA and ILO data. Annotation is added for key regions and variables. Data after 2015 are projections from the “Evolving” scenario (GCAM) in the current study (agricultural labor, labor productivity, and value output) or the SSP database (population and labor force). The agricultural labor data presented labor in the primary crop, livestock, and forestry production, while labor in the fishery sector (3% globally) is not included.
 
 ![Image](output/AgLabor/AgLabor/LaborMarketEvo_AgLU.png)
-Fig. 3 Impact of agricultural labor market evolution on key agroeconomic outcomes.   
+Fig. 3 Impact of agricultural labor market evolution on key agroeconomic outcomes. Projections from the Evolving and Static scenarios are presented for various agricultural labor market variables (A), labor by sector (B), supply utilization accounts (SUA) for staple crops (C), and agricultural prices (D). Panel (A) shows key agricultural labor market variables (line color) by region (world and 3 key regions in subpanels), and scenario (line type). Panel (B) displays stacked bars decomposing the agricultural labor in Panel (A) by sector (filled color) across scenarios, Evolving (Evo) vs. Static (Sta.), distinguished by line type and transparency, for 2050 and 2100. Panel (C) presents stacked bars depicting the supply (positive values) and demand (negative values) balance (total supply offsets total demand) by region and scenario for 2050 and 2100. Staple crops include GCAM commodities of Wheat, Rice, Corn, OtherGrain, and RootTuber (Table S3). Panel (D) shows the agricultural producer price index (2015 = 1) with breakdowns by region, sector (line color), and scenario (line type). Data source: GCAM simulation results. 
 
 ![Image](output/AgLabor/AgLabor/LaborMarketEvo_Envir.png)
-Fig. 4 Impact of agricultural labor market evolution on key environmental outcomes.  
+Fig. 4 Impact of agricultural labor market evolution on key environmental outcomes. Projections from the Evolving and Static scenarios are presented for land use change (A), agricultural water withdrawal (B), cumulative emissions from agriculture and Land Use, Land-use Change, and Forestry (LULUCF) (C), along with maps illustrating the cumulative LULUCF emissions (D). In panel (A), stacked bars depict land use change (relative to 2015), decomposed by land type (filled color) across scenarios, Evolving (Evo) vs. Static (Sta.) (distinguished by line type and transparency), by region (world and 3 key regions in subpanels) for 2050 and 2100. Panel (B) displays stacked bars representing agricultural water withdrawal by sector (filled color), and Panel (C) illustrates cumulative greenhouse gas emissions by source (filled color) for the periods 2020 – 2050 and 2020 – 2100. Panel D shows the spatial decomposition of the 2020 – 2100 cumulative LULUCF carbon emissions by GCAM 32 regions, with net total values labeled (e.g., 226 GtCO2 in the Evolving scenario). Data source: GCAM simulation results.

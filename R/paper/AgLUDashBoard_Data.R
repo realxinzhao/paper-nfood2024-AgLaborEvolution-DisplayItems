@@ -6,7 +6,7 @@ DIR_MODULE = "AgLabor"
 ListV2024 %>% names()
 
 
-REG_1 <- c("World", "AFRICA", "CHINA+", "INDIA+", "NORTH_AM")
+
 COMMSector <- c("Energy crops", "Staple crops", "Oil crops", #"Fodder crops",
                 "Other crops", "Livestock", "Forest")
 

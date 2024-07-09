@@ -1430,37 +1430,37 @@
 <g clip-path='url(#cpODg5LjU3fDEwNzQuNTJ8NS40OHw0MzIuMDA=)'>
 </g>
 <g clip-path='url(#cpMC4wMHwxMDgwLjAwfDAuMDB8ODY0LjAw)'>
-<text x='906.97' y='111.38' style='font-size: 15.00px; font-family: "Arial";' textLength='148.38px' lengthAdjust='spacingAndGlyphs'>Region (Panels A &amp; B)</text>
-<rect x='906.97' y='120.51' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='120.80' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #A6CEE3;' />
-<rect x='906.97' y='142.11' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='142.40' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #1F78B4;' />
-<rect x='906.97' y='163.71' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='164.00' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #B2DF8A;' />
-<rect x='906.97' y='185.31' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='185.60' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #33A02C;' />
-<rect x='906.97' y='206.91' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='207.20' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #FB9A99;' />
-<rect x='906.97' y='228.51' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='228.80' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #E31A1C;' />
-<rect x='906.97' y='250.11' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='250.40' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #FDBF6F;' />
-<rect x='906.97' y='271.71' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='272.00' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #FF7F00;' />
-<rect x='906.97' y='293.31' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='293.60' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #CAB2D6;' />
-<rect x='906.97' y='314.91' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='907.25' y='315.20' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #6A3D9A;' />
-<text x='952.93' y='136.69' style='font-size: 15.00px; font-family: "Arial";' textLength='54.99px' lengthAdjust='spacingAndGlyphs'>AFRICA</text>
-<text x='952.93' y='158.29' style='font-size: 15.00px; font-family: "Arial";' textLength='55.41px' lengthAdjust='spacingAndGlyphs'>CHINA+</text>
-<text x='952.93' y='179.89' style='font-size: 15.00px; font-family: "Arial";' textLength='63.32px' lengthAdjust='spacingAndGlyphs'>EUROPE</text>
-<text x='952.93' y='201.49' style='font-size: 15.00px; font-family: "Arial";' textLength='48.75px' lengthAdjust='spacingAndGlyphs'>INDIA+</text>
-<text x='952.93' y='223.09' style='font-size: 15.00px; font-family: "Arial";' textLength='72.21px' lengthAdjust='spacingAndGlyphs'>LATIN_AM</text>
-<text x='952.93' y='244.69' style='font-size: 15.00px; font-family: "Arial";' textLength='104.16px' lengthAdjust='spacingAndGlyphs'>MIDDLE_EAST</text>
-<text x='952.93' y='266.29' style='font-size: 15.00px; font-family: "Arial";' textLength='83.87px' lengthAdjust='spacingAndGlyphs'>NORTH_AM</text>
-<text x='952.93' y='287.89' style='font-size: 15.00px; font-family: "Arial";' textLength='81.37px' lengthAdjust='spacingAndGlyphs'>PAC_OECD</text>
-<text x='952.93' y='309.49' style='font-size: 15.00px; font-family: "Arial";' textLength='81.65px' lengthAdjust='spacingAndGlyphs'>REF_ECON</text>
-<text x='952.93' y='331.09' style='font-size: 15.00px; font-family: "Arial";' textLength='82.50px' lengthAdjust='spacingAndGlyphs'>REST_ASIA</text>
+<text x='907.31' y='111.38' style='font-size: 15.00px; font-family: "Arial";' textLength='148.38px' lengthAdjust='spacingAndGlyphs'>Region (Panels A &amp; B)</text>
+<rect x='907.31' y='120.51' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='120.80' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #A6CEE3;' />
+<rect x='907.31' y='142.11' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='142.40' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #1F78B4;' />
+<rect x='907.31' y='163.71' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='164.00' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #B2DF8A;' />
+<rect x='907.31' y='185.31' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='185.60' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #33A02C;' />
+<rect x='907.31' y='206.91' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='207.20' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #FB9A99;' />
+<rect x='907.31' y='228.51' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='228.80' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #E31A1C;' />
+<rect x='907.31' y='250.11' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='250.40' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #FDBF6F;' />
+<rect x='907.31' y='271.71' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='272.00' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #FF7F00;' />
+<rect x='907.31' y='293.31' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='293.60' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #CAB2D6;' />
+<rect x='907.31' y='314.91' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='907.60' y='315.20' width='41.95' height='21.03' style='stroke-width: 0.43; stroke-linecap: square; stroke-linejoin: miter; fill: #6A3D9A;' />
+<text x='953.27' y='136.69' style='font-size: 15.00px; font-family: "Arial";' textLength='38.34px' lengthAdjust='spacingAndGlyphs'>Africa</text>
+<text x='953.27' y='158.29' style='font-size: 15.00px; font-family: "Arial";' textLength='39.18px' lengthAdjust='spacingAndGlyphs'>China</text>
+<text x='953.27' y='179.89' style='font-size: 15.00px; font-family: "Arial";' textLength='48.35px' lengthAdjust='spacingAndGlyphs'>Europe</text>
+<text x='953.27' y='201.49' style='font-size: 15.00px; font-family: "Arial";' textLength='71.70px' lengthAdjust='spacingAndGlyphs'>South Asia</text>
+<text x='953.27' y='223.09' style='font-size: 15.00px; font-family: "Arial";' textLength='90.86px' lengthAdjust='spacingAndGlyphs'>Latin America</text>
+<text x='953.27' y='244.69' style='font-size: 15.00px; font-family: "Arial";' textLength='78.35px' lengthAdjust='spacingAndGlyphs'>Middle East</text>
+<text x='953.27' y='266.29' style='font-size: 15.00px; font-family: "Arial";' textLength='95.01px' lengthAdjust='spacingAndGlyphs'>North America</text>
+<text x='953.27' y='287.89' style='font-size: 15.00px; font-family: "Arial";' textLength='91.67px' lengthAdjust='spacingAndGlyphs'>Pacific OECD</text>
+<text x='953.27' y='309.49' style='font-size: 15.00px; font-family: "Arial";' textLength='69.17px' lengthAdjust='spacingAndGlyphs'>Reforming</text>
+<text x='953.27' y='331.09' style='font-size: 15.00px; font-family: "Arial";' textLength='80.03px' lengthAdjust='spacingAndGlyphs'>Rest of Asia</text>
 </g>
 <g clip-path='url(#cpODg5LjU3fDEwNzQuNTJ8NS40OHw0MzIuMDA=)'>
 </g>
@@ -1994,9 +1994,9 @@
 <polygon points='920.68,746.84 925.47,755.13 915.89,755.13 ' style='stroke-width: 0.71;' />
 <rect x='899.42' y='763.16' width='42.52' height='21.60' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
 <circle cx='920.68' cy='773.96' r='3.56' style='stroke-width: 0.71;' />
-<text x='945.38' y='714.54' style='font-size: 15.00px; font-family: "Arial";' textLength='54.99px' lengthAdjust='spacingAndGlyphs'>AFRICA</text>
-<text x='945.38' y='736.14' style='font-size: 15.00px; font-family: "Arial";' textLength='55.41px' lengthAdjust='spacingAndGlyphs'>CHINA+</text>
-<text x='945.38' y='757.74' style='font-size: 15.00px; font-family: "Arial";' textLength='83.87px' lengthAdjust='spacingAndGlyphs'>NORTH_AM</text>
+<text x='945.38' y='714.54' style='font-size: 15.00px; font-family: "Arial";' textLength='38.34px' lengthAdjust='spacingAndGlyphs'>Africa</text>
+<text x='945.38' y='736.14' style='font-size: 15.00px; font-family: "Arial";' textLength='39.18px' lengthAdjust='spacingAndGlyphs'>China</text>
+<text x='945.38' y='757.74' style='font-size: 15.00px; font-family: "Arial";' textLength='95.01px' lengthAdjust='spacingAndGlyphs'>North America</text>
 <text x='945.38' y='779.34' style='font-size: 15.00px; font-family: "Arial";' textLength='38.89px' lengthAdjust='spacingAndGlyphs'>World</text>
 </g>
 <g clip-path='url(#cpODkxLjI0fDEwNzQuNTJ8NDMyLjAwfDg1OC41Mg==)'>

@@ -75,8 +75,8 @@ Plot_Sens <- function(.df,
 
   .df2 %>%
     filter(!scenario %in% c("Evolving")) %>% ungroup() %>%
-    mutate(region0 = if_else(region %in% c("AFRICA", "CHINA+", "NORTH_AM", "World"), region, "Others")) %>%
-    mutate(region0 = factor(region0, levels = c("AFRICA", "CHINA+", "NORTH_AM", "Others", "World")))  %>%
+    mutate(region0 = if_else(region %in% c("Africa", "China", "North America", "World"), region, "Others")) %>%
+    mutate(region0 = factor(region0, levels = c("Africa", "China", "North America", "Others", "World")))  %>%
     mutate(scen0 = factor(scenario, levels = ScenAllLabel,
                           labels = c("Evolving", "Elasticity", "Elasticity", "Transition", "Transition", "Productivity", "Productivity", "Static") )) %>%
     mutate(HighLow = factor(scenario, levels = ScenAllLabel,

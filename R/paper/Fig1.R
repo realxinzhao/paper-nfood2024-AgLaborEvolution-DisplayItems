@@ -7,13 +7,25 @@ driver <- readRDS("data/input/DRIVER.RDS")
 metric <- readRDS("data/input/metrics.RDS")
 output <- readRDS("data/input/output.RDS")
 
+
+R10Order <- c("Africa", "China", "Europe", "South Asia", "Latin America",
+              "Middle East", "North America", "Pacific OECD", "Reforming",
+              "Rest of Asia")
+
 cluster <- Regmapping %>% select(region, REG = REG10_AR6, REG5 = REG5_AR6)
+
+cluster %>%
+  mutate(REG = factor(REG, levels = R10Order)) ->
+  cluster
+
+
+
 
 theme0 <- theme0 +
   theme(  panel.grid.major = element_blank(),
           panel.grid.minor = element_blank())
 
-REG_1 <- c("World", "AFRICA", "CHINA+", "NORTH_AM")
+REG_1 <- c("World", "Africa", "China", "North America")
 
 ## remove fishery labor in historical periods ----
 SHARE <- read.csv("data/input/FOR_FISH_share_L.csv") %>%
@@ -114,7 +126,8 @@ df.1.range %>% bind_rows(eta.range) %>%
                                  "Labor productivity", "Agricultural output"))) ->
   df_pointrange
 
-df.1.all %>% bind_rows(plot.eta) %>%
+df.1.all %>%
+  bind_rows(plot.eta) %>%
   mutate(index = if_else(year == 1975, 1/index, index)) %>%
   mutate(index = (index - 1)*100) %>%
   mutate(year = factor(year, levels = c(1975, 2050, 2100),
@@ -139,11 +152,13 @@ driver %>%
   df.driver.lev
 
 
+
+
 df.driver.lev %>%
   gather(var, value, mult:eff) %>%
   filter(var != "mult") %>%
   na.omit() %>% filter(var == "ag labor") %>% as_tibble() %>%
-  left_join_error_no_match(as_tibble(cluster)) %>%
+  left_join(as_tibble(cluster)) %>%
   group_by(REG, year) %>% summarize(value = sum(value)) %>% ungroup() %>%
   mutate(value = value / 1000) %>% filter(year >= 1975) %>%
   ggplot() +

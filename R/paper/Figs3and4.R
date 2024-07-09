@@ -5,8 +5,10 @@
 
 ProcScen <- function(.df){
   .df %>% filter(scenario %in% c("Evolving", "Static"),
-                 region %in% c("World", "AFRICA", "CHINA+", "NORTH_AM"), year %in% c(2015, 2050, 2100)) %>%
-    mutate(region = factor(region, levels = c("World", "AFRICA", "CHINA+", "NORTH_AM") )) %>%
+                 #region %in% c("World", "AFRICA", "CHINA+", "NORTH_AM"),
+                 region %in% c("World", "Africa", "China", "North America"),
+                 year %in% c(2015, 2050, 2100)) %>%
+    mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) %>%
     mutate(scenarioYear = paste(scenario, year)) %>%
     filter(scenarioYear != "Static 2015") %>%
     mutate(scenarioYear = if_else(scenarioYear== "Evolving 2015", "2015", scenarioYear)) %>%
@@ -38,9 +40,9 @@ theme1 <- theme(axis.text.x = element_text(angle = 30, hjust = 0.9, vjust = 1), 
 Plaborstat <- readRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("Plaborstat", ".RDS")))
 
 Plaborstat %>%
-  filter(region %in% c("World", "AFRICA", "CHINA+", "NORTH_AM")) %>%
-  mutate(region = factor(region, levels = c("World", "AFRICA", "CHINA+", "NORTH_AM") )) %>%
-  ggplot() + facet_wrap(~region, nrow = 3, ncol = 5) +
+  filter(region %in% c("World", "Africa", "China", "North America")) %>%
+  mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) %>%
+  ggplot() + facet_wrap(~region, nrow = 3, ncol = 5, scales = "free_y") +
   geom_hline(yintercept = 1, size = 0.4) +
   geom_line(aes(x = year, y = value, color = var, linetype = scenario, size = var, alpha = scenario)) +
   labs(x = "Year", y = "Index (2015 = 1)", color = "Variable", alpha = "Scenario",
@@ -71,6 +73,32 @@ Plabor %>% #filter(region != "World") %>%
   labs(x = "Scenario & Year", y = "Million people", fill = "Sector", alpha = "Scenario", linetype = "Scenario") +
   scale_fill_brewer(palette = "Set2", direction = 1) +
   theme_bw() + theme0 + theme1  -> A2; A2
+
+# test pattern bars (not using)
+
+# library(ggpattern)
+#
+#
+# Plabor %>% #filter(region != "World") %>%
+#   ProcScen() %>%
+#   ggplot(aes(x=scenarioYear, y=value, fill = sector, linetype = scenario)) +
+#   facet_wrap(~region, scale = "free_y", nrow = 1) +
+#   geom_hline(yintercept = 0) +
+#   geom_hline(yintercept = 10, linetype = 2, color = "grey80", size = 0.3) +
+#   geom_bar_pattern(
+#     aes( pattern_fill = scenario),
+#     position="stack", stat="identity",
+#     pattern = 'crosshatch',
+#     fill    = 'white',
+#     colour  = 'black'
+#   ) +
+#   labs(x = "Scenario & Year", y = "Million people", fill = "Sector", alpha = "Scenario", linetype = "Scenario") +
+#   scale_fill_brewer(palette = "Set2", direction = 1) ->
+#   pp
+#
+#
+# pp %>% Write_png(.name = "test", .DIR_MODULE = DIR_MODULE, h = 4, w = 14)
+
 
 ## SUA staples ----
 PSUA %>%
@@ -110,9 +138,9 @@ PSUA %>%
 
 PAgPrice %>% filter(scenario %in% c("Evolving", "Static")) %>%
   Proc_Diff(type = "R", -year, -prod) %>%
-  filter(region %in% c("World", "AFRICA", "CHINA+", "NORTH_AM")) %>%
-  mutate(region = factor(region, levels = c("World", "AFRICA", "CHINA+", "NORTH_AM") )) %>%
-  ggplot() +  facet_wrap(~region, nrow = 1, scales = "fixed") +
+  filter(region %in% c("World", "Africa", "China", "North America")) %>%
+  mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) %>%
+  ggplot() +  facet_wrap(~region, nrow = 1, scales = "free_y") +
   geom_hline(yintercept = 1, size = 0.4) +
   geom_line(aes(x = year, y = value, color = sector, linetype = scenario, size = sector, alpha = scenario)) +
   labs(x = "Year", y = "Index (2015 = 1)", color = "Sector", alpha = "Scenario",
@@ -142,6 +170,7 @@ PAgPrice %>% filter(scenario %in% c("Evolving", "Static")) %>%
 
 
 pp %>% Write_png(.name = "LaborMarketEvo_AgLU", .DIR_MODULE = DIR_MODULE, h = 14, w = 14)
+
 
 
 

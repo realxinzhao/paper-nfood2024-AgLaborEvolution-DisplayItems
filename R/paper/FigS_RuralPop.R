@@ -67,6 +67,13 @@ RuralPOP %>% #filter(year %in% c(2015, 2050, 2100)) %>%
 
 pp %>% Write_png(.name = "FigS_RuralPop", .DIR_MODULE = DIR_MODULE, h = 12, w = 12)
 
+
+
+RuralPOP %>% filter(year %in% c(2015, 2100)) %>% filter(scenario == "SSP2") %>%
+  spread(year, value) %>%
+  mutate(diff = `2100` - `2015`)
+
+
 # Fig.S labor data compilation
 
 labor_all <- readRDS("data/input/labor_all.rds")

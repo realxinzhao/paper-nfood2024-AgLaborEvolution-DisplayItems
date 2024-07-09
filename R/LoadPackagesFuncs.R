@@ -3,8 +3,16 @@ library(tidyr)
 library(ggplot2)
 
 # Load mappings ----
+R10Order <- c("Africa", "China", "Europe", "South Asia", "Latin America",
+              "Middle East", "North America", "Pacific OECD", "Reforming",
+              "Rest of Asia")
+
 readr::read_csv("data/maps/LandMappingV7p1.csv") -> LandMapping
 readr::read_csv("data/maps/Regmapping.csv") -> Regmapping
+Regmapping %>%
+  mutate(REG10_AR6 = factor(REG10_AR6, levels = R10Order)) ->
+  Regmapping
+
 readr::read_csv("data/maps/AgCommMapping.csv") -> MapAgCOMM
 
 # Load ggplot themes ----

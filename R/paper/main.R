@@ -54,8 +54,10 @@ source("R/paper/Figs3and4.R")
 
 SensYear <- 2050
 source("R/paper/Fig5Sens.R")
+source("R/paper/Fig5Sens_Update.R")
 SensYear <- 2100
 source("R/paper/Fig5Sens.R")
+source("R/paper/Fig5Sens_Update.R")
 
 
 
