@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="1.0034722"
-     inkscape:cx="786.76817"
-     inkscape:cy="513.21799"
+     inkscape:zoom="0.709562"
+     inkscape:cx="866.02721"
+     inkscape:cy="569.36533"
      inkscape:window-width="2560"
      inkscape:window-height="1365"
      inkscape:window-x="-9"
@@ -9233,65 +9233,69 @@
        style="stroke-width: 2.13;"
        id="rect1295" />
   </g>
+  <g
+     transform="matrix(0.75,0,0,0.75,-167.03289,-66.92097)"
+     id="g1-7">
+    <text
+       fill="#1f78b4"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="22px"
+       transform="rotate(10.779567,-2337.5953,7298.9462)"
+       id="text1-8">China</text>
+  </g>
   <text
-     fill="#a6cee3"
+     fill="#0070c0"
+     fill-opacity="0.85098"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
-     font-size="11.25px"
+     font-size="16.5px"
      transform="rotate(36.054506)"
-     id="text1849"
-     x="782.16333"
-     y="-357.27036"
-     style="stroke-width:0.75">Africa</text>
+     id="text1-7"
+     x="767.23193"
+     y="-359.17191"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Africa</text>
   <text
      fill="#33a02c"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
-     font-size="11.25px"
+     font-size="16.5px"
      transform="rotate(31.042513)"
-     id="text1850"
-     x="859.04041"
-     y="-163.66617"
-     style="stroke-width:0.75">South Asia</text>
+     id="text2"
+     x="836.9436"
+     y="-160.4848"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">South Asia</text>
   <text
      fill="#6a3d9a"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
-     font-size="11.25px"
+     font-size="16.5px"
      transform="rotate(13.320859)"
-     id="text1864"
-     x="847.63568"
-     y="63.41526"
-     style="stroke-width:0.75">Rest of Asia</text>
+     id="text3"
+     x="821.81848"
+     y="64.684624"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Rest of Asia</text>
   <text
-     fill="#1f78b4"
+     fill="#ed7d31"
+     fill-opacity="0.85098"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
-     font-size="12px"
-     transform="rotate(10.779567)"
-     id="text1865"
-     x="885.46387"
-     y="193.81879"
-     style="stroke-width:0.75">China</text>
+     font-size="16.5px"
+     id="text4"
+     x="762.13489"
+     y="201.05511"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">North America</text>
   <text
-     fill="#fdbf6f"
+     fill="#c00000"
+     fill-opacity="0.701961"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
-     font-size="11.25px"
-     id="text1866"
-     x="793.91388"
-     y="201.50793"
-     style="stroke-width:0.75">North America</text>
-  <text
-     fill="#fb9a99"
-     font-family="Arial, Arial_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="11.25px"
+     font-size="16.5px"
      transform="rotate(5.217917)"
-     id="text1867"
-     x="819.64905"
-     y="153.10014"
-     style="stroke-width:0.75">Latin America</text>
+     id="text5"
+     x="789.84357"
+     y="154.22272"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Latin America</text>
   <g
      clip-path="url(#cpMC4wMHwxMDgwLjAwfDAuMDB8ODY0LjAw)"
      id="g1321">
@@ -11579,9 +11583,9 @@
      font-size="15.75px"
      transform="rotate(-44.837133)"
      id="text1851"
-     x="-380.46988"
-     y="517.77588"
-     style="stroke-width:0.75">Population</text>
+     x="-381.52753"
+     y="518.83954"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Population</text>
   <text
      fill="#d95f02"
      font-family="Arial, Arial_MSFontService, sans-serif"
@@ -11589,9 +11593,9 @@
      font-size="15.75px"
      transform="rotate(10.104322)"
      id="text1852"
-     x="449.02209"
-     y="595.13281"
-     style="stroke-width:0.75">Labor force</text>
+     x="449.98969"
+     y="594.96039"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Labor force</text>
   <text
      fill="#7570b3"
      font-family="Arial, Arial_MSFontService, sans-serif"
@@ -11599,9 +11603,9 @@
      font-size="15.75px"
      transform="rotate(16.46718)"
      id="text1853"
-     x="493.17755"
-     y="587.99817"
-     style="stroke-width:0.75">Rural Population</text>
+     x="490.91342"
+     y="587.10309"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Rural Population</text>
   <text
      fill="#e7298a"
      font-family="Arial, Arial_MSFontService, sans-serif"
@@ -11609,9 +11613,9 @@
      font-size="15.75px"
      transform="rotate(4.5392856)"
      id="text1854"
-     x="360.68661"
-     y="738.95026"
-     style="stroke-width:0.75">Agricultural labor</text>
+     x="358.31946"
+     y="740.64288"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Agricultural labor</text>
   <g
      clip-path="url(#cpMC4wMHwxMDgwLjAwfDAuMDB8ODY0LjAw)"
      id="g1632">
@@ -12470,18 +12474,18 @@
      font-weight="400"
      font-size="14.25px"
      id="text1855"
-     x="833.862"
+     x="829.362"
      y="515.05481"
-     style="stroke-width:0.75">Ag.</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Ag.</text>
   <text
      fill="#e6ab02"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
      font-size="14.25px"
      id="text1856"
-     x="824.98199"
+     x="820.48199"
      y="532.30481"
-     style="stroke-width:0.75">output</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">output</text>
   <text
      fill="#d5267f"
      font-family="Arial, Arial_MSFontService, sans-serif"
@@ -12490,7 +12494,7 @@
      id="text1869"
      x="823.96198"
      y="773.05481"
-     style="stroke-width:0.75">Ag.</text>
+     style="stroke-width:0.75;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-family:Arial, Arial_MSFontService, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:16px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Ag.</text>
   <text
      fill="#d5267f"
      font-family="Arial, Arial_MSFontService, sans-serif"
@@ -12499,34 +12503,34 @@
      id="text1870"
      x="823.96198"
      y="790.30481"
-     style="stroke-width:0.75">Labor</text>
+     style="stroke-width:0.75;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-family:Arial, Arial_MSFontService, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:16px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Labor</text>
   <text
      fill="#d95f02"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
      font-size="14.25px"
      id="text1871"
-     x="772.27197"
+     x="767.77197"
      y="656.05481"
-     style="stroke-width:0.75">Labor</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">Labor</text>
   <text
      fill="#d95f02"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
      font-size="14.25px"
      id="text1872"
-     x="774.58948"
+     x="770.08948"
      y="672.55481"
-     style="stroke-width:0.75">forc</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">forc</text>
   <text
      fill="#d95f02"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
      font-size="14.25px"
      id="text1873"
-     x="797.83948"
+     x="796.73907"
      y="672.55481"
-     style="stroke-width:0.75">e</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75">e</text>
   <g
      clip-path="url(#cpMC4wMHwxMDgwLjAwfDAuMDB8ODY0LjAw)"
      id="g1749">
@@ -12991,24 +12995,14 @@
      y="302.92957"
      style="stroke-width:0.75">Latin America</text>
   <text
-     fill="#b2df8a"
-     font-family="Arial, Arial_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="11.25px"
-     transform="rotate(6.6143533)"
-     id="text1868"
-     x="545.97028"
-     y="119.00816"
-     style="stroke-width:0.75">Europe</text>
-  <text
      fill="#262626"
      font-family="Arial, Arial_MSFontService, sans-serif"
      font-weight="400"
      font-size="11.25px"
      transform="rotate(-27.427569)"
      id="text1861"
-     x="-38.796768"
-     y="270.74228"
+     x="-40.249985"
+     y="271.42899"
      style="stroke-width:0.75">Europe</text>
   <text
      fill="#262626"
@@ -13016,9 +13010,9 @@
      font-weight="400"
      font-size="11.25px"
      id="text1863"
-     x="86.329575"
-     y="312.18008"
-     style="stroke-width:0.75">North America</text>
+     x="82.693939"
+     y="311.38733"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;fill:#262626;stroke-width:0.75">North America</text>
   <path
      d="m 86.802071,337.72808 4.643468,-23.67315"
      stroke="#fdbf6f"
@@ -13043,7 +13037,27 @@
      font-weight="400"
      font-size="11.25px"
      id="text1874"
-     x="86.329575"
-     y="363.18008"
-     style="stroke-width:0.75">Pacific OECD</text>
+     x="82.68222"
+     y="362.04819"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;fill:#262626;stroke-width:0.75">Pacific OECD</text>
+  <path
+     style="fill:#746b6a;fill-opacity:0.299035;stroke:#636363;stroke-width:1.04782;stroke-dasharray:6.28691, 6.28691;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 647.25152,797.06309 0.37371,-331.95218"
+     id="path1" />
+  <path
+     style="fill:#746b6a;fill-opacity:0.299035;stroke:#636363;stroke-width:1.04778;stroke-dasharray:6.28695, 6.28695;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 755.06671,797.06311 0.37365,-331.95222"
+     id="path2" />
+  <g
+     transform="matrix(0.75,0,0,0.75,-107.95589,-36.360724)"
+     id="g1">
+    <text
+       fill="#33a02c"
+       fill-opacity="0.901961"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="22px"
+       transform="rotate(6.614353,-2087.0836,7451.5013)"
+       id="text1">Europe</text>
+  </g>
 </svg>
