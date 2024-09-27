@@ -14,6 +14,9 @@ Joint Global Change Research Institute, Pacific Northwest National Laboratory
 ## Access to the data needed
 The source csv files (queried from GCAM output database) and the processed RDS data (for ths repo) can be downloaded at the Zenodo archive: 
 
+Note that the GCAM model and files needed for replicating the runs are archived at [realxinzhao/paper-nfood2024-AgLaborEvolution-GCAM](https://github.com/realxinzhao/paper-nfood2024-AgLaborEvolution-GCAM). The database could be a few Gigabytes so they are not included here. However, the raw queried output datasets are archived at https://zenodo.org/uploads/13852194.
+
+The unzipped `ProjectRDS` folder should be placed under `output/ProjectRDS`. The folder includes RDS data for generating all the figure and data outputs used for the paper. For generating these RDS data, users need to place the unzipped `AgLabor` folder under `data/AgLabor` and run corresponding functions (e.g., `Load_GCAM` placed at the bottom of the `main.R` script). 
 
 ## Running the R project
 Download the entire R project and run `R/main.R`. The script load data and source different R scripts to generate figures or datasets related to historical data and GCAM results. These scripts may further  source and run functions to generate figures and datasets, which will be saved in  `output/AgLabpr/AgLabor`.
