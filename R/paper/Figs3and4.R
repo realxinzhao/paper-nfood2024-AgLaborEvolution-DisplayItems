@@ -41,7 +41,12 @@ Plaborstat <- readRDS(file.path(DIR_OUTPUT, Project, "ProjectRDS", paste0("Plabo
 
 Plaborstat %>%
   filter(region %in% c("World", "Africa", "China", "North America")) %>%
-  mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) %>%
+  mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) ->
+  SourceDataFig3A
+
+SourceDataFig3A %>% SaveSourceData("SourceDataFig3A")
+
+SourceDataFig3A %>%
   ggplot() + facet_wrap(~region, nrow = 3, ncol = 5, scales = "free_y") +
   geom_hline(yintercept = 1, size = 0.4) +
   geom_line(aes(x = year, y = value, color = var, linetype = scenario, size = var, alpha = scenario)) +
@@ -57,7 +62,11 @@ Plaborstat %>%
 
 ## Labor ----
 Plabor %>% #filter(region != "World") %>%
-  ProcScen() %>%
+  ProcScen() ->  SourceDataFig3B
+
+SourceDataFig3B %>% SaveSourceData("SourceDataFig3B")
+
+SourceDataFig3B %>%
   ggplot +
   guides(alpha = guide_legend(order = 1),
          linetype = guide_legend(order = 1),
@@ -104,8 +113,14 @@ Plabor %>% #filter(region != "World") %>%
 PSUA %>%
   filter(sector %in% tolower(c("Corn", "Wheat", "Rice", "OtherGrain", "RootTuber"))) %>%
   Agg_reg(element, region) %>%
-  ProcScen() %>%
+  ProcScen() ->
   #mutate(value = value /1000) %>%
+
+  SourceDataFig3C
+
+SourceDataFig3C %>% SaveSourceData("SourceDataFig3C")
+
+SourceDataFig3C %>%
   ggplot +
   guides(colour = guide_legend(order = 2),
          fill = guide_legend(order = 1)) +
@@ -139,7 +154,12 @@ PSUA %>%
 PAgPrice %>% filter(scenario %in% c("Evolving", "Static")) %>%
   Proc_Diff(type = "R", -year, -prod) %>%
   filter(region %in% c("World", "Africa", "China", "North America")) %>%
-  mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) %>%
+  mutate(region = factor(region, levels = c("World", "Africa", "China", "North America") )) ->
+  SourceDataFig3D
+
+SourceDataFig3D %>% SaveSourceData("SourceDataFig3D")
+
+SourceDataFig3D %>%
   ggplot() +  facet_wrap(~region, nrow = 1, scales = "free_y") +
   geom_hline(yintercept = 1, size = 0.4) +
   geom_line(aes(x = year, y = value, color = sector, linetype = scenario, size = sector, alpha = scenario)) +
@@ -181,8 +201,14 @@ pp %>% Write_png(.name = "LaborMarketEvo_AgLU", .DIR_MODULE = DIR_MODULE, h = 14
 Pland %>%
   Proc_Diff(type = "A", -year) %>%
   ProcScen() %>%
-  filter(land != "Other land") %>% filter(year != 2015) %>%
+  filter(land != "Other land") %>% filter(year != 2015) ->
   #mutate(value = value/1000) %>%
+  SourceDataFig4A
+
+SourceDataFig4A %>% SaveSourceData("SourceDataFig4A")
+
+SourceDataFig4A %>%
+
   ggplot + facet_wrap(~region, scale = "free_y", nrow = 1) +
   guides(alpha = guide_legend(order = 1),
          linetype = guide_legend(order = 1),
@@ -201,7 +227,12 @@ Pland %>%
 
 
 ## Water ----
-Pwater %>% ProcScen() %>%  mutate(value = value) %>%
+Pwater %>% ProcScen() %>%  mutate(value = value) ->
+  SourceDataFig4B
+
+SourceDataFig4B %>% SaveSourceData("SourceDataFig4B")
+
+SourceDataFig4B %>%
   ggplot +   facet_wrap(~region, nrow = 1, scales = "free_y") +
   geom_hline(yintercept = 0) +
   geom_hline(yintercept = 400, linetype = 2, color = "grey80", size = 0.3) +
@@ -223,7 +254,8 @@ pCEM %>%
   ungroup() %>% ProcScen()  ->
   pCEM1
 
-pCEM1 %>% filter(sector != "LULUCF") %>%
+pCEM1 %>% filter(sector != "LULUCF") ->df
+df %>%
   ggplot + facet_wrap(~region, nrow = 1, scales = "free") +
   guides(colour = guide_legend(order = 2),
          fill = guide_legend(order = 1)) +
@@ -254,7 +286,12 @@ pNCEM1 %>% filter(grepl("Ag", sector)) %>%
   bind_rows(
     pCEM1 %>% filter(grepl("LULUCF", sector))
   ) %>%
-  mutate(sector = factor(sector, levels = c("CH4_Ag", "N2O_Ag", "LULUCF"))) %>%
+  mutate(sector = factor(sector, levels = c("CH4_Ag", "N2O_Ag", "LULUCF"))) ->
+  SourceDataFig4C
+
+SourceDataFig4C %>% SaveSourceData("SourceDataFig4C")
+
+SourceDataFig4C %>%
   ggplot + facet_wrap(~region, nrow = 1, scales = "free") +
   geom_hline(yintercept = 300, linetype = 2, color = "grey80", size = 0.3) +
   geom_hline(yintercept = 0) +
@@ -392,6 +429,10 @@ summary(map_424_sf)
 map_424_sf %>% select(region, basin) %>% st_set_geometry(NULL) %>%
   full_join(CLUC_cum) ->
   CLUC_cum1
+
+
+
+CLUC_cum1 %>% SaveSourceData("SourceDataFig4D")
 
 
 CLUC_cum %>% Agg_reg() %>%

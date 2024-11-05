@@ -1,0 +1,97 @@
+scenario,sector,year,value,region,scenarioYear
+Evolving,Energy crops,2050,55.498875201091536,World,Evo. 2050
+Evolving,Energy crops,2100,69.81335634044345,World,Evo. 2100
+Evolving,Staple crops,2015,1282.8104734140534,World,2015
+Evolving,Staple crops,2050,1332.411714792651,World,Evo. 2050
+Evolving,Staple crops,2100,1211.1553539487702,World,Evo. 2100
+Evolving,Oil crops,2015,93.66054436154653,World,2015
+Evolving,Oil crops,2050,100.92907554003548,World,Evo. 2050
+Evolving,Oil crops,2100,106.27729857100482,World,Evo. 2100
+Evolving,Other crops,2015,762.8946779311367,World,2015
+Evolving,Other crops,2050,1172.1034854634722,World,Evo. 2050
+Evolving,Other crops,2100,1211.2271561518235,World,Evo. 2100
+Evolving,Livestock,2015,75.277411570639,World,2015
+Evolving,Livestock,2050,122.640580364298,World,Evo. 2050
+Evolving,Livestock,2100,149.215944463683,World,Evo. 2100
+Static,Energy crops,2050,50.79067750790274,World,Sta. 2050
+Static,Energy crops,2100,62.249998675028046,World,Sta. 2100
+Static,Staple crops,2050,1280.2383573705656,World,Sta. 2050
+Static,Staple crops,2100,1126.9026801384916,World,Sta. 2100
+Static,Oil crops,2050,89.19676965142105,World,Sta. 2050
+Static,Oil crops,2100,84.67024737596387,World,Sta. 2100
+Static,Other crops,2050,1147.5264366687493,World,Sta. 2050
+Static,Other crops,2100,1195.2158976839598,World,Sta. 2100
+Static,Livestock,2050,122.60745174895,World,Sta. 2050
+Static,Livestock,2100,149.69618967002,World,Sta. 2100
+Evolving,Energy crops,2050,2.652182528531,Africa,Evo. 2050
+Evolving,Energy crops,2100,2.6708209677963,Africa,Evo. 2100
+Evolving,Staple crops,2015,86.29599818753701,Africa,2015
+Evolving,Staple crops,2050,121.47639224230406,Africa,Evo. 2050
+Evolving,Staple crops,2100,156.76820344999018,Africa,Evo. 2100
+Evolving,Oil crops,2015,13.924118157259999,Africa,2015
+Evolving,Oil crops,2050,9.280627620068906,Africa,Evo. 2050
+Evolving,Oil crops,2100,11.360410126247562,Africa,Evo. 2100
+Evolving,Other crops,2015,67.85888343437836,Africa,2015
+Evolving,Other crops,2050,124.21472934287864,Africa,Evo. 2050
+Evolving,Other crops,2100,180.39611140104537,Africa,Evo. 2100
+Evolving,Livestock,2015,13.1258398432,Africa,2015
+Evolving,Livestock,2050,29.255161219,Africa,Evo. 2050
+Evolving,Livestock,2100,47.869721585,Africa,Evo. 2100
+Evolving,Energy crops,2050,8.087855288249035,China,Evo. 2050
+Evolving,Energy crops,2100,13.653908075994229,China,Evo. 2100
+Evolving,Staple crops,2015,254.98759366584503,China,2015
+Evolving,Staple crops,2050,233.08822984366043,China,Evo. 2050
+Evolving,Staple crops,2100,205.14602473354702,China,Evo. 2100
+Evolving,Oil crops,2015,8.540971332045798,China,2015
+Evolving,Oil crops,2050,21.68321696923701,China,Evo. 2050
+Evolving,Oil crops,2100,32.430816852061,China,Evo. 2100
+Evolving,Other crops,2015,31.969249748852004,China,2015
+Evolving,Other crops,2050,49.631010544991,China,Evo. 2050
+Evolving,Other crops,2100,43.834665796311,China,Evo. 2100
+Evolving,Livestock,2015,16.227508601599,China,2015
+Evolving,Livestock,2050,21.145853977578,China,Evo. 2050
+Evolving,Livestock,2100,15.016165992933,China,Evo. 2100
+Evolving,Energy crops,2050,14.678536462381006,North America,Evo. 2050
+Evolving,Energy crops,2100,18.854972182954004,North America,Evo. 2100
+Evolving,Staple crops,2015,69.06339501573498,North America,2015
+Evolving,Staple crops,2050,66.5167571462322,North America,Evo. 2050
+Evolving,Staple crops,2100,70.3319701677775,North America,Evo. 2100
+Evolving,Oil crops,2015,19.762251319500997,North America,2015
+Evolving,Oil crops,2050,16.1533579508612,North America,Evo. 2050
+Evolving,Oil crops,2100,14.9942864948757,North America,Evo. 2100
+Evolving,Other crops,2015,44.2776682470861,North America,2015
+Evolving,Other crops,2050,50.278370035201405,North America,Evo. 2050
+Evolving,Other crops,2100,52.089534845866986,North America,Evo. 2100
+Evolving,Livestock,2015,3.4623912656,North America,2015
+Evolving,Livestock,2050,4.7549378693,North America,Evo. 2050
+Evolving,Livestock,2100,5.938356439,North America,Evo. 2100
+Static,Energy crops,2050,2.486000071047,Africa,Sta. 2050
+Static,Energy crops,2100,2.6402756977147,Africa,Sta. 2100
+Static,Staple crops,2050,105.50521748183336,Africa,Sta. 2050
+Static,Staple crops,2100,124.51852495212519,Africa,Sta. 2100
+Static,Oil crops,2050,7.500462578255063,Africa,Sta. 2050
+Static,Oil crops,2100,5.654708305961664,Africa,Sta. 2100
+Static,Other crops,2050,116.58096228136844,Africa,Sta. 2050
+Static,Other crops,2100,166.2168324018536,Africa,Sta. 2100
+Static,Livestock,2050,29.182361951,Africa,Sta. 2050
+Static,Livestock,2100,47.328458852000004,Africa,Sta. 2100
+Static,Energy crops,2050,5.991312639492901,China,Sta. 2050
+Static,Energy crops,2100,10.633020766000815,China,Sta. 2100
+Static,Staple crops,2050,204.98028892964055,China,Sta. 2050
+Static,Staple crops,2100,154.4982842019251,China,Sta. 2100
+Static,Oil crops,2050,14.785123995926904,China,Sta. 2050
+Static,Oil crops,2100,21.837085804895597,China,Sta. 2100
+Static,Other crops,2050,41.755345528850995,China,Sta. 2050
+Static,Other crops,2100,32.911950462279,China,Sta. 2100
+Static,Livestock,2050,20.9616512124,China,Sta. 2050
+Static,Livestock,2100,14.97079248162,China,Sta. 2100
+Static,Energy crops,2050,15.082253755901,North America,Sta. 2050
+Static,Energy crops,2100,17.682718219801,North America,Sta. 2100
+Static,Staple crops,2050,73.2867387079023,North America,Sta. 2050
+Static,Staple crops,2100,80.91964819329453,North America,Sta. 2100
+Static,Oil crops,2050,18.468669240049003,North America,Sta. 2050
+Static,Oil crops,2100,18.340561794629004,North America,Sta. 2100
+Static,Other crops,2050,59.23941306162109,North America,Sta. 2050
+Static,Other crops,2100,67.7704667743818,North America,Sta. 2100
+Static,Livestock,2050,5.065825874,North America,Sta. 2050
+Static,Livestock,2100,6.536641371,North America,Sta. 2100

@@ -160,7 +160,11 @@ df.driver.lev %>%
   na.omit() %>% filter(var == "ag labor") %>% as_tibble() %>%
   left_join(as_tibble(cluster)) %>%
   group_by(REG, year) %>% summarize(value = sum(value)) %>% ungroup() %>%
-  mutate(value = value / 1000) %>% filter(year >= 1975) %>%
+  mutate(value = value / 1000) %>% filter(year >= 1975) ->
+  SourceDataFig1A
+SourceDataFig1A %>% SaveSourceData("SourceDataFig1A")
+
+SourceDataFig1A %>%
   ggplot() +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
   geom_hline(yintercept = 0, color = "black") +
@@ -184,7 +188,12 @@ df.driver.lev %>%
   left_join(cluster) %>%
   group_by(REG, year) %>% summarize(value = sum(value)) %>% ungroup() %>%
   group_by(REG) %>%
-  mutate(value = value - value [year == 2015]) %>% filter(year >= 1975) %>%
+  mutate(value = value - value [year == 2015]) %>% filter(year >= 1975) ->
+  SourceDataFig1B
+
+SourceDataFig1B %>% SaveSourceData("SourceDataFig1B")
+
+SourceDataFig1B %>%
   ggplot() +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
   geom_vline(xintercept = 2015, linetype = 2, size = 0.6, color = "grey50") +
@@ -218,10 +227,16 @@ df.driver.lev %>%
   mutate(var = factor(var, levels = c("pop", "LF", "rural", "ag labor", "Effective labor"),
                       labels = c("Total population", "Labor force", "Rural population", "Agiculture labor",
                                  "Effective labor"))) %>%
+  mutate(value = value / 1000) ->
+  SourceDataFig1C
+
+SourceDataFig1C %>% SaveSourceData("SourceDataFig1C")
+
+SourceDataFig1C %>%
   ggplot() +
   geom_rect(aes(xmin=-Inf, xmax=2015, ymin=-Inf,ymax=Inf), alpha=0.1, fill="grey90") +
   geom_vline(xintercept = 2015, linetype = 2, size = 0.6, color = "grey50") +
-  geom_line(aes(x = year, y = value/1000, color = var), size = 1.3) +
+  geom_line(aes(x = year, y = value, color = var), size = 1.3) +
   labs(x = "Year", y = paste0("Billion people"), color = "Variable") +
   scale_x_continuous(expand = c(0, 0), breaks = c(1975, 2000, 2015, 2050, 2075, 2100)) +
   scale_y_continuous(expand = c(0, 0), limits = c(0, 10)) +
@@ -231,6 +246,12 @@ df.driver.lev %>%
   ggtitle("(C) World population and labor changes") +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"),
         plot.margin = margin(t = 10, r = 18, b = 10, l = 10)) -> p3;p3
+
+
+
+df_pointrange %>% SaveSourceData("SourceDataFig1D_range")
+
+df_points %>% SaveSourceData("SourceDataFig1D_points")
 
 ggplot() +
   geom_rect(data = df_pointrange,

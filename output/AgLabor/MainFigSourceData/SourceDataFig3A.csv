@@ -1,0 +1,577 @@
+scenario,region,year,var,value
+Evolving,Africa,2015,Agricultural labor,1
+Evolving,Africa,2020,Agricultural labor,1.0894795647129882
+Evolving,Africa,2025,Agricultural labor,1.1600131901188115
+Evolving,Africa,2030,Agricultural labor,1.1897584428338546
+Evolving,Africa,2035,Agricultural labor,1.2276005584578427
+Evolving,Africa,2040,Agricultural labor,1.2687755810015287
+Evolving,Africa,2045,Agricultural labor,1.3165383963328634
+Evolving,Africa,2050,Agricultural labor,1.3590710536651107
+Evolving,Africa,2055,Agricultural labor,1.378218355436286
+Evolving,Africa,2060,Agricultural labor,1.381593432768439
+Evolving,Africa,2065,Agricultural labor,1.3731736610386298
+Evolving,Africa,2070,Agricultural labor,1.3484726136905663
+Evolving,Africa,2075,Agricultural labor,1.313033125609734
+Evolving,Africa,2080,Agricultural labor,1.2665976674953248
+Evolving,Africa,2085,Agricultural labor,1.213045049547138
+Evolving,Africa,2090,Agricultural labor,1.1534556960605657
+Evolving,Africa,2095,Agricultural labor,1.090770794167591
+Evolving,Africa,2100,Agricultural labor,1.0261633751701582
+Evolving,China,2015,Agricultural labor,1
+Evolving,China,2020,Agricultural labor,0.8756678321471305
+Evolving,China,2025,Agricultural labor,0.7882207252037404
+Evolving,China,2030,Agricultural labor,0.7118893456146013
+Evolving,China,2035,Agricultural labor,0.6445184041647135
+Evolving,China,2040,Agricultural labor,0.586603285253499
+Evolving,China,2045,Agricultural labor,0.5435268559703723
+Evolving,China,2050,Agricultural labor,0.503941044369541
+Evolving,China,2055,Agricultural labor,0.46306385444811826
+Evolving,China,2060,Agricultural labor,0.42692272564471434
+Evolving,China,2065,Agricultural labor,0.39457459700946895
+Evolving,China,2070,Agricultural labor,0.3660121614657802
+Evolving,China,2075,Agricultural labor,0.3397313258231495
+Evolving,China,2080,Agricultural labor,0.3162944943703253
+Evolving,China,2085,Agricultural labor,0.2946296978026872
+Evolving,China,2090,Agricultural labor,0.27492556224577774
+Evolving,China,2095,Agricultural labor,0.2571777584798282
+Evolving,China,2100,Agricultural labor,0.24116455194389147
+Evolving,North America,2015,Agricultural labor,1
+Evolving,North America,2020,Agricultural labor,0.991306224076476
+Evolving,North America,2025,Agricultural labor,0.9890809699909714
+Evolving,North America,2030,Agricultural labor,0.9718124516496035
+Evolving,North America,2035,Agricultural labor,0.9592945453735648
+Evolving,North America,2040,Agricultural labor,0.9533153920914268
+Evolving,North America,2045,Agricultural labor,0.9594908453743678
+Evolving,North America,2050,Agricultural labor,0.9626863623654157
+Evolving,North America,2055,Agricultural labor,0.9570760009550137
+Evolving,North America,2060,Agricultural labor,0.9454210094987564
+Evolving,North America,2065,Agricultural labor,0.9333802698066012
+Evolving,North America,2070,Agricultural labor,0.9137594348892514
+Evolving,North America,2075,Agricultural labor,0.8899606004392412
+Evolving,North America,2080,Agricultural labor,0.8637617189835073
+Evolving,North America,2085,Agricultural labor,0.836704908103944
+Evolving,North America,2090,Agricultural labor,0.8083613947713648
+Evolving,North America,2095,Agricultural labor,0.7801093879232277
+Evolving,North America,2100,Agricultural labor,0.7498199909026491
+Static,Africa,2015,Agricultural labor,1
+Static,Africa,2020,Agricultural labor,1.1248761860707928
+Static,Africa,2025,Agricultural labor,1.3055208353931003
+Static,Africa,2030,Agricultural labor,1.4907927328220085
+Static,Africa,2035,Agricultural labor,1.6891195424287033
+Static,Africa,2040,Agricultural labor,1.91055848845249
+Static,Africa,2045,Agricultural labor,2.149588419325939
+Static,Africa,2050,Agricultural labor,2.401722862156152
+Static,Africa,2055,Agricultural labor,2.6425434680439968
+Static,Africa,2060,Agricultural labor,2.8801535535878644
+Static,Africa,2065,Agricultural labor,3.1129561203388976
+Static,Africa,2070,Agricultural labor,3.3350315122753487
+Static,Africa,2075,Agricultural labor,3.542274918318685
+Static,Africa,2080,Agricultural labor,3.731334402913843
+Static,Africa,2085,Agricultural labor,3.900188424712109
+Static,Africa,2090,Agricultural labor,4.0481251756487895
+Static,Africa,2095,Agricultural labor,4.175455152518867
+Static,Africa,2100,Agricultural labor,4.285458138647179
+Static,China,2015,Agricultural labor,1
+Static,China,2020,Agricultural labor,1.077293893448457
+Static,China,2025,Agricultural labor,1.1461902044988523
+Static,China,2030,Agricultural labor,1.1950583152207503
+Static,China,2035,Agricultural labor,1.2217605007974037
+Static,China,2040,Agricultural labor,1.235414359796793
+Static,China,2045,Agricultural labor,1.2386524570704245
+Static,China,2050,Agricultural labor,1.2317121140097753
+Static,China,2055,Agricultural labor,1.2165067101658538
+Static,China,2060,Agricultural labor,1.1955057690830069
+Static,China,2065,Agricultural labor,1.1704744062095043
+Static,China,2070,Agricultural labor,1.142318855752855
+Static,China,2075,Agricultural labor,1.111528532998024
+Static,China,2080,Agricultural labor,1.0785716133114012
+Static,China,2085,Agricultural labor,1.0441270483197078
+Static,China,2090,Agricultural labor,1.0100662400671365
+Static,China,2095,Agricultural labor,0.9775071246117224
+Static,China,2100,Agricultural labor,0.9466101754464314
+Static,North America,2015,Agricultural labor,1
+Static,North America,2020,Agricultural labor,1.0682003617461517
+Static,North America,2025,Agricultural labor,1.1443821230397455
+Static,North America,2030,Agricultural labor,1.2136033964555388
+Static,North America,2035,Agricultural labor,1.2757324802898762
+Static,North America,2040,Agricultural labor,1.343256442196147
+Static,North America,2045,Agricultural labor,1.4232349781154918
+Static,North America,2050,Agricultural labor,1.5008711857472625
+Static,North America,2055,Agricultural labor,1.5611603115536954
+Static,North America,2060,Agricultural labor,1.6115711158010608
+Static,North America,2065,Agricultural labor,1.6574154836472637
+Static,North America,2070,Agricultural labor,1.6910292510596812
+Static,North America,2075,Agricultural labor,1.7169726925297215
+Static,North America,2080,Agricultural labor,1.7371938569801313
+Static,North America,2085,Agricultural labor,1.7532466750963274
+Static,North America,2090,Agricultural labor,1.7652633582377926
+Static,North America,2095,Agricultural labor,1.7728038418122654
+Static,North America,2100,Agricultural labor,1.7736786024004707
+Evolving,World,2015,Agricultural labor,1
+Evolving,World,2020,Agricultural labor,0.9778527800542726
+Evolving,World,2025,Agricultural labor,0.956571196795829
+Evolving,World,2030,Agricultural labor,0.9368906496911918
+Evolving,World,2035,Agricultural labor,0.9254514554140619
+Evolving,World,2040,Agricultural labor,0.916350109497298
+Evolving,World,2045,Agricultural labor,0.9125061109627942
+Evolving,World,2050,Agricultural labor,0.9055371867759813
+Evolving,World,2055,Agricultural labor,0.8858932169837981
+Evolving,World,2060,Agricultural labor,0.8607951475629833
+Evolving,World,2065,Agricultural labor,0.8325267043351523
+Evolving,World,2070,Agricultural labor,0.7998504992246245
+Evolving,World,2075,Agricultural labor,0.7650323261908507
+Evolving,World,2080,Agricultural labor,0.7283918948423075
+Evolving,World,2085,Agricultural labor,0.691100474456358
+Evolving,World,2090,Agricultural labor,0.6534432200749767
+Evolving,World,2095,Agricultural labor,0.6164585783435104
+Evolving,World,2100,Agricultural labor,0.5801754435037866
+Static,World,2015,Agricultural labor,1
+Static,World,2020,Agricultural labor,1.1042269866278054
+Static,World,2025,Agricultural labor,1.223955929434281
+Static,World,2030,Agricultural labor,1.3351898561479527
+Static,World,2035,Agricultural labor,1.440727718747637
+Static,World,2040,Agricultural labor,1.5472518955196575
+Static,World,2045,Agricultural labor,1.6536385511175762
+Static,World,2050,Agricultural labor,1.7570291400666513
+Static,World,2055,Agricultural labor,1.8449648286924456
+Static,World,2060,Agricultural labor,1.9252004084131151
+Static,World,2065,Agricultural labor,1.9987574946775155
+Static,World,2070,Agricultural labor,2.0639454927225236
+Static,World,2075,Agricultural labor,2.120410124493875
+Static,World,2080,Agricultural labor,2.1677630216953605
+Static,World,2085,Agricultural labor,2.205967069193833
+Static,World,2090,Agricultural labor,2.2360709276820248
+Static,World,2095,Agricultural labor,2.258673040717457
+Static,World,2100,Agricultural labor,2.2749938393341127
+Evolving,Africa,2015,Effective labor,1
+Evolving,Africa,2020,Effective labor,1.13113364596629
+Evolving,Africa,2025,Effective labor,1.329659617817389
+Evolving,Africa,2030,Effective labor,1.5855096328220208
+Evolving,Africa,2035,Effective labor,1.8510567802383782
+Evolving,Africa,2040,Effective labor,2.1359612821930027
+Evolving,Africa,2045,Effective labor,2.4352777789238096
+Evolving,Africa,2050,Effective labor,2.7452625579029943
+Evolving,Africa,2055,Effective labor,3.0517151421135202
+Evolving,Africa,2060,Effective labor,3.355681018800415
+Evolving,Africa,2065,Effective labor,3.6649559945689023
+Evolving,Africa,2070,Effective labor,3.9640366564144975
+Evolving,Africa,2075,Effective labor,4.251238328204003
+Evolving,Africa,2080,Effective labor,4.514750663385209
+Evolving,Africa,2085,Effective labor,4.756633895358719
+Evolving,Africa,2090,Effective labor,4.969200728889909
+Evolving,Africa,2095,Effective labor,5.158069648701444
+Evolving,Africa,2100,Effective labor,5.325389418116416
+Evolving,China,2015,Effective labor,1
+Evolving,China,2020,Effective labor,1.127365580577728
+Evolving,China,2025,Effective labor,1.242146795543221
+Evolving,China,2030,Effective labor,1.3217111611495564
+Evolving,China,2035,Effective labor,1.372246121893695
+Evolving,China,2040,Effective labor,1.4059168643167959
+Evolving,China,2045,Effective labor,1.4244066431743487
+Evolving,China,2050,Effective labor,1.432191163965827
+Evolving,China,2055,Effective labor,1.4323889595780444
+Evolving,China,2060,Effective labor,1.4245439698183653
+Evolving,China,2065,Effective labor,1.4117243882522723
+Evolving,China,2070,Effective labor,1.3928410384876397
+Evolving,China,2075,Effective labor,1.3707236482050025
+Evolving,China,2080,Effective labor,1.3441957365446082
+Evolving,China,2085,Effective labor,1.315335432631583
+Evolving,China,2090,Effective labor,1.284546854409904
+Evolving,China,2095,Effective labor,1.2537897699250315
+Evolving,China,2100,Effective labor,1.2230562933620548
+Evolving,North America,2015,Effective labor,1
+Evolving,North America,2020,Effective labor,1.0564667373734717
+Evolving,North America,2025,Effective labor,1.109748336062838
+Evolving,North America,2030,Effective labor,1.157467006384526
+Evolving,North America,2035,Effective labor,1.1951357215601321
+Evolving,North America,2040,Effective labor,1.2328995665264717
+Evolving,North America,2045,Effective labor,1.2790660703858265
+Evolving,North America,2050,Effective labor,1.3247226740056608
+Evolving,North America,2055,Effective labor,1.3645640633707556
+Evolving,North America,2060,Effective labor,1.3979928295269535
+Evolving,North America,2065,Effective labor,1.4269346287476348
+Evolving,North America,2070,Effective labor,1.445772182634178
+Evolving,North America,2075,Effective labor,1.4604066524669974
+Evolving,North America,2080,Effective labor,1.4685278719161476
+Evolving,North America,2085,Effective labor,1.4755597976983221
+Evolving,North America,2090,Effective labor,1.479437848622462
+Evolving,North America,2095,Effective labor,1.4815970904054805
+Evolving,North America,2100,Effective labor,1.478390341620344
+Static,Africa,2015,Effective labor,1
+Static,Africa,2020,Effective labor,1.1248761860707928
+Static,Africa,2025,Effective labor,1.3055208353931003
+Static,Africa,2030,Effective labor,1.4907927328220085
+Static,Africa,2035,Effective labor,1.6891195424287033
+Static,Africa,2040,Effective labor,1.91055848845249
+Static,Africa,2045,Effective labor,2.149588419325939
+Static,Africa,2050,Effective labor,2.401722862156152
+Static,Africa,2055,Effective labor,2.6425434680439968
+Static,Africa,2060,Effective labor,2.8801535535878644
+Static,Africa,2065,Effective labor,3.1129561203388976
+Static,Africa,2070,Effective labor,3.3350315122753487
+Static,Africa,2075,Effective labor,3.542274918318685
+Static,Africa,2080,Effective labor,3.731334402913843
+Static,Africa,2085,Effective labor,3.900188424712109
+Static,Africa,2090,Effective labor,4.0481251756487895
+Static,Africa,2095,Effective labor,4.175455152518867
+Static,Africa,2100,Effective labor,4.285458138647179
+Static,China,2015,Effective labor,1
+Static,China,2020,Effective labor,1.077293893448457
+Static,China,2025,Effective labor,1.1461902044988523
+Static,China,2030,Effective labor,1.1950583152207503
+Static,China,2035,Effective labor,1.2217605007974037
+Static,China,2040,Effective labor,1.235414359796793
+Static,China,2045,Effective labor,1.2386524570704245
+Static,China,2050,Effective labor,1.2317121140097753
+Static,China,2055,Effective labor,1.2165067101658538
+Static,China,2060,Effective labor,1.1955057690830069
+Static,China,2065,Effective labor,1.1704744062095043
+Static,China,2070,Effective labor,1.142318855752855
+Static,China,2075,Effective labor,1.111528532998024
+Static,China,2080,Effective labor,1.0785716133114012
+Static,China,2085,Effective labor,1.0441270483197078
+Static,China,2090,Effective labor,1.0100662400671365
+Static,China,2095,Effective labor,0.9775071246117224
+Static,China,2100,Effective labor,0.9466101754464314
+Static,North America,2015,Effective labor,1
+Static,North America,2020,Effective labor,1.0682003617461517
+Static,North America,2025,Effective labor,1.1443821230397455
+Static,North America,2030,Effective labor,1.2136033964555388
+Static,North America,2035,Effective labor,1.2757324802898762
+Static,North America,2040,Effective labor,1.343256442196147
+Static,North America,2045,Effective labor,1.4232349781154918
+Static,North America,2050,Effective labor,1.5008711857472625
+Static,North America,2055,Effective labor,1.5611603115536954
+Static,North America,2060,Effective labor,1.6115711158010608
+Static,North America,2065,Effective labor,1.6574154836472637
+Static,North America,2070,Effective labor,1.6910292510596812
+Static,North America,2075,Effective labor,1.7169726925297215
+Static,North America,2080,Effective labor,1.7371938569801313
+Static,North America,2085,Effective labor,1.7532466750963274
+Static,North America,2090,Effective labor,1.7652633582377926
+Static,North America,2095,Effective labor,1.7728038418122654
+Static,North America,2100,Effective labor,1.7736786024004707
+Evolving,World,2015,Effective labor,1
+Evolving,World,2020,Effective labor,1.1269836639038726
+Evolving,World,2025,Effective labor,1.2691117665196976
+Evolving,World,2030,Effective labor,1.406976209570995
+Evolving,World,2035,Effective labor,1.5349385505691393
+Evolving,World,2040,Effective labor,1.6621181777228982
+Evolving,World,2045,Effective labor,1.7875606704124725
+Evolving,World,2050,Effective labor,1.9082494060526156
+Evolving,World,2055,Effective labor,2.014836902702413
+Evolving,World,2060,Effective labor,2.1130567345254874
+Evolving,World,2065,Effective labor,2.207075808256354
+Evolving,World,2070,Effective labor,2.2918857546557474
+Evolving,World,2075,Effective labor,2.3691315338638947
+Evolving,World,2080,Effective labor,2.4352745521239982
+Evolving,World,2085,Effective labor,2.492457062431683
+Evolving,World,2090,Effective labor,2.539082172709361
+Evolving,World,2095,Effective labor,2.577830279830265
+Evolving,World,2100,Effective labor,2.608985601583003
+Static,World,2015,Effective labor,1
+Static,World,2020,Effective labor,1.1042269866278054
+Static,World,2025,Effective labor,1.223955929434281
+Static,World,2030,Effective labor,1.3351898561479527
+Static,World,2035,Effective labor,1.440727718747637
+Static,World,2040,Effective labor,1.5472518955196575
+Static,World,2045,Effective labor,1.6536385511175762
+Static,World,2050,Effective labor,1.7570291400666513
+Static,World,2055,Effective labor,1.8449648286924456
+Static,World,2060,Effective labor,1.9252004084131151
+Static,World,2065,Effective labor,1.9987574946775155
+Static,World,2070,Effective labor,2.0639454927225236
+Static,World,2075,Effective labor,2.120410124493875
+Static,World,2080,Effective labor,2.1677630216953605
+Static,World,2085,Effective labor,2.205967069193833
+Static,World,2090,Effective labor,2.2360709276820248
+Static,World,2095,Effective labor,2.258673040717457
+Static,World,2100,Effective labor,2.2749938393341127
+Evolving,Africa,2015,Labor productivity,1
+Evolving,Africa,2020,Labor productivity,1.0384754800082134
+Evolving,Africa,2025,Labor productivity,1.1469699716655841
+Evolving,Africa,2030,Labor productivity,1.3331996558919177
+Evolving,Africa,2035,Labor productivity,1.508175808515915
+Evolving,Africa,2040,Labor productivity,1.6827048850192463
+Evolving,Africa,2045,Labor productivity,1.847667779335488
+Evolving,Africa,2050,Labor productivity,2.0166401707742296
+Evolving,Africa,2055,Labor productivity,2.2098513320701914
+Evolving,Africa,2060,Labor productivity,2.4234061670313944
+Evolving,Africa,2065,Labor productivity,2.662232033932576
+Evolving,Africa,2070,Labor productivity,2.931178440300717
+Evolving,Africa,2075,Labor productivity,3.226945577460596
+Evolving,Africa,2080,Labor productivity,3.550782733232632
+Evolving,Africa,2085,Labor productivity,3.9041335068862733
+Evolving,Africa,2090,Labor productivity,4.28751901211522
+Evolving,Africa,2095,Labor productivity,4.70487865623693
+Evolving,Africa,2100,Labor productivity,5.162748132988514
+Evolving,China,2015,Labor productivity,1
+Evolving,China,2020,Labor productivity,1.2874919902755535
+Evolving,China,2025,Labor productivity,1.5760786052696143
+Evolving,China,2030,Labor productivity,1.857035459973056
+Evolving,China,2035,Labor productivity,2.129831402583528
+Evolving,China,2040,Labor productivity,2.3978491954397394
+Evolving,China,2045,Labor productivity,2.6222580273084075
+Evolving,China,2050,Labor productivity,2.8441349550200576
+Evolving,China,2055,Labor productivity,3.0962546987778428
+Evolving,China,2060,Labor productivity,3.340633082254883
+Evolving,China,2065,Labor productivity,3.582500904754255
+Evolving,China,2070,Labor productivity,3.810913986161864
+Evolving,China,2075,Labor productivity,4.041131789564307
+Evolving,China,2080,Labor productivity,4.257222674985918
+Evolving,China,2085,Labor productivity,4.4729428619641425
+Evolving,China,2090,Labor productivity,4.682205700079008
+Evolving,China,2095,Labor productivity,4.886471971124491
+Evolving,China,2100,Labor productivity,5.084240926329284
+Evolving,North America,2015,Labor productivity,1
+Evolving,North America,2020,Labor productivity,1.0658313565846897
+Evolving,North America,2025,Labor productivity,1.122138150252283
+Evolving,North America,2030,Labor productivity,1.191254753092906
+Evolving,North America,2035,Labor productivity,1.2460065202669424
+Evolving,North America,2040,Labor productivity,1.2933305702018472
+Evolving,North America,2045,Labor productivity,1.3328719580010053
+Evolving,North America,2050,Labor productivity,1.375469352108173
+Evolving,North America,2055,Labor productivity,1.4245059598324983
+Evolving,North America,2060,Labor productivity,1.4767159104267658
+Evolving,North America,2065,Labor productivity,1.5261110786671395
+Evolving,North America,2070,Labor productivity,1.5789558932122416
+Evolving,North America,2075,Labor productivity,1.63711720299584
+Evolving,North America,2080,Labor productivity,1.6956982150015016
+Evolving,North America,2085,Labor productivity,1.7586846354802386
+Evolving,North America,2090,Labor productivity,1.825224480751439
+Evolving,North America,2095,Labor productivity,1.894617016768214
+Evolving,North America,2100,Labor productivity,1.9678233576034905
+Static,Africa,2015,Labor productivity,1
+Static,Africa,2020,Labor productivity,1
+Static,Africa,2025,Labor productivity,1
+Static,Africa,2030,Labor productivity,1
+Static,Africa,2035,Labor productivity,1
+Static,Africa,2040,Labor productivity,1
+Static,Africa,2045,Labor productivity,1
+Static,Africa,2050,Labor productivity,1
+Static,Africa,2055,Labor productivity,1
+Static,Africa,2060,Labor productivity,1
+Static,Africa,2065,Labor productivity,1
+Static,Africa,2070,Labor productivity,1
+Static,Africa,2075,Labor productivity,1
+Static,Africa,2080,Labor productivity,1
+Static,Africa,2085,Labor productivity,1
+Static,Africa,2090,Labor productivity,1
+Static,Africa,2095,Labor productivity,1
+Static,Africa,2100,Labor productivity,1
+Static,China,2015,Labor productivity,1
+Static,China,2020,Labor productivity,1
+Static,China,2025,Labor productivity,1
+Static,China,2030,Labor productivity,1
+Static,China,2035,Labor productivity,1
+Static,China,2040,Labor productivity,1
+Static,China,2045,Labor productivity,1
+Static,China,2050,Labor productivity,1
+Static,China,2055,Labor productivity,1
+Static,China,2060,Labor productivity,1
+Static,China,2065,Labor productivity,1
+Static,China,2070,Labor productivity,1
+Static,China,2075,Labor productivity,1
+Static,China,2080,Labor productivity,1
+Static,China,2085,Labor productivity,1
+Static,China,2090,Labor productivity,1
+Static,China,2095,Labor productivity,1
+Static,China,2100,Labor productivity,1
+Static,North America,2015,Labor productivity,1
+Static,North America,2020,Labor productivity,1
+Static,North America,2025,Labor productivity,1
+Static,North America,2030,Labor productivity,1
+Static,North America,2035,Labor productivity,1
+Static,North America,2040,Labor productivity,1
+Static,North America,2045,Labor productivity,1
+Static,North America,2050,Labor productivity,1
+Static,North America,2055,Labor productivity,1
+Static,North America,2060,Labor productivity,1
+Static,North America,2065,Labor productivity,1
+Static,North America,2070,Labor productivity,1
+Static,North America,2075,Labor productivity,1
+Static,North America,2080,Labor productivity,1
+Static,North America,2085,Labor productivity,1
+Static,North America,2090,Labor productivity,1
+Static,North America,2095,Labor productivity,1
+Static,North America,2100,Labor productivity,1
+Evolving,World,2015,Labor productivity,1
+Evolving,World,2020,Labor productivity,1.1598528059715494
+Evolving,World,2025,Labor productivity,1.3499101869696764
+Evolving,World,2030,Labor productivity,1.5370676713106102
+Evolving,World,2035,Labor productivity,1.7098116026379808
+Evolving,World,2040,Labor productivity,1.8837521604836405
+Evolving,World,2045,Labor productivity,2.0462155593094664
+Evolving,World,2050,Labor productivity,2.213186200145668
+Evolving,World,2055,Labor productivity,2.4008332864784636
+Evolving,World,2060,Labor productivity,2.599308921771861
+Evolving,World,2065,Labor productivity,2.8107028756998536
+Evolving,World,2070,Labor productivity,3.034103160320055
+Evolving,World,2075,Labor productivity,3.2715444028374563
+Evolving,World,2080,Labor productivity,3.518176787863515
+Evolving,World,2085,Labor productivity,3.777660547533145
+Evolving,World,2090,Labor productivity,4.048396312761138
+Evolving,World,2095,Labor productivity,4.331595957439603
+Evolving,World,2100,Labor productivity,4.628592119254276
+Static,World,2015,Labor productivity,1
+Static,World,2020,Labor productivity,1
+Static,World,2025,Labor productivity,1
+Static,World,2030,Labor productivity,1
+Static,World,2035,Labor productivity,1
+Static,World,2040,Labor productivity,1
+Static,World,2045,Labor productivity,1
+Static,World,2050,Labor productivity,1
+Static,World,2055,Labor productivity,1
+Static,World,2060,Labor productivity,1
+Static,World,2065,Labor productivity,1
+Static,World,2070,Labor productivity,1
+Static,World,2075,Labor productivity,1
+Static,World,2080,Labor productivity,1
+Static,World,2085,Labor productivity,1
+Static,World,2090,Labor productivity,1
+Static,World,2095,Labor productivity,1
+Static,World,2100,Labor productivity,1
+Evolving,Africa,2015,Agricultural wage,1
+Evolving,Africa,2020,Agricultural wage,1.004707138982613
+Evolving,Africa,2025,Agricultural wage,1.0525291982524976
+Evolving,Africa,2030,Agricultural wage,1.0833666060398446
+Evolving,Africa,2035,Agricultural wage,1.119157502534381
+Evolving,Africa,2040,Agricultural wage,1.1743937588924118
+Evolving,Africa,2045,Agricultural wage,1.2377553728642527
+Evolving,Africa,2050,Agricultural wage,1.3120948883361772
+Evolving,Africa,2055,Agricultural wage,1.365778211807775
+Evolving,Africa,2060,Agricultural wage,1.4214425589136073
+Evolving,Africa,2065,Agricultural wage,1.4629659670179553
+Evolving,Africa,2070,Agricultural wage,1.5056486132602158
+Evolving,Africa,2075,Agricultural wage,1.5301822569632146
+Evolving,Africa,2080,Agricultural wage,1.5589061700380171
+Evolving,Africa,2085,Agricultural wage,1.570661235197519
+Evolving,Africa,2090,Agricultural wage,1.5868110864813032
+Evolving,Africa,2095,Agricultural wage,1.5883365955304725
+Evolving,Africa,2100,Agricultural wage,1.5932938027240704
+Evolving,China,2015,Agricultural wage,1
+Evolving,China,2020,Agricultural wage,0.9766597724438438
+Evolving,China,2025,Agricultural wage,0.9740553985764232
+Evolving,China,2030,Agricultural wage,0.9948023147909799
+Evolving,China,2035,Agricultural wage,1.0191747611026274
+Evolving,China,2040,Agricultural wage,1.0618778127003754
+Evolving,China,2045,Agricultural wage,1.118167347933882
+Evolving,China,2050,Agricultural wage,1.1920590636763242
+Evolving,China,2055,Agricultural wage,1.2555788104976564
+Evolving,China,2060,Agricultural wage,1.3280289940292145
+Evolving,China,2065,Agricultural wage,1.3777354754354487
+Evolving,China,2070,Agricultural wage,1.4374705619805668
+Evolving,China,2075,Agricultural wage,1.4887985543831643
+Evolving,China,2080,Agricultural wage,1.5535070972485372
+Evolving,China,2085,Agricultural wage,1.610393157912876
+Evolving,China,2090,Agricultural wage,1.6791382462577817
+Evolving,China,2095,Agricultural wage,1.7390333139455478
+Evolving,China,2100,Agricultural wage,1.8065572696324734
+Evolving,North America,2015,Agricultural wage,1
+Evolving,North America,2020,Agricultural wage,0.9992511904901191
+Evolving,North America,2025,Agricultural wage,1.0476257627419239
+Evolving,North America,2030,Agricultural wage,1.089050446730147
+Evolving,North America,2035,Agricultural wage,1.1359144682190094
+Evolving,North America,2040,Agricultural wage,1.2120257822011182
+Evolving,North America,2045,Agricultural wage,1.3065186454183757
+Evolving,North America,2050,Agricultural wage,1.4105452823461386
+Evolving,North America,2055,Agricultural wage,1.4826613034827647
+Evolving,North America,2060,Agricultural wage,1.5528498790882013
+Evolving,North America,2065,Agricultural wage,1.6089921184104299
+Evolving,North America,2070,Agricultural wage,1.663459389092136
+Evolving,North America,2075,Agricultural wage,1.693276294082619
+Evolving,North America,2080,Agricultural wage,1.7304581347130477
+Evolving,North America,2085,Agricultural wage,1.7494123754319046
+Evolving,North America,2090,Agricultural wage,1.7745615369315193
+Evolving,North America,2095,Agricultural wage,1.785313357690169
+Evolving,North America,2100,Agricultural wage,1.8003819174819309
+Static,Africa,2015,Agricultural wage,1
+Static,Africa,2020,Agricultural wage,0.9999999999999998
+Static,Africa,2025,Agricultural wage,0.9999999999999998
+Static,Africa,2030,Agricultural wage,0.9999999999999998
+Static,Africa,2035,Agricultural wage,1
+Static,Africa,2040,Agricultural wage,0.9999999999999998
+Static,Africa,2045,Agricultural wage,1
+Static,Africa,2050,Agricultural wage,0.9999999999999998
+Static,Africa,2055,Agricultural wage,1
+Static,Africa,2060,Agricultural wage,1
+Static,Africa,2065,Agricultural wage,1
+Static,Africa,2070,Agricultural wage,0.9999999999999998
+Static,Africa,2075,Agricultural wage,0.9999999999999998
+Static,Africa,2080,Agricultural wage,0.9999999999999998
+Static,Africa,2085,Agricultural wage,0.9999999999999998
+Static,Africa,2090,Agricultural wage,0.9999999999999998
+Static,Africa,2095,Agricultural wage,1
+Static,Africa,2100,Agricultural wage,1
+Static,China,2015,Agricultural wage,1
+Static,China,2020,Agricultural wage,1
+Static,China,2025,Agricultural wage,1.0000000000000002
+Static,China,2030,Agricultural wage,1.0000000000000002
+Static,China,2035,Agricultural wage,1
+Static,China,2040,Agricultural wage,1.0000000000000002
+Static,China,2045,Agricultural wage,1.0000000000000002
+Static,China,2050,Agricultural wage,1.0000000000000002
+Static,China,2055,Agricultural wage,1.0000000000000002
+Static,China,2060,Agricultural wage,1
+Static,China,2065,Agricultural wage,1.0000000000000002
+Static,China,2070,Agricultural wage,1
+Static,China,2075,Agricultural wage,1
+Static,China,2080,Agricultural wage,1
+Static,China,2085,Agricultural wage,1.0000000000000002
+Static,China,2090,Agricultural wage,1.0000000000000002
+Static,China,2095,Agricultural wage,1
+Static,China,2100,Agricultural wage,1.0000000000000002
+Static,North America,2015,Agricultural wage,1
+Static,North America,2020,Agricultural wage,1.0000000000000002
+Static,North America,2025,Agricultural wage,1
+Static,North America,2030,Agricultural wage,1.0000000000000002
+Static,North America,2035,Agricultural wage,1.0000000000000002
+Static,North America,2040,Agricultural wage,1
+Static,North America,2045,Agricultural wage,1.0000000000000002
+Static,North America,2050,Agricultural wage,1.0000000000000002
+Static,North America,2055,Agricultural wage,1
+Static,North America,2060,Agricultural wage,1
+Static,North America,2065,Agricultural wage,1
+Static,North America,2070,Agricultural wage,1.0000000000000002
+Static,North America,2075,Agricultural wage,1
+Static,North America,2080,Agricultural wage,1.0000000000000002
+Static,North America,2085,Agricultural wage,1.0000000000000002
+Static,North America,2090,Agricultural wage,1.0000000000000002
+Static,North America,2095,Agricultural wage,1.0000000000000002
+Static,North America,2100,Agricultural wage,1.0000000000000002
+Evolving,World,2015,Agricultural wage,1
+Evolving,World,2020,Agricultural wage,0.9994423263811139
+Evolving,World,2025,Agricultural wage,1.0437318841994678
+Evolving,World,2030,Agricultural wage,1.0819472821688987
+Evolving,World,2035,Agricultural wage,1.1225853918291846
+Evolving,World,2040,Agricultural wage,1.1828534805232007
+Evolving,World,2045,Agricultural wage,1.2543425056412454
+Evolving,World,2050,Agricultural wage,1.3377603910757618
+Evolving,World,2055,Agricultural wage,1.4010151167584153
+Evolving,World,2060,Agricultural wage,1.4672136546338896
+Evolving,World,2065,Agricultural wage,1.5210082857254597
+Evolving,World,2070,Agricultural wage,1.5783467676954945
+Evolving,World,2075,Agricultural wage,1.6162558906663125
+Evolving,World,2080,Agricultural wage,1.6614879900913593
+Evolving,World,2085,Agricultural wage,1.6902446567493035
+Evolving,World,2090,Agricultural wage,1.7253062338377498
+Evolving,World,2095,Agricultural wage,1.746103237473276
+Evolving,World,2100,Agricultural wage,1.7716402465493537
+Static,World,2015,Agricultural wage,1
+Static,World,2020,Agricultural wage,0.9999999999999999
+Static,World,2025,Agricultural wage,0.9999999999999999
+Static,World,2030,Agricultural wage,1
+Static,World,2035,Agricultural wage,1
+Static,World,2040,Agricultural wage,1
+Static,World,2045,Agricultural wage,0.9999999999999999
+Static,World,2050,Agricultural wage,0.9999999999999999
+Static,World,2055,Agricultural wage,0.9999999999999999
+Static,World,2060,Agricultural wage,0.9999999999999999
+Static,World,2065,Agricultural wage,0.9999999999999999
+Static,World,2070,Agricultural wage,0.9999999999999999
+Static,World,2075,Agricultural wage,0.9999999999999999
+Static,World,2080,Agricultural wage,1
+Static,World,2085,Agricultural wage,1
+Static,World,2090,Agricultural wage,1
+Static,World,2095,Agricultural wage,1
+Static,World,2100,Agricultural wage,0.9999999999999999

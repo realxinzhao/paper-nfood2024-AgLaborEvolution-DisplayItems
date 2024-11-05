@@ -1,0 +1,141 @@
+scenario,element,region,year,value,scenarioYear
+Evolving,Supply: Production,Africa,2015,482.26310443946295,2015
+Evolving,Supply: Production,Africa,2050,1157.053979915582,Evo. 2050
+Evolving,Supply: Production,Africa,2100,2121.7441471735133,Evo. 2100
+Evolving,Supply: Production,China,2015,739.4150665398461,2015
+Evolving,Supply: Production,China,2050,930.2693622954495,Evo. 2050
+Evolving,Supply: Production,China,2100,731.4093399920354,Evo. 2100
+Evolving,Supply: Production,North America,2015,535.1740772,2015
+Evolving,Supply: Production,North America,2050,657.894383850443,Evo. 2050
+Evolving,Supply: Production,North America,2100,749.4301045149853,Evo. 2100
+Evolving,Supply: Production,World,2015,3683.626598020131,2015
+Evolving,Supply: Production,World,2050,5321.3994439460785,Evo. 2050
+Evolving,Supply: Production,World,2100,6297.234505430978,Evo. 2100
+Evolving,Supply: Import,Africa,2015,97.37465040000001,2015
+Evolving,Supply: Import,Africa,2050,149.318927,Evo. 2050
+Evolving,Supply: Import,Africa,2100,206.438105,Evo. 2100
+Evolving,Supply: Import,China,2015,65.438501,2015
+Evolving,Supply: Import,China,2050,56.550574999999995,Evo. 2050
+Evolving,Supply: Import,China,2100,34.907831,Evo. 2100
+Evolving,Supply: Import,North America,2015,21.301049,2015
+Evolving,Supply: Import,North America,2050,32.6912,Evo. 2050
+Evolving,Supply: Import,North America,2100,43.200719,Evo. 2100
+Evolving,Supply: Import,World,2015,499.4228779,2015
+Evolving,Supply: Import,World,2050,694.4962887,Evo. 2050
+Evolving,Supply: Import,World,2100,814.7802502,Evo. 2100
+Evolving,Demand: Other use,Africa,2015,-104.4380655,2015
+Evolving,Demand: Other use,Africa,2050,-188.215397,Evo. 2050
+Evolving,Demand: Other use,Africa,2100,-251.82829600000002,Evo. 2100
+Evolving,Demand: Other use,China,2015,-144.1897197,2015
+Evolving,Demand: Other use,China,2050,-133.9628597,Evo. 2050
+Evolving,Demand: Other use,China,2100,-82.2885387,Evo. 2100
+Evolving,Demand: Other use,North America,2015,-46.217095,2015
+Evolving,Demand: Other use,North America,2050,-57.913229,Evo. 2050
+Evolving,Demand: Other use,North America,2100,-65.8629917,Evo. 2100
+Evolving,Demand: Other use,World,2015,-590.2136811,2015
+Evolving,Demand: Other use,World,2050,-729.1571630999999,Evo. 2050
+Evolving,Demand: Other use,World,2100,-722.7344476,Evo. 2100
+Evolving,Demand: Bioenergy,Africa,2015,-0.1824829,2015
+Evolving,Demand: Bioenergy,Africa,2050,-24.71516,Evo. 2050
+Evolving,Demand: Bioenergy,Africa,2100,-208.22193,Evo. 2100
+Evolving,Demand: Bioenergy,China,2015,-6.88798,2015
+Evolving,Demand: Bioenergy,China,2050,-21.2401,Evo. 2050
+Evolving,Demand: Bioenergy,China,2100,-32.529,Evo. 2100
+Evolving,Demand: Bioenergy,North America,2015,-153.16713,2015
+Evolving,Demand: Bioenergy,North America,2050,-152.8888,Evo. 2050
+Evolving,Demand: Bioenergy,North America,2100,-155.31640000000002,Evo. 2100
+Evolving,Demand: Bioenergy,World,2015,-177.85230689999997,2015
+Evolving,Demand: Bioenergy,World,2050,-310.318963,Evo. 2050
+Evolving,Demand: Bioenergy,World,2100,-580.53088,Evo. 2100
+Evolving,Demand: Feed,Africa,2015,-135.4154704,2015
+Evolving,Demand: Feed,Africa,2050,-550.9479962901,Evo. 2050
+Evolving,Demand: Feed,Africa,2100,-1230.3274586963,Evo. 2100
+Evolving,Demand: Feed,China,2015,-271.3195669,2015
+Evolving,Demand: Feed,China,2050,-462.35162180000003,Evo. 2050
+Evolving,Demand: Feed,China,2100,-352.37902210000004,Evo. 2100
+Evolving,Demand: Feed,North America,2015,-177.0728387,2015
+Evolving,Demand: Feed,North America,2050,-257.39188599,Evo. 2050
+Evolving,Demand: Feed,North America,2100,-337.621662745,Evo. 2100
+Evolving,Demand: Feed,World,2015,-1244.4871815,2015
+Evolving,Demand: Feed,World,2050,-2320.8482004801,Evo. 2050
+Evolving,Demand: Feed,World,2100,-3171.5307703413,Evo. 2100
+Evolving,Demand: Food,Africa,2015,-332.053602,2015
+Evolving,Demand: Food,Africa,2050,-529.036182,Evo. 2050
+Evolving,Demand: Food,Africa,2100,-622.380125,Evo. 2100
+Evolving,Demand: Food,China,2015,-373.155438,2015
+Evolving,Demand: Food,China,2050,-327.696093,Evo. 2050
+Evolving,Demand: Food,China,2100,-198.258483,Evo. 2100
+Evolving,Demand: Food,North America,2015,-56.937027,2015
+Evolving,Demand: Food,North America,2050,-70.515321,Evo. 2050
+Evolving,Demand: Food,North America,2100,-79.66029,Evo. 2100
+Evolving,Demand: Food,World,2015,-1671.06008801,2015
+Evolving,Demand: Food,World,2050,-1961.0638221899999,Evo. 2050
+Evolving,Demand: Food,World,2100,-1822.43758532,Evo. 2100
+Evolving,Demand: Export,Africa,2015,-7.545285,2015
+Evolving,Demand: Export,Africa,2050,-13.4581067,Evo. 2050
+Evolving,Demand: Export,Africa,2100,-15.42399238,Evo. 2100
+Evolving,Demand: Export,China,2015,-9.3006092,2015
+Evolving,Demand: Export,China,2050,-41.5679396,Evo. 2050
+Evolving,Demand: Export,China,2100,-100.86228360999999,Evo. 2100
+Evolving,Demand: Export,North America,2015,-123.06823,2015
+Evolving,Demand: Export,North America,2050,-151.87417,Evo. 2050
+Evolving,Demand: Export,North America,2100,-154.169819,Evo. 2100
+Evolving,Demand: Export,World,2015,-499.423137699,2015
+Evolving,Demand: Export,World,2050,-694.4956226429999,Evo. 2050
+Evolving,Demand: Export,World,2100,-814.7801041719999,Evo. 2100
+Static,Supply: Production,Africa,2050,958.4961161412858,Sta. 2050
+Static,Supply: Production,Africa,2100,1411.879041781797,Sta. 2100
+Static,Supply: Production,China,2050,781.5527008295596,Sta. 2050
+Static,Supply: Production,China,2100,530.3902152507959,Sta. 2100
+Static,Supply: Production,North America,2050,725.4947939112442,Sta. 2050
+Static,Supply: Production,North America,2100,879.585037356467,Sta. 2100
+Static,Supply: Production,World,2050,5024.595862890458,Sta. 2050
+Static,Supply: Production,World,2100,5475.65492680995,Sta. 2100
+Static,Supply: Import,Africa,2050,168.381655,Sta. 2050
+Static,Supply: Import,Africa,2100,239.526338,Sta. 2100
+Static,Supply: Import,China,2050,75.302085,Sta. 2050
+Static,Supply: Import,China,2100,44.820759,Sta. 2100
+Static,Supply: Import,North America,2050,32.257903999999996,Sta. 2050
+Static,Supply: Import,North America,2100,41.234661,Sta. 2100
+Static,Supply: Import,World,2050,741.995089,Sta. 2050
+Static,Supply: Import,World,2100,862.6890721999999,Sta. 2100
+Static,Demand: Other use,Africa,2050,-188.215397,Sta. 2050
+Static,Demand: Other use,Africa,2100,-251.82829600000002,Sta. 2100
+Static,Demand: Other use,China,2050,-133.9628597,Sta. 2050
+Static,Demand: Other use,China,2100,-82.2885387,Sta. 2100
+Static,Demand: Other use,North America,2050,-57.913229,Sta. 2050
+Static,Demand: Other use,North America,2100,-65.8629917,Sta. 2100
+Static,Demand: Other use,World,2050,-729.1571630999999,Sta. 2050
+Static,Demand: Other use,World,2100,-722.7344476,Sta. 2100
+Static,Demand: Bioenergy,Africa,2050,-17.13196,Sta. 2050
+Static,Demand: Bioenergy,Africa,2100,-123.89352,Sta. 2100
+Static,Demand: Bioenergy,China,2050,-5.93233,Sta. 2050
+Static,Demand: Bioenergy,China,2100,-6.33556,Sta. 2100
+Static,Demand: Bioenergy,North America,2050,-155.49020000000002,Sta. 2050
+Static,Demand: Bioenergy,North America,2100,-159.6156,Sta. 2100
+Static,Demand: Bioenergy,World,2050,-282.47447,Sta. 2050
+Static,Demand: Bioenergy,World,2100,-459.27569,Sta. 2100
+Static,Demand: Feed,Africa,2050,-382.0960141445,Sta. 2050
+Static,Demand: Feed,Africa,2100,-644.749183197,Sta. 2100
+Static,Demand: Feed,China,2050,-373.5117397,Sta. 2050
+Static,Demand: Feed,China,2100,-257.3074092,Sta. 2100
+Static,Demand: Feed,North America,2050,-278.679681337,Sta. 2050
+Static,Demand: Feed,North America,2100,-386.243576026,Sta. 2100
+Static,Demand: Feed,World,2050,-2054.2980921815,Sta. 2050
+Static,Demand: Feed,World,2100,-2476.995304723,Sta. 2100
+Static,Demand: Food,Africa,2050,-528.407384,Sta. 2050
+Static,Demand: Food,Africa,2100,-619.3582080000001,Sta. 2100
+Static,Demand: Food,China,2050,-327.718499,Sta. 2050
+Static,Demand: Food,China,2100,-197.99606899999998,Sta. 2100
+Static,Demand: Food,North America,2050,-70.426397,Sta. 2050
+Static,Demand: Food,North America,2100,-79.514445,Sta. 2100
+Static,Demand: Food,World,2050,-1958.66683287,Sta. 2050
+Static,Demand: Food,World,2100,-1816.6513431800001,Sta. 2100
+Static,Demand: Export,Africa,2050,-11.02646965,Sta. 2050
+Static,Demand: Export,Africa,2100,-11.57602779,Sta. 2100
+Static,Demand: Export,China,2050,-15.729635420000001,Sta. 2050
+Static,Demand: Export,China,2100,-31.28360496,Sta. 2100
+Static,Demand: Export,North America,2050,-195.24382,Sta. 2050
+Static,Demand: Export,North America,2100,-229.582979,Sta. 2100
+Static,Demand: Export,World,2050,-741.995165893,Sta. 2050
+Static,Demand: Export,World,2100,-862.689835163,Sta. 2100

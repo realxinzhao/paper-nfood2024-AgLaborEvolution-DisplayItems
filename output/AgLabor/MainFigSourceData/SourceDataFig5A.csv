@@ -1,0 +1,2971 @@
+scenario,region,year,sector,value
+Low productivity,Africa,2015,Agricultural labor,1
+Low productivity,Africa,2020,Agricultural labor,1.1002051172165737
+Low productivity,Africa,2025,Agricultural labor,1.1900154526381734
+Low productivity,Africa,2030,Agricultural labor,1.2463550554231535
+Low productivity,Africa,2035,Agricultural labor,1.3068439051463723
+Low productivity,Africa,2040,Agricultural labor,1.3686033646580111
+Low productivity,Africa,2045,Agricultural labor,1.4351921622994772
+Low productivity,Africa,2050,Agricultural labor,1.4958062446484206
+Low productivity,Africa,2055,Agricultural labor,1.5350283875039499
+Low productivity,Africa,2060,Agricultural labor,1.5580087515702734
+Low productivity,Africa,2065,Agricultural labor,1.5687467338427108
+Low productivity,Africa,2070,Agricultural labor,1.5612468195754314
+Low productivity,Africa,2075,Agricultural labor,1.5412645015279625
+Low productivity,Africa,2080,Agricultural labor,1.5073373812841173
+Low productivity,Africa,2085,Agricultural labor,1.4637311810260807
+Low productivity,Africa,2090,Agricultural labor,1.4105190603595714
+Low productivity,Africa,2095,Agricultural labor,1.3514702410050747
+Low productivity,Africa,2100,Agricultural labor,1.2870656326512404
+Low productivity,China,2015,Agricultural labor,1
+Low productivity,China,2020,Agricultural labor,0.9192939417009777
+Low productivity,China,2025,Agricultural labor,0.8606413849546514
+Low productivity,China,2030,Agricultural labor,0.8016756392475889
+Low productivity,China,2035,Agricultural labor,0.7437827761654578
+Low productivity,China,2040,Agricultural labor,0.6900403035155016
+Low productivity,China,2045,Agricultural labor,0.6475136522233029
+Low productivity,China,2050,Agricultural labor,0.6063996525911151
+Low productivity,China,2055,Agricultural labor,0.5629162874392906
+Low productivity,China,2060,Agricultural labor,0.5229662521049336
+Low productivity,China,2065,Agricultural labor,0.48624846291206714
+Low productivity,China,2070,Agricultural labor,0.4528745581261704
+Low productivity,China,2075,Agricultural labor,0.42170630341759485
+Low productivity,China,2080,Agricultural labor,0.39313737572504354
+Low productivity,China,2085,Agricultural labor,0.3664676615455701
+Low productivity,China,2090,Agricultural labor,0.34178974532069334
+Low productivity,China,2095,Agricultural labor,0.31941663544687
+Low productivity,China,2100,Agricultural labor,0.29899391034120776
+Low productivity,Europe,2015,Agricultural labor,1
+Low productivity,Europe,2020,Agricultural labor,0.990920412881351
+Low productivity,Europe,2025,Agricultural labor,0.9816650184811586
+Low productivity,Europe,2030,Agricultural labor,0.9599641741416951
+Low productivity,Europe,2035,Agricultural labor,0.9384006374042513
+Low productivity,Europe,2040,Agricultural labor,0.9170123684932343
+Low productivity,Europe,2045,Agricultural labor,0.8995760728687074
+Low productivity,Europe,2050,Agricultural labor,0.8798774107655137
+Low productivity,Europe,2055,Agricultural labor,0.856487530884431
+Low productivity,Europe,2060,Agricultural labor,0.8301857899927576
+Low productivity,Europe,2065,Agricultural labor,0.8029367134843682
+Low productivity,Europe,2070,Agricultural labor,0.7729143079807922
+Low productivity,Europe,2075,Agricultural labor,0.7420987106724207
+Low productivity,Europe,2080,Agricultural labor,0.7103356870661252
+Low productivity,Europe,2085,Agricultural labor,0.6793116202700382
+Low productivity,Europe,2090,Agricultural labor,0.6484113984326901
+Low productivity,Europe,2095,Agricultural labor,0.6187365140758933
+Low productivity,Europe,2100,Agricultural labor,0.5891075874457098
+Low productivity,South Asia,2015,Agricultural labor,1
+Low productivity,South Asia,2020,Agricultural labor,1.00919209840231
+Low productivity,South Asia,2025,Agricultural labor,1.0082846713724538
+Low productivity,South Asia,2030,Agricultural labor,1.0248100303902192
+Low productivity,South Asia,2035,Agricultural labor,1.0428549930746813
+Low productivity,South Asia,2040,Agricultural labor,1.055024522322007
+Low productivity,South Asia,2045,Agricultural labor,1.0613522691991184
+Low productivity,South Asia,2050,Agricultural labor,1.058099966203659
+Low productivity,South Asia,2055,Agricultural labor,1.0372404574305265
+Low productivity,South Asia,2060,Agricultural labor,1.00733931743833
+Low productivity,South Asia,2065,Agricultural labor,0.971794913285716
+Low productivity,South Asia,2070,Agricultural labor,0.9318361303292501
+Low productivity,South Asia,2075,Agricultural labor,0.8898938479593302
+Low productivity,South Asia,2080,Agricultural labor,0.8466383209119152
+Low productivity,South Asia,2085,Agricultural labor,0.8036638426307507
+Low productivity,South Asia,2090,Agricultural labor,0.7613112090938394
+Low productivity,South Asia,2095,Agricultural labor,0.7203173798406629
+Low productivity,South Asia,2100,Agricultural labor,0.6805599864636841
+Low productivity,Latin America,2015,Agricultural labor,1
+Low productivity,Latin America,2020,Agricultural labor,1.0188697676420668
+Low productivity,Latin America,2025,Agricultural labor,1.032638108699619
+Low productivity,Latin America,2030,Agricultural labor,1.0301030659349173
+Low productivity,Latin America,2035,Agricultural labor,1.0228156191626219
+Low productivity,Latin America,2040,Agricultural labor,1.0144885377013952
+Low productivity,Latin America,2045,Agricultural labor,1.0101116295595323
+Low productivity,Latin America,2050,Agricultural labor,0.9996082187530091
+Low productivity,Latin America,2055,Agricultural labor,0.9797076698301385
+Low productivity,Latin America,2060,Agricultural labor,0.9517848491915775
+Low productivity,Latin America,2065,Agricultural labor,0.9221278985228477
+Low productivity,Latin America,2070,Agricultural labor,0.8873213069519604
+Low productivity,Latin America,2075,Agricultural labor,0.8513475669981282
+Low productivity,Latin America,2080,Agricultural labor,0.8138959064288985
+Low productivity,Latin America,2085,Agricultural labor,0.7767524519184439
+Low productivity,Latin America,2090,Agricultural labor,0.7393190846340274
+Low productivity,Latin America,2095,Agricultural labor,0.7035393224074342
+Low productivity,Latin America,2100,Agricultural labor,0.667990608563194
+Low productivity,Middle East,2015,Agricultural labor,1
+Low productivity,Middle East,2020,Agricultural labor,1.0472104799238584
+Low productivity,Middle East,2025,Agricultural labor,1.09796661694441
+Low productivity,Middle East,2030,Agricultural labor,1.1395036578386009
+Low productivity,Middle East,2035,Agricultural labor,1.1796259459198275
+Low productivity,Middle East,2040,Agricultural labor,1.2133943288893871
+Low productivity,Middle East,2045,Agricultural labor,1.2449897900368956
+Low productivity,Middle East,2050,Agricultural labor,1.2650028169195462
+Low productivity,Middle East,2055,Agricultural labor,1.2714970398732472
+Low productivity,Middle East,2060,Agricultural labor,1.2665683716840705
+Low productivity,Middle East,2065,Agricultural labor,1.2562248782430114
+Low productivity,Middle East,2070,Agricultural labor,1.2340604543185483
+Low productivity,Middle East,2075,Agricultural labor,1.205901690149878
+Low productivity,Middle East,2080,Agricultural labor,1.1709726138919974
+Low productivity,Middle East,2085,Agricultural labor,1.1327304659334836
+Low productivity,Middle East,2090,Agricultural labor,1.0911931395249141
+Low productivity,Middle East,2095,Agricultural labor,1.0498222717935013
+Low productivity,Middle East,2100,Agricultural labor,1.0055722297064946
+Low productivity,North America,2015,Agricultural labor,1
+Low productivity,North America,2020,Agricultural labor,1.0125282698991485
+Low productivity,North America,2025,Agricultural labor,1.0274325052614453
+Low productivity,North America,2030,Agricultural labor,1.0268470079435719
+Low productivity,North America,2035,Agricultural labor,1.0261597323284448
+Low productivity,North America,2040,Agricultural labor,1.0287446839223762
+Low productivity,North America,2045,Agricultural labor,1.0411157625488328
+Low productivity,North America,2050,Agricultural labor,1.0498724221635887
+Low productivity,North America,2055,Agricultural labor,1.049588535085171
+Low productivity,North America,2060,Agricultural labor,1.0431543487224653
+Low productivity,North America,2065,Agricultural labor,1.0355005923679816
+Low productivity,North America,2070,Agricultural labor,1.0196320728185948
+Low productivity,North America,2075,Agricultural labor,0.9988065730808954
+Low productivity,North America,2080,Agricultural labor,0.9745093407936826
+Low productivity,North America,2085,Agricultural labor,0.9486738169979008
+Low productivity,North America,2090,Agricultural labor,0.920841816816543
+Low productivity,North America,2095,Agricultural labor,0.8925576121588653
+Low productivity,North America,2100,Agricultural labor,0.8615710034182095
+Low productivity,Pacific OECD,2015,Agricultural labor,1
+Low productivity,Pacific OECD,2020,Agricultural labor,0.9966242834815768
+Low productivity,Pacific OECD,2025,Agricultural labor,0.9685397824135298
+Low productivity,Pacific OECD,2030,Agricultural labor,0.9297072695775045
+Low productivity,Pacific OECD,2035,Agricultural labor,0.8918169146472763
+Low productivity,Pacific OECD,2040,Agricultural labor,0.8516673176785039
+Low productivity,Pacific OECD,2045,Agricultural labor,0.8170058486281528
+Low productivity,Pacific OECD,2050,Agricultural labor,0.7828163767784121
+Low productivity,Pacific OECD,2055,Agricultural labor,0.7494992797325631
+Low productivity,Pacific OECD,2060,Agricultural labor,0.7147717397337342
+Low productivity,Pacific OECD,2065,Agricultural labor,0.6804098445564808
+Low productivity,Pacific OECD,2070,Agricultural labor,0.6460094855694187
+Low productivity,Pacific OECD,2075,Agricultural labor,0.6115135160245115
+Low productivity,Pacific OECD,2080,Agricultural labor,0.5775502183130602
+Low productivity,Pacific OECD,2085,Agricultural labor,0.5447513666879532
+Low productivity,Pacific OECD,2090,Agricultural labor,0.51272160715953
+Low productivity,Pacific OECD,2095,Agricultural labor,0.4823482291161061
+Low productivity,Pacific OECD,2100,Agricultural labor,0.45259593858350106
+Low productivity,Reforming,2015,Agricultural labor,1
+Low productivity,Reforming,2020,Agricultural labor,1.031356581163773
+Low productivity,Reforming,2025,Agricultural labor,1.0309453482728184
+Low productivity,Reforming,2030,Agricultural labor,1.0111322211797187
+Low productivity,Reforming,2035,Agricultural labor,0.9937462938023928
+Low productivity,Reforming,2040,Agricultural labor,0.9784880548879852
+Low productivity,Reforming,2045,Agricultural labor,0.967646323653887
+Low productivity,Reforming,2050,Agricultural labor,0.9534692682105471
+Low productivity,Reforming,2055,Agricultural labor,0.9303900633405441
+Low productivity,Reforming,2060,Agricultural labor,0.9006578577876112
+Low productivity,Reforming,2065,Agricultural labor,0.8705512203100646
+Low productivity,Reforming,2070,Agricultural labor,0.8366869870275611
+Low productivity,Reforming,2075,Agricultural labor,0.8026581063298305
+Low productivity,Reforming,2080,Agricultural labor,0.7669986883328543
+Low productivity,Reforming,2085,Agricultural labor,0.732306036767627
+Low productivity,Reforming,2090,Agricultural labor,0.6977049792849619
+Low productivity,Reforming,2095,Agricultural labor,0.6650288170582718
+Low productivity,Reforming,2100,Agricultural labor,0.6333190643208759
+Low productivity,Rest of Asia,2015,Agricultural labor,1
+Low productivity,Rest of Asia,2020,Agricultural labor,1.0006579161864433
+Low productivity,Rest of Asia,2025,Agricultural labor,0.986094465619391
+Low productivity,Rest of Asia,2030,Agricultural labor,0.9683992963314719
+Low productivity,Rest of Asia,2035,Agricultural labor,0.9593329681899968
+Low productivity,Rest of Asia,2040,Agricultural labor,0.948247738518877
+Low productivity,Rest of Asia,2045,Agricultural labor,0.9397570807884488
+Low productivity,Rest of Asia,2050,Agricultural labor,0.9276711798698846
+Low productivity,Rest of Asia,2055,Agricultural labor,0.9015213483980137
+Low productivity,Rest of Asia,2060,Agricultural labor,0.8696351184018987
+Low productivity,Rest of Asia,2065,Agricultural labor,0.8362339463521611
+Low productivity,Rest of Asia,2070,Agricultural labor,0.799006315631247
+Low productivity,Rest of Asia,2075,Agricultural labor,0.7609493487258594
+Low productivity,Rest of Asia,2080,Agricultural labor,0.7228016791545642
+Low productivity,Rest of Asia,2085,Agricultural labor,0.6855020064081071
+Low productivity,Rest of Asia,2090,Agricultural labor,0.649232608060156
+Low productivity,Rest of Asia,2095,Agricultural labor,0.6146394938259941
+Low productivity,Rest of Asia,2100,Agricultural labor,0.581197709478365
+High productivity,Africa,2015,Agricultural labor,1
+High productivity,Africa,2020,Agricultural labor,1.0794515187622822
+High productivity,Africa,2025,Agricultural labor,1.1325298160510961
+High productivity,Africa,2030,Agricultural labor,1.1397497066341702
+High productivity,Africa,2035,Agricultural labor,1.1599164966660847
+High productivity,Africa,2040,Agricultural labor,1.1853540459083045
+High productivity,Africa,2045,Agricultural labor,1.2189490673346897
+High productivity,Africa,2050,Agricultural labor,1.2484559985564125
+High productivity,Africa,2055,Agricultural labor,1.2529642572234618
+High productivity,Africa,2060,Agricultural labor,1.2427053257727902
+High productivity,Africa,2065,Agricultural labor,1.2211707790721462
+High productivity,Africa,2070,Agricultural labor,1.1852668954880463
+High productivity,Africa,2075,Agricultural labor,1.1404779090390715
+High productivity,Africa,2080,Agricultural labor,1.087729133658531
+High productivity,Africa,2085,Agricultural labor,1.0304119743755156
+High productivity,Africa,2090,Agricultural labor,0.9701740069930663
+High productivity,Africa,2095,Agricultural labor,0.909079862840805
+High productivity,Africa,2100,Agricultural labor,0.8484130300985236
+High productivity,China,2015,Agricultural labor,1
+High productivity,China,2020,Agricultural labor,0.8352291938784672
+High productivity,China,2025,Agricultural labor,0.725224434612422
+High productivity,China,2030,Agricultural labor,0.6373767566021352
+High productivity,China,2035,Agricultural labor,0.56536800957587
+High productivity,China,2040,Agricultural labor,0.5067130844677378
+High productivity,China,2045,Agricultural labor,0.4648824014052118
+High productivity,China,2050,Agricultural labor,0.42770633823414667
+High productivity,China,2055,Agricultural labor,0.3899966374426645
+High productivity,China,2060,Agricultural labor,0.3574747101862176
+High productivity,China,2065,Agricultural labor,0.32886291192265316
+High productivity,China,2070,Agricultural labor,0.3041534243831009
+High productivity,China,2075,Agricultural labor,0.2816300818645878
+High productivity,China,2080,Agricultural labor,0.261850146684723
+High productivity,China,2085,Agricultural labor,0.24371710892962548
+High productivity,China,2090,Agricultural labor,0.22746455053552317
+High productivity,China,2095,Agricultural labor,0.21288641329738364
+High productivity,China,2100,Agricultural labor,0.1998573833451289
+High productivity,Europe,2015,Agricultural labor,1
+High productivity,Europe,2020,Agricultural labor,0.9556812383235727
+High productivity,Europe,2025,Agricultural labor,0.917287795240242
+High productivity,Europe,2030,Agricultural labor,0.8709166089854659
+High productivity,Europe,2035,Agricultural labor,0.8307367062598864
+High productivity,Europe,2040,Agricultural labor,0.7945729961990808
+High productivity,Europe,2045,Agricultural labor,0.7646528174882975
+High productivity,Europe,2050,Agricultural labor,0.7345436292994205
+High productivity,Europe,2055,Agricultural labor,0.7035855302826504
+High productivity,Europe,2060,Agricultural labor,0.6717132820585937
+High productivity,Europe,2065,Agricultural labor,0.6407235951315525
+High productivity,Europe,2070,Agricultural labor,0.6089626252707697
+High productivity,Europe,2075,Agricultural labor,0.5760285767859115
+High productivity,Europe,2080,Agricultural labor,0.5447389625555622
+High productivity,Europe,2085,Agricultural labor,0.5146317793705307
+High productivity,Europe,2090,Agricultural labor,0.4856126200640075
+High productivity,Europe,2095,Agricultural labor,0.458141147210556
+High productivity,Europe,2100,Agricultural labor,0.43176194321017647
+High productivity,South Asia,2015,Agricultural labor,1
+High productivity,South Asia,2020,Agricultural labor,0.9280154657862072
+High productivity,South Asia,2025,Agricultural labor,0.8637012680391783
+High productivity,South Asia,2030,Agricultural labor,0.8430336313350684
+High productivity,South Asia,2035,Agricultural labor,0.8333787880756742
+High productivity,South Asia,2040,Agricultural labor,0.8227793267376375
+High productivity,South Asia,2045,Agricultural labor,0.8106880238699286
+High productivity,South Asia,2050,Agricultural labor,0.7934867892183072
+High productivity,South Asia,2055,Agricultural labor,0.7636014769834432
+High productivity,South Asia,2060,Agricultural labor,0.7295514909198136
+High productivity,South Asia,2065,Agricultural labor,0.6933939668218193
+High productivity,South Asia,2070,Agricultural labor,0.656194444749918
+High productivity,South Asia,2075,Agricultural labor,0.6193893895345121
+High productivity,South Asia,2080,Agricultural labor,0.583512717473479
+High productivity,South Asia,2085,Agricultural labor,0.5491707980473589
+High productivity,South Asia,2090,Agricultural labor,0.5163635636280713
+High productivity,South Asia,2095,Agricultural labor,0.48533632113990277
+High productivity,South Asia,2100,Agricultural labor,0.45595056940511997
+High productivity,Latin America,2015,Agricultural labor,1
+High productivity,Latin America,2020,Agricultural labor,0.9857116386659613
+High productivity,Latin America,2025,Agricultural labor,0.9686763978779219
+High productivity,Latin America,2030,Agricultural labor,0.9382485998410103
+High productivity,Latin America,2035,Agricultural labor,0.9104940652832253
+High productivity,Latin America,2040,Agricultural labor,0.8878232063210529
+High productivity,Latin America,2045,Agricultural labor,0.8729359098401086
+High productivity,Latin America,2050,Agricultural labor,0.8549788192526778
+High productivity,Latin America,2055,Agricultural labor,0.8276197996738546
+High productivity,Latin America,2060,Agricultural labor,0.7931261655669894
+High productivity,Latin America,2065,Agricultural labor,0.75769308255269
+High productivity,Latin America,2070,Agricultural labor,0.7183952807510308
+High productivity,Latin America,2075,Agricultural labor,0.6794141951546079
+High productivity,Latin America,2080,Agricultural labor,0.6405002122967036
+High productivity,Latin America,2085,Agricultural labor,0.6028199017268318
+High productivity,Latin America,2090,Agricultural labor,0.5659778731837742
+High productivity,Latin America,2095,Agricultural labor,0.5311451605417373
+High productivity,Latin America,2100,Agricultural labor,0.49745019172416005
+High productivity,Middle East,2015,Agricultural labor,1
+High productivity,Middle East,2020,Agricultural labor,1.0268194829689572
+High productivity,Middle East,2025,Agricultural labor,1.0572759118145392
+High productivity,Middle East,2030,Agricultural labor,1.0724864064400697
+High productivity,Middle East,2035,Agricultural labor,1.0880027677279733
+High productivity,Middle East,2040,Agricultural labor,1.0984806494526995
+High productivity,Middle East,2045,Agricultural labor,1.108716906784725
+High productivity,Middle East,2050,Agricultural labor,1.1103008852834926
+High productivity,Middle East,2055,Agricultural labor,1.099238901179796
+High productivity,Middle East,2060,Agricultural labor,1.0794854110098713
+High productivity,Middle East,2065,Agricultural labor,1.0511875715207613
+High productivity,Middle East,2070,Agricultural labor,1.0133027774092356
+High productivity,Middle East,2075,Agricultural labor,0.9725148651793148
+High productivity,Middle East,2080,Agricultural labor,0.9284700253295901
+High productivity,Middle East,2085,Agricultural labor,0.8839153224198517
+High productivity,Middle East,2090,Agricultural labor,0.8387625226890038
+High productivity,Middle East,2095,Agricultural labor,0.7933340686986917
+High productivity,Middle East,2100,Agricultural labor,0.7468776775731777
+High productivity,North America,2015,Agricultural labor,1
+High productivity,North America,2020,Agricultural labor,0.9695074428428947
+High productivity,North America,2025,Agricultural labor,0.9545590636354783
+High productivity,North America,2030,Agricultural labor,0.9247564650928664
+High productivity,North America,2035,Agricultural labor,0.9039419362668476
+High productivity,North America,2040,Agricultural labor,0.8923506701937859
+High productivity,North America,2045,Agricultural labor,0.8947294378112624
+High productivity,North America,2050,Agricultural labor,0.8945760180879512
+High productivity,North America,2055,Agricultural labor,0.8857187795334315
+High productivity,North America,2060,Agricultural labor,0.8710548478450412
+High productivity,North America,2065,Agricultural labor,0.8565928514454618
+High productivity,North America,2070,Agricultural labor,0.8349521300535503
+High productivity,North America,2075,Agricultural labor,0.8095935273344654
+High productivity,North America,2080,Agricultural labor,0.78251624363744
+High productivity,North America,2085,Agricultural labor,0.755258608530455
+High productivity,North America,2090,Agricultural labor,0.7270209188716568
+High productivity,North America,2095,Agricultural labor,0.6990851653216368
+High productivity,North America,2100,Agricultural labor,0.6695786717937238
+High productivity,Pacific OECD,2015,Agricultural labor,1
+High productivity,Pacific OECD,2020,Agricultural labor,0.960819100040237
+High productivity,Pacific OECD,2025,Agricultural labor,0.9018680816366056
+High productivity,Pacific OECD,2030,Agricultural labor,0.8360896810877659
+High productivity,Pacific OECD,2035,Agricultural labor,0.7800507222476585
+High productivity,Pacific OECD,2040,Agricultural labor,0.7260579487585893
+High productivity,Pacific OECD,2045,Agricultural labor,0.6828163600046481
+High productivity,Pacific OECD,2050,Agricultural labor,0.6433712265017162
+High productivity,Pacific OECD,2055,Agricultural labor,0.6069504975677755
+High productivity,Pacific OECD,2060,Agricultural labor,0.57081666583802
+High productivity,Pacific OECD,2065,Agricultural labor,0.5363660554835161
+High productivity,Pacific OECD,2070,Agricultural labor,0.5033684930664734
+High productivity,Pacific OECD,2075,Agricultural labor,0.47126213032383657
+High productivity,Pacific OECD,2080,Agricultural labor,0.4407252257187351
+High productivity,Pacific OECD,2085,Agricultural labor,0.4118237221770214
+High productivity,Pacific OECD,2090,Agricultural labor,0.384184610094137
+High productivity,Pacific OECD,2095,Agricultural labor,0.3581902549425987
+High productivity,Pacific OECD,2100,Agricultural labor,0.33324092287171414
+High productivity,Reforming,2015,Agricultural labor,1
+High productivity,Reforming,2020,Agricultural labor,0.9976389224774965
+High productivity,Reforming,2025,Agricultural labor,0.9595342033982056
+High productivity,Reforming,2030,Agricultural labor,0.9057885706350834
+High productivity,Reforming,2035,Agricultural labor,0.8645618274041335
+High productivity,Reforming,2040,Agricultural labor,0.832535164486296
+High productivity,Reforming,2045,Agricultural labor,0.8109984132297867
+High productivity,Reforming,2050,Agricultural labor,0.7918572295570039
+High productivity,Reforming,2055,Agricultural labor,0.7643929315848521
+High productivity,Reforming,2060,Agricultural labor,0.7335997965835122
+High productivity,Reforming,2065,Agricultural labor,0.7027372127428556
+High productivity,Reforming,2070,Agricultural labor,0.6692374669085741
+High productivity,Reforming,2075,Agricultural labor,0.6359573388435615
+High productivity,Reforming,2080,Agricultural labor,0.6015901272655615
+High productivity,Reforming,2085,Agricultural labor,0.5687455163330949
+High productivity,Reforming,2090,Agricultural labor,0.5369112090734467
+High productivity,Reforming,2095,Agricultural labor,0.5073014861193902
+High productivity,Reforming,2100,Agricultural labor,0.47970862154105504
+High productivity,Rest of Asia,2015,Agricultural labor,1
+High productivity,Rest of Asia,2020,Agricultural labor,0.9418024659840001
+High productivity,Rest of Asia,2025,Agricultural labor,0.8743019052659817
+High productivity,Rest of Asia,2030,Agricultural labor,0.8197794295748626
+High productivity,Rest of Asia,2035,Agricultural labor,0.7884698948323721
+High productivity,Rest of Asia,2040,Agricultural labor,0.7611750830232893
+High productivity,Rest of Asia,2045,Agricultural labor,0.7415296476583098
+High productivity,Rest of Asia,2050,Agricultural labor,0.7217775894064679
+High productivity,Rest of Asia,2055,Agricultural labor,0.6899031977841272
+High productivity,Rest of Asia,2060,Agricultural labor,0.6553790529955199
+High productivity,Rest of Asia,2065,Agricultural labor,0.6211176608751481
+High productivity,Rest of Asia,2070,Agricultural labor,0.5850909634166506
+High productivity,Rest of Asia,2075,Agricultural labor,0.54970451134155
+High productivity,Rest of Asia,2080,Agricultural labor,0.5157112596914298
+High productivity,Rest of Asia,2085,Agricultural labor,0.4834517658696846
+High productivity,Rest of Asia,2090,Agricultural labor,0.4531042067454501
+High productivity,Rest of Asia,2095,Agricultural labor,0.42484120495434763
+High productivity,Rest of Asia,2100,Agricultural labor,0.3982476170252795
+High Elas.,Africa,2015,Agricultural labor,1
+High Elas.,Africa,2020,Agricultural labor,1.0887095553433652
+High Elas.,Africa,2025,Agricultural labor,1.162734325029253
+High Elas.,Africa,2030,Agricultural labor,1.1922559347659807
+High Elas.,Africa,2035,Agricultural labor,1.2312874276419088
+High Elas.,Africa,2040,Agricultural labor,1.2753290033640103
+High Elas.,Africa,2045,Agricultural labor,1.3268205296048978
+High Elas.,Africa,2050,Agricultural labor,1.3741758564062019
+High Elas.,Africa,2055,Agricultural labor,1.3950129054596154
+High Elas.,Africa,2060,Agricultural labor,1.3995143967014845
+High Elas.,Africa,2065,Agricultural labor,1.3903235593279346
+High Elas.,Africa,2070,Agricultural labor,1.3640473881179729
+High Elas.,Africa,2075,Agricultural labor,1.325983599520334
+High Elas.,Africa,2080,Agricultural labor,1.276909842629753
+High Elas.,Africa,2085,Agricultural labor,1.2204960607488489
+High Elas.,Africa,2090,Agricultural labor,1.158534706450434
+High Elas.,Africa,2095,Agricultural labor,1.0936695255643012
+High Elas.,Africa,2100,Agricultural labor,1.0275738265109056
+High Elas.,China,2015,Agricultural labor,1
+High Elas.,China,2020,Agricultural labor,0.8747402006865511
+High Elas.,China,2025,Agricultural labor,0.7849214387821589
+High Elas.,China,2030,Agricultural labor,0.7077024672943673
+High Elas.,China,2035,Agricultural labor,0.6398413749243683
+High Elas.,China,2040,Agricultural labor,0.5817310785353815
+High Elas.,China,2045,Agricultural labor,0.5386762609759163
+High Elas.,China,2050,Agricultural labor,0.4991699262215732
+High Elas.,China,2055,Agricultural labor,0.4584220394291374
+High Elas.,China,2060,Agricultural labor,0.4225355501605077
+High Elas.,China,2065,Agricultural labor,0.39052630277391864
+High Elas.,China,2070,Agricultural labor,0.3624679357981243
+High Elas.,China,2075,Agricultural labor,0.33671116801175344
+High Elas.,China,2080,Agricultural labor,0.3138726618772003
+High Elas.,China,2085,Agricultural labor,0.292789529943088
+High Elas.,China,2090,Agricultural labor,0.27377614161300085
+High Elas.,China,2095,Agricultural labor,0.2567074180186346
+High Elas.,China,2100,Agricultural labor,0.2413696681504064
+High Elas.,Europe,2015,Agricultural labor,1
+High Elas.,Europe,2020,Agricultural labor,0.9754932511151877
+High Elas.,Europe,2025,Agricultural labor,0.954160763691729
+High Elas.,Europe,2030,Agricultural labor,0.9214007644116002
+High Elas.,Europe,2035,Agricultural labor,0.8910192053235362
+High Elas.,Europe,2040,Agricultural labor,0.862507224557936
+High Elas.,Europe,2045,Agricultural labor,0.8385744288337269
+High Elas.,Europe,2050,Agricultural labor,0.8133853566615379
+High Elas.,Europe,2055,Agricultural labor,0.7860847521820356
+High Elas.,Europe,2060,Agricultural labor,0.7568193870545289
+High Elas.,Europe,2065,Agricultural labor,0.7274565153109963
+High Elas.,Europe,2070,Agricultural labor,0.6965266214574153
+High Elas.,Europe,2075,Agricultural labor,0.6636303987558444
+High Elas.,Europe,2080,Agricultural labor,0.6316098332354008
+High Elas.,Europe,2085,Agricultural labor,0.6002321216887918
+High Elas.,Europe,2090,Agricultural labor,0.5695229969821058
+High Elas.,Europe,2095,Agricultural labor,0.5400499108109797
+High Elas.,Europe,2100,Agricultural labor,0.5114066244854547
+High Elas.,South Asia,2015,Agricultural labor,1
+High Elas.,South Asia,2020,Agricultural labor,0.9645010668540767
+High Elas.,South Asia,2025,Agricultural labor,0.9276663932919721
+High Elas.,South Asia,2030,Agricultural labor,0.9230736379540563
+High Elas.,South Asia,2035,Agricultural labor,0.9252527287797421
+High Elas.,South Asia,2040,Agricultural labor,0.9241564631192403
+High Elas.,South Asia,2045,Agricultural labor,0.9195920586155861
+High Elas.,South Asia,2050,Agricultural labor,0.9081326931407845
+High Elas.,South Asia,2055,Agricultural labor,0.8816431316435839
+High Elas.,South Asia,2060,Agricultural labor,0.8491113720722148
+High Elas.,South Asia,2065,Agricultural labor,0.8129402218139288
+High Elas.,South Asia,2070,Agricultural labor,0.7744812409847831
+High Elas.,South Asia,2075,Agricultural labor,0.7356147962434144
+High Elas.,South Asia,2080,Agricultural labor,0.6969232704180279
+High Elas.,South Asia,2085,Agricultural labor,0.6591876915782444
+High Elas.,South Asia,2090,Agricultural labor,0.6226524227565052
+High Elas.,South Asia,2095,Agricultural labor,0.5876110591106619
+High Elas.,South Asia,2100,Agricultural labor,0.5541119466428869
+High Elas.,Latin America,2015,Agricultural labor,1
+High Elas.,Latin America,2020,Agricultural labor,1.004207359505593
+High Elas.,Latin America,2025,Agricultural labor,1.0039305994179895
+High Elas.,Latin America,2030,Agricultural labor,0.9878255393028832
+High Elas.,Latin America,2035,Agricultural labor,0.9705266737934802
+High Elas.,Latin America,2040,Agricultural labor,0.9566366907014003
+High Elas.,Latin America,2045,Agricultural labor,0.9496399372438528
+High Elas.,Latin America,2050,Agricultural labor,0.9388048042746381
+High Elas.,Latin America,2055,Agricultural labor,0.916709789377833
+High Elas.,Latin America,2060,Agricultural labor,0.8863180679221767
+High Elas.,Latin America,2065,Agricultural labor,0.8537259505085648
+High Elas.,Latin America,2070,Agricultural labor,0.8160075312362991
+High Elas.,Latin America,2075,Agricultural labor,0.7774417033411355
+High Elas.,Latin America,2080,Agricultural labor,0.7381316928148958
+High Elas.,Latin America,2085,Agricultural labor,0.6990895305082078
+High Elas.,Latin America,2090,Agricultural labor,0.6603366118626802
+High Elas.,Latin America,2095,Agricultural labor,0.6230962449203412
+High Elas.,Latin America,2100,Agricultural labor,0.5866004447064663
+High Elas.,Middle East,2015,Agricultural labor,1
+High Elas.,Middle East,2020,Agricultural labor,1.0396747326364255
+High Elas.,Middle East,2025,Agricultural labor,1.0846332512319088
+High Elas.,Middle East,2030,Agricultural labor,1.1178835849728332
+High Elas.,Middle East,2035,Agricultural labor,1.1503871596038209
+High Elas.,Middle East,2040,Agricultural labor,1.176965822246266
+High Elas.,Middle East,2045,Agricultural labor,1.2015724835235562
+High Elas.,Middle East,2050,Agricultural labor,1.2157727205314173
+High Elas.,Middle East,2055,Agricultural labor,1.213923302396199
+High Elas.,Middle East,2060,Agricultural labor,1.2026008797617598
+High Elas.,Middle East,2065,Agricultural labor,1.1809855843009878
+High Elas.,Middle East,2070,Agricultural labor,1.1471958155311268
+High Elas.,Middle East,2075,Agricultural labor,1.1088716480423757
+High Elas.,Middle East,2080,Agricultural labor,1.0659414146742203
+High Elas.,Middle East,2085,Agricultural labor,1.0217687308167507
+High Elas.,Middle East,2090,Agricultural labor,0.9753308693664688
+High Elas.,Middle East,2095,Agricultural labor,0.9274681339490803
+High Elas.,Middle East,2100,Agricultural labor,0.8782025333033681
+High Elas.,North America,2015,Agricultural labor,1
+High Elas.,North America,2020,Agricultural labor,0.9920163727597859
+High Elas.,North America,2025,Agricultural labor,0.9921812476135183
+High Elas.,North America,2030,Agricultural labor,0.97645579046719
+High Elas.,North America,2035,Agricultural labor,0.966097854068698
+High Elas.,North America,2040,Agricultural labor,0.9644060639303043
+High Elas.,North America,2045,Agricultural labor,0.9768161375459541
+High Elas.,North America,2050,Agricultural labor,0.9861603195118261
+High Elas.,North America,2055,Agricultural labor,0.9838140833720691
+High Elas.,North America,2060,Agricultural labor,0.9744093608654004
+High Elas.,North America,2065,Agricultural labor,0.9639841050199054
+High Elas.,North America,2070,Agricultural labor,0.9451640137593795
+High Elas.,North America,2075,Agricultural labor,0.9211124542636855
+High Elas.,North America,2080,Agricultural labor,0.8949514106783872
+High Elas.,North America,2085,Agricultural labor,0.8673529960299188
+High Elas.,North America,2090,Agricultural labor,0.8385108994204927
+High Elas.,North America,2095,Agricultural labor,0.8092700497404486
+High Elas.,North America,2100,Agricultural labor,0.7779177560057786
+High Elas.,Pacific OECD,2015,Agricultural labor,1
+High Elas.,Pacific OECD,2020,Agricultural labor,0.9779039693400935
+High Elas.,Pacific OECD,2025,Agricultural labor,0.9345197581730913
+High Elas.,Pacific OECD,2030,Agricultural labor,0.8815763714074311
+High Elas.,Pacific OECD,2035,Agricultural labor,0.8339441960579386
+High Elas.,Pacific OECD,2040,Agricultural labor,0.7859163187906227
+High Elas.,Pacific OECD,2045,Agricultural labor,0.7463788773711981
+High Elas.,Pacific OECD,2050,Agricultural labor,0.7093749231935627
+High Elas.,Pacific OECD,2055,Agricultural labor,0.6745107014455012
+High Elas.,Pacific OECD,2060,Agricultural labor,0.6391766930566966
+High Elas.,Pacific OECD,2065,Agricultural labor,0.604699517790064
+High Elas.,Pacific OECD,2070,Agricultural labor,0.5711198060723264
+High Elas.,Pacific OECD,2075,Agricultural labor,0.5379137751081255
+High Elas.,Pacific OECD,2080,Agricultural labor,0.505952843191532
+High Elas.,Pacific OECD,2085,Agricultural labor,0.4751484584572508
+High Elas.,Pacific OECD,2090,Agricultural labor,0.44541774939805606
+High Elas.,Pacific OECD,2095,Agricultural labor,0.4171454240190557
+High Elas.,Pacific OECD,2100,Agricultural labor,0.3897568966142749
+High Elas.,Reforming,2015,Agricultural labor,1
+High Elas.,Reforming,2020,Agricultural labor,1.0108647563054867
+High Elas.,Reforming,2025,Agricultural labor,0.9951406530709321
+High Elas.,Reforming,2030,Agricultural labor,0.9591657900119335
+High Elas.,Reforming,2035,Agricultural labor,0.9306596547940597
+High Elas.,Reforming,2040,Agricultural labor,0.9086734925366876
+High Elas.,Reforming,2045,Agricultural labor,0.894751662211435
+High Elas.,Reforming,2050,Agricultural labor,0.8814244454924095
+High Elas.,Reforming,2055,Agricultural labor,0.8577984283065039
+High Elas.,Reforming,2060,Agricultural labor,0.8295954021265955
+High Elas.,Reforming,2065,Agricultural labor,0.8003069186567422
+High Elas.,Reforming,2070,Agricultural labor,0.7673599549483744
+High Elas.,Reforming,2075,Agricultural labor,0.733856191739361
+High Elas.,Reforming,2080,Agricultural labor,0.6990034585024598
+High Elas.,Reforming,2085,Agricultural labor,0.6646105700324757
+High Elas.,Reforming,2090,Agricultural labor,0.6308101136159695
+High Elas.,Reforming,2095,Agricultural labor,0.5988783984656915
+High Elas.,Reforming,2100,Agricultural labor,0.5687537187679513
+High Elas.,Rest of Asia,2015,Agricultural labor,1
+High Elas.,Rest of Asia,2020,Agricultural labor,0.9683336189501153
+High Elas.,Rest of Asia,2025,Agricultural labor,0.923789801994575
+High Elas.,Rest of Asia,2030,Agricultural labor,0.8849405119924151
+High Elas.,Rest of Asia,2035,Agricultural labor,0.8632841282820674
+High Elas.,Rest of Asia,2040,Agricultural labor,0.8430411135820683
+High Elas.,Rest of Asia,2045,Agricultural labor,0.828464817786537
+High Elas.,Rest of Asia,2050,Agricultural labor,0.8127913705508489
+High Elas.,Rest of Asia,2055,Agricultural labor,0.7832919029307722
+High Elas.,Rest of Asia,2060,Agricultural labor,0.7499341311332219
+High Elas.,Rest of Asia,2065,Agricultural labor,0.7158421645807774
+High Elas.,Rest of Asia,2070,Agricultural labor,0.6789972465020261
+High Elas.,Rest of Asia,2075,Agricultural labor,0.6420519395973157
+High Elas.,Rest of Asia,2080,Agricultural labor,0.605950927244193
+High Elas.,Rest of Asia,2085,Agricultural labor,0.5710755281375671
+High Elas.,Rest of Asia,2090,Agricultural labor,0.5378418980426614
+High Elas.,Rest of Asia,2095,Agricultural labor,0.5065173262356112
+High Elas.,Rest of Asia,2100,Agricultural labor,0.4767399129278998
+Low Elas.,Africa,2015,Agricultural labor,1
+Low Elas.,Africa,2020,Agricultural labor,1.0907205576708958
+Low Elas.,Africa,2025,Agricultural labor,1.1539502763874145
+Low Elas.,Africa,2030,Agricultural labor,1.183922482774702
+Low Elas.,Africa,2035,Agricultural labor,1.2191117908158535
+Low Elas.,Africa,2040,Agricultural labor,1.2540699570898313
+Low Elas.,Africa,2045,Agricultural labor,1.29441336386046
+Low Elas.,Africa,2050,Agricultural labor,1.3272227969725225
+Low Elas.,Africa,2055,Agricultural labor,1.3419837303559594
+Low Elas.,Africa,2060,Agricultural labor,1.3410267596401313
+Low Elas.,Africa,2065,Agricultural labor,1.3325072739103212
+Low Elas.,Africa,2070,Agricultural labor,1.3098750551183644
+Low Elas.,Africa,2075,Agricultural labor,1.279717781335822
+Low Elas.,Africa,2080,Agricultural labor,1.2391630176516386
+Low Elas.,Africa,2085,Agricultural labor,1.1930696651142607
+Low Elas.,Africa,2090,Agricultural labor,1.1404360915131315
+Low Elas.,Africa,2095,Agricultural labor,1.0848852949906347
+Low Elas.,Africa,2100,Agricultural labor,1.0258924882898177
+Low Elas.,China,2015,Agricultural labor,1
+Low Elas.,China,2020,Agricultural labor,0.8776495053918586
+Low Elas.,China,2025,Agricultural labor,0.7957170073594174
+Low Elas.,China,2030,Agricultural labor,0.7217068848975574
+Low Elas.,China,2035,Agricultural labor,0.6557845923214559
+Low Elas.,China,2040,Agricultural labor,0.5986799710316592
+Low Elas.,China,2045,Agricultural labor,0.5557828118588684
+Low Elas.,China,2050,Agricultural labor,0.5162421301857155
+Low Elas.,China,2055,Agricultural labor,0.475281703933661
+Low Elas.,China,2060,Agricultural labor,0.43845765047968954
+Low Elas.,China,2065,Agricultural labor,0.40496464011566924
+Low Elas.,China,2070,Agricultural labor,0.3749383538001824
+Low Elas.,China,2075,Agricultural labor,0.3471838885183889
+Low Elas.,China,2080,Agricultural labor,0.32209976152580516
+Low Elas.,China,2085,Agricultural labor,0.29888291697688407
+Low Elas.,China,2090,Agricultural labor,0.2766257836639645
+Low Elas.,China,2095,Agricultural labor,0.25681520628889587
+Low Elas.,China,2100,Agricultural labor,0.23883478137735586
+Low Elas.,Europe,2015,Agricultural labor,1
+Low Elas.,Europe,2020,Agricultural labor,0.9675567486349049
+Low Elas.,Europe,2025,Agricultural labor,0.9354856800100368
+Low Elas.,Europe,2030,Agricultural labor,0.8941537177944666
+Low Elas.,Europe,2035,Agricultural labor,0.8567611915776632
+Low Elas.,Europe,2040,Agricultural labor,0.82176971171257
+Low Elas.,Europe,2045,Agricultural labor,0.7932497100965443
+Low Elas.,Europe,2050,Agricultural labor,0.7641089030534131
+Low Elas.,Europe,2055,Agricultural labor,0.7342552023514375
+Low Elas.,Europe,2060,Agricultural labor,0.7029285331993712
+Low Elas.,Europe,2065,Agricultural labor,0.6730472683634918
+Low Elas.,Europe,2070,Agricultural labor,0.6417293319445941
+Low Elas.,Europe,2075,Agricultural labor,0.6103989139952813
+Low Elas.,Europe,2080,Agricultural labor,0.5782337176729473
+Low Elas.,Europe,2085,Agricultural labor,0.5480648672421353
+Low Elas.,Europe,2090,Agricultural labor,0.5189117471216993
+Low Elas.,Europe,2095,Agricultural labor,0.4912503773949385
+Low Elas.,Europe,2100,Agricultural labor,0.464080604033864
+Low Elas.,South Asia,2015,Agricultural labor,1
+Low Elas.,South Asia,2020,Agricultural labor,0.9725076320721892
+Low Elas.,South Asia,2025,Agricultural labor,0.9380512021588725
+Low Elas.,South Asia,2030,Agricultural labor,0.9312335372099763
+Low Elas.,South Asia,2035,Agricultural labor,0.9301278689882259
+Low Elas.,South Asia,2040,Agricultural labor,0.9258980401837414
+Low Elas.,South Asia,2045,Agricultural labor,0.9184717245093459
+Low Elas.,South Asia,2050,Agricultural labor,0.9015022538123048
+Low Elas.,South Asia,2055,Agricultural labor,0.8702209561421312
+Low Elas.,South Asia,2060,Agricultural labor,0.8329838224735736
+Low Elas.,South Asia,2065,Agricultural labor,0.7929192627447175
+Low Elas.,South Asia,2070,Agricultural labor,0.7508193816467955
+Low Elas.,South Asia,2075,Agricultural labor,0.7085831984249398
+Low Elas.,South Asia,2080,Agricultural labor,0.6659250915540735
+Low Elas.,South Asia,2085,Agricultural labor,0.6252388568650079
+Low Elas.,South Asia,2090,Agricultural labor,0.5863769601847991
+Low Elas.,South Asia,2095,Agricultural labor,0.5499033265831259
+Low Elas.,South Asia,2100,Agricultural labor,0.5153513869603585
+Low Elas.,Latin America,2015,Agricultural labor,1
+Low Elas.,Latin America,2020,Agricultural labor,0.9962572000354019
+Low Elas.,Latin America,2025,Agricultural labor,0.9874585631017991
+Low Elas.,Latin America,2030,Agricultural labor,0.9653737806671787
+Low Elas.,Latin America,2035,Agricultural labor,0.9434496819816183
+Low Elas.,Latin America,2040,Agricultural labor,0.9218914601939814
+Low Elas.,Latin America,2045,Agricultural labor,0.904768732160694
+Low Elas.,Latin America,2050,Agricultural labor,0.8826279072373342
+Low Elas.,Latin America,2055,Agricultural labor,0.8539701297224271
+Low Elas.,Latin America,2060,Agricultural labor,0.8195803762895414
+Low Elas.,Latin America,2065,Agricultural labor,0.7844714446201311
+Low Elas.,Latin America,2070,Agricultural labor,0.7459220058507473
+Low Elas.,Latin America,2075,Agricultural labor,0.7086060498097814
+Low Elas.,Latin America,2080,Agricultural labor,0.6709121779394239
+Low Elas.,Latin America,2085,Agricultural labor,0.6351807160165149
+Low Elas.,Latin America,2090,Agricultural labor,0.6003696462509667
+Low Elas.,Latin America,2095,Agricultural labor,0.5679634274184349
+Low Elas.,Latin America,2100,Agricultural labor,0.5360661686413788
+Low Elas.,Middle East,2015,Agricultural labor,1
+Low Elas.,Middle East,2020,Agricultural labor,1.0305912362914316
+Low Elas.,Middle East,2025,Agricultural labor,1.0594940617490072
+Low Elas.,Middle East,2030,Agricultural labor,1.07560392807558
+Low Elas.,Middle East,2035,Agricultural labor,1.0912793481053313
+Low Elas.,Middle East,2040,Agricultural labor,1.1009169012841393
+Low Elas.,Middle East,2045,Agricultural labor,1.1106366082273427
+Low Elas.,Middle East,2050,Agricultural labor,1.1102254774374798
+Low Elas.,Middle East,2055,Agricultural labor,1.101492880145348
+Low Elas.,Middle East,2060,Agricultural labor,1.0830726571802052
+Low Elas.,Middle East,2065,Agricultural labor,1.0626573392635215
+Low Elas.,Middle East,2070,Agricultural labor,1.033163694880718
+Low Elas.,Middle East,2075,Agricultural labor,1.0009387537142804
+Low Elas.,Middle East,2080,Agricultural labor,0.9638003843901666
+Low Elas.,Middle East,2085,Agricultural labor,0.9270991793130416
+Low Elas.,Middle East,2090,Agricultural labor,0.8887008767602725
+Low Elas.,Middle East,2095,Agricultural labor,0.8512792176316988
+Low Elas.,Middle East,2100,Agricultural labor,0.812125240928742
+Low Elas.,North America,2015,Agricultural labor,1
+Low Elas.,North America,2020,Agricultural labor,0.9877081875822806
+Low Elas.,North America,2025,Agricultural labor,0.9743455749026921
+Low Elas.,North America,2030,Agricultural labor,0.9496177730888434
+Low Elas.,North America,2035,Agricultural labor,0.9284213507292312
+Low Elas.,North America,2040,Agricultural labor,0.9076430296424439
+Low Elas.,North America,2045,Agricultural labor,0.8944827300830798
+Low Elas.,North America,2050,Agricultural labor,0.878320583683004
+Low Elas.,North America,2055,Agricultural labor,0.8616207671933107
+Low Elas.,North America,2060,Agricultural labor,0.8414571725074834
+Low Elas.,North America,2065,Agricultural labor,0.8235187482598554
+Low Elas.,North America,2070,Agricultural labor,0.8002071022479916
+Low Elas.,North America,2075,Agricultural labor,0.7763711626655897
+Low Elas.,North America,2080,Agricultural labor,0.7496421029645062
+Low Elas.,North America,2085,Agricultural labor,0.7240525335653673
+Low Elas.,North America,2090,Agricultural labor,0.6971893151190742
+Low Elas.,North America,2095,Agricultural labor,0.6718681494333353
+Low Elas.,North America,2100,Agricultural labor,0.6447741289835854
+Low Elas.,Pacific OECD,2015,Agricultural labor,1
+Low Elas.,Pacific OECD,2020,Agricultural labor,0.9787370350887857
+Low Elas.,Pacific OECD,2025,Agricultural labor,0.9311044613892817
+Low Elas.,Pacific OECD,2030,Agricultural labor,0.8736894324359527
+Low Elas.,Pacific OECD,2035,Agricultural labor,0.8225288624648803
+Low Elas.,Pacific OECD,2040,Agricultural labor,0.7725350010865627
+Low Elas.,Pacific OECD,2045,Agricultural labor,0.7308497978722982
+Low Elas.,Pacific OECD,2050,Agricultural labor,0.6900270610982887
+Low Elas.,Pacific OECD,2055,Agricultural labor,0.6517217703953703
+Low Elas.,Pacific OECD,2060,Agricultural labor,0.6132365621452843
+Low Elas.,Pacific OECD,2065,Agricultural labor,0.5771284728168738
+Low Elas.,Pacific OECD,2070,Agricultural labor,0.5418148153389316
+Low Elas.,Pacific OECD,2075,Agricultural labor,0.5081463582700563
+Low Elas.,Pacific OECD,2080,Agricultural labor,0.4759371804316391
+Low Elas.,Pacific OECD,2085,Agricultural labor,0.4456863188863625
+Low Elas.,Pacific OECD,2090,Agricultural labor,0.4168190736342523
+Low Elas.,Pacific OECD,2095,Agricultural labor,0.3899552616706262
+Low Elas.,Pacific OECD,2100,Agricultural labor,0.3639838694682544
+Low Elas.,Reforming,2015,Agricultural labor,1
+Low Elas.,Reforming,2020,Agricultural labor,1.0197194132650484
+Low Elas.,Reforming,2025,Agricultural labor,0.9916109588566466
+Low Elas.,Reforming,2030,Agricultural labor,0.9500340417741141
+Low Elas.,Reforming,2035,Agricultural labor,0.9143552707235667
+Low Elas.,Reforming,2040,Agricultural labor,0.8824181571029261
+Low Elas.,Reforming,2045,Agricultural labor,0.857677144973644
+Low Elas.,Reforming,2050,Agricultural labor,0.8324583569493035
+Low Elas.,Reforming,2055,Agricultural labor,0.8024989558402846
+Low Elas.,Reforming,2060,Agricultural labor,0.769115759981106
+Low Elas.,Reforming,2065,Agricultural labor,0.7359816007548083
+Low Elas.,Reforming,2070,Agricultural labor,0.6988458196609961
+Low Elas.,Reforming,2075,Agricultural labor,0.6635293461389227
+Low Elas.,Reforming,2080,Agricultural labor,0.6277691721151472
+Low Elas.,Reforming,2085,Agricultural labor,0.594407408167741
+Low Elas.,Reforming,2090,Agricultural labor,0.5620677635822331
+Low Elas.,Reforming,2095,Agricultural labor,0.5325486530979896
+Low Elas.,Reforming,2100,Agricultural labor,0.5031623124844251
+Low Elas.,Rest of Asia,2015,Agricultural labor,1
+Low Elas.,Rest of Asia,2020,Agricultural labor,0.9743108179838741
+Low Elas.,Rest of Asia,2025,Agricultural labor,0.9341453637456186
+Low Elas.,Rest of Asia,2030,Agricultural labor,0.8964544161296499
+Low Elas.,Rest of Asia,2035,Agricultural labor,0.8741648259397988
+Low Elas.,Rest of Asia,2040,Agricultural labor,0.8491158102962768
+Low Elas.,Rest of Asia,2045,Agricultural labor,0.8292055809430874
+Low Elas.,Rest of Asia,2050,Agricultural labor,0.8073362597782539
+Low Elas.,Rest of Asia,2055,Agricultural labor,0.7751130678221966
+Low Elas.,Rest of Asia,2060,Agricultural labor,0.739584447078182
+Low Elas.,Rest of Asia,2065,Agricultural labor,0.7042697943937767
+Low Elas.,Rest of Asia,2070,Agricultural labor,0.666597142569199
+Low Elas.,Rest of Asia,2075,Agricultural labor,0.6293346871357112
+Low Elas.,Rest of Asia,2080,Agricultural labor,0.5929521310267475
+Low Elas.,Rest of Asia,2085,Agricultural labor,0.558253955837015
+Low Elas.,Rest of Asia,2090,Agricultural labor,0.5244255892292043
+Low Elas.,Rest of Asia,2095,Agricultural labor,0.4930368247782513
+Low Elas.,Rest of Asia,2100,Agricultural labor,0.4631227792720968
+Evolving,Africa,2015,Agricultural labor,1
+Evolving,Africa,2020,Agricultural labor,1.0894795647129882
+Evolving,Africa,2025,Agricultural labor,1.1600131901188115
+Evolving,Africa,2030,Agricultural labor,1.1897584428338546
+Evolving,Africa,2035,Agricultural labor,1.2276005584578427
+Evolving,Africa,2040,Agricultural labor,1.2687755810015287
+Evolving,Africa,2045,Agricultural labor,1.3165383963328634
+Evolving,Africa,2050,Agricultural labor,1.3590710536651107
+Evolving,Africa,2055,Agricultural labor,1.378218355436286
+Evolving,Africa,2060,Agricultural labor,1.381593432768439
+Evolving,Africa,2065,Agricultural labor,1.3731736610386298
+Evolving,Africa,2070,Agricultural labor,1.3484726136905663
+Evolving,Africa,2075,Agricultural labor,1.313033125609734
+Evolving,Africa,2080,Agricultural labor,1.2665976674953248
+Evolving,Africa,2085,Agricultural labor,1.213045049547138
+Evolving,Africa,2090,Agricultural labor,1.1534556960605657
+Evolving,Africa,2095,Agricultural labor,1.090770794167591
+Evolving,Africa,2100,Agricultural labor,1.0261633751701582
+Evolving,China,2015,Agricultural labor,1
+Evolving,China,2020,Agricultural labor,0.8756678321471305
+Evolving,China,2025,Agricultural labor,0.7882207252037404
+Evolving,China,2030,Agricultural labor,0.7118893456146013
+Evolving,China,2035,Agricultural labor,0.6445184041647135
+Evolving,China,2040,Agricultural labor,0.586603285253499
+Evolving,China,2045,Agricultural labor,0.5435268559703723
+Evolving,China,2050,Agricultural labor,0.503941044369541
+Evolving,China,2055,Agricultural labor,0.46306385444811826
+Evolving,China,2060,Agricultural labor,0.42692272564471434
+Evolving,China,2065,Agricultural labor,0.39457459700946895
+Evolving,China,2070,Agricultural labor,0.3660121614657802
+Evolving,China,2075,Agricultural labor,0.3397313258231495
+Evolving,China,2080,Agricultural labor,0.3162944943703253
+Evolving,China,2085,Agricultural labor,0.2946296978026872
+Evolving,China,2090,Agricultural labor,0.27492556224577774
+Evolving,China,2095,Agricultural labor,0.2571777584798282
+Evolving,China,2100,Agricultural labor,0.24116455194389147
+Evolving,Europe,2015,Agricultural labor,1
+Evolving,Europe,2020,Agricultural labor,0.97275978874201
+Evolving,Europe,2025,Agricultural labor,0.9481701654527909
+Evolving,Europe,2030,Agricultural labor,0.9125802083384066
+Evolving,Europe,2035,Agricultural labor,0.8802946309477353
+Evolving,Europe,2040,Agricultural labor,0.8501958637454375
+Evolving,Europe,2045,Agricultural labor,0.8253265759442453
+Evolving,Europe,2050,Agricultural labor,0.7994527407272005
+Evolving,Europe,2055,Agricultural labor,0.7716171689678513
+Evolving,Europe,2060,Agricultural labor,0.7419099535884025
+Evolving,Europe,2065,Agricultural labor,0.7125262630729556
+Evolving,Europe,2070,Agricultural labor,0.6814384167708117
+Evolving,Europe,2075,Agricultural labor,0.6493382781566903
+Evolving,Europe,2080,Agricultural labor,0.6174204917215871
+Evolving,Europe,2085,Agricultural labor,0.5865651156140653
+Evolving,Europe,2090,Agricultural labor,0.5563969523525614
+Evolving,Europe,2095,Agricultural labor,0.5276257259326471
+Evolving,Europe,2100,Agricultural labor,0.49953278827934655
+Evolving,South Asia,2015,Agricultural labor,1
+Evolving,South Asia,2020,Agricultural labor,0.9668917311036759
+Evolving,South Asia,2025,Agricultural labor,0.93069639357096
+Evolving,South Asia,2030,Agricultural labor,0.9254787915145538
+Evolving,South Asia,2035,Agricultural labor,0.9268052385999309
+Evolving,South Asia,2040,Agricultural labor,0.9248912120049193
+Evolving,South Asia,2045,Agricultural labor,0.9195086495401437
+Evolving,South Asia,2050,Agricultural labor,0.9067716924675274
+Evolving,South Asia,2055,Agricultural labor,0.8791598824188879
+Evolving,South Asia,2060,Agricultural labor,0.8454785969221659
+Evolving,South Asia,2065,Agricultural labor,0.8081839393788851
+Evolving,South Asia,2070,Agricultural labor,0.7684707499269
+Evolving,South Asia,2075,Agricultural labor,0.7285295669025427
+Evolving,South Asia,2080,Agricultural labor,0.6888546997659781
+Evolving,South Asia,2085,Agricultural labor,0.6503648136121913
+Evolving,South Asia,2090,Agricultural labor,0.6130819080378958
+Evolving,South Asia,2095,Agricultural labor,0.5775468346303636
+Evolving,South Asia,2100,Agricultural labor,0.5436524161052578
+Evolving,Latin America,2015,Agricultural labor,1
+Evolving,Latin America,2020,Agricultural labor,1.0014607313704909
+Evolving,Latin America,2025,Agricultural labor,0.9983163963313603
+Evolving,Latin America,2030,Agricultural labor,0.9802279110612458
+Evolving,Latin America,2035,Agricultural labor,0.961391337317207
+Evolving,Latin America,2040,Agricultural labor,0.9448347979120214
+Evolving,Latin America,2045,Agricultural labor,0.9345571385035394
+Evolving,Latin America,2050,Agricultural labor,0.919808247850601
+Evolving,Latin America,2055,Agricultural labor,0.8953546897995488
+Evolving,Latin America,2060,Agricultural labor,0.8634283520112818
+Evolving,Latin America,2065,Agricultural labor,0.8303009009521902
+Evolving,Latin America,2070,Agricultural labor,0.7928250210331946
+Evolving,Latin America,2075,Agricultural labor,0.7550029632225362
+Evolving,Latin America,2080,Agricultural labor,0.7165102766737793
+Evolving,Latin America,2085,Agricultural labor,0.6787041889381724
+Evolving,Latin America,2090,Agricultural labor,0.6411621122256995
+Evolving,Latin America,2095,Agricultural labor,0.6054876247060011
+Evolving,Latin America,2100,Agricultural labor,0.5705337146673785
+Evolving,Middle East,2015,Agricultural labor,1
+Evolving,Middle East,2020,Agricultural labor,1.0365866716874697
+Evolving,Middle East,2025,Agricultural labor,1.076369453021031
+Evolving,Middle East,2030,Agricultural labor,1.1041685152814493
+Evolving,Middle East,2035,Agricultural labor,1.1314946041385603
+Evolving,Middle East,2040,Agricultural labor,1.1532328971044834
+Evolving,Middle East,2045,Agricultural labor,1.1739436468225388
+Evolving,Middle East,2050,Agricultural labor,1.1843865141789554
+Evolving,Middle East,2055,Agricultural labor,1.1812950197668515
+Evolving,Middle East,2060,Agricultural labor,1.168333703794923
+Evolving,Middle East,2065,Agricultural labor,1.1484811825994412
+Evolving,Middle East,2070,Agricultural labor,1.1172445866353922
+Evolving,Middle East,2075,Agricultural labor,1.0809327195555114
+Evolving,Middle East,2080,Agricultural labor,1.0402462854396213
+Evolving,Middle East,2085,Agricultural labor,0.9989949901422355
+Evolving,Middle East,2090,Agricultural labor,0.9554020263041718
+Evolving,Middle East,2095,Agricultural labor,0.9106280076665505
+Evolving,Middle East,2100,Agricultural labor,0.8641949516654596
+Evolving,North America,2015,Agricultural labor,1
+Evolving,North America,2020,Agricultural labor,0.991306224076476
+Evolving,North America,2025,Agricultural labor,0.9890809699909714
+Evolving,North America,2030,Agricultural labor,0.9718124516496035
+Evolving,North America,2035,Agricultural labor,0.9592945453735648
+Evolving,North America,2040,Agricultural labor,0.9533153920914268
+Evolving,North America,2045,Agricultural labor,0.9594908453743678
+Evolving,North America,2050,Agricultural labor,0.9626863623654157
+Evolving,North America,2055,Agricultural labor,0.9570760009550137
+Evolving,North America,2060,Agricultural labor,0.9454210094987564
+Evolving,North America,2065,Agricultural labor,0.9333802698066012
+Evolving,North America,2070,Agricultural labor,0.9137594348892514
+Evolving,North America,2075,Agricultural labor,0.8899606004392412
+Evolving,North America,2080,Agricultural labor,0.8637617189835073
+Evolving,North America,2085,Agricultural labor,0.836704908103944
+Evolving,North America,2090,Agricultural labor,0.8083613947713648
+Evolving,North America,2095,Agricultural labor,0.7801093879232277
+Evolving,North America,2100,Agricultural labor,0.7498199909026491
+Evolving,Pacific OECD,2015,Agricultural labor,1
+Evolving,Pacific OECD,2020,Agricultural labor,0.97839029672551725
+Evolving,Pacific OECD,2025,Agricultural labor,0.9338152011992301
+Evolving,Pacific OECD,2030,Agricultural labor,0.8798502079169344
+Evolving,Pacific OECD,2035,Agricultural labor,0.831464387675469
+Evolving,Pacific OECD,2040,Agricultural labor,0.7831562071989524
+Evolving,Pacific OECD,2045,Agricultural labor,0.7432657855034254
+Evolving,Pacific OECD,2050,Agricultural labor,0.7056462813657273
+Evolving,Pacific OECD,2055,Agricultural labor,0.6700152744780944
+Evolving,Pacific OECD,2060,Agricultural labor,0.633906308383784
+Evolving,Pacific OECD,2065,Agricultural labor,0.5989746004544519
+Evolving,Pacific OECD,2070,Agricultural labor,0.5649395126967686
+Evolving,Pacific OECD,2075,Agricultural labor,0.5315949019575181
+Evolving,Pacific OECD,2080,Agricultural labor,0.4995821128161465
+Evolving,Pacific OECD,2085,Agricultural labor,0.46892363913485274
+Evolving,Pacific OECD,2090,Agricultural labor,0.4393791064969879
+Evolving,Pacific OECD,2095,Agricultural labor,0.4114506581611251
+Evolving,Pacific OECD,2100,Agricultural labor,0.3844010762354364
+Evolving,Reforming,2015,Agricultural labor,1
+Evolving,Reforming,2020,Agricultural labor,1.0141655370404412
+Evolving,Reforming,2025,Agricultural labor,0.994100177503501
+Evolving,Reforming,2030,Agricultural labor,0.9562542266904851
+Evolving,Reforming,2035,Agricultural labor,0.9257320836894943
+Evolving,Reforming,2040,Agricultural labor,0.9007183956799136
+Evolving,Reforming,2045,Agricultural labor,0.8834121995619851
+Evolving,Reforming,2050,Agricultural labor,0.8663307961695509
+Evolving,Reforming,2055,Agricultural labor,0.8408125817711162
+Evolving,Reforming,2060,Agricultural labor,0.8109187714337258
+Evolving,Reforming,2065,Agricultural labor,0.7796779330913299
+Evolving,Reforming,2070,Agricultural labor,0.7450780629385985
+Evolving,Reforming,2075,Agricultural labor,0.7107385437896488
+Evolving,Reforming,2080,Agricultural labor,0.6754848036729361
+Evolving,Reforming,2085,Agricultural labor,0.6414132561857286
+Evolving,Reforming,2090,Agricultural labor,0.6080088447805462
+Evolving,Reforming,2095,Agricultural labor,0.5768586519859173
+Evolving,Reforming,2100,Agricultural labor,0.5472926805622296
+Evolving,Rest of Asia,2015,Agricultural labor,1
+Evolving,Rest of Asia,2020,Agricultural labor,0.9704041862238917
+Evolving,Rest of Asia,2025,Agricultural labor,0.9272017814031515
+Evolving,Rest of Asia,2030,Agricultural labor,0.8886101118943412
+Evolving,Rest of Asia,2035,Agricultural labor,0.8665553749319848
+Evolving,Rest of Asia,2040,Agricultural labor,0.8452801465039346
+Evolving,Rest of Asia,2045,Agricultural labor,0.8294033446750163
+Evolving,Rest of Asia,2050,Agricultural labor,0.8121573406105038
+Evolving,Rest of Asia,2055,Agricultural labor,0.7819639588852912
+Evolving,Rest of Asia,2060,Agricultural labor,0.7480238736917553
+Evolving,Rest of Asia,2065,Agricultural labor,0.7135360874301306
+Evolving,Rest of Asia,2070,Agricultural labor,0.6764176162657067
+Evolving,Rest of Asia,2075,Agricultural labor,0.6393140075520758
+Evolving,Rest of Asia,2080,Agricultural labor,0.6029505244287272
+Evolving,Rest of Asia,2085,Agricultural labor,0.5679315367355755
+Evolving,Rest of Asia,2090,Agricultural labor,0.5345686104235273
+Evolving,Rest of Asia,2095,Agricultural labor,0.503286472461652
+Evolving,Rest of Asia,2100,Agricultural labor,0.4735366256934182
+Low transition,Africa,2015,Agricultural labor,1
+Low transition,Africa,2020,Agricultural labor,1.0894795647129882
+Low transition,Africa,2025,Agricultural labor,1.1673342591280393
+Low transition,Africa,2030,Agricultural labor,1.2059013041019522
+Low transition,Africa,2035,Agricultural labor,1.252601460760022
+Low transition,Africa,2040,Agricultural labor,1.3031703078163732
+Low transition,Africa,2045,Agricultural labor,1.3613860150040622
+Low transition,Africa,2050,Agricultural labor,1.4150106163137606
+Low transition,Africa,2055,Agricultural labor,1.441818301366015
+Low transition,Africa,2060,Agricultural labor,1.4505942354549493
+Low transition,Africa,2065,Agricultural labor,1.4443811405151006
+Low transition,Africa,2070,Agricultural labor,1.419175311209621
+Low transition,Africa,2075,Agricultural labor,1.380945095191904
+Low transition,Africa,2080,Agricultural labor,1.3302054614785463
+Low transition,Africa,2085,Agricultural labor,1.270808922538079
+Low transition,Africa,2090,Agricultural labor,1.20539354904145
+Low transition,Africa,2095,Agricultural labor,1.1369542808183057
+Low transition,Africa,2100,Agricultural labor,1.0672118060829803
+Low transition,China,2015,Agricultural labor,1
+Low transition,China,2020,Agricultural labor,0.8756678321471305
+Low transition,China,2025,Agricultural labor,0.7886698866665751
+Low transition,China,2030,Agricultural labor,0.7126257605666028
+Low transition,China,2035,Agricultural labor,0.6453871598532751
+Low transition,China,2040,Agricultural labor,0.587529034327951
+Low transition,China,2045,Agricultural labor,0.5446849569143271
+Low transition,China,2050,Agricultural labor,0.5053261867892825
+Low transition,China,2055,Agricultural labor,0.4647906255593263
+Low transition,China,2060,Agricultural labor,0.42912483300356125
+Low transition,China,2065,Agricultural labor,0.39741930445910834
+Low transition,China,2070,Agricultural labor,0.3696919957671698
+Low transition,China,2075,Agricultural labor,0.34428279614149554
+Low transition,China,2080,Agricultural labor,0.3218924330786703
+Low transition,China,2085,Agricultural labor,0.30141992674877033
+Low transition,China,2090,Agricultural labor,0.2831742377799259
+Low transition,China,2095,Agricultural labor,0.2669839909070891
+Low transition,China,2100,Agricultural labor,0.2525677041489882
+Low transition,Europe,2015,Agricultural labor,1
+Low transition,Europe,2020,Agricultural labor,0.97275978874201
+Low transition,Europe,2025,Agricultural labor,0.9481659731441783
+Low transition,Europe,2030,Agricultural labor,0.9120432671436743
+Low transition,Europe,2035,Agricultural labor,0.8789313447306261
+Low transition,Europe,2040,Agricultural labor,0.848055221963003
+Low transition,Europe,2045,Agricultural labor,0.8226663947210574
+Low transition,Europe,2050,Agricultural labor,0.7964829154432108
+Low transition,Europe,2055,Agricultural labor,0.7689171237097827
+Low transition,Europe,2060,Agricultural labor,0.7395401675329011
+Low transition,Europe,2065,Agricultural labor,0.7106627038727575
+Low transition,Europe,2070,Agricultural labor,0.6804433124421044
+Low transition,Europe,2075,Agricultural labor,0.6493221541261418
+Low transition,Europe,2080,Agricultural labor,0.6187862129732742
+Low transition,Europe,2085,Agricultural labor,0.5892466916253248
+Low transition,Europe,2090,Agricultural labor,0.560065944858216
+Low transition,Europe,2095,Agricultural labor,0.5319640459028162
+Low transition,Europe,2100,Agricultural labor,0.5044519258118241
+Low transition,South Asia,2015,Agricultural labor,1
+Low transition,South Asia,2020,Agricultural labor,0.9668917311036759
+Low transition,South Asia,2025,Agricultural labor,0.9320067661713352
+Low transition,South Asia,2030,Agricultural labor,0.928013934066573
+Low transition,South Asia,2035,Agricultural labor,0.9304038700101193
+Low transition,South Asia,2040,Agricultural labor,0.9294943301249711
+Low transition,South Asia,2045,Agricultural labor,0.9252501119418334
+Low transition,South Asia,2050,Agricultural labor,0.9140134476605553
+Low transition,South Asia,2055,Agricultural labor,0.8871281535212212
+Low transition,South Asia,2060,Agricultural labor,0.8544604685571332
+Low transition,South Asia,2065,Agricultural labor,0.8183039932044923
+Low transition,South Asia,2070,Agricultural labor,0.7798867852896294
+Low transition,South Asia,2075,Agricultural labor,0.7411650124663814
+Low transition,South Asia,2080,Agricultural labor,0.7027475563424079
+Low transition,South Asia,2085,Agricultural labor,0.6653956157222279
+Low transition,South Asia,2090,Agricultural labor,0.6293055319615747
+Low transition,South Asia,2095,Agricultural labor,0.5947524358487305
+Low transition,South Asia,2100,Agricultural labor,0.561740957453678
+Low transition,Latin America,2015,Agricultural labor,1
+Low transition,Latin America,2020,Agricultural labor,1.0014607313704909
+Low transition,Latin America,2025,Agricultural labor,1.0063851453607269
+Low transition,Latin America,2030,Agricultural labor,0.9967077513454475
+Low transition,Latin America,2035,Agricultural labor,0.9857825304811374
+Low transition,Latin America,2040,Agricultural labor,0.9773173450204719
+Low transition,Latin America,2045,Agricultural labor,0.975516307435922
+Low transition,Latin America,2050,Agricultural labor,0.9699728065936822
+Low transition,Latin America,2055,Agricultural labor,0.9534902759245483
+Low transition,Latin America,2060,Agricultural labor,0.9284259419890191
+Low transition,Latin America,2065,Agricultural labor,0.9009467728410586
+Low transition,Latin America,2070,Agricultural labor,0.8678223782179846
+Low transition,Latin America,2075,Agricultural labor,0.8331195716453246
+Low transition,Latin America,2080,Agricultural labor,0.7969682894266407
+Low transition,Latin America,2085,Agricultural labor,0.7603347409362783
+Low transition,Latin America,2090,Agricultural labor,0.7233124646925994
+Low transition,Latin America,2095,Agricultural labor,0.6871646762000405
+Low transition,Latin America,2100,Agricultural labor,0.651134652125176
+Low transition,Middle East,2015,Agricultural labor,1
+Low transition,Middle East,2020,Agricultural labor,1.0365866716874697
+Low transition,Middle East,2025,Agricultural labor,1.0850165310971989
+Low transition,Middle East,2030,Agricultural labor,1.1232290713710915
+Low transition,Middle East,2035,Agricultural labor,1.160774296831346
+Low transition,Middle East,2040,Agricultural labor,1.193203248893544
+Low transition,Middle East,2045,Agricultural labor,1.2261191567876593
+Low transition,Middle East,2050,Agricultural labor,1.2500792804675565
+Low transition,Middle East,2055,Agricultural labor,1.2590682982039356
+Low transition,Middle East,2060,Agricultural labor,1.2576586828842813
+Low transition,Middle East,2065,Agricultural labor,1.2456212444543178
+Low transition,Middle East,2070,Agricultural labor,1.220710268441712
+Low transition,Middle East,2075,Agricultural labor,1.1906195613707036
+Low transition,Middle East,2080,Agricultural labor,1.1551086131393282
+Low transition,Middle East,2085,Agricultural labor,1.115727882072874
+Low transition,Middle East,2090,Agricultural labor,1.073861657042474
+Low transition,Middle East,2095,Agricultural labor,1.0286037069602505
+Low transition,Middle East,2100,Agricultural labor,0.9794858625224342
+Low transition,North America,2015,Agricultural labor,1
+Low transition,North America,2020,Agricultural labor,0.991306224076476
+Low transition,North America,2025,Agricultural labor,0.9800578249630079
+Low transition,North America,2030,Agricultural labor,0.952769825005367
+Low transition,North America,2035,Agricultural labor,0.9302479668186486
+Low transition,North America,2040,Agricultural labor,0.9134154326444738
+Low transition,North America,2045,Agricultural labor,0.9072424735167416
+Low transition,North America,2050,Agricultural labor,0.8971688908078542
+Low transition,North America,2055,Agricultural labor,0.880064945110215
+Low transition,North America,2060,Agricultural labor,0.8574255075806587
+Low transition,North America,2065,Agricultural labor,0.8349320330884703
+Low transition,North America,2070,Agricultural labor,0.8057133351052775
+Low transition,North America,2075,Agricultural labor,0.7734005458543628
+Low transition,North America,2080,Agricultural labor,0.7387725076004064
+Low transition,North America,2085,Agricultural labor,0.7044563853846687
+Low transition,North America,2090,Agricultural labor,0.6697300564250185
+Low transition,North America,2095,Agricultural labor,0.6364203281357054
+Low transition,North America,2100,Agricultural labor,0.6020368218406006
+Low transition,Pacific OECD,2015,Agricultural labor,1
+Low transition,Pacific OECD,2020,Agricultural labor,0.97839029672551725
+Low transition,Pacific OECD,2025,Agricultural labor,0.9290544921445261
+Low transition,Pacific OECD,2030,Agricultural labor,0.8699714830277279
+Low transition,Pacific OECD,2035,Agricultural labor,0.8167667755326848
+Low transition,Pacific OECD,2040,Agricultural labor,0.7638559325823528
+Low transition,Pacific OECD,2045,Agricultural labor,0.7190099490730725
+Low transition,Pacific OECD,2050,Agricultural labor,0.676220365958063
+Low transition,Pacific OECD,2055,Agricultural labor,0.6359267518081109
+Low transition,Pacific OECD,2060,Agricultural labor,0.5952007867856025
+Low transition,Pacific OECD,2065,Agricultural labor,0.5560512497690119
+Low transition,Pacific OECD,2070,Agricultural labor,0.5176252483324136
+Low transition,Pacific OECD,2075,Agricultural labor,0.48034339376144763
+Low transition,Pacific OECD,2080,Agricultural labor,0.4447431979298292
+Low transition,Pacific OECD,2085,Agricultural labor,0.4113959215231514
+Low transition,Pacific OECD,2090,Agricultural labor,0.37952757499929807
+Low transition,Pacific OECD,2095,Agricultural labor,0.34992470085089133
+Low transition,Pacific OECD,2100,Agricultural labor,0.32169484048620683
+Low transition,Reforming,2015,Agricultural labor,1
+Low transition,Reforming,2020,Agricultural labor,1.0141655370404412
+Low transition,Reforming,2025,Agricultural labor,0.9976273172701339
+Low transition,Reforming,2030,Agricultural labor,0.9627803347524333
+Low transition,Reforming,2035,Agricultural labor,0.9348579747727251
+Low transition,Reforming,2040,Agricultural labor,0.9127870041359017
+Low transition,Reforming,2045,Agricultural labor,0.8989904937907683
+Low transition,Reforming,2050,Agricultural labor,0.8859552960744025
+Low transition,Reforming,2055,Agricultural labor,0.8645098225470897
+Low transition,Reforming,2060,Agricultural labor,0.8385928868214241
+Low transition,Reforming,2065,Agricultural labor,0.8114117729692639
+Low transition,Reforming,2070,Agricultural labor,0.780830167208318
+Low transition,Reforming,2075,Agricultural labor,0.7505424609210892
+Low transition,Reforming,2080,Agricultural labor,0.7190855032328469
+Low transition,Reforming,2085,Agricultural labor,0.6882205526916404
+Low transition,Reforming,2090,Agricultural labor,0.65757619406067
+Low transition,Reforming,2095,Agricultural labor,0.62851036740833
+Low transition,Reforming,2100,Agricultural labor,0.6009693549208732
+Low transition,Rest of Asia,2015,Agricultural labor,1
+Low transition,Rest of Asia,2020,Agricultural labor,0.9704041862238917
+Low transition,Rest of Asia,2025,Agricultural labor,0.9286338561915497
+Low transition,Rest of Asia,2030,Agricultural labor,0.8913596622881531
+Low transition,Rest of Asia,2035,Agricultural labor,0.8705970336308415
+Low transition,Rest of Asia,2040,Agricultural labor,0.8513065406197914
+Low transition,Rest of Asia,2045,Agricultural labor,0.837519487197725
+Low transition,Rest of Asia,2050,Agricultural labor,0.8226551813478276
+Low transition,Rest of Asia,2055,Agricultural labor,0.7942966621547272
+Low transition,Rest of Asia,2060,Agricultural labor,0.7620643792614114
+Low transition,Rest of Asia,2065,Agricultural labor,0.7290983940893662
+Low transition,Rest of Asia,2070,Agricultural labor,0.6933416199491618
+Low transition,Rest of Asia,2075,Agricultural labor,0.657403406723791
+Low transition,Rest of Asia,2080,Agricultural labor,0.622242543424157
+Low transition,Rest of Asia,2085,Agricultural labor,0.5882273759391932
+Low transition,Rest of Asia,2090,Agricultural labor,0.5557147507751359
+Low transition,Rest of Asia,2095,Agricultural labor,0.5249415452063156
+Low transition,Rest of Asia,2100,Agricultural labor,0.49553280425556084
+High transition,Africa,2015,Agricultural labor,1
+High transition,Africa,2020,Agricultural labor,1.0894795647129882
+High transition,Africa,2025,Agricultural labor,1.1526546718001216
+High transition,Africa,2030,Agricultural labor,1.1738172535815372
+High transition,Africa,2035,Agricultural labor,1.2032796748310124
+High transition,Africa,2040,Agricultural labor,1.235412934298093
+High transition,Africa,2045,Agricultural labor,1.2732675081745892
+High transition,Africa,2050,Agricultural labor,1.30529647542043
+High transition,Africa,2055,Agricultural labor,1.3171634087045097
+High transition,Africa,2060,Agricultural labor,1.315406632527803
+High transition,Africa,2065,Agricultural labor,1.3037846979852359
+High transition,Africa,2070,Agricultural labor,1.2776986150679779
+High transition,Africa,2075,Agricultural labor,1.2429038086852269
+High transition,Africa,2080,Agricultural labor,1.1986268531570203
+High transition,Africa,2085,Agricultural labor,1.1486827274278568
+High transition,Africa,2090,Agricultural labor,1.0934694294346632
+High transition,Africa,2095,Agricultural labor,1.0359243073527018
+High transition,Africa,2100,Agricultural labor,0.9764116221872513
+High transition,China,2015,Agricultural labor,1
+High transition,China,2020,Agricultural labor,0.8756678321471305
+High transition,China,2025,Agricultural labor,0.7877014693286996
+High transition,China,2030,Agricultural labor,0.7110431079390576
+High transition,China,2035,Agricultural labor,0.6435698957849686
+High transition,China,2040,Agricultural labor,0.5856119354736123
+High transition,China,2045,Agricultural labor,0.5424849752285641
+High transition,China,2050,Agricultural labor,0.5028588880417268
+High transition,China,2055,Agricultural labor,0.4618853239831397
+High transition,China,2060,Agricultural labor,0.4255630542559564
+High transition,China,2065,Agricultural labor,0.39297040447626663
+High transition,China,2070,Agricultural labor,0.3641345645906181
+High transition,China,2075,Agricultural labor,0.3375715974089454
+High transition,China,2080,Agricultural labor,0.31373028593318725
+High transition,China,2085,Agricultural labor,0.2914379975260746
+High transition,China,2090,Agricultural labor,0.27102634207434234
+High transition,China,2095,Agricultural labor,0.25235745242509167
+High transition,China,2100,Agricultural labor,0.23498557296152145
+High transition,Europe,2015,Agricultural labor,1
+High transition,Europe,2020,Agricultural labor,0.97275978874201
+High transition,Europe,2025,Agricultural labor,0.9485637333471368
+High transition,Europe,2030,Agricultural labor,0.9139123316185318
+High transition,Europe,2035,Agricultural labor,0.8828054705084177
+High transition,Europe,2040,Agricultural labor,0.8539278123480875
+High transition,Europe,2045,Agricultural labor,0.830130861111384
+High transition,Europe,2050,Agricultural labor,0.8051179226611682
+High transition,Europe,2055,Agricultural labor,0.7775531714407028
+High transition,Europe,2060,Agricultural labor,0.7476686466901653
+High transition,Europe,2065,Agricultural labor,0.7181249148139844
+High transition,Europe,2070,Agricultural labor,0.6869080473174075
+High transition,Europe,2075,Agricultural labor,0.6544030247724162
+High transition,Europe,2080,Agricultural labor,0.6218107180311213
+High transition,Europe,2085,Agricultural labor,0.5901425169625046
+High transition,Europe,2090,Agricultural labor,0.5591136775764041
+High transition,Europe,2095,Agricultural labor,0.5295967252869392
+High transition,Europe,2100,Agricultural labor,0.5005110523037148
+High transition,South Asia,2015,Agricultural labor,1
+High transition,South Asia,2020,Agricultural labor,0.9668917311036759
+High transition,South Asia,2025,Agricultural labor,0.929388045706427
+High transition,South Asia,2030,Agricultural labor,0.922920264489006
+High transition,South Asia,2035,Agricultural labor,0.9230994593308561
+High transition,South Asia,2040,Agricultural labor,0.9199715030747562
+High transition,South Asia,2045,Agricultural labor,0.9129075084590877
+High transition,South Asia,2050,Agricultural labor,0.8985989792406097
+High transition,South Asia,2055,Agricultural labor,0.8697728702799176
+High transition,South Asia,2060,Agricultural labor,0.8343474667244765
+High transition,South Asia,2065,Agricultural labor,0.7955716446060341
+High transition,South Asia,2070,Agricultural labor,0.7543169995227785
+High transition,South Asia,2075,Agricultural labor,0.7128023872318642
+High transition,South Asia,2080,Agricultural labor,0.6715159092881454
+High transition,South Asia,2085,Agricultural labor,0.6313721639704346
+High transition,South Asia,2090,Agricultural labor,0.5926619953072932
+High transition,South Asia,2095,Agricultural labor,0.5558770756550377
+High transition,South Asia,2100,Agricultural labor,0.5207087546196609
+High transition,Latin America,2015,Agricultural labor,1
+High transition,Latin America,2020,Agricultural labor,1.0014607313704909
+High transition,Latin America,2025,Agricultural labor,0.9905301987775288
+High transition,Latin America,2030,Agricultural labor,0.9645137701006024
+High transition,Latin America,2035,Agricultural labor,0.9382602450757754
+High transition,Latin America,2040,Agricultural labor,0.9144089535100898
+High transition,Latin America,2045,Agricultural labor,0.8964337919660319
+High transition,Latin America,2050,Agricultural labor,0.8737200455047649
+High transition,Latin America,2055,Agricultural labor,0.8432418195043291
+High transition,Latin America,2060,Agricultural labor,0.8063215025516454
+High transition,Latin America,2065,Agricultural labor,0.7690245769432265
+High transition,Latin America,2070,Agricultural labor,0.728370889184325
+High transition,Latin America,2075,Agricultural labor,0.6880540493021803
+High transition,Latin America,2080,Agricultural labor,0.6475968111654389
+High transition,Latin America,2085,Agricultural labor,0.6087125682892106
+High transition,Latin America,2090,Agricultural labor,0.5701960177416419
+High transition,Latin America,2095,Agricultural labor,0.5335811468857709
+High transition,Latin America,2100,Agricultural labor,0.4975191980492588
+High transition,Middle East,2015,Agricultural labor,1
+High transition,Middle East,2020,Agricultural labor,1.0365866716874697
+High transition,Middle East,2025,Agricultural labor,1.069843972676763
+High transition,Middle East,2030,Agricultural labor,1.08986183612756
+High transition,Middle East,2035,Agricultural labor,1.1097081293232054
+High transition,Middle East,2040,Agricultural labor,1.123667161979796
+High transition,Middle East,2045,Agricultural labor,1.1361419949314648
+High transition,Middle East,2050,Agricultural labor,1.138153239590221
+High transition,Middle East,2055,Agricultural labor,1.1278242417856545
+High transition,Middle East,2060,Agricultural labor,1.108434566732522
+High transition,Middle East,2065,Agricultural labor,1.084892179745389
+High transition,Middle East,2070,Agricultural labor,1.0511860228819205
+High transition,Middle East,2075,Agricultural labor,1.013447741357314
+High transition,Middle East,2080,Agricultural labor,0.9717699130299265
+High transition,Middle East,2085,Agricultural labor,0.9289160146917246
+High transition,Middle East,2090,Agricultural labor,0.8833198308915745
+High transition,Middle East,2095,Agricultural labor,0.8382479952039551
+High transition,Middle East,2100,Agricultural labor,0.79159917470674
+High transition,North America,2015,Agricultural labor,1
+High transition,North America,2020,Agricultural labor,0.991306224076476
+High transition,North America,2025,Agricultural labor,0.9976021554652528
+High transition,North America,2030,Agricultural labor,0.9893201171394084
+High transition,North America,2035,Agricultural labor,0.9856350303665035
+High transition,North America,2040,Agricultural labor,0.989181925461619
+High transition,North America,2045,Agricultural labor,1.0061743822245264
+High transition,North America,2050,Agricultural labor,1.0208959647365297
+High transition,North America,2055,Agricultural labor,1.0245717142346835
+High transition,North America,2060,Agricultural labor,1.0213666897234006
+High transition,North America,2065,Agricultural labor,1.0170964535527227
+High transition,North America,2070,Agricultural labor,1.0044376617640691
+High transition,North America,2075,Agricultural labor,0.986683874855427
+High transition,North America,2080,Agricultural labor,0.9663395762136662
+High transition,North America,2085,Agricultural labor,0.9440056615792711
+High transition,North America,2090,Agricultural labor,0.9198058371598676
+High transition,North America,2095,Agricultural labor,0.8945610481586984
+High transition,North America,2100,Agricultural labor,0.86692902550214
+High transition,Pacific OECD,2015,Agricultural labor,1
+High transition,Pacific OECD,2020,Agricultural labor,0.97839029672551725
+High transition,Pacific OECD,2025,Agricultural labor,0.9383625171823113
+High transition,Pacific OECD,2030,Agricultural labor,0.8891349238483386
+High transition,Pacific OECD,2035,Agricultural labor,0.8451452740164153
+High transition,Pacific OECD,2040,Agricultural labor,0.8008338676245889
+High transition,Pacific OECD,2045,Agricultural labor,0.7650590197845568
+High transition,Pacific OECD,2050,Agricultural labor,0.7316721434386037
+High transition,Pacific OECD,2055,Agricultural labor,0.6997161316793498
+High transition,Pacific OECD,2060,Agricultural labor,0.6668339842506366
+High transition,Pacific OECD,2065,Agricultural labor,0.6345110252103238
+High transition,Pacific OECD,2070,Agricultural labor,0.6026916379773545
+High transition,Pacific OECD,2075,Agricultural labor,0.5708811223314785
+High transition,Pacific OECD,2080,Agricultural labor,0.5400529934120745
+High transition,Pacific OECD,2085,Agricultural labor,0.5102402121023019
+High transition,Pacific OECD,2090,Agricultural labor,0.48148100998995663
+High transition,Pacific OECD,2095,Agricultural labor,0.45415452696215836
+High transition,Pacific OECD,2100,Agricultural labor,0.42790912703522416
+High transition,Reforming,2015,Agricultural labor,1
+High transition,Reforming,2020,Agricultural labor,1.0141655370404412
+High transition,Reforming,2025,Agricultural labor,0.9903202030024413
+High transition,Reforming,2030,Agricultural labor,0.9490328943884229
+High transition,Reforming,2035,Agricultural labor,0.9155556740715527
+High transition,Reforming,2040,Agricultural labor,0.8874361339011171
+High transition,Reforming,2045,Agricultural labor,0.8664596522933163
+High transition,Reforming,2050,Agricultural labor,0.8446661262562736
+High transition,Reforming,2055,Agricultural labor,0.8142146380638288
+High transition,Reforming,2060,Agricultural labor,0.7798105194463777
+High transition,Reforming,2065,Agricultural labor,0.7450715486686381
+High transition,Reforming,2070,Agricultural labor,0.7071292180564585
+High transition,Reforming,2075,Agricultural labor,0.6695959756863262
+High transition,Reforming,2080,Agricultural labor,0.6309801141250205
+High transition,Reforming,2085,Agricultural labor,0.5937596047488495
+High transition,Reforming,2090,Agricultural labor,0.5576714542781865
+High transition,Reforming,2095,Agricultural labor,0.5244862289274453
+High transition,Reforming,2100,Agricultural labor,0.49288262128432003
+High transition,Rest of Asia,2015,Agricultural labor,1
+High transition,Rest of Asia,2020,Agricultural labor,0.9704041862238917
+High transition,Rest of Asia,2025,Agricultural labor,0.925867669643928
+High transition,Rest of Asia,2030,Agricultural labor,0.8860289452624444
+High transition,Rest of Asia,2035,Agricultural labor,0.8622745067039049
+High transition,Rest of Asia,2040,Agricultural labor,0.8393637816137172
+High transition,Rest of Asia,2045,Agricultural labor,0.821755629909482
+High transition,Rest of Asia,2050,Agricultural labor,0.8025121824261807
+High transition,Rest of Asia,2055,Agricultural labor,0.7708217485029306
+High transition,Rest of Asia,2060,Agricultural labor,0.7354141190360833
+High transition,Rest of Asia,2065,Agricultural labor,0.6993095071064702
+High transition,Rest of Asia,2070,Agricultural labor,0.6608036139692356
+High transition,Rest of Asia,2075,Agricultural labor,0.6226288721365101
+High transition,Rest of Asia,2080,Agricultural labor,0.5853522416507065
+High transition,Rest of Asia,2085,Agricultural labor,0.5496616633889039
+High transition,Rest of Asia,2090,Agricultural labor,0.515395939857501
+High transition,Rest of Asia,2095,Agricultural labor,0.48315637108411397
+High transition,Rest of Asia,2100,Agricultural labor,0.4525090409406877
+Low productivity,World,2015,Agricultural labor,1
+Low productivity,World,2020,Agricultural labor,1.0089848812176205
+Low productivity,World,2025,Agricultural labor,1.0149469720132882
+Low productivity,World,2030,Agricultural labor,1.016359727564492
+Low productivity,World,2035,Agricultural labor,1.0203464348531792
+Low productivity,World,2040,Agricultural labor,1.023509215386723
+Low productivity,World,2045,Agricultural labor,1.0293733070230897
+Low productivity,World,2050,Agricultural labor,1.0303085369377665
+Low productivity,World,2055,Agricultural labor,1.0177738473290394
+Low productivity,World,2060,Agricultural labor,0.9981340864482662
+Low productivity,World,2065,Agricultural labor,0.9743254574693168
+Low productivity,World,2070,Agricultural labor,0.9447155412811542
+Low productivity,World,2075,Agricultural labor,0.9118461192814427
+Low productivity,World,2080,Agricultural labor,0.8757174492525399
+Low productivity,World,2085,Agricultural labor,0.8379721809729891
+Low productivity,World,2090,Agricultural labor,0.7987161252348083
+Low productivity,World,2095,Agricultural labor,0.7593982945405126
+Low productivity,World,2100,Agricultural labor,0.7197956797730563
+High productivity,World,2015,Agricultural labor,1
+High productivity,World,2020,Agricultural labor,0.9489998891246335
+High productivity,World,2025,Agricultural labor,0.9053224675218063
+High productivity,World,2030,Agricultural labor,0.8696956244752307
+High productivity,World,2035,Agricultural labor,0.8475982168546493
+High productivity,World,2040,Agricultural labor,0.8305623570737787
+High productivity,World,2045,Agricultural labor,0.8206610065921995
+High productivity,World,2050,Agricultural labor,0.8091584350937276
+High productivity,World,2055,Agricultural labor,0.7856037383849643
+High productivity,World,2060,Agricultural labor,0.7577226397916309
+High productivity,World,2065,Agricultural labor,0.7274113192037167
+High productivity,World,2070,Agricultural labor,0.6937704766746569
+High productivity,World,2075,Agricultural labor,0.6587150118627542
+High productivity,World,2080,Agricultural labor,0.622884174692435
+High productivity,World,2085,Agricultural labor,0.5871608377582178
+High productivity,World,2090,Agricultural labor,0.5519743945253646
+High productivity,World,2095,Agricultural labor,0.5179484339842276
+High productivity,World,2100,Agricultural labor,0.48519232396931594
+High Elas.,World,2015,Agricultural labor,1
+High Elas.,World,2020,Agricultural labor,0.9766296116551847
+High Elas.,World,2025,Agricultural labor,0.9555928668703795
+High Elas.,World,2030,Agricultural labor,0.9360608816196737
+High Elas.,World,2035,Agricultural labor,0.9253045218092154
+High Elas.,World,2040,Agricultural labor,0.9174771353675182
+High Elas.,World,2045,Agricultural labor,0.9152080928843223
+High Elas.,World,2050,Agricultural labor,0.9102850683586181
+High Elas.,World,2055,Agricultural labor,0.8916698440469356
+High Elas.,World,2060,Agricultural labor,0.867451948667715
+High Elas.,World,2065,Agricultural labor,0.8395201360620489
+High Elas.,World,2070,Agricultural labor,0.8070087530425736
+High Elas.,World,2075,Agricultural labor,0.7719879804570376
+High Elas.,World,2080,Agricultural labor,0.7351473035237829
+High Elas.,World,2085,Agricultural labor,0.6974645145719214
+High Elas.,World,2090,Agricultural labor,0.6595526144501663
+High Elas.,World,2095,Agricultural labor,0.6222263299868556
+High Elas.,World,2100,Agricultural labor,0.5857458400080638
+Low Elas.,World,2015,Agricultural labor,1
+Low Elas.,World,2020,Agricultural labor,0.9804759931340318
+Low Elas.,World,2025,Agricultural labor,0.9589593271822836
+Low Elas.,World,2030,Agricultural labor,0.938968915467355
+Low Elas.,World,2035,Agricultural labor,0.9259752092946337
+Low Elas.,World,2040,Agricultural labor,0.9138049479524654
+Low Elas.,World,2045,Agricultural labor,0.9064477977192609
+Low Elas.,World,2050,Agricultural labor,0.8946243766536516
+Low Elas.,World,2055,Agricultural labor,0.8721531390169052
+Low Elas.,World,2060,Agricultural labor,0.8443012378187902
+Low Elas.,World,2065,Agricultural labor,0.8146344565253474
+Low Elas.,World,2070,Agricultural labor,0.7812076416674235
+Low Elas.,World,2075,Agricultural labor,0.7466264277555617
+Low Elas.,World,2080,Agricultural labor,0.7101214077774697
+Low Elas.,World,2085,Agricultural labor,0.6737572390156141
+Low Elas.,World,2090,Agricultural labor,0.6368144793133812
+Low Elas.,World,2095,Agricultural labor,0.6010053326559037
+Low Elas.,World,2100,Agricultural labor,0.5656029511981517
+Evolving,World,2015,Agricultural labor,1
+Evolving,World,2020,Agricultural labor,0.9778527800542726
+Evolving,World,2025,Agricultural labor,0.956571196795829
+Evolving,World,2030,Agricultural labor,0.9368906496911918
+Evolving,World,2035,Agricultural labor,0.9254514554140619
+Evolving,World,2040,Agricultural labor,0.916350109497298
+Evolving,World,2045,Agricultural labor,0.9125061109627942
+Evolving,World,2050,Agricultural labor,0.9055371867759813
+Evolving,World,2055,Agricultural labor,0.8858932169837981
+Evolving,World,2060,Agricultural labor,0.8607951475629833
+Evolving,World,2065,Agricultural labor,0.8325267043351523
+Evolving,World,2070,Agricultural labor,0.7998504992246245
+Evolving,World,2075,Agricultural labor,0.7650323261908507
+Evolving,World,2080,Agricultural labor,0.7283918948423075
+Evolving,World,2085,Agricultural labor,0.691100474456358
+Evolving,World,2090,Agricultural labor,0.6534432200749767
+Evolving,World,2095,Agricultural labor,0.6164585783435104
+Evolving,World,2100,Agricultural labor,0.5801754435037866
+Low transition,World,2015,Agricultural labor,1
+Low transition,World,2020,Agricultural labor,0.9778527800542726
+Low transition,World,2025,Agricultural labor,0.9594253596886978
+Low transition,World,2030,Agricultural labor,0.9428795762509191
+Low transition,World,2035,Agricultural labor,0.9344584278772377
+Low transition,World,2040,Agricultural labor,0.9285684233887419
+Low transition,World,2045,Agricultural labor,0.9283217056251948
+Low transition,World,2050,Agricultural labor,0.9253007456328167
+Low transition,World,2055,Agricultural labor,0.9084779367953807
+Low transition,World,2060,Agricultural labor,0.885722044956944
+Low transition,World,2065,Agricultural labor,0.859018242819974
+Low transition,World,2070,Agricultural labor,0.8272820702718271
+Low transition,World,2075,Agricultural labor,0.7927829730839709
+Low transition,World,2080,Agricultural labor,0.7561258382768423
+Low transition,World,2085,Agricultural labor,0.7183401445494755
+Low transition,World,2090,Agricultural labor,0.6802121607029722
+Low transition,World,2095,Agricultural labor,0.6426117930318025
+Low transition,World,2100,Agricultural labor,0.6057691706249317
+High transition,World,2015,Agricultural labor,1
+High transition,World,2020,Agricultural labor,0.9778527800542726
+High transition,World,2025,Agricultural labor,0.9537410069331341
+High transition,World,2030,Agricultural labor,0.9310187000808734
+High transition,World,2035,Agricultural labor,0.9166519706430493
+High transition,World,2040,Agricultural labor,0.9044704506371157
+High transition,World,2045,Agricultural labor,0.8971561473815585
+High transition,World,2050,Agricultural labor,0.8865458692405653
+High transition,World,2055,Agricultural labor,0.8642431124004027
+High transition,World,2060,Agricultural labor,0.8368587365150985
+High transition,World,2065,Agricultural labor,0.8068814541743964
+High transition,World,2070,Agricultural labor,0.7729808027210064
+High transition,World,2075,Agricultural labor,0.7374722138632233
+High transition,World,2080,Agricultural labor,0.7004914110638187
+High transition,World,2085,Agricultural labor,0.663191533460776
+High transition,World,2090,Agricultural labor,0.6257327483624443
+High transition,World,2095,Agricultural labor,0.5891517006045489
+High transition,World,2100,Agricultural labor,0.5531458342800271
+Low productivity,Africa,2015,Effective labor,1
+Low productivity,Africa,2020,Effective labor,1.1297270944287001
+Low productivity,Africa,2025,Effective labor,1.3121125509845297
+Low productivity,Africa,2030,Effective labor,1.5368880477260423
+Low productivity,Africa,2035,Effective labor,1.7718956429985306
+Low productivity,Africa,2040,Effective labor,2.0238408568162156
+Low productivity,Africa,2045,Effective labor,2.2892526357635163
+Low productivity,Africa,2050,Effective labor,2.564004478829402
+Low productivity,Africa,2055,Effective labor,2.8399360598663685
+Low productivity,Africa,2060,Effective labor,3.116483875975929
+Low productivity,Africa,2065,Effective labor,3.401773549272295
+Low productivity,Africa,2070,Effective labor,3.681586531485718
+Low productivity,Africa,2075,Effective labor,3.9563565776620315
+Low productivity,Africa,2080,Effective labor,4.214394494389207
+Low productivity,Africa,2085,Effective labor,4.458518195408279
+Low productivity,Africa,2090,Effective labor,4.679090631911934
+Low productivity,Africa,2095,Effective labor,4.882114920002544
+Low productivity,Africa,2100,Effective labor,5.0657382147760766
+Low productivity,China,2015,Effective labor,1
+Low productivity,China,2020,Effective labor,1.1042697671954016
+Low productivity,China,2025,Effective labor,1.2076208353359477
+Low productivity,China,2030,Effective labor,1.2824647760040628
+Low productivity,China,2035,Effective labor,1.3317675547712513
+Low productivity,China,2040,Effective labor,1.364857474252816
+Low productivity,China,2045,Effective labor,1.3823106848571336
+Low productivity,China,2050,Effective labor,1.388543649099004
+Low productivity,China,2055,Effective labor,1.3880812412770738
+Low productivity,China,2060,Effective labor,1.3787822008353718
+Low productivity,China,2065,Effective labor,1.3640818601969757
+Low productivity,China,2070,Effective labor,1.3426551238926472
+Low productivity,China,2075,Effective labor,1.317975742270721
+Low productivity,China,2080,Effective labor,1.2879208821118446
+Low productivity,China,2085,Effective labor,1.2556308541062693
+Low productivity,China,2090,Effective labor,1.2208773626595233
+Low productivity,China,2095,Effective labor,1.186365554924858
+Low productivity,China,2100,Effective labor,1.1516407138849
+Low productivity,Europe,2015,Effective labor,1
+Low productivity,Europe,2020,Effective labor,1.0455096664366494
+Low productivity,Europe,2025,Effective labor,1.1005530051828625
+Low productivity,Europe,2030,Effective labor,1.1391963998767467
+Low productivity,Europe,2035,Effective labor,1.1756880905761882
+Low productivity,Europe,2040,Effective labor,1.211266047929552
+Low productivity,Europe,2045,Effective labor,1.2503836659901455
+Low productivity,Europe,2050,Effective labor,1.2866044151878129
+Low productivity,Europe,2055,Effective labor,1.3169435696420875
+Low productivity,Europe,2060,Effective labor,1.341099913197579
+Low productivity,Europe,2065,Effective labor,1.3616665225585813
+Low productivity,Europe,2070,Effective labor,1.3756407418142658
+Low productivity,Europe,2075,Effective labor,1.393260466801419
+Low productivity,Europe,2080,Effective labor,1.401859137494282
+Low productivity,Europe,2085,Effective labor,1.4096044978658022
+Low productivity,Europe,2090,Effective labor,1.4143266194292277
+Low productivity,Europe,2095,Effective labor,1.4178386629058797
+Low productivity,Europe,2100,Effective labor,1.4174987331546838
+Low productivity,South Asia,2015,Effective labor,1
+Low productivity,South Asia,2020,Effective labor,1.1474153216430938
+Low productivity,South Asia,2025,Effective labor,1.2977938860012392
+Low productivity,South Asia,2030,Effective labor,1.4251957578074148
+Low productivity,South Asia,2035,Effective labor,1.5419518140428488
+Low productivity,South Asia,2040,Effective labor,1.65444753712819
+Low productivity,South Asia,2045,Effective labor,1.7618411116894093
+Low productivity,South Asia,2050,Effective labor,1.8597064996460941
+Low productivity,South Asia,2055,Effective labor,1.9358360938602113
+Low productivity,South Asia,2060,Effective labor,2.0000596271182904
+Low productivity,South Asia,2065,Effective labor,2.054641815427868
+Low productivity,South Asia,2070,Effective labor,2.0983424793244287
+Low productivity,South Asia,2075,Effective labor,2.132536509433688
+Low productivity,South Asia,2080,Effective labor,2.1563890722834462
+Low productivity,South Asia,2085,Effective labor,2.171871496848998
+Low productivity,South Asia,2090,Effective labor,2.1798086861141264
+Low productivity,South Asia,2095,Effective labor,2.181410030984922
+Low productivity,South Asia,2100,Effective labor,2.1772964259427785
+Low productivity,Latin America,2015,Effective labor,1
+Low productivity,Latin America,2020,Effective labor,1.0432255384188789
+Low productivity,Latin America,2025,Effective labor,1.1162513121209758
+Low productivity,Latin America,2030,Effective labor,1.1912152439012256
+Low productivity,Latin America,2035,Effective labor,1.258980890454544
+Low productivity,Latin America,2040,Effective labor,1.3245754816065685
+Low productivity,Latin America,2045,Effective labor,1.3942787812912014
+Low productivity,Latin America,2050,Effective labor,1.456808539154374
+Low productivity,Latin America,2055,Effective labor,1.5088793622355072
+Low productivity,Latin America,2060,Effective labor,1.551244344243148
+Low productivity,Latin America,2065,Effective labor,1.5918573409164682
+Low productivity,Latin America,2070,Effective labor,1.6241891151029724
+Low productivity,Latin America,2075,Effective labor,1.6510777053723746
+Low productivity,Latin America,2080,Effective labor,1.672638116325606
+Low productivity,Latin America,2085,Effective labor,1.692224033376015
+Low productivity,Latin America,2090,Effective labor,1.7078004967122862
+Low productivity,Latin America,2095,Effective labor,1.7227470221463725
+Low productivity,Latin America,2100,Effective labor,1.7338879124383972
+Low productivity,Middle East,2015,Effective labor,1
+Low productivity,Middle East,2020,Effective labor,1.084441954116591
+Low productivity,Middle East,2025,Effective labor,1.1758541728172125
+Low productivity,Middle East,2030,Effective labor,1.339363483394229
+Low productivity,Middle East,2035,Effective labor,1.4997068297116594
+Low productivity,Middle East,2040,Effective labor,1.659469632441677
+Low productivity,Middle East,2045,Effective labor,1.8163143596950366
+Low productivity,Middle East,2050,Effective labor,1.9544192321181635
+Low productivity,Middle East,2055,Effective labor,2.060471125090916
+Low productivity,Middle East,2060,Effective labor,2.1454705624365675
+Low productivity,Middle East,2065,Effective labor,2.22833691312307
+Low productivity,Middle East,2070,Effective labor,2.298694280742794
+Low productivity,Middle East,2075,Effective labor,2.3617114299926203
+Low productivity,Middle East,2080,Effective labor,2.414862863423663
+Low productivity,Middle East,2085,Effective labor,2.4616498485666467
+Low productivity,Middle East,2090,Effective labor,2.500843358468198
+Low productivity,Middle East,2095,Effective labor,2.5465801302462907
+Low productivity,Middle East,2100,Effective labor,2.5881377825296568
+Low productivity,North America,2015,Effective labor,1
+Low productivity,North America,2020,Effective labor,1.0591086655474142
+Low productivity,North America,2025,Effective labor,1.1151709832275971
+Low productivity,North America,2030,Effective labor,1.1641596222583068
+Low productivity,North America,2035,Effective labor,1.2027514237900874
+Low productivity,North America,2040,Effective labor,1.2399371484876844
+Low productivity,North America,2045,Effective labor,1.2838564592791801
+Low productivity,North America,2050,Effective labor,1.3262813285468777
+Low productivity,North America,2055,Effective labor,1.362498448870217
+Low productivity,North America,2060,Effective labor,1.3929101588164037
+Low productivity,North America,2065,Effective labor,1.4191505137244618
+Low productivity,North America,2070,Effective labor,1.4357211586362078
+Low productivity,North America,2075,Effective labor,1.4477016432117216
+Low productivity,North America,2080,Effective labor,1.4531609095363958
+Low productivity,North America,2085,Effective labor,1.4571189501213158
+Low productivity,North America,2090,Effective labor,1.4578062946155643
+Low productivity,North America,2095,Effective labor,1.4567165587448943
+Low productivity,North America,2100,Effective labor,1.4504261381087074
+Low productivity,Pacific OECD,2015,Effective labor,1
+Low productivity,Pacific OECD,2020,Effective labor,1.046807081427652
+Low productivity,Pacific OECD,2025,Effective labor,1.0671155886181547
+Low productivity,Pacific OECD,2030,Effective labor,1.082099147934439
+Low productivity,Pacific OECD,2035,Effective labor,1.0907977718220632
+Low productivity,Pacific OECD,2040,Effective labor,1.098569769933139
+Low productivity,Pacific OECD,2045,Effective labor,1.1034672961659602
+Low productivity,Pacific OECD,2050,Effective labor,1.1036052534554868
+Low productivity,Pacific OECD,2055,Effective labor,1.101011589984697
+Low productivity,Pacific OECD,2060,Effective labor,1.0944058060768596
+Low productivity,Pacific OECD,2065,Effective labor,1.0850846277036392
+Low productivity,Pacific OECD,2070,Effective labor,1.0706164282863164
+Low productivity,Pacific OECD,2075,Effective labor,1.0543090801769517
+Low productivity,Pacific OECD,2080,Effective labor,1.0356863764805542
+Low productivity,Pacific OECD,2085,Effective labor,1.0157470625006968
+Low productivity,Pacific OECD,2090,Effective labor,0.9942646914196009
+Low productivity,Pacific OECD,2095,Effective labor,0.973153462352291
+Low productivity,Pacific OECD,2100,Effective labor,0.9502307546066413
+Low productivity,Reforming,2015,Effective labor,1
+Low productivity,Reforming,2020,Effective labor,1.1020132071120803
+Low productivity,Reforming,2025,Effective labor,1.2089198279778235
+Low productivity,Reforming,2030,Effective labor,1.304669968800352
+Low productivity,Reforming,2035,Effective labor,1.3901990232142436
+Low productivity,Reforming,2040,Effective labor,1.4734026073573578
+Low productivity,Reforming,2045,Effective labor,1.5477291160856606
+Low productivity,Reforming,2050,Effective labor,1.6047752829278337
+Low productivity,Reforming,2055,Effective labor,1.6463818365699487
+Low productivity,Reforming,2060,Effective labor,1.674196526645625
+Low productivity,Reforming,2065,Effective labor,1.7006379417231625
+Low productivity,Reforming,2070,Effective labor,1.7194941680426288
+Low productivity,Reforming,2075,Effective labor,1.7360403745435582
+Low productivity,Reforming,2080,Effective labor,1.7488896288695817
+Low productivity,Reforming,2085,Effective labor,1.760289843022743
+Low productivity,Reforming,2090,Effective labor,1.7669874948336324
+Low productivity,Reforming,2095,Effective labor,1.77185358018209
+Low productivity,Reforming,2100,Effective labor,1.7685125260359733
+Low productivity,Rest of Asia,2015,Effective labor,1
+Low productivity,Rest of Asia,2020,Effective labor,1.0977320953875869
+Low productivity,Rest of Asia,2025,Effective labor,1.198006921424519
+Low productivity,Rest of Asia,2030,Effective labor,1.2827534476772138
+Low productivity,Rest of Asia,2035,Effective labor,1.3573723132350874
+Low productivity,Rest of Asia,2040,Effective labor,1.4306224302081152
+Low productivity,Rest of Asia,2045,Effective labor,1.5021206245291785
+Low productivity,Rest of Asia,2050,Effective labor,1.5668432660522909
+Low productivity,Rest of Asia,2055,Effective labor,1.6108281850549124
+Low productivity,Rest of Asia,2060,Effective labor,1.6445355246046647
+Low productivity,Rest of Asia,2065,Effective labor,1.6722413005034202
+Low productivity,Rest of Asia,2070,Effective labor,1.6915962899588919
+Low productivity,Rest of Asia,2075,Effective labor,1.7051317290258285
+Low productivity,Rest of Asia,2080,Effective labor,1.7126327446296614
+Low productivity,Rest of Asia,2085,Effective labor,1.7161831464596615
+Low productivity,Rest of Asia,2090,Effective labor,1.7157921608151887
+Low productivity,Rest of Asia,2095,Effective labor,1.713063524854432
+Low productivity,Rest of Asia,2100,Effective labor,1.7070669470779087
+High productivity,Africa,2015,Effective labor,1
+High productivity,Africa,2020,Effective labor,1.1329576998887896
+High productivity,Africa,2025,Effective labor,1.3473372196950175
+High productivity,Africa,2030,Effective labor,1.6320150609039414
+High productivity,Africa,2035,Effective labor,1.924979081176427
+High productivity,Africa,2040,Effective labor,2.237953460511385
+High productivity,Africa,2045,Effective labor,2.5650564143637915
+High productivity,Africa,2050,Effective labor,2.9035818768803914
+High productivity,Africa,2055,Effective labor,3.23068947839306
+High productivity,Africa,2060,Effective labor,3.550952470355805
+High productivity,Africa,2065,Effective labor,3.8704554767998514
+High productivity,Africa,2070,Effective labor,4.173461517543982
+High productivity,Africa,2075,Effective labor,4.457351456457319
+High productivity,Africa,2080,Effective labor,4.7128392602041265
+High productivity,Africa,2085,Effective labor,4.9419632779303955
+High productivity,Africa,2090,Effective labor,5.140421375938317
+High productivity,Africa,2095,Effective labor,5.313176188579667
+High productivity,Africa,2100,Effective labor,5.465896254143139
+High productivity,China,2015,Effective labor,1
+High productivity,China,2020,Effective labor,1.1473095400848936
+High productivity,China,2025,Effective labor,1.268114534316798
+High productivity,China,2030,Effective labor,1.3470615499921526
+High productivity,China,2035,Effective labor,1.3950676950904572
+High productivity,China,2040,Effective labor,1.4265375555173525
+High productivity,China,2045,Effective labor,1.4440551286707841
+High productivity,China,2050,Effective labor,1.451544451785466
+High productivity,China,2055,Effective labor,1.4508689809168802
+High productivity,China,2060,Effective labor,1.4429305239863237
+High productivity,China,2065,Effective labor,1.4304356649801107
+High productivity,China,2070,Effective labor,1.4129032754020678
+High productivity,China,2075,Effective labor,1.3921608197811175
+High productivity,China,2080,Effective labor,1.3675503561001014
+High productivity,China,2085,Effective labor,1.3407630182506978
+High productivity,China,2090,Effective labor,1.3127945580135452
+High productivity,China,2095,Effective labor,1.284736046088176
+High productivity,China,2100,Effective labor,1.2570462954532986
+High productivity,Europe,2015,Effective labor,1
+High productivity,Europe,2020,Effective labor,1.0525813428433486
+High productivity,Europe,2025,Effective labor,1.1213453981759423
+High productivity,Europe,2030,Effective labor,1.1697059879619238
+High productivity,Europe,2035,Effective labor,1.2166829934783006
+High productivity,Europe,2040,Effective labor,1.2627176688168074
+High productivity,Europe,2045,Effective labor,1.3115192399906452
+High productivity,Europe,2050,Effective labor,1.3567721072860233
+High productivity,Europe,2055,Effective labor,1.3962124990871154
+High productivity,Europe,2060,Effective labor,1.4286096342681474
+High productivity,Europe,2065,Effective labor,1.4578414627704088
+High productivity,Europe,2070,Effective labor,1.4804015780116828
+High productivity,Europe,2075,Effective labor,1.5054388781140284
+High productivity,Europe,2080,Effective labor,1.5203647551491333
+High productivity,Europe,2085,Effective labor,1.5329063794775646
+High productivity,Europe,2090,Effective labor,1.541776850301503
+High productivity,Europe,2095,Effective labor,1.5480068431281588
+High productivity,Europe,2100,Effective labor,1.55053664452525
+High productivity,South Asia,2015,Effective labor,1
+High productivity,South Asia,2020,Effective labor,1.1626367229362153
+High productivity,South Asia,2025,Effective labor,1.3188835289547343
+High productivity,South Asia,2030,Effective labor,1.448380570950284
+High productivity,South Asia,2035,Effective labor,1.5662548423951717
+High productivity,South Asia,2040,Effective labor,1.6802110363794958
+High productivity,South Asia,2045,Effective labor,1.7889036161133927
+High productivity,South Asia,2050,Effective labor,1.8875526862199967
+High productivity,South Asia,2055,Effective labor,1.961651952064252
+High productivity,South Asia,2060,Effective labor,2.0245227893917885
+High productivity,South Asia,2065,Effective labor,2.077385912232385
+High productivity,South Asia,2070,Effective labor,2.1198789101806694
+High productivity,South Asia,2075,Effective labor,2.1527613937122108
+High productivity,South Asia,2080,Effective labor,2.1759826001275373
+High productivity,South Asia,2085,Effective labor,2.191013394264172
+High productivity,South Asia,2090,Effective labor,2.199058566097561
+High productivity,South Asia,2095,Effective labor,2.2009453797429614
+High productivity,South Asia,2100,Effective labor,2.1976171867251946
+High productivity,Latin America,2015,Effective labor,1
+High productivity,Latin America,2020,Effective labor,1.0292480831022424
+High productivity,Latin America,2025,Effective labor,1.1138356623711745
+High productivity,Latin America,2030,Effective labor,1.2101040967601202
+High productivity,Latin America,2035,Effective labor,1.3001241915589787
+High productivity,Latin America,2040,Effective labor,1.3909420141648026
+High productivity,Latin America,2045,Effective labor,1.4886128493517896
+High productivity,Latin America,2050,Effective labor,1.5802871536450964
+High productivity,Latin America,2055,Effective labor,1.656758263936134
+High productivity,Latin America,2060,Effective labor,1.7195463339988395
+High productivity,Latin America,2065,Effective labor,1.7781249445236176
+High productivity,Latin America,2070,Effective labor,1.8244486993140046
+High productivity,Latin America,2075,Effective labor,1.8621897475711486
+High productivity,Latin America,2080,Effective labor,1.8924577321556963
+High productivity,Latin America,2085,Effective labor,1.918677772084062
+High productivity,Latin America,2090,Effective labor,1.9388338611539049
+High productivity,Latin America,2095,Effective labor,1.9556660138290523
+High productivity,Latin America,2100,Effective labor,1.9667584052836187
+High productivity,Middle East,2015,Effective labor,1
+High productivity,Middle East,2020,Effective labor,1.0946172929709486
+High productivity,Middle East,2025,Effective labor,1.19656355498881
+High productivity,Middle East,2030,Effective labor,1.4218252586369804
+High productivity,Middle East,2035,Effective labor,1.6362680344386855
+High productivity,Middle East,2040,Effective labor,1.848450737176139
+High productivity,Middle East,2045,Effective labor,2.0536109121398454
+High productivity,Middle East,2050,Effective labor,2.234067499703703
+High productivity,Middle East,2055,Effective labor,2.3659710322101595
+High productivity,Middle East,2060,Effective labor,2.4706355319448683
+High productivity,Middle East,2065,Effective labor,2.561874459054964
+High productivity,Middle East,2070,Effective labor,2.6367881148965453
+High productivity,Middle East,2075,Effective labor,2.70359035268363
+High productivity,Middle East,2080,Effective labor,2.7601454781295263
+High productivity,Middle East,2085,Effective labor,2.809790026908225
+High productivity,Middle East,2090,Effective labor,2.8510687250855327
+High productivity,Middle East,2095,Effective labor,2.89390418244737
+High productivity,Middle East,2100,Effective labor,2.929824865987669
+High productivity,North America,2015,Effective labor,1
+High productivity,North America,2020,Effective labor,1.0523655494898667
+High productivity,North America,2025,Effective labor,1.1059680071000284
+High productivity,North America,2030,Effective labor,1.1544276352122802
+High productivity,North America,2035,Effective labor,1.192847141991025
+High productivity,North America,2040,Effective labor,1.2325677678284443
+High productivity,North America,2045,Effective labor,1.2821299009653675
+High productivity,North America,2050,Effective labor,1.331891000668298
+High productivity,North America,2055,Effective labor,1.3758403825331327
+High productivity,North America,2060,Effective labor,1.4128529193567616
+High productivity,North America,2065,Effective labor,1.4449501790239536
+High productivity,North America,2070,Effective labor,1.4662180082551517
+High productivity,North America,2075,Effective labor,1.4832285268732324
+High productivity,North America,2080,Effective labor,1.4934148385330028
+High productivity,North America,2085,Effective labor,1.5031408512237883
+High productivity,North America,2090,Effective labor,1.5093326960423021
+High productivity,North America,2095,Effective labor,1.5134493268269698
+High productivity,North America,2100,Effective labor,1.5119628753880574
+High productivity,Pacific OECD,2015,Effective labor,1
+High productivity,Pacific OECD,2020,Effective labor,1.0505054827286577
+High productivity,Pacific OECD,2025,Effective labor,1.0709204376885717
+High productivity,Pacific OECD,2030,Effective labor,1.0876158973255001
+High productivity,Pacific OECD,2035,Effective labor,1.0987860391718265
+High productivity,Pacific OECD,2040,Effective labor,1.1115397811220782
+High productivity,Pacific OECD,2045,Effective labor,1.1214378094938449
+High productivity,Pacific OECD,2050,Effective labor,1.1266054329676156
+High productivity,Pacific OECD,2055,Effective labor,1.1292464290113609
+High productivity,Pacific OECD,2060,Effective labor,1.1274143058060926
+High productivity,Pacific OECD,2065,Effective labor,1.122467704451485
+High productivity,Pacific OECD,2070,Effective labor,1.1121273676341221
+High productivity,Pacific OECD,2075,Effective labor,1.0999518151477583
+High productivity,Pacific OECD,2080,Effective labor,1.085808619897023
+High productivity,Pacific OECD,2085,Effective labor,1.0696993954408185
+High productivity,Pacific OECD,2090,Effective labor,1.0515412570982254
+High productivity,Pacific OECD,2095,Effective labor,1.0328412137695475
+High productivity,Pacific OECD,2100,Effective labor,1.0119501935514652
+High productivity,Reforming,2015,Effective labor,1
+High productivity,Reforming,2020,Effective labor,1.1245760154935502
+High productivity,Reforming,2025,Effective labor,1.2665839137234338
+High productivity,Reforming,2030,Effective labor,1.3931187550644186
+High productivity,Reforming,2035,Effective labor,1.503848584715543
+High productivity,Reforming,2040,Effective labor,1.612936028163996
+High productivity,Reforming,2045,Effective labor,1.7114910919337616
+High productivity,Reforming,2050,Effective labor,1.7936041134951657
+High productivity,Reforming,2055,Effective labor,1.8537888669658271
+High productivity,Reforming,2060,Effective labor,1.8998212003317514
+High productivity,Reforming,2065,Effective labor,1.9420653724182664
+High productivity,Reforming,2070,Effective labor,1.9744322055605672
+High productivity,Reforming,2075,Effective labor,2.0023786693300285
+High productivity,Reforming,2080,Effective labor,2.0244108056552585
+High productivity,Reforming,2085,Effective labor,2.0435122926987326
+High productivity,Reforming,2090,Effective labor,2.0566375324770885
+High productivity,Reforming,2095,Effective labor,2.0663931586435975
+High productivity,Reforming,2100,Effective labor,2.0674715328797495
+High productivity,Rest of Asia,2015,Effective labor,1
+High productivity,Rest of Asia,2020,Effective labor,1.111471232816787
+High productivity,Rest of Asia,2025,Effective labor,1.2230911172435972
+High productivity,Rest of Asia,2030,Effective labor,1.313089698047838
+High productivity,Rest of Asia,2035,Effective labor,1.3934279618386962
+High productivity,Rest of Asia,2040,Effective labor,1.4754258152187765
+High productivity,Rest of Asia,2045,Effective labor,1.5578529909120107
+High productivity,Rest of Asia,2050,Effective labor,1.6341331789285856
+High productivity,Rest of Asia,2055,Effective labor,1.6838064251235985
+High productivity,Rest of Asia,2060,Effective labor,1.722942735537622
+High productivity,Rest of Asia,2065,Effective labor,1.7547479250115412
+High productivity,Rest of Asia,2070,Effective labor,1.77695129215628
+High productivity,Rest of Asia,2075,Effective labor,1.7923540992831293
+High productivity,Rest of Asia,2080,Effective labor,1.8017007483406617
+High productivity,Rest of Asia,2085,Effective labor,1.8066429236626336
+High productivity,Rest of Asia,2090,Effective labor,1.8078576530497639
+High productivity,Rest of Asia,2095,Effective labor,1.806630809724105
+High productivity,Rest of Asia,2100,Effective labor,1.802404789986237
+High Elas.,Africa,2015,Effective labor,1
+High Elas.,Africa,2020,Effective labor,1.1302943059109885
+High Elas.,Africa,2025,Effective labor,1.3326590935467224
+High Elas.,Africa,2030,Effective labor,1.5887318319640664
+High Elas.,Africa,2035,Effective labor,1.8564966104881997
+High Elas.,Africa,2040,Effective labor,2.146922872159675
+High Elas.,Africa,2045,Effective labor,2.454251276927751
+High Elas.,Africa,2050,Effective labor,2.7757200536203386
+High Elas.,Africa,2055,Effective labor,3.088799564754799
+High Elas.,Africa,2060,Effective labor,3.3990051588686403
+High Elas.,Africa,2065,Effective labor,3.7103664117060955
+High Elas.,Africa,2070,Effective labor,4.009271927827367
+High Elas.,Africa,2075,Effective labor,4.2924425255469965
+High Elas.,Africa,2080,Effective labor,4.550605235689115
+High Elas.,Africa,2085,Effective labor,4.784770246204554
+High Elas.,Africa,2090,Effective labor,4.989792384742093
+High Elas.,Africa,2095,Effective labor,5.1702325923871575
+High Elas.,Africa,2100,Effective labor,5.330862851040827
+High Elas.,China,2015,Effective labor,1
+High Elas.,China,2020,Effective labor,1.1261710419652198
+High Elas.,China,2025,Effective labor,1.236945115907702
+High Elas.,China,2030,Effective labor,1.3139266545780868
+High Elas.,China,2035,Effective labor,1.3622651179580054
+High Elas.,China,2040,Effective labor,1.3942002126398478
+High Elas.,China,2045,Effective labor,1.4116364325438164
+High Elas.,China,2050,Effective labor,1.418546898234528
+High Elas.,China,2055,Effective labor,1.417912831464952
+High Elas.,China,2060,Effective labor,1.4097528753492943
+High Elas.,China,2065,Effective labor,1.3970701391323683
+High Elas.,China,2070,Effective labor,1.3791688112581915
+High Elas.,China,2075,Effective labor,1.3583387456091467
+High Elas.,China,2080,Effective labor,1.3336891414535164
+High Elas.,China,2085,Effective labor,1.3068903869639739
+High Elas.,China,2090,Effective labor,1.2789315598718232
+High Elas.,China,2095,Effective labor,1.2512387792339634
+High Elas.,China,2100,Effective labor,1.2238256248584112
+High Elas.,Europe,2015,Effective labor,1
+High Elas.,Europe,2020,Effective labor,1.0517360838998164
+High Elas.,Europe,2025,Effective labor,1.1178623327531505
+High Elas.,Europe,2030,Effective labor,1.1651701961988872
+High Elas.,Europe,2035,Effective labor,1.210259250200894
+High Elas.,Europe,2040,Effective labor,1.2544045017923438
+High Elas.,Europe,2045,Effective labor,1.3011205631519127
+High Elas.,Europe,2050,Effective labor,1.3448263523097883
+High Elas.,Europe,2055,Effective labor,1.3830125600318521
+High Elas.,Europe,2060,Effective labor,1.4146281283401165
+High Elas.,Europe,2065,Effective labor,1.4429843854035551
+High Elas.,Europe,2070,Effective labor,1.4651860333895668
+High Elas.,Europe,2075,Effective labor,1.4893240851108442
+High Elas.,Europe,2080,Effective labor,1.5039288326552338
+High Elas.,Europe,2085,Effective labor,1.5160936179209707
+High Elas.,Europe,2090,Effective labor,1.5247216928894771
+High Elas.,Europe,2095,Effective labor,1.5307540114366416
+High Elas.,Europe,2100,Effective labor,1.5332476658124046
+High Elas.,South Asia,2015,Effective labor,1
+High Elas.,South Asia,2020,Effective labor,1.1525819566716655
+High Elas.,South Asia,2025,Effective labor,1.3057485545803678
+High Elas.,South Asia,2030,Effective labor,1.4353013830034345
+High Elas.,South Asia,2035,Effective labor,1.5540081671238197
+High Elas.,South Asia,2040,Effective labor,1.668717406287317
+High Elas.,South Asia,2045,Effective labor,1.7782337723717665
+High Elas.,South Asia,2050,Effective labor,1.8782258747384717
+High Elas.,South Asia,2055,Effective labor,1.9546559171574165
+High Elas.,South Asia,2060,Effective labor,2.0197105385178142
+High Elas.,South Asia,2065,Effective labor,2.0746557554043465
+High Elas.,South Asia,2070,Effective labor,2.1190670486469156
+High Elas.,South Asia,2075,Effective labor,2.1540198268322355
+High Elas.,South Asia,2080,Effective labor,2.179032825681375
+High Elas.,South Asia,2085,Effective labor,2.1955219888012185
+High Elas.,South Asia,2090,Effective labor,2.2047242801520803
+High Elas.,South Asia,2095,Effective labor,2.2074301546466644
+High Elas.,South Asia,2100,Effective labor,2.2047293174142713
+High Elas.,Latin America,2015,Effective labor,1
+High Elas.,Latin America,2020,Effective labor,1.038303379275472
+High Elas.,Latin America,2025,Effective labor,1.1196967826321234
+High Elas.,Latin America,2030,Effective labor,1.2080955062384622
+High Elas.,Latin America,2035,Effective labor,1.290145803581806
+High Elas.,Latin America,2040,Effective labor,1.37380792973646
+High Elas.,Latin America,2045,Effective labor,1.4650121982443287
+High Elas.,Latin America,2050,Effective labor,1.5515901759285065
+High Elas.,Latin America,2055,Effective labor,1.6233428784418493
+High Elas.,Latin America,2060,Effective labor,1.6829106647281662
+High Elas.,Latin America,2065,Effective labor,1.738464960632608
+High Elas.,Latin America,2070,Effective labor,1.782812783151674
+High Elas.,Latin America,2075,Effective labor,1.8190543804778474
+High Elas.,Latin America,2080,Effective labor,1.848601471610718
+High Elas.,Latin America,2085,Effective labor,1.8736783950633151
+High Elas.,Latin America,2090,Effective labor,1.8932808271471298
+High Elas.,Latin America,2095,Effective labor,1.9095093604347972
+High Elas.,Latin America,2100,Effective labor,1.9203848447127692
+High Elas.,Middle East,2015,Effective labor,1
+High Elas.,Middle East,2020,Effective labor,1.0924798123070296
+High Elas.,Middle East,2025,Effective labor,1.1945499849117505
+High Elas.,Middle East,2030,Effective labor,1.3979804960236262
+High Elas.,Middle East,2035,Effective labor,1.5963117342810498
+High Elas.,Middle East,2040,Effective labor,1.7950847327735597
+High Elas.,Middle East,2045,Effective labor,1.9892873565470937
+High Elas.,Middle East,2050,Effective labor,2.162324729828357
+High Elas.,Middle East,2055,Effective labor,2.2899934745722854
+High Elas.,Middle East,2060,Effective labor,2.3947631838871875
+High Elas.,Middle East,2065,Effective labor,2.486541528034044
+High Elas.,Middle East,2070,Effective labor,2.5610458264243086
+High Elas.,Middle East,2075,Effective labor,2.6271719746914375
+High Elas.,Middle East,2080,Effective labor,2.6835394896847897
+High Elas.,Middle East,2085,Effective labor,2.734253123665625
+High Elas.,Middle East,2090,Effective labor,2.775294235473593
+High Elas.,Middle East,2095,Effective labor,2.8164888557698697
+High Elas.,Middle East,2100,Effective labor,2.8526477248786644
+High Elas.,North America,2015,Effective labor,1
+High Elas.,North America,2020,Effective labor,1.057229814580855
+High Elas.,North America,2025,Effective labor,1.1132351343206475
+High Elas.,North America,2030,Effective labor,1.1629983431005015
+High Elas.,North America,2035,Effective labor,1.2036083032690905
+High Elas.,North America,2040,Effective labor,1.2472407998189583
+High Elas.,North America,2045,Effective labor,1.3021689784209138
+High Elas.,North America,2050,Effective labor,1.3570383676727749
+High Elas.,North America,2055,Effective labor,1.4026849210954213
+High Elas.,North America,2060,Effective labor,1.4408018256206698
+High Elas.,North America,2065,Effective labor,1.473569471469124
+High Elas.,North America,2070,Effective labor,1.4951964237502635
+High Elas.,North America,2075,Effective labor,1.5111198478814192
+High Elas.,North America,2080,Effective labor,1.5209441760108027
+High Elas.,North America,2085,Effective labor,1.5287476784430938
+High Elas.,North America,2090,Effective labor,1.5334459314198008
+High Elas.,North America,2095,Effective labor,1.535492898129749
+High Elas.,North America,2100,Effective labor,1.5319876351131132
+High Elas.,Pacific OECD,2015,Effective labor,1
+High Elas.,Pacific OECD,2020,Effective labor,1.0481453365845625
+High Elas.,Pacific OECD,2025,Effective labor,1.069632574284795
+High Elas.,Pacific OECD,2030,Effective labor,1.0863980356219152
+High Elas.,Pacific OECD,2035,Effective labor,1.0972808514681418
+High Elas.,Pacific OECD,2040,Effective labor,1.108335047470016
+High Elas.,Pacific OECD,2045,Effective labor,1.1167387500590835
+High Elas.,Pacific OECD,2050,Effective labor,1.1208006538508455
+High Elas.,Pacific OECD,2055,Effective labor,1.1225011074693234
+High Elas.,Pacific OECD,2060,Effective labor,1.120061857166243
+High Elas.,Pacific OECD,2065,Effective labor,1.1143686984146512
+High Elas.,Pacific OECD,2070,Effective labor,1.1036000721145274
+High Elas.,Pacific OECD,2075,Effective labor,1.0909222481710037
+High Elas.,Pacific OECD,2080,Effective labor,1.0764120982796304
+High Elas.,Pacific OECD,2085,Effective labor,1.0596476256124425
+High Elas.,Pacific OECD,2090,Effective labor,1.041063389773557
+High Elas.,Pacific OECD,2095,Effective labor,1.02187508333655
+High Elas.,Pacific OECD,2100,Effective labor,1.000621382094356
+High Elas.,Reforming,2015,Effective labor,1
+High Elas.,Reforming,2020,Effective labor,1.1098042990537291
+High Elas.,Reforming,2025,Effective labor,1.240076890161168
+High Elas.,Reforming,2030,Effective labor,1.3561290890221562
+High Elas.,Reforming,2035,Effective labor,1.4600073097269546
+High Elas.,Reforming,2040,Effective labor,1.5638296191908851
+High Elas.,Reforming,2045,Effective labor,1.6588459917358138
+High Elas.,Reforming,2050,Effective labor,1.7389358034783597
+High Elas.,Reforming,2055,Effective labor,1.7979353241361222
+High Elas.,Reforming,2060,Effective labor,1.8437637257221604
+High Elas.,Reforming,2065,Effective labor,1.8856280242611412
+High Elas.,Reforming,2070,Effective labor,1.918155721590649
+High Elas.,Reforming,2075,Effective labor,1.946306274004087
+High Elas.,Reforming,2080,Effective labor,1.9701674385545813
+High Elas.,Reforming,2085,Effective labor,1.989686901823745
+High Elas.,Reforming,2090,Effective labor,2.003649850050326
+High Elas.,Reforming,2095,Effective labor,2.01401583909751
+High Elas.,Reforming,2100,Effective labor,2.016130423222509
+High Elas.,Rest of Asia,2015,Effective labor,1
+High Elas.,Rest of Asia,2020,Effective labor,1.102533907764563
+High Elas.,Rest of Asia,2025,Effective labor,1.2073498454089606
+High Elas.,Rest of Asia,2030,Effective labor,1.2949274146972958
+High Elas.,Rest of Asia,2035,Effective labor,1.3736969207317713
+High Elas.,Rest of Asia,2040,Effective labor,1.4531454661868313
+High Elas.,Rest of Asia,2045,Effective labor,1.532457917983946
+High Elas.,Rest of Asia,2050,Effective labor,1.6064189155098287
+High Elas.,Rest of Asia,2055,Effective labor,1.6554068668741118
+High Elas.,Rest of Asia,2060,Effective labor,1.6943239063560551
+High Elas.,Rest of Asia,2065,Effective labor,1.7261219621367718
+High Elas.,Rest of Asia,2070,Effective labor,1.7487187273918794
+High Elas.,Rest of Asia,2075,Effective labor,1.7646808563298633
+High Elas.,Rest of Asia,2080,Effective labor,1.7746617356114798
+High Elas.,Rest of Asia,2085,Effective labor,1.7799535487199258
+High Elas.,Rest of Asia,2090,Effective labor,1.7814835782897835
+High Elas.,Rest of Asia,2095,Effective labor,1.7804312322869538
+High Elas.,Rest of Asia,2100,Effective labor,1.7763427101445612
+Low Elas.,Africa,2015,Effective labor,1
+Low Elas.,Africa,2020,Effective labor,1.1324928648550854
+Low Elas.,Africa,2025,Effective labor,1.3229417645222818
+Low Elas.,Africa,2030,Effective labor,1.5779528437362316
+Low Elas.,Africa,2035,Effective labor,1.8385343738647337
+Low Elas.,Africa,2040,Effective labor,2.111422525854295
+Low Elas.,Africa,2045,Effective labor,2.3945504770552577
+Low Elas.,Africa,2050,Effective labor,2.681188309212005
+Low Elas.,Africa,2055,Effective labor,2.9719073695790503
+Low Elas.,Africa,2060,Effective labor,3.2578203589266144
+Low Elas.,Africa,2065,Effective labor,3.55750691493151
+Low Elas.,Africa,2070,Effective labor,3.8521766722021282
+Low Elas.,Africa,2075,Effective labor,4.145484100997956
+Low Elas.,Africa,2080,Effective labor,4.419574085082952
+Low Elas.,Africa,2085,Effective labor,4.681479347079861
+Low Elas.,Africa,2090,Effective labor,4.9169652338928085
+Low Elas.,Africa,2095,Effective labor,5.134864104293189
+Low Elas.,Africa,2100,Effective labor,5.329521382950569
+Low Elas.,China,2015,Effective labor,1
+Low Elas.,China,2020,Effective labor,1.1299174146776492
+Low Elas.,China,2025,Effective labor,1.253967017815419
+Low Elas.,China,2030,Effective labor,1.3399702505760835
+Low Elas.,China,2035,Effective labor,1.3962992891070138
+Low Elas.,China,2040,Effective labor,1.434974762377715
+Low Elas.,China,2045,Effective labor,1.4566927098051914
+Low Elas.,China,2050,Effective labor,1.4673891555933332
+Low Elas.,China,2055,Effective labor,1.4705056229892397
+Low Elas.,China,2060,Effective labor,1.4634409948070581
+Low Elas.,China,2065,Effective labor,1.449348490413651
+Low Elas.,China,2070,Effective labor,1.4272939689948685
+Low Elas.,China,2075,Effective labor,1.4013099351695064
+Low Elas.,China,2080,Effective labor,1.369415316535109
+Low Elas.,China,2085,Effective labor,1.3349028770256541
+Low Elas.,China,2090,Effective labor,1.2930829379777184
+Low Elas.,China,2095,Effective labor,1.2526272247787018
+Low Elas.,China,2100,Effective labor,1.211855671490662
+Low Elas.,Europe,2015,Effective labor,1
+Low Elas.,Europe,2020,Effective labor,1.0436999618472458
+Low Elas.,Europe,2025,Effective labor,1.097349770335144
+Low Elas.,Europe,2030,Effective labor,1.1325751912356856
+Low Elas.,Europe,2035,Effective labor,1.1660943621276598
+Low Elas.,Europe,2040,Effective labor,1.1982765456339592
+Low Elas.,Europe,2045,Effective labor,1.235003584839418
+Low Elas.,Europe,2050,Effective labor,1.2686040448810458
+Low Elas.,Europe,2055,Effective labor,1.2981121145829848
+Low Elas.,Europe,2060,Effective labor,1.3209099284326578
+Low Elas.,Europe,2065,Effective labor,1.3422036932031793
+Low Elas.,Europe,2070,Effective labor,1.3567167976248171
+Low Elas.,Europe,2075,Effective labor,1.3753771763632683
+Low Elas.,Europe,2080,Effective labor,1.3823847117378543
+Low Elas.,Europe,2085,Effective labor,1.3897789707322343
+Low Elas.,Europe,2090,Effective labor,1.3946877053066549
+Low Elas.,Europe,2095,Effective labor,1.3974340753432253
+Low Elas.,Europe,2100,Effective labor,1.3958503634546875
+Low Elas.,South Asia,2015,Effective labor,1
+Low Elas.,South Asia,2020,Effective labor,1.1623334508184493
+Low Elas.,South Asia,2025,Effective labor,1.3209146794968645
+Low Elas.,South Asia,2030,Effective labor,1.4486233200389458
+Low Elas.,South Asia,2035,Effective labor,1.5632925662780535
+Low Elas.,South Asia,2040,Effective labor,1.674046886498286
+Low Elas.,South Asia,2045,Effective labor,1.7801578802911397
+Low Elas.,South Asia,2050,Effective labor,1.873036932679173
+Low Elas.,South Asia,2055,Effective labor,1.943487519361432
+Low Elas.,South Asia,2060,Effective labor,2.0025953913414507
+Low Elas.,South Asia,2065,Effective labor,2.052705261374413
+Low Elas.,South Asia,2070,Effective labor,2.0922598158403676
+Low Elas.,South Asia,2075,Effective labor,2.122190393952455
+Low Elas.,South Asia,2080,Effective labor,2.141027614600143
+Low Elas.,South Asia,2085,Effective labor,2.1523576156674884
+Low Elas.,South Asia,2090,Effective labor,2.1570510582578586
+Low Elas.,South Asia,2095,Effective labor,2.156163737659781
+Low Elas.,South Asia,2100,Effective labor,2.1502287158704902
+Low Elas.,Latin America,2015,Effective labor,1
+Low Elas.,Latin America,2020,Effective labor,1.030392818520769
+Low Elas.,Latin America,2025,Effective labor,1.1017815694658135
+Low Elas.,Latin America,2030,Effective labor,1.1811163301217793
+Low Elas.,Latin America,2035,Effective labor,1.2546568428633733
+Low Elas.,Latin America,2040,Effective labor,1.324484976684125
+Low Elas.,Latin America,2045,Effective labor,1.3964940306315263
+Low Elas.,Latin America,2050,Effective labor,1.4595122327143812
+Low Elas.,Latin America,2055,Effective labor,1.513051792590563
+Low Elas.,Latin America,2060,Effective labor,1.557149623767285
+Low Elas.,Latin America,2065,Effective labor,1.5986028320996764
+Low Elas.,Latin America,2070,Effective labor,1.6311179203876154
+Low Elas.,Latin America,2075,Effective labor,1.6598433549864762
+Low Elas.,Latin America,2080,Effective labor,1.6825252418588241
+Low Elas.,Latin America,2085,Effective labor,1.7050072889217547
+Low Elas.,Latin America,2090,Effective labor,1.7242872624666752
+Low Elas.,Latin America,2095,Effective labor,1.743762682679268
+Low Elas.,Latin America,2100,Effective labor,1.7583057554520283
+Low Elas.,Middle East,2015,Effective labor,1
+Low Elas.,Middle East,2020,Effective labor,1.0829349651826732
+Low Elas.,Middle East,2025,Effective labor,1.1668631899666515
+Low Elas.,Middle East,2030,Effective labor,1.3451072482941973
+Low Elas.,Middle East,2035,Effective labor,1.5142919618114008
+Low Elas.,Middle East,2040,Effective labor,1.6790964395005437
+Low Elas.,Middle East,2045,Effective labor,1.8387366494829418
+Low Elas.,Middle East,2050,Effective labor,1.9746026251512043
+Low Elas.,Middle East,2055,Effective labor,2.0779002288213904
+Low Elas.,Middle East,2060,Effective labor,2.156744243696086
+Low Elas.,Middle East,2065,Effective labor,2.2374037746725595
+Low Elas.,Middle East,2070,Effective labor,2.30647595899951
+Low Elas.,Middle East,2075,Effective labor,2.3714541234624846
+Low Elas.,Middle East,2080,Effective labor,2.426396381713776
+Low Elas.,Middle East,2085,Effective labor,2.4809174038417
+Low Elas.,Middle East,2090,Effective labor,2.528789457812588
+Low Elas.,Middle East,2095,Effective labor,2.5851221641430615
+Low Elas.,Middle East,2100,Effective labor,2.638010177604014
+Low Elas.,North America,2015,Effective labor,1
+Low Elas.,North America,2020,Effective labor,1.052611624003815
+Low Elas.,North America,2025,Effective labor,1.0931966057273403
+Low Elas.,North America,2030,Effective labor,1.1310256286958937
+Low Elas.,North America,2035,Effective labor,1.1566749421542386
+Low Elas.,North America,2040,Effective labor,1.1738349222165019
+Low Elas.,North America,2045,Effective labor,1.192399244435782
+Low Elas.,North America,2050,Effective labor,1.2086243879964345
+Low Elas.,North America,2055,Effective labor,1.2285021130727538
+Low Elas.,North America,2060,Effective labor,1.2443976552645424
+Low Elas.,North America,2065,Effective labor,1.2592891661011503
+Low Elas.,North America,2070,Effective labor,1.266614218562518
+Low Elas.,North America,2075,Effective labor,1.2747805452278769
+Low Elas.,North America,2080,Effective labor,1.2756603426804514
+Low Elas.,North America,2085,Effective labor,1.278542105774321
+Low Elas.,North America,2090,Effective labor,1.278260817917757
+Low Elas.,North America,2095,Effective labor,1.278996045773185
+Low Elas.,North America,2100,Effective labor,1.274948067001272
+Low Elas.,Pacific OECD,2015,Effective labor,1
+Low Elas.,Pacific OECD,2020,Effective labor,1.0491550480233047
+Low Elas.,Pacific OECD,2025,Effective labor,1.0663001921279427
+Low Elas.,Pacific OECD,2030,Effective labor,1.0779233425094368
+Low Elas.,Pacific OECD,2035,Effective labor,1.084291169877592
+Low Elas.,Pacific OECD,2040,Effective labor,1.0921718539400536
+Low Elas.,Pacific OECD,2045,Effective labor,1.0968708156305622
+Low Elas.,Pacific OECD,2050,Effective labor,1.0940964280309822
+Low Elas.,Pacific OECD,2055,Effective labor,1.0885727248446653
+Low Elas.,Pacific OECD,2060,Effective labor,1.0788256371465104
+Low Elas.,Pacific OECD,2065,Effective labor,1.0678380818112716
+Low Elas.,Pacific OECD,2070,Effective labor,1.0509695337386942
+Low Elas.,Pacific OECD,2075,Effective labor,1.034154709370592
+Low Elas.,Pacific OECD,2080,Effective labor,1.015627698461692
+Low Elas.,Pacific OECD,2085,Effective labor,0.9964974602173617
+Low Elas.,Pacific OECD,2090,Effective labor,0.976352755548448
+Low Elas.,Pacific OECD,2095,Effective labor,0.9570442232549989
+Low Elas.,Pacific OECD,2100,Effective labor,0.935895858789289
+Low Elas.,Reforming,2015,Effective labor,1
+Low Elas.,Reforming,2020,Effective labor,1.1195138605533184
+Low Elas.,Reforming,2025,Effective labor,1.2364216794955536
+Low Elas.,Reforming,2030,Effective labor,1.3444454999140119
+Low Elas.,Reforming,2035,Effective labor,1.4359872554688613
+Low Elas.,Reforming,2040,Effective labor,1.5207309665590678
+Low Elas.,Reforming,2045,Effective labor,1.5932892890919463
+Low Elas.,Reforming,2050,Effective labor,1.6462244633616354
+Low Elas.,Reforming,2055,Effective labor,1.6863724296097602
+Low Elas.,Reforming,2060,Effective labor,1.7146628902734924
+Low Elas.,Reforming,2065,Effective labor,1.740712927455681
+Low Elas.,Reforming,2070,Effective labor,1.7544950154597587
+Low Elas.,Reforming,2075,Effective labor,1.7680793045045458
+Low Elas.,Reforming,2080,Effective labor,1.7780081800261462
+Low Elas.,Reforming,2085,Effective labor,1.788518700410794
+Low Elas.,Reforming,2090,Effective labor,1.794668456755524
+Low Elas.,Reforming,2095,Effective labor,1.8007606019040396
+Low Elas.,Reforming,2100,Effective labor,1.793857982894335
+Low Elas.,Rest of Asia,2015,Effective labor,1
+Low Elas.,Rest of Asia,2020,Effective labor,1.1093281108172164
+Low Elas.,Rest of Asia,2025,Effective labor,1.2208548657059015
+Low Elas.,Rest of Asia,2030,Effective labor,1.3117800105582107
+Low Elas.,Rest of Asia,2035,Effective labor,1.3912698721942587
+Low Elas.,Rest of Asia,2040,Effective labor,1.464817492721961
+Low Elas.,Rest of Asia,2045,Effective labor,1.5365087983585524
+Low Elas.,Rest of Asia,2050,Effective labor,1.6004655238279404
+Low Elas.,Rest of Asia,2055,Effective labor,1.6444316774672239
+Low Elas.,Rest of Asia,2060,Effective labor,1.6786759064152663
+Low Elas.,Rest of Asia,2065,Effective labor,1.707212417449185
+Low Elas.,Rest of Asia,2070,Effective labor,1.7270287963867728
+Low Elas.,Rest of Asia,2075,Effective labor,1.7410178238471963
+Low Elas.,Rest of Asia,2080,Effective labor,1.7487514527179961
+Low Elas.,Rest of Asia,2085,Effective labor,1.7528034345681789
+Low Elas.,Rest of Asia,2090,Effective labor,1.7508969288234097
+Low Elas.,Rest of Asia,2095,Effective labor,1.7476421715634476
+Low Elas.,Rest of Asia,2100,Effective labor,1.7409161790133016
+Evolving,Africa,2015,Effective labor,1
+Evolving,Africa,2020,Effective labor,1.13113364596629
+Evolving,Africa,2025,Effective labor,1.329659617817389
+Evolving,Africa,2030,Effective labor,1.5855096328220208
+Evolving,Africa,2035,Effective labor,1.8510567802383782
+Evolving,Africa,2040,Effective labor,2.1359612821930027
+Evolving,Africa,2045,Effective labor,2.4352777789238096
+Evolving,Africa,2050,Effective labor,2.7452625579029943
+Evolving,Africa,2055,Effective labor,3.0517151421135202
+Evolving,Africa,2060,Effective labor,3.355681018800415
+Evolving,Africa,2065,Effective labor,3.6649559945689023
+Evolving,Africa,2070,Effective labor,3.9640366564144975
+Evolving,Africa,2075,Effective labor,4.251238328204003
+Evolving,Africa,2080,Effective labor,4.514750663385209
+Evolving,Africa,2085,Effective labor,4.756633895358719
+Evolving,Africa,2090,Effective labor,4.969200728889909
+Evolving,Africa,2095,Effective labor,5.158069648701444
+Evolving,Africa,2100,Effective labor,5.325389418116416
+Evolving,China,2015,Effective labor,1
+Evolving,China,2020,Effective labor,1.127365580577728
+Evolving,China,2025,Effective labor,1.242146795543221
+Evolving,China,2030,Effective labor,1.3217111611495564
+Evolving,China,2035,Effective labor,1.372246121893695
+Evolving,China,2040,Effective labor,1.4059168643167959
+Evolving,China,2045,Effective labor,1.4244066431743487
+Evolving,China,2050,Effective labor,1.432191163965827
+Evolving,China,2055,Effective labor,1.4323889595780444
+Evolving,China,2060,Effective labor,1.4245439698183653
+Evolving,China,2065,Effective labor,1.4117243882522723
+Evolving,China,2070,Effective labor,1.3928410384876397
+Evolving,China,2075,Effective labor,1.3707236482050025
+Evolving,China,2080,Effective labor,1.3441957365446082
+Evolving,China,2085,Effective labor,1.315335432631583
+Evolving,China,2090,Effective labor,1.284546854409904
+Evolving,China,2095,Effective labor,1.2537897699250315
+Evolving,China,2100,Effective labor,1.2230562933620548
+Evolving,Europe,2015,Effective labor,1
+Evolving,Europe,2020,Effective labor,1.0489860988317032
+Evolving,Europe,2025,Effective labor,1.1113700029592124
+Evolving,Europe,2030,Effective labor,1.1547421018235744
+Evolving,Europe,2035,Effective labor,1.1965963602793093
+Evolving,Europe,2040,Effective labor,1.2376785745836265
+Evolving,Europe,2045,Effective labor,1.2821265237625556
+Evolving,Europe,2050,Effective labor,1.3236856856178425
+Evolving,Europe,2055,Effective labor,1.3597568847796997
+Evolving,Europe,2060,Effective labor,1.3891400807959242
+Evolving,Europe,2065,Effective labor,1.4157153374296179
+Evolving,Europe,2070,Effective labor,1.4356333748724188
+Evolving,Europe,2075,Effective labor,1.4589342681860018
+Evolving,Europe,2080,Effective labor,1.4717678178766915
+Evolving,Europe,2085,Effective labor,1.4831090537826643
+Evolving,Europe,2090,Effective labor,1.491055333684915
+Evolving,Europe,2095,Effective labor,1.496892308487931
+Evolving,Europe,2100,Effective labor,1.4988685207745254
+Evolving,South Asia,2015,Effective labor,1
+Evolving,South Asia,2020,Effective labor,1.1554914706559725
+Evolving,South Asia,2025,Effective labor,1.3101669947006225
+Evolving,South Asia,2030,Effective labor,1.4392089231000567
+Evolving,South Asia,2035,Effective labor,1.5568841076741446
+Evolving,South Asia,2040,Effective labor,1.6705676695204736
+Evolving,South Asia,2045,Effective labor,1.7790996569807318
+Evolving,South Asia,2050,Effective labor,1.877477315733721
+Evolving,South Asia,2055,Effective labor,1.9525377472732761
+Evolving,South Asia,2060,Effective labor,2.0161515334873723
+Evolving,South Asia,2065,Effective labor,2.0696944333509255
+Evolving,South Asia,2070,Effective labor,2.112360695239211
+Evolving,South Asia,2075,Effective labor,2.145737830213165
+Evolving,South Asia,2080,Effective labor,2.169191320910284
+Evolving,South Asia,2085,Effective labor,2.184357740682447
+Evolving,South Asia,2090,Effective labor,2.1921380664660393
+Evolving,South Asia,2095,Effective labor,2.193669126794469
+Evolving,South Asia,2100,Effective labor,2.189859864151631
+Evolving,Latin America,2015,Effective labor,1
+Evolving,Latin America,2020,Effective labor,1.0355764182915974
+Evolving,Latin America,2025,Effective labor,1.1136024311146442
+Evolving,Latin America,2030,Effective labor,1.1989798160676948
+Evolving,Latin America,2035,Effective labor,1.2781886438453782
+Evolving,Latin America,2040,Effective labor,1.3570739240128689
+Evolving,Latin America,2045,Effective labor,1.441990078088185
+Evolving,Latin America,2050,Effective labor,1.5204410701085604
+Evolving,Latin America,2055,Effective labor,1.5857823186112967
+Evolving,Latin America,2060,Effective labor,1.6397587443889798
+Evolving,Latin America,2065,Effective labor,1.6911215793253989
+Evolving,Latin America,2070,Effective labor,1.7325635228896175
+Evolving,Latin America,2075,Effective labor,1.7670639748990187
+Evolving,Latin America,2080,Effective labor,1.79506383026965
+Evolving,Latin America,2085,Effective labor,1.8197390166353535
+Evolving,Latin America,2090,Effective labor,1.8390834206379911
+Evolving,Latin America,2095,Effective labor,1.8563887855183163
+Evolving,Latin America,2100,Effective labor,1.8686747292680905
+Evolving,Middle East,2015,Effective labor,1
+Evolving,Middle East,2020,Effective labor,1.0892349087424762
+Evolving,Middle East,2025,Effective labor,1.1854487333901822
+Evolving,Middle East,2030,Effective labor,1.3808289784703691
+Evolving,Middle East,2035,Effective labor,1.5700958575407904
+Evolving,Middle East,2040,Effective labor,1.758887750005816
+Evolving,Middle East,2045,Effective labor,1.9435458833699908
+Evolving,Middle East,2050,Effective labor,2.106502478658123
+Evolving,Middle East,2055,Effective labor,2.2284421770889793
+Evolving,Middle East,2060,Effective labor,2.326526271040906
+Evolving,Middle East,2065,Effective labor,2.418104160339471
+Evolving,Middle East,2070,Effective labor,2.494181504988315
+Evolving,Middle East,2075,Effective labor,2.560978227152505
+Evolving,Middle East,2080,Effective labor,2.6188512309828096
+Evolving,Middle East,2085,Effective labor,2.6733105936206223
+Evolving,Middle East,2090,Effective labor,2.718586911828258
+Evolving,Middle East,2095,Effective labor,2.7653496022813973
+Evolving,Middle East,2100,Effective labor,2.807147177595879
+Evolving,North America,2015,Effective labor,1
+Evolving,North America,2020,Effective labor,1.0564667373734717
+Evolving,North America,2025,Effective labor,1.109748336062838
+Evolving,North America,2030,Effective labor,1.157467006384526
+Evolving,North America,2035,Effective labor,1.1951357215601321
+Evolving,North America,2040,Effective labor,1.2328995665264717
+Evolving,North America,2045,Effective labor,1.2790660703858265
+Evolving,North America,2050,Effective labor,1.3247226740056608
+Evolving,North America,2055,Effective labor,1.3645640633707556
+Evolving,North America,2060,Effective labor,1.3979928295269535
+Evolving,North America,2065,Effective labor,1.4269346287476348
+Evolving,North America,2070,Effective labor,1.445772182634178
+Evolving,North America,2075,Effective labor,1.4604066524669974
+Evolving,North America,2080,Effective labor,1.4685278719161476
+Evolving,North America,2085,Effective labor,1.4755597976983221
+Evolving,North America,2090,Effective labor,1.479437848622462
+Evolving,North America,2095,Effective labor,1.4815970904054805
+Evolving,North America,2100,Effective labor,1.478390341620344
+Evolving,Pacific OECD,2015,Effective labor,1
+Evolving,Pacific OECD,2020,Effective labor,1.048705119668143
+Evolving,Pacific OECD,2025,Effective labor,1.0690092342215725
+Evolving,Pacific OECD,2030,Effective labor,1.0846319876962278
+Evolving,Pacific OECD,2035,Effective labor,1.094579497579943
+Evolving,Pacific OECD,2040,Effective labor,1.1051562412455953
+Evolving,Pacific OECD,2045,Effective labor,1.1129369213592821
+Evolving,Pacific OECD,2050,Effective labor,1.115912057755375
+Evolving,Pacific OECD,2055,Effective labor,1.116062145918169
+Evolving,Pacific OECD,2060,Effective labor,1.111934590993194
+Evolving,Pacific OECD,2065,Effective labor,1.104946065457995
+Evolving,Pacific OECD,2070,Effective labor,1.0927177048774153
+Evolving,Pacific OECD,2075,Effective labor,1.0790652935985265
+Evolving,Pacific OECD,2080,Effective labor,1.0636765408584226
+Evolving,Pacific OECD,2085,Effective labor,1.0464456566759923
+Evolving,Pacific OECD,2090,Effective labor,1.0275196127702582
+Evolving,Pacific OECD,2095,Effective labor,1.0084038121580832
+Evolving,Pacific OECD,2100,Effective labor,0.9872674096327435
+Evolving,Reforming,2015,Effective labor,1
+Evolving,Reforming,2020,Effective labor,1.1134242250986626
+Evolving,Reforming,2025,Effective labor,1.239029967268174
+Evolving,Reforming,2030,Effective labor,1.3524142606447034
+Evolving,Reforming,2035,Effective labor,1.4527882840382405
+Evolving,Reforming,2040,Effective labor,1.5508260021643268
+Evolving,Reforming,2045,Effective labor,1.6388802558737892
+Evolving,Reforming,2050,Effective labor,1.710467296500911
+Evolving,Reforming,2055,Effective labor,1.7637886010919377
+Evolving,Reforming,2060,Effective labor,1.804040483625917
+Evolving,Reforming,2065,Effective labor,1.8393158260186708
+Evolving,Reforming,2070,Effective labor,1.8652449977902064
+Evolving,Reforming,2075,Effective labor,1.8881440568896721
+Evolving,Reforming,2080,Effective labor,1.9072675184247163
+Evolving,Reforming,2085,Effective labor,1.923854526095553
+Evolving,Reforming,2090,Effective labor,1.9350699752204532
+Evolving,Reforming,2095,Effective labor,1.944031680825046
+Evolving,Reforming,2100,Effective labor,1.9442294273703518
+Evolving,Rest of Asia,2015,Effective labor,1
+Evolving,Rest of Asia,2020,Effective labor,1.1048866238319728
+Evolving,Rest of Asia,2025,Effective labor,1.211795358199639
+Evolving,Rest of Asia,2030,Effective labor,1.300292881112938
+Evolving,Rest of Asia,2035,Effective labor,1.3789876716722935
+Evolving,Rest of Asia,2040,Effective labor,1.457310309222298
+Evolving,Rest of Asia,2045,Effective labor,1.5348579595531253
+Evolving,Rest of Asia,2050,Effective labor,1.6063516291460456
+Evolving,Rest of Asia,2055,Effective labor,1.6541559622693507
+Evolving,Rest of Asia,2060,Effective labor,1.6919310607572533
+Evolving,Rest of Asia,2065,Effective labor,1.722806141182366
+Evolving,Rest of Asia,2070,Effective labor,1.7446370356812513
+Evolving,Rest of Asia,2075,Effective labor,1.7599696948357568
+Evolving,Rest of Asia,2080,Effective labor,1.7689559146263867
+Evolving,Rest of Asia,2085,Effective labor,1.7734561189832143
+Evolving,Rest of Asia,2090,Effective labor,1.7741599731409772
+Evolving,Rest of Asia,2095,Effective labor,1.7727138344304485
+Evolving,Rest of Asia,2100,Effective labor,1.7681532668049937
+Low transition,Africa,2015,Effective labor,1
+Low transition,Africa,2020,Effective labor,1.13113364596629
+Low transition,Africa,2025,Effective labor,1.3380675938803406
+Low transition,Africa,2030,Effective labor,1.607015666022033
+Low transition,Africa,2035,Effective labor,1.8887137287330453
+Low transition,Africa,2040,Effective labor,2.1938040802447247
+Low transition,Africa,2045,Effective labor,2.518152764115334
+Low transition,Africa,2050,Effective labor,2.858182966108999
+Low transition,Africa,2055,Effective labor,3.1925184073429906
+Low transition,Africa,2060,Effective labor,3.5233015756051014
+Low transition,Africa,2065,Effective labor,3.8550210391976383
+Low transition,Africa,2070,Effective labor,4.171813147925246
+Low transition,Africa,2075,Effective labor,4.470909115157745
+Low transition,Africa,2080,Effective labor,4.741051849262381
+Low transition,Africa,2085,Effective labor,4.98244051688891
+Low transition,Africa,2090,Effective labor,5.191811799529581
+Low transition,Africa,2095,Effective labor,5.374716935342236
+Low transition,Africa,2100,Effective labor,5.535873219732633
+Low transition,China,2015,Effective labor,1
+Low transition,China,2020,Effective labor,1.127365580577728
+Low transition,China,2025,Effective labor,1.2428561657107393
+Low transition,China,2030,Effective labor,1.3230826255333767
+Low transition,China,2035,Effective labor,1.3741035455561117
+Low transition,China,2040,Effective labor,1.4081477176615493
+Low transition,China,2045,Effective labor,1.4274597496876003
+Low transition,China,2050,Effective labor,1.436154064863418
+Low transition,China,2055,Effective labor,1.4377682540565861
+Low transition,China,2060,Effective labor,1.4319445100421901
+Low transition,China,2065,Effective labor,1.4219712364515078
+Low transition,China,2070,Effective labor,1.406934330039264
+Low transition,China,2075,Effective labor,1.3892026840785985
+Low transition,China,2080,Effective labor,1.368132963355097
+Low transition,China,2085,Effective labor,1.3458367824347817
+Low transition,China,2090,Effective labor,1.3233272153486804
+Low transition,China,2095,Effective labor,1.3018989958569978
+Low transition,China,2100,Effective labor,1.2812604048124885
+Low transition,Europe,2015,Effective labor,1
+Low transition,Europe,2020,Effective labor,1.0489860988317032
+Low transition,Europe,2025,Effective labor,1.111297084244021
+Low transition,Europe,2030,Effective labor,1.1539635595570013
+Low transition,Europe,2035,Effective labor,1.1945661436514474
+Low transition,Europe,2040,Effective labor,1.2342642906233747
+Low transition,Europe,2045,Effective labor,1.277525816667307
+Low transition,Europe,2050,Effective labor,1.3181157964645218
+Low transition,Europe,2055,Effective labor,1.3541234825143569
+Low transition,Europe,2060,Effective labor,1.3836839759100772
+Low transition,Europe,2065,Effective labor,1.4109728818562592
+Low transition,Europe,2070,Effective labor,1.4324085012260481
+Low transition,Europe,2075,Effective labor,1.457978764799659
+Low transition,Europe,2080,Effective labor,1.4740225181785873
+Low transition,Europe,2085,Effective labor,1.4889437426848708
+Low transition,Europe,2090,Effective labor,1.5001117230692318
+Low transition,Europe,2095,Effective labor,1.5087713150062878
+Low transition,Europe,2100,Effective labor,1.513482717062914
+Low transition,South Asia,2015,Effective labor,1
+Low transition,South Asia,2020,Effective labor,1.1554914706559725
+Low transition,South Asia,2025,Effective labor,1.3119488485856656
+Low transition,South Asia,2030,Effective labor,1.4429998580472017
+Low transition,South Asia,2035,Effective labor,1.5626256911692422
+Low transition,South Asia,2040,Effective labor,1.678339436752182
+Low transition,South Asia,2045,Effective labor,1.7891990750189959
+Low transition,South Asia,2050,Effective labor,1.8904908065981
+Low transition,South Asia,2055,Effective labor,1.9670959828569905
+Low transition,South Asia,2060,Effective labor,2.032749877472281
+Low transition,South Asia,2065,Effective labor,2.0885215101423387
+Low transition,South Asia,2070,Effective labor,2.133727357423213
+Low transition,South Asia,2075,Effective labor,2.169521096329043
+Low transition,South Asia,2080,Effective labor,2.1955743474426614
+Low transition,South Asia,2085,Effective labor,2.2132660530914867
+Low transition,South Asia,2090,Effective labor,2.2238028581175557
+Low transition,South Asia,2095,Effective labor,2.2279150540072106
+Low transition,South Asia,2100,Effective labor,2.2267155342011478
+Low transition,Latin America,2015,Effective labor,1
+Low transition,Latin America,2020,Effective labor,1.0355764182915974
+Low transition,Latin America,2025,Effective labor,1.1226073555682097
+Low transition,Latin America,2030,Effective labor,1.2191216584553943
+Low transition,Latin America,2035,Effective labor,1.3105816929764358
+Low transition,Latin America,2040,Effective labor,1.4036414296724584
+Low transition,Latin America,2045,Effective labor,1.5050055556883541
+Low transition,Latin America,2050,Effective labor,1.6030293986322883
+Low transition,Latin America,2055,Effective labor,1.6882274438516527
+Low transition,Latin America,2060,Effective labor,1.7624446882117886
+Low transition,Latin America,2065,Effective labor,1.8339543489009151
+Low transition,Latin America,2070,Effective labor,1.8950693018499336
+Low transition,Latin America,2075,Effective labor,1.9481864642432272
+Low transition,Latin America,2080,Effective labor,1.994623609085579
+Low transition,Latin America,2085,Effective labor,2.0362954569922644
+Low transition,Latin America,2090,Effective labor,2.072103683098457
+Low transition,Latin America,2095,Effective labor,2.1039081906214103
+Low transition,Latin America,2100,Effective labor,2.1295188482711365
+Low transition,Middle East,2015,Effective labor,1
+Low transition,Middle East,2020,Effective labor,1.0892349087424762
+Low transition,Middle East,2025,Effective labor,1.1949721063585892
+Low transition,Middle East,2030,Effective labor,1.404665347493832
+Low transition,Middle East,2035,Effective labor,1.6107252375120804
+Low transition,Middle East,2040,Effective labor,1.8198497311474553
+Low transition,Middle East,2045,Effective labor,2.029926092402945
+Low transition,Middle East,2050,Effective labor,2.2233410050683773
+Low transition,Middle East,2055,Effective labor,2.375156800463832
+Low transition,Middle East,2060,Effective labor,2.504400888401127
+Low transition,Middle East,2065,Effective labor,2.622630617773677
+Low transition,Middle East,2070,Effective labor,2.725162431680015
+Low transition,Middle East,2075,Effective labor,2.820851583386312
+Low transition,Middle East,2080,Effective labor,2.9080205868366527
+Low transition,Middle East,2085,Effective labor,2.985687812427011
+Low transition,Middle East,2090,Effective labor,3.055662606497789
+Low transition,Middle East,2095,Effective labor,3.123612307111541
+Low transition,Middle East,2100,Effective labor,3.1816443375143724
+Low transition,North America,2015,Effective labor,1
+Low transition,North America,2020,Effective labor,1.0564667373734717
+Low transition,North America,2025,Effective labor,1.0996373005149256
+Low transition,North America,2030,Effective labor,1.1348171712070667
+Low transition,North America,2035,Effective labor,1.1589758717944592
+Low transition,North America,2040,Effective labor,1.1813090393391683
+Low transition,North America,2045,Effective labor,1.2093706741772703
+Low transition,North America,2050,Effective labor,1.23441583010245
+Low transition,North America,2055,Effective labor,1.2544394104148278
+Low transition,North America,2060,Effective labor,1.2673571611320051
+Low transition,North America,2065,Effective labor,1.2757309423510585
+Low transition,North America,2070,Effective labor,1.2739731929956106
+Low transition,North America,2075,Effective labor,1.2681639767076147
+Low transition,North America,2080,Effective labor,1.2549693127379256
+Low transition,North America,2085,Effective labor,1.2412564826822845
+Low transition,North America,2090,Effective labor,1.2247007788604907
+Low transition,North America,2095,Effective labor,1.207859108368155
+Low transition,North America,2100,Effective labor,1.1864323579323135
+Low transition,Pacific OECD,2015,Effective labor,1
+Low transition,Pacific OECD,2020,Effective labor,1.048705119668143
+Low transition,Pacific OECD,2025,Effective labor,1.063578985108257
+Low transition,Pacific OECD,2030,Effective labor,1.0726238817391067
+Low transition,Pacific OECD,2035,Effective labor,1.0756773553269385
+Low transition,Pacific OECD,2040,Effective labor,1.0787345173308398
+Low transition,Pacific OECD,2045,Effective labor,1.0777779434144654
+Low transition,Pacific OECD,2050,Effective labor,1.0708690588669554
+Low transition,Pacific OECD,2055,Effective labor,1.0610216974883029
+Low transition,Pacific OECD,2060,Effective labor,1.0460706656190752
+Low transition,Pacific OECD,2065,Effective labor,1.0280260807874129
+Low transition,Pacific OECD,2070,Effective labor,1.003575406014718
+Low transition,Pacific OECD,2075,Effective labor,0.9773587805464528
+Low transition,Pacific OECD,2080,Effective labor,0.9489911113490198
+Low transition,Pacific OECD,2085,Effective labor,0.9197670438196112
+Low transition,Pacific OECD,2090,Effective labor,0.888851311177646
+Low transition,Pacific OECD,2095,Effective labor,0.8585411111277106
+Low transition,Pacific OECD,2100,Effective labor,0.8268042682994047
+Low transition,Reforming,2015,Effective labor,1
+Low transition,Reforming,2020,Effective labor,1.1134242250986626
+Low transition,Reforming,2025,Effective labor,1.2435162309485421
+Low transition,Reforming,2030,Effective labor,1.3618564810355167
+Low transition,Reforming,2035,Effective labor,1.467430556723963
+Low transition,Reforming,2040,Effective labor,1.5720699020343645
+Low transition,Reforming,2045,Effective labor,1.668498907716781
+Low transition,Reforming,2050,Effective labor,1.7501059989951613
+Low transition,Reforming,2055,Effective labor,1.8145167540423504
+Low transition,Reforming,2060,Effective labor,1.8668398820821113
+Low transition,Reforming,2065,Effective labor,1.9156804988740956
+Low transition,Reforming,2070,Effective labor,1.956307707547315
+Low transition,Reforming,2075,Effective labor,1.9953124201664034
+Low transition,Reforming,2080,Effective labor,2.0314831266969504
+Low transition,Reforming,2085,Effective labor,2.0649171870529783
+Low transition,Reforming,2090,Effective labor,2.092961950535279
+Low transition,Reforming,2095,Effective labor,2.117592996771179
+Low transition,Reforming,2100,Effective labor,2.133731938988685
+Low transition,Rest of Asia,2015,Effective labor,1
+Low transition,Rest of Asia,2020,Effective labor,1.1048866238319728
+Low transition,Rest of Asia,2025,Effective labor,1.213654644071807
+Low transition,Rest of Asia,2030,Effective labor,1.3042531470297398
+Low transition,Rest of Asia,2035,Effective labor,1.3852387379569004
+Low transition,Rest of Asia,2040,Effective labor,1.467246314260935
+Low transition,Rest of Asia,2045,Effective labor,1.5490170098486924
+Low transition,Rest of Asia,2050,Effective labor,1.6256634386690603
+Low transition,Rest of Asia,2055,Effective labor,1.6781558132824723
+Low transition,Rest of Asia,2060,Effective labor,1.7208816643328577
+Low transition,Rest of Asia,2065,Effective labor,1.7568036539523229
+Low transition,Rest of Asia,2070,Effective labor,1.7838567424460074
+Low transition,Rest of Asia,2075,Effective labor,1.8044427738293898
+Low transition,Rest of Asia,2080,Effective labor,1.8192702766624769
+Low transition,Rest of Asia,2085,Effective labor,1.8295599629926702
+Low transition,Rest of Asia,2090,Effective labor,1.8360767279729133
+Low transition,Rest of Asia,2095,Effective labor,1.8398422144826694
+Low transition,Rest of Asia,2100,Effective labor,1.8403202644760068
+High transition,Africa,2015,Effective labor,1
+High transition,Africa,2020,Effective labor,1.13113364596629
+High transition,Africa,2025,Effective labor,1.3212225913614142
+High transition,Africa,2030,Effective labor,1.5643013719588654
+High transition,Africa,2035,Effective labor,1.814475209790332
+High transition,Africa,2040,Effective labor,2.0799459167127274
+High transition,Africa,2045,Effective labor,2.355396958150969
+High transition,Africa,2050,Effective labor,2.636706933836986
+High transition,Africa,2055,Effective labor,2.9164577012815256
+High transition,Africa,2060,Effective labor,3.194688266531114
+High transition,Africa,2065,Effective labor,3.479382011777108
+High transition,Africa,2070,Effective labor,3.755551616611759
+High transition,Africa,2075,Effective labor,4.0237582494173525
+High transition,Africa,2080,Effective labor,4.272150476542494
+High transition,Africa,2085,Effective labor,4.504152842293373
+High transition,Africa,2090,Effective labor,4.711038258321486
+High transition,Africa,2095,Effective labor,4.899486016500931
+High transition,Africa,2100,Effective labor,5.068726442240934
+High transition,China,2015,Effective labor,1
+High transition,China,2020,Effective labor,1.127365580577728
+High transition,China,2025,Effective labor,1.2413269692732574
+High transition,China,2030,Effective labor,1.3201355969945487
+High transition,China,2035,Effective labor,1.3702186313196323
+High transition,China,2040,Effective labor,1.403528672748492
+High transition,China,2045,Effective labor,1.4216592708446152
+High transition,China,2050,Effective labor,1.429092530955909
+High transition,China,2055,Effective labor,1.428712584619112
+High transition,China,2060,Effective labor,1.4199664812409727
+High transition,China,2065,Effective labor,1.4059343212514306
+High transition,China,2070,Effective labor,1.385634009607257
+High transition,China,2075,Effective labor,1.361934179574934
+High transition,China,2080,Effective labor,1.3332051518947385
+High transition,China,2085,Effective labor,1.3009680280579186
+High transition,China,2090,Effective labor,1.2661775344055943
+High transition,China,2095,Effective labor,1.2300959326937608
+High transition,China,2100,Effective labor,1.191464137213474
+High transition,Europe,2015,Effective labor,1
+High transition,Europe,2020,Effective labor,1.0489860988317032
+High transition,Europe,2025,Effective labor,1.1118848600533342
+High transition,Europe,2030,Effective labor,1.1565015180663683
+High transition,Europe,2035,Effective labor,1.2001413155130585
+High transition,Europe,2040,Effective labor,1.2433389349570774
+High transition,Europe,2045,Effective labor,1.289951624319579
+High transition,Europe,2050,Effective labor,1.3335739721860211
+High transition,Europe,2055,Effective labor,1.3709026884493007
+High transition,Europe,2060,Effective labor,1.4007791119091817
+High transition,Europe,2065,Effective labor,1.4277941551107143
+High transition,Europe,2070,Effective labor,1.4482095117558538
+High transition,Europe,2075,Effective labor,1.471225138057902
+High transition,Europe,2080,Effective labor,1.483307787227455
+High transition,Europe,2085,Effective labor,1.493371343801115
+High transition,Europe,2090,Effective labor,1.4996835671337418
+High transition,Europe,2095,Effective labor,1.5040170225268483
+High transition,Europe,2100,Effective labor,1.5037084338835922
+High transition,South Asia,2015,Effective labor,1
+High transition,South Asia,2020,Effective labor,1.1554914706559725
+High transition,South Asia,2025,Effective labor,1.308402160594212
+High transition,South Asia,2030,Effective labor,1.4354292782906253
+High transition,South Asia,2035,Effective labor,1.5510543969837784
+High transition,South Asia,2040,Effective labor,1.6624269983380713
+High transition,South Asia,2045,Effective labor,1.767790292243698
+High transition,South Asia,2050,Effective labor,1.8630964953275726
+High transition,South Asia,2055,Effective labor,1.9357867032171445
+High transition,South Asia,2060,Effective labor,1.9961801680947895
+High transition,South Asia,2065,Effective labor,2.0468585657542904
+High transition,South Asia,2070,Effective labor,2.086485578281712
+High transition,South Asia,2075,Effective labor,2.116675762205631
+High transition,South Asia,2080,Effective labor,2.1367193417451946
+High transition,South Asia,2085,Effective labor,2.1482298482062343
+High transition,South Asia,2090,Effective labor,2.1524469081944373
+High transition,South Asia,2095,Effective labor,2.1505511074906605
+High transition,South Asia,2100,Effective labor,2.1429870368382935
+High transition,Latin America,2015,Effective labor,1
+High transition,Latin America,2020,Effective labor,1.0355764182915974
+High transition,Latin America,2025,Effective labor,1.1049296540085354
+High transition,Latin America,2030,Effective labor,1.1798063440189441
+High transition,Latin America,2035,Effective labor,1.247527064956143
+High transition,Latin America,2040,Effective labor,1.3135176658610757
+High transition,Latin America,2045,Effective labor,1.3834013616663856
+High transition,Latin America,2050,Effective labor,1.444741118588352
+High transition,Latin America,2055,Effective labor,1.4942545494585964
+High transition,Latin America,2060,Effective labor,1.5323637473406178
+High transition,Latin America,2065,Effective labor,1.5677580918747702
+High transition,Latin America,2070,Effective labor,1.5935732185212088
+High transition,Latin America,2075,Effective labor,1.6126480857526448
+High transition,Latin America,2080,Effective labor,1.6250775973835694
+High transition,Latin America,2085,Effective labor,1.6351182100115524
+High transition,Latin America,2090,Effective labor,1.638917329748308
+High transition,Latin America,2095,Effective labor,1.6396885021936471
+High transition,Latin America,2100,Effective labor,1.6336735298359817
+High transition,Middle East,2015,Effective labor,1
+High transition,Middle East,2020,Effective labor,1.0892349087424762
+High transition,Middle East,2025,Effective labor,1.1782619608678262
+High transition,Middle East,2030,Effective labor,1.3629376177876813
+High transition,Middle East,2035,Effective labor,1.5398642914927594
+High transition,Middle East,2040,Effective labor,1.7137946821083452
+High transition,Middle East,2045,Effective labor,1.8809626025486854
+High transition,Middle East,2050,Effective labor,2.0242738258055835
+High transition,Middle East,2055,Effective labor,2.1275727626741303
+High transition,Middle East,2060,Effective labor,2.207247921425805
+High transition,Middle East,2065,Effective labor,2.2842187866103214
+High transition,Middle East,2070,Effective labor,2.3467097249225146
+High transition,Middle East,2075,Effective labor,2.401090792255989
+High transition,Middle East,2080,Effective labor,2.4464599091502306
+High transition,Middle East,2085,Effective labor,2.4857792553150553
+High transition,Middle East,2090,Effective labor,2.5134777456036663
+High transition,Middle East,2095,Effective labor,2.5455495994356108
+High transition,Middle East,2100,Effective labor,2.5713357672164094
+High transition,North America,2015,Effective labor,1
+High transition,North America,2020,Effective labor,1.0564667373734717
+High transition,North America,2025,Effective labor,1.119296237570129
+High transition,North America,2030,Effective labor,1.1782878599233924
+High transition,North America,2035,Effective labor,1.227923778344397
+High transition,North America,2040,Effective labor,1.2792739151333252
+High transition,North America,2045,Effective labor,1.3413410726656487
+High transition,North America,2050,Effective labor,1.404959068952218
+High transition,North America,2055,Effective labor,1.4610708308036908
+High transition,North America,2060,Effective labor,1.5106930923281854
+High transition,North America,2065,Effective labor,1.5554049204165024
+High transition,North America,2070,Effective labor,1.5897495260359416
+High transition,North America,2075,Effective labor,1.6195687838530584
+High transition,North America,2080,Effective labor,1.6432180742304758
+High transition,North America,2085,Effective labor,1.6648239102697142
+High transition,North America,2090,Effective labor,1.683067760029868
+High transition,North America,2095,Effective labor,1.6982271874998067
+High transition,North America,2100,Effective labor,1.7081746384432053
+High transition,Pacific OECD,2015,Effective labor,1
+High transition,Pacific OECD,2020,Effective labor,1.048705119668143
+High transition,Pacific OECD,2025,Effective labor,1.0741955378860542
+High transition,Pacific OECD,2030,Effective labor,1.0959118216684496
+High transition,Pacific OECD,2035,Effective labor,1.11216026029113
+High transition,Pacific OECD,2040,Effective labor,1.1293367408142971
+High transition,Pacific OECD,2045,Effective labor,1.1444465445125755
+High transition,Pacific OECD,2050,Effective labor,1.1556126369638091
+High transition,Pacific OECD,2055,Effective labor,1.1638759811269173
+High transition,Pacific OECD,2060,Effective labor,1.1678447772156333
+High transition,Pacific OECD,2065,Effective labor,1.1685423547114766
+High transition,Pacific OECD,2070,Effective labor,1.1638414996309436
+High transition,Pacific OECD,2075,Effective labor,1.1570500227186251
+High transition,Pacific OECD,2080,Effective labor,1.1483340700427607
+High transition,Pacific OECD,2085,Effective labor,1.1374517205458194
+High transition,Pacific OECD,2090,Effective labor,1.125102853620397
+High transition,Pacific OECD,2095,Effective labor,1.1124733313690331
+High transition,Pacific OECD,2100,Effective labor,1.0987116540395454
+High transition,Reforming,2015,Effective labor,1
+High transition,Reforming,2020,Effective labor,1.1134242250986626
+High transition,Reforming,2025,Effective labor,1.2342299832222907
+High transition,Reforming,2030,Effective labor,1.3419826928040068
+High transition,Reforming,2035,Effective labor,1.4364732574364107
+High transition,Reforming,2040,Effective labor,1.5274726063949013
+High transition,Reforming,2045,Effective labor,1.6066937812739743
+High transition,Reforming,2050,Effective labor,1.666789410311419
+High transition,Reforming,2055,Effective labor,1.7069365781589076
+High transition,Reforming,2060,Effective labor,1.7335029574003433
+High transition,Reforming,2065,Effective labor,1.7560390234986
+High transition,Reforming,2070,Effective labor,1.7684260258715705
+High transition,Reforming,2075,Effective labor,1.7769963770245514
+High transition,Reforming,2080,Effective labor,1.7798416633560843
+High transition,Reforming,2085,Effective labor,1.7792661680274864
+High transition,Reforming,2090,Effective labor,1.773355744486411
+High transition,Reforming,2095,Effective labor,1.7662124128247407
+High transition,Reforming,2100,Effective labor,1.7499683929208638
+High transition,Rest of Asia,2015,Effective labor,1
+High transition,Rest of Asia,2020,Effective labor,1.1048866238319728
+High transition,Rest of Asia,2025,Effective labor,1.2100608233838646
+High transition,Rest of Asia,2030,Effective labor,1.296566712879937
+High transition,Rest of Asia,2035,Effective labor,1.37236295087963
+High transition,Rest of Asia,2040,Effective labor,1.4475150932164846
+High transition,Rest of Asia,2045,Effective labor,1.521433268338434
+High transition,Rest of Asia,2050,Effective labor,1.588441241741674
+High transition,Rest of Asia,2055,Effective labor,1.6322152458670327
+High transition,Rest of Asia,2060,Effective labor,1.6655873655641866
+High transition,Rest of Asia,2065,Effective labor,1.6913617093392588
+High transition,Rest of Asia,2070,Effective labor,1.7080711621797326
+High transition,Rest of Asia,2075,Effective labor,1.7185481963631775
+High transition,Rest of Asia,2080,Effective labor,1.7226318557273068
+High transition,Rest of Asia,2085,Effective labor,1.722489590824999
+High transition,Rest of Asia,2090,Effective labor,1.7175811462268957
+High transition,Rest of Asia,2095,Effective labor,1.7099591457349426
+High transition,Rest of Asia,2100,Effective labor,1.69896782992253
+Static,Africa,2015,Effective labor,1
+Static,Africa,2020,Effective labor,1.1248761860707928
+Static,Africa,2025,Effective labor,1.3055208353931003
+Static,Africa,2030,Effective labor,1.4907927328220085
+Static,Africa,2035,Effective labor,1.6891195424287033
+Static,Africa,2040,Effective labor,1.91055848845249
+Static,Africa,2045,Effective labor,2.149588419325939
+Static,Africa,2050,Effective labor,2.401722862156152
+Static,Africa,2055,Effective labor,2.6425434680439968
+Static,Africa,2060,Effective labor,2.8801535535878644
+Static,Africa,2065,Effective labor,3.1129561203388976
+Static,Africa,2070,Effective labor,3.3350315122753487
+Static,Africa,2075,Effective labor,3.542274918318685
+Static,Africa,2080,Effective labor,3.731334402913843
+Static,Africa,2085,Effective labor,3.900188424712109
+Static,Africa,2090,Effective labor,4.0481251756487895
+Static,Africa,2095,Effective labor,4.175455152518867
+Static,Africa,2100,Effective labor,4.285458138647179
+Static,China,2015,Effective labor,1
+Static,China,2020,Effective labor,1.077293893448457
+Static,China,2025,Effective labor,1.1461902044988523
+Static,China,2030,Effective labor,1.1950583152207503
+Static,China,2035,Effective labor,1.2217605007974037
+Static,China,2040,Effective labor,1.235414359796793
+Static,China,2045,Effective labor,1.2386524570704245
+Static,China,2050,Effective labor,1.2317121140097753
+Static,China,2055,Effective labor,1.2165067101658538
+Static,China,2060,Effective labor,1.1955057690830069
+Static,China,2065,Effective labor,1.1704744062095043
+Static,China,2070,Effective labor,1.142318855752855
+Static,China,2075,Effective labor,1.111528532998024
+Static,China,2080,Effective labor,1.0785716133114012
+Static,China,2085,Effective labor,1.0441270483197078
+Static,China,2090,Effective labor,1.0100662400671365
+Static,China,2095,Effective labor,0.9775071246117224
+Static,China,2100,Effective labor,0.9466101754464314
+Static,Europe,2015,Effective labor,1
+Static,Europe,2020,Effective labor,1.0568554578687843
+Static,Europe,2025,Effective labor,1.1197496096202189
+Static,Europe,2030,Effective labor,1.1729692586166747
+Static,Europe,2035,Effective labor,1.2198111802503255
+Static,Europe,2040,Effective labor,1.2645228594748135
+Static,Europe,2045,Effective labor,1.3079593120017294
+Static,Europe,2050,Effective labor,1.3474123939825013
+Static,Europe,2055,Effective labor,1.3830908727440665
+Static,Europe,2060,Effective labor,1.4131264518305457
+Static,Europe,2065,Effective labor,1.4386628846049008
+Static,Europe,2070,Effective labor,1.4591520469686419
+Static,Europe,2075,Effective labor,1.4757156895624273
+Static,Europe,2080,Effective labor,1.4882205428041657
+Static,Europe,2085,Effective labor,1.497093539537191
+Static,Europe,2090,Effective labor,1.502494002200145
+Static,Europe,2095,Effective labor,1.5046266384016909
+Static,Europe,2100,Effective labor,1.503528833151654
+Static,South Asia,2015,Effective labor,1
+Static,South Asia,2020,Effective labor,1.1302983646048659
+Static,South Asia,2025,Effective labor,1.2687394776414367
+Static,South Asia,2030,Effective labor,1.3959406185543421
+Static,South Asia,2035,Effective labor,1.515327073293733
+Static,South Asia,2040,Effective labor,1.6305958241908844
+Static,South Asia,2045,Effective labor,1.7401677403181641
+Static,South Asia,2050,Effective labor,1.8411013670056886
+Static,South Asia,2055,Effective labor,1.9202595851098716
+Static,South Asia,2060,Effective labor,1.988206551765325
+Static,South Asia,2065,Effective labor,2.045887870581682
+Static,South Asia,2070,Effective labor,2.093531421888664
+Static,South Asia,2075,Effective labor,2.1312410035821863
+Static,South Asia,2080,Effective labor,2.1593198978900823
+Static,South Asia,2085,Effective labor,2.178194060726061
+Static,South Asia,2090,Effective labor,2.1894423571005537
+Static,South Asia,2095,Effective labor,2.193470944618577
+Static,South Asia,2100,Effective labor,2.1917277210212154
+Static,Latin America,2015,Effective labor,1
+Static,Latin America,2020,Effective labor,1.0755328004376976
+Static,Latin America,2025,Effective labor,1.1665123577191647
+Static,Latin America,2030,Effective labor,1.2509797828931113
+Static,Latin America,2035,Effective labor,1.3236956429178588
+Static,Latin America,2040,Effective labor,1.3987803040110391
+Static,Latin America,2045,Effective labor,1.4792968632400925
+Static,Latin America,2050,Effective labor,1.5570867852325474
+Static,Latin America,2055,Effective labor,1.61759047055345
+Static,Latin America,2060,Effective labor,1.6649376555727586
+Static,Latin America,2065,Effective labor,1.705299068780519
+Static,Latin America,2070,Effective labor,1.7338508394774215
+Static,Latin America,2075,Effective labor,1.7545863724266884
+Static,Latin America,2080,Effective labor,1.7682088783410763
+Static,Latin America,2085,Effective labor,1.7753236031233313
+Static,Latin America,2090,Effective labor,1.7772785915087943
+Static,Latin America,2095,Effective labor,1.7746235335687683
+Static,Latin America,2100,Effective labor,1.7670787982078318
+Static,Middle East,2015,Effective labor,1
+Static,Middle East,2020,Effective labor,1.0901581223742784
+Static,Middle East,2025,Effective labor,1.201321539359256
+Static,Middle East,2030,Effective labor,1.3293556579326558
+Static,Middle East,2035,Effective labor,1.464281328758253
+Static,Middle East,2040,Effective labor,1.6011415607937243
+Static,Middle East,2045,Effective labor,1.7350874406970922
+Static,Middle East,2050,Effective labor,1.8602731257776774
+Static,Middle East,2055,Effective labor,1.9654931154694293
+Static,Middle East,2060,Effective labor,2.0586165039010336
+Static,Middle East,2065,Effective labor,2.1403802440457045
+Static,Middle East,2070,Effective labor,2.2064614779221015
+Static,Middle East,2075,Effective labor,2.255770018884605
+Static,Middle East,2080,Effective labor,2.2934348909761204
+Static,Middle East,2085,Effective labor,2.319804262790687
+Static,Middle East,2090,Effective labor,2.3377448565255934
+Static,Middle East,2095,Effective labor,2.348700045619701
+Static,Middle East,2100,Effective labor,2.352585318901961
+Static,North America,2015,Effective labor,1
+Static,North America,2020,Effective labor,1.0682003617461517
+Static,North America,2025,Effective labor,1.1443821230397455
+Static,North America,2030,Effective labor,1.2136033964555388
+Static,North America,2035,Effective labor,1.2757324802898762
+Static,North America,2040,Effective labor,1.343256442196147
+Static,North America,2045,Effective labor,1.4232349781154918
+Static,North America,2050,Effective labor,1.5008711857472625
+Static,North America,2055,Effective labor,1.5611603115536954
+Static,North America,2060,Effective labor,1.6115711158010608
+Static,North America,2065,Effective labor,1.6574154836472637
+Static,North America,2070,Effective labor,1.6910292510596812
+Static,North America,2075,Effective labor,1.7169726925297215
+Static,North America,2080,Effective labor,1.7371938569801313
+Static,North America,2085,Effective labor,1.7532466750963274
+Static,North America,2090,Effective labor,1.7652633582377926
+Static,North America,2095,Effective labor,1.7728038418122654
+Static,North America,2100,Effective labor,1.7736786024004707
+Static,Pacific OECD,2015,Effective labor,1
+Static,Pacific OECD,2020,Effective labor,1.0401115202811655
+Static,Pacific OECD,2025,Effective labor,1.0658020061660145
+Static,Pacific OECD,2030,Effective labor,1.0876345667812735
+Static,Pacific OECD,2035,Effective labor,1.101983777116146
+Static,Pacific OECD,2040,Effective labor,1.1119488556264816
+Static,Pacific OECD,2045,Effective labor,1.1191985960960014
+Static,Pacific OECD,2050,Effective labor,1.1229648018211758
+Static,Pacific OECD,2055,Effective labor,1.1260428877311015
+Static,Pacific OECD,2060,Effective labor,1.12550834525977
+Static,Pacific OECD,2065,Effective labor,1.1213901068056797
+Static,Pacific OECD,2070,Effective labor,1.1134594341715085
+Static,Pacific OECD,2075,Effective labor,1.1025319898544825
+Static,Pacific OECD,2080,Effective labor,1.0893723811997789
+Static,Pacific OECD,2085,Effective labor,1.0733678294478326
+Static,Pacific OECD,2090,Effective labor,1.0554865151612756
+Static,Pacific OECD,2095,Effective labor,1.0363176715974514
+Static,Pacific OECD,2100,Effective labor,1.0149527819686546
+Static,Reforming,2015,Effective labor,1
+Static,Reforming,2020,Effective labor,1.0685422279560182
+Static,Reforming,2025,Effective labor,1.1670884676775297
+Static,Reforming,2030,Effective labor,1.245827028166379
+Static,Reforming,2035,Effective labor,1.3201466875840324
+Static,Reforming,2040,Effective labor,1.3989780241402665
+Static,Reforming,2045,Effective labor,1.47728819764724
+Static,Reforming,2050,Effective labor,1.5488523702387365
+Static,Reforming,2055,Effective labor,1.5987029646591264
+Static,Reforming,2060,Effective labor,1.6381185551029704
+Static,Reforming,2065,Effective labor,1.6719903230463662
+Static,Reforming,2070,Effective labor,1.6961123476588214
+Static,Reforming,2075,Effective labor,1.7131343883022287
+Static,Reforming,2080,Effective labor,1.7233702348275897
+Static,Reforming,2085,Effective labor,1.7274022967339926
+Static,Reforming,2090,Effective labor,1.726973228602393
+Static,Reforming,2095,Effective labor,1.722873311940143
+Static,Reforming,2100,Effective labor,1.7145927025425762
+Static,Rest of Asia,2015,Effective labor,1
+Static,Rest of Asia,2020,Effective labor,1.0809329495829099
+Static,Rest of Asia,2025,Effective labor,1.1651852190504828
+Static,Rest of Asia,2030,Effective labor,1.2436725544660536
+Static,Rest of Asia,2035,Effective labor,1.3187356827867993
+Static,Rest of Asia,2040,Effective labor,1.391769682892518
+Static,Rest of Asia,2045,Effective labor,1.4626598403001796
+Static,Rest of Asia,2050,Effective labor,1.528737424374909
+Static,Rest of Asia,2055,Effective labor,1.5725238755617286
+Static,Rest of Asia,2060,Effective labor,1.60730436885781
+Static,Rest of Asia,2065,Effective labor,1.6353832901404048
+Static,Rest of Asia,2070,Effective labor,1.6549918299274877
+Static,Rest of Asia,2075,Effective labor,1.667807863577265
+Static,Rest of Asia,2080,Effective labor,1.674626781918921
+Static,Rest of Asia,2085,Effective labor,1.6762164062154328
+Static,Rest of Asia,2090,Effective labor,1.6739196735176296
+Static,Rest of Asia,2095,Effective labor,1.6683779368712393
+Static,Rest of Asia,2100,Effective labor,1.6596429314136951
+Low productivity,World,2015,Effective labor,1
+Low productivity,World,2020,Effective labor,1.1178644476428663
+Low productivity,World,2025,Effective labor,1.2506236734644174
+Low productivity,World,2030,Effective labor,1.3779156256816225
+Low productivity,World,2035,Effective labor,1.4964518456602336
+Low productivity,World,2040,Effective labor,1.6134916807196127
+Low productivity,World,2045,Effective labor,1.7283072731231477
+Low productivity,World,2050,Effective labor,1.838020340736676
+Low productivity,World,2055,Effective labor,1.9360409057565116
+Low productivity,World,2060,Effective labor,2.026167276931131
+Low productivity,World,2065,Effective labor,2.113169279461327
+Low productivity,World,2070,Effective labor,2.1921329090814696
+Low productivity,World,2075,Effective labor,2.2652491928180227
+Low productivity,World,2080,Effective labor,2.3286501050600927
+Low productivity,World,2085,Effective labor,2.385025275792627
+Low productivity,World,2090,Effective labor,2.4320969837443864
+Low productivity,World,2095,Effective labor,2.4728788170924907
+Low productivity,World,2100,Effective labor,2.5064557930423152
+High productivity,World,2015,Effective labor,1
+High productivity,World,2020,Effective labor,1.1351604264023976
+High productivity,World,2025,Effective labor,1.2842736161403505
+High productivity,World,2030,Effective labor,1.43022029816294
+High productivity,World,2035,Effective labor,1.5653228127857512
+High productivity,World,2040,Effective labor,1.7001915751011643
+High productivity,World,2045,Effective labor,1.83364694731418
+High productivity,World,2050,Effective labor,1.962684168506269
+High productivity,World,2055,Effective labor,2.0746601991492284
+High productivity,World,2060,Effective labor,2.1772682760107034
+High productivity,World,2065,Effective labor,2.2741863167228904
+High productivity,World,2070,Effective labor,2.3606224769145556
+High productivity,World,2075,Effective labor,2.4375620173702313
+High productivity,World,2080,Effective labor,2.5024492004697896
+High productivity,World,2085,Effective labor,2.5572476539818916
+High productivity,World,2090,Effective labor,2.6014356262697125
+High productivity,World,2095,Effective labor,2.6371492681097792
+High productivity,World,2100,Effective labor,2.6657104852543263
+High Elas.,World,2015,Effective labor,1
+High Elas.,World,2020,Effective labor,1.125484238631376
+High Elas.,World,2025,Effective labor,1.2672429569820731
+High Elas.,World,2030,Effective labor,1.4049588513527684
+High Elas.,World,2035,Effective labor,1.5336151328031886
+High Elas.,World,2040,Effective labor,1.6626375090249716
+High Elas.,World,2045,Effective labor,1.7908072887556317
+High Elas.,World,2050,Effective labor,1.9154714539815159
+High Elas.,World,2055,Effective labor,2.0244933363223985
+High Elas.,World,2060,Effective labor,2.1251676835910778
+High Elas.,World,2065,Effective labor,2.220609869447639
+High Elas.,World,2070,Effective labor,2.3065318422415477
+High Elas.,World,2075,Effective labor,2.3838841022171398
+High Elas.,World,2080,Effective labor,2.4500000920534855
+High Elas.,World,2085,Effective labor,2.506414207088204
+High Elas.,World,2090,Effective labor,2.5525090489723814
+High Elas.,World,2095,Effective labor,2.5903344553692973
+High Elas.,World,2100,Effective labor,2.621025101615752
+Low Elas.,World,2015,Effective labor,1
+Low Elas.,World,2020,Effective labor,1.1302123844036298
+Low Elas.,World,2025,Effective labor,1.2735595930620205
+Low Elas.,World,2030,Effective labor,1.4118640542918506
+Low Elas.,World,2035,Effective labor,1.5383525330810595
+Low Elas.,World,2040,Effective labor,1.661253909347251
+Low Elas.,World,2045,Effective labor,1.7808272087944124
+Low Elas.,World,2050,Effective labor,1.892541402183351
+Low Elas.,World,2055,Effective labor,1.993072176862874
+Low Elas.,World,2060,Effective labor,2.084362660804041
+Low Elas.,World,2065,Effective labor,2.1736064809339815
+Low Elas.,World,2070,Effective labor,2.254577247409595
+Low Elas.,World,2075,Effective labor,2.3305479519341707
+Low Elas.,World,2080,Effective labor,2.3957460601970886
+Low Elas.,World,2085,Effective labor,2.454747822310308
+Low Elas.,World,2090,Effective labor,2.5027243462134487
+Low Elas.,World,2095,Effective labor,2.545094800858612
+Low Elas.,World,2100,Effective labor,2.5793763601234
+Evolving,World,2015,Effective labor,1
+Evolving,World,2020,Effective labor,1.1269836639038726
+Evolving,World,2025,Effective labor,1.2691117665196976
+Evolving,World,2030,Effective labor,1.406976209570995
+Evolving,World,2035,Effective labor,1.5349385505691393
+Evolving,World,2040,Effective labor,1.6621181777228982
+Evolving,World,2045,Effective labor,1.7875606704124725
+Evolving,World,2050,Effective labor,1.9082494060526156
+Evolving,World,2055,Effective labor,2.014836902702413
+Evolving,World,2060,Effective labor,2.1130567345254874
+Evolving,World,2065,Effective labor,2.207075808256354
+Evolving,World,2070,Effective labor,2.2918857546557474
+Evolving,World,2075,Effective labor,2.3691315338638947
+Evolving,World,2080,Effective labor,2.4352745521239982
+Evolving,World,2085,Effective labor,2.492457062431683
+Evolving,World,2090,Effective labor,2.539082172709361
+Evolving,World,2095,Effective labor,2.577830279830265
+Evolving,World,2100,Effective labor,2.608985601583003
+Low transition,World,2015,Effective labor,1
+Low transition,World,2020,Effective labor,1.1269836639038726
+Low transition,World,2025,Effective labor,1.272537286702437
+Low transition,World,2030,Effective labor,1.415138878941101
+Low transition,World,2035,Effective labor,1.5485799919640861
+Low transition,World,2040,Effective labor,1.682487496986885
+Low transition,World,2045,Effective labor,1.8162318803651956
+Low transition,World,2050,Effective labor,1.9469218713586016
+Low transition,World,2055,Effective labor,2.0626989767536243
+Low transition,World,2060,Effective labor,2.1702320632582577
+Low transition,World,2065,Effective labor,2.272790114603731
+Low transition,World,2070,Effective labor,2.3653929736046173
+Low transition,World,2075,Effective labor,2.449183380569427
+Low transition,World,2080,Effective labor,2.5210491600233533
+Low transition,World,2085,Effective labor,2.5824009638531713
+Low transition,World,2090,Effective labor,2.6330254870893737
+Low transition,World,2095,Effective labor,2.6751002176088825
+Low transition,World,2100,Effective labor,2.7096081528245977
+High transition,World,2015,Effective labor,1
+High transition,World,2020,Effective labor,1.1269836639038726
+High transition,World,2025,Effective labor,1.2657147246444305
+High transition,World,2030,Effective labor,1.3989682807852224
+High transition,World,2035,Effective labor,1.521610319538096
+High transition,World,2040,Effective labor,1.6423321009605387
+High transition,World,2045,Effective labor,1.7598197289171107
+High transition,World,2050,Effective labor,1.8711992801861834
+High transition,World,2055,Effective labor,1.9691676828953242
+High transition,World,2060,Effective labor,2.0585881304401936
+High transition,World,2065,Effective labor,2.144075364757078
+High transition,World,2070,Effective labor,2.220652060697362
+High transition,World,2075,Effective labor,2.2905159341169674
+High transition,World,2080,Effective labor,2.349912639999906
+High transition,World,2085,Effective labor,2.4012367736238724
+High transition,World,2090,Effective labor,2.442676281997761
+High transition,World,2095,Effective labor,2.4771350673758175
+High transition,World,2100,Effective labor,2.5036998253064064
+Static,World,2015,Effective labor,1
+Static,World,2020,Effective labor,1.1042269866278054
+Static,World,2025,Effective labor,1.223955929434281
+Static,World,2030,Effective labor,1.3351898561479527
+Static,World,2035,Effective labor,1.440727718747637
+Static,World,2040,Effective labor,1.5472518955196575
+Static,World,2045,Effective labor,1.6536385511175762
+Static,World,2050,Effective labor,1.7570291400666513
+Static,World,2055,Effective labor,1.8449648286924456
+Static,World,2060,Effective labor,1.9252004084131151
+Static,World,2065,Effective labor,1.9987574946775155
+Static,World,2070,Effective labor,2.0639454927225236
+Static,World,2075,Effective labor,2.120410124493875
+Static,World,2080,Effective labor,2.1677630216953605
+Static,World,2085,Effective labor,2.205967069193833
+Static,World,2090,Effective labor,2.2360709276820248
+Static,World,2095,Effective labor,2.258673040717457
+Static,World,2100,Effective labor,2.2749938393341127

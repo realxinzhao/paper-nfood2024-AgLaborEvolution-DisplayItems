@@ -1,0 +1,763 @@
+region,basin,scenario,year,value
+USA,PacArctic,Evolving,2100,-3.5471358232303825
+USA,PacArctic,Static,2100,0.9760772636177689
+USA,NelsonR,Evolving,2100,-3.5471358232303825
+USA,NelsonR,Static,2100,0.9760772636177689
+USA,MexCstNW,Evolving,2100,-3.5471358232303825
+USA,MexCstNW,Static,2100,0.9760772636177689
+USA,Caribbean,Evolving,2100,-3.5471358232303825
+USA,Caribbean,Static,2100,0.9760772636177689
+USA,California,Evolving,2100,-3.5471358232303825
+USA,California,Static,2100,0.9760772636177689
+USA,MissppRN,Evolving,2100,-3.5471358232303825
+USA,MissppRN,Static,2100,0.9760772636177689
+USA,MissppRS,Evolving,2100,-3.5471358232303825
+USA,MissppRS,Static,2100,0.9760772636177689
+USA,UsaColoRN,Evolving,2100,-3.5471358232303825
+USA,UsaColoRN,Static,2100,0.9760772636177689
+USA,UsaColoRS,Evolving,2100,-3.5471358232303825
+USA,UsaColoRS,Static,2100,0.9760772636177689
+USA,GreatBasin,Evolving,2100,-3.5471358232303825
+USA,GreatBasin,Static,2100,0.9760772636177689
+USA,MissouriR,Evolving,2100,-3.5471358232303825
+USA,MissouriR,Static,2100,0.9760772636177689
+USA,ArkWhtRedR,Evolving,2100,-3.5471358232303825
+USA,ArkWhtRedR,Static,2100,0.9760772636177689
+USA,TexasCst,Evolving,2100,-3.5471358232303825
+USA,TexasCst,Static,2100,0.9760772636177689
+USA,UsaCstSE,Evolving,2100,-3.5471358232303825
+USA,UsaCstSE,Static,2100,0.9760772636177689
+USA,GreatLakes,Evolving,2100,-3.5471358232303825
+USA,GreatLakes,Static,2100,0.9760772636177689
+USA,OhioR,Evolving,2100,-3.5471358232303825
+USA,OhioR,Static,2100,0.9760772636177689
+USA,UsaPacNW,Evolving,2100,-3.5471358232303825
+USA,UsaPacNW,Static,2100,0.9760772636177689
+USA,TennR,Evolving,2100,-3.5471358232303825
+USA,TennR,Static,2100,0.9760772636177689
+USA,RioGrande,Evolving,2100,-3.5471358232303825
+USA,RioGrande,Static,2100,0.9760772636177689
+USA,UsaCstNE,Evolving,2100,-3.5471358232303825
+USA,UsaCstNE,Static,2100,0.9760772636177689
+USA,UsaCstE,Evolving,2100,-3.5471358232303825
+USA,UsaCstE,Static,2100,0.9760772636177689
+USA,Hawaii,Evolving,2100,-3.5471358232303825
+USA,Hawaii,Static,2100,0.9760772636177689
+Central Asia,VolgaR,Evolving,2100,0.04346870080021295
+Central Asia,VolgaR,Static,2100,-0.5018236979487316
+Central Asia,UralR,Evolving,2100,0.04346870080021295
+Central Asia,UralR,Static,2100,-0.5018236979487316
+Central Asia,Gobi,Evolving,2100,0.04346870080021295
+Central Asia,Gobi,Static,2100,-0.5018236979487316
+Central Asia,AmurR,Evolving,2100,0.04346870080021295
+Central Asia,AmurR,Static,2100,-0.5018236979487316
+Central Asia,CaspianNE,Evolving,2100,0.04346870080021295
+Central Asia,CaspianNE,Static,2100,-0.5018236979487316
+Central Asia,BlackSeaN,Evolving,2100,0.04346870080021295
+Central Asia,BlackSeaN,Static,2100,-0.5018236979487316
+Central Asia,YeniseiR,Evolving,2100,0.04346870080021295
+Central Asia,YeniseiR,Static,2100,-0.5018236979487316
+Central Asia,CaspianE,Evolving,2100,0.04346870080021295
+Central Asia,CaspianE,Static,2100,-0.5018236979487316
+Central Asia,ObR,Evolving,2100,0.04346870080021295
+Central Asia,ObR,Static,2100,-0.5018236979487316
+Central Asia,AmuDaryaR,Evolving,2100,0.04346870080021295
+Central Asia,AmuDaryaR,Static,2100,-0.5018236979487316
+Central Asia,LBalkash,Evolving,2100,0.04346870080021295
+Central Asia,LBalkash,Static,2100,-0.5018236979487316
+Central Asia,BlackSeaS,Evolving,2100,0.04346870080021295
+Central Asia,BlackSeaS,Static,2100,-0.5018236979487316
+Central Asia,CaspianSW,Evolving,2100,0.04346870080021295
+Central Asia,CaspianSW,Static,2100,-0.5018236979487316
+Central Asia,SyrDaryaR,Evolving,2100,0.04346870080021295
+Central Asia,SyrDaryaR,Static,2100,-0.5018236979487316
+Central Asia,Tarim,Evolving,2100,0.04346870080021295
+Central Asia,Tarim,Static,2100,-0.5018236979487316
+China,RusCstSE,Evolving,2100,2.9071574872719603
+China,RusCstSE,Static,2100,-1.2031579073792984
+China,Gobi,Evolving,2100,2.9071574872719603
+China,Gobi,Static,2100,-1.2031579073792984
+China,AmurR,Evolving,2100,2.9071574872719603
+China,AmurR,Static,2100,-1.2031579073792984
+China,ObR,Evolving,2100,2.9071574872719603
+China,ObR,Static,2100,-1.2031579073792984
+China,AmuDaryaR,Evolving,2100,2.9071574872719603
+China,AmuDaryaR,Static,2100,-1.2031579073792984
+China,BoHai,Evolving,2100,2.9071574872719603
+China,BoHai,Static,2100,-1.2031579073792984
+China,LBalkash,Evolving,2100,2.9071574872719603
+China,LBalkash,Static,2100,-1.2031579073792984
+China,SyrDaryaR,Evolving,2100,2.9071574872719603
+China,SyrDaryaR,Static,2100,-1.2031579073792984
+China,ZiyaHe,Evolving,2100,2.9071574872719603
+China,ZiyaHe,Static,2100,-1.2031579073792984
+China,ChinaCst,Evolving,2100,2.9071574872719603
+China,ChinaCst,Static,2100,-1.2031579073792984
+China,HuangHeR,Evolving,2100,2.9071574872719603
+China,HuangHeR,Static,2100,-1.2031579073792984
+China,Tarim,Evolving,2100,2.9071574872719603
+China,Tarim,Static,2100,-1.2031579073792984
+China,IndusR,Evolving,2100,2.9071574872719603
+China,IndusR,Static,2100,-1.2031579073792984
+China,Tibet,Evolving,2100,2.9071574872719603
+China,Tibet,Static,2100,-1.2031579073792984
+Taiwan,Taiwan,Evolving,2100,-0.02345578425149835
+Taiwan,Taiwan,Static,2100,-0.011313090992152235
+China,Yangtze,Evolving,2100,2.9071574872719603
+China,Yangtze,Static,2100,-1.2031579073792984
+China,XunJiang,Evolving,2100,2.9071574872719603
+China,XunJiang,Static,2100,-1.2031579073792984
+China,Hong,Evolving,2100,2.9071574872719603
+China,Hong,Static,2100,-1.2031579073792984
+China,GangesR,Evolving,2100,2.9071574872719603
+China,GangesR,Static,2100,-1.2031579073792984
+China,SChinaSea,Evolving,2100,2.9071574872719603
+China,SChinaSea,Static,2100,-1.2031579073792984
+China,Hainan,Evolving,2100,2.9071574872719603
+China,Hainan,Static,2100,-1.2031579073792984
+China,Mekong,Evolving,2100,2.9071574872719603
+China,Mekong,Static,2100,-1.2031579073792984
+China,Salween,Evolving,2100,2.9071574872719603
+China,Salween,Static,2100,-1.2031579073792984
+China,IrrawaddyR,Evolving,2100,2.9071574872719603
+China,IrrawaddyR,Static,2100,-1.2031579073792984
+EU-12,BalticSea,Evolving,2100,0.03295669752313281
+EU-12,BalticSea,Static,2100,-0.16389102832028868
+EU-12,NarvaR,Evolving,2100,0.03295669752313281
+EU-12,NarvaR,Static,2100,-0.16389102832028868
+EU-12,DaugavaR,Evolving,2100,0.03295669752313281
+EU-12,DaugavaR,Static,2100,-0.16389102832028868
+EU-12,OderR,Evolving,2100,0.03295669752313281
+EU-12,OderR,Static,2100,-0.16389102832028868
+EU-12,WislaR,Evolving,2100,0.03295669752313281
+EU-12,WislaR,Static,2100,-0.16389102832028868
+EU-12,ElbeR,Evolving,2100,0.03295669752313281
+EU-12,ElbeR,Static,2100,-0.16389102832028868
+EU-12,PolandCst,Evolving,2100,0.03295669752313281
+EU-12,PolandCst,Static,2100,-0.16389102832028868
+EU-12,NemanR,Evolving,2100,0.03295669752313281
+EU-12,NemanR,Static,2100,-0.16389102832028868
+EU-12,DanubeR,Evolving,2100,0.03295669752313281
+EU-12,DanubeR,Static,2100,-0.16389102832028868
+EU-12,AdrBlkSea,Evolving,2100,0.03295669752313281
+EU-12,AdrBlkSea,Static,2100,-0.16389102832028868
+EU-12,MeditE,Evolving,2100,0.03295669752313281
+EU-12,MeditE,Static,2100,-0.16389102832028868
+EU-15,ScndnvN,Evolving,2100,7.095876432353302
+EU-15,ScndnvN,Static,2100,7.268514029452641
+EU-15,Sweden,Evolving,2100,7.095876432353302
+EU-15,Sweden,Static,2100,7.268514029452641
+EU-15,Finland,Evolving,2100,7.095876432353302
+EU-15,Finland,Static,2100,7.268514029452641
+EU-15,Scotland,Evolving,2100,7.095876432353302
+EU-15,Scotland,Static,2100,7.268514029452641
+EU-15,NevaR,Evolving,2100,7.095876432353302
+EU-15,NevaR,Static,2100,7.268514029452641
+EU-15,DnkGrmCst,Evolving,2100,7.095876432353302
+EU-15,DnkGrmCst,Static,2100,7.268514029452641
+EU-15,Ireland,Evolving,2100,7.095876432353302
+EU-15,Ireland,Static,2100,7.268514029452641
+EU-15,EngWales,Evolving,2100,7.095876432353302
+EU-15,EngWales,Static,2100,7.268514029452641
+EU-15,EmsWeserR,Evolving,2100,7.095876432353302
+EU-15,EmsWeserR,Static,2100,7.268514029452641
+EU-15,OderR,Evolving,2100,7.095876432353302
+EU-15,OderR,Static,2100,7.268514029452641
+EU-15,ElbeR,Evolving,2100,7.095876432353302
+EU-15,ElbeR,Static,2100,7.268514029452641
+EU-15,RhineR,Evolving,2100,7.095876432353302
+EU-15,RhineR,Static,2100,7.268514029452641
+EU-15,ScheldtR,Evolving,2100,7.095876432353302
+EU-15,ScheldtR,Static,2100,7.268514029452641
+EU-15,FranceCstW,Evolving,2100,7.095876432353302
+EU-15,FranceCstW,Static,2100,7.268514029452641
+EU-15,LoireR,Evolving,2100,7.095876432353302
+EU-15,LoireR,Static,2100,7.268514029452641
+EU-15,SeineR,Evolving,2100,7.095876432353302
+EU-15,SeineR,Static,2100,7.268514029452641
+EU-15,ItalyCstE,Evolving,2100,7.095876432353302
+EU-15,ItalyCstE,Static,2100,7.268514029452641
+EU-15,DanubeR,Evolving,2100,7.095876432353302
+EU-15,DanubeR,Static,2100,7.268514029452641
+EU-15,AdrBlkSea,Evolving,2100,7.095876432353302
+EU-15,AdrBlkSea,Static,2100,7.268514029452641
+EU-15,PoR,Evolving,2100,7.095876432353302
+EU-15,PoR,Static,2100,7.268514029452641
+EU-15,ItalyCstW,Evolving,2100,7.095876432353302
+EU-15,ItalyCstW,Static,2100,7.268514029452641
+EU-15,IberiaCst,Evolving,2100,7.095876432353302
+EU-15,IberiaCst,Static,2100,7.268514029452641
+EU-15,FranceCstS,Evolving,2100,7.095876432353302
+EU-15,FranceCstS,Static,2100,7.268514029452641
+EU-15,RhoneR,Evolving,2100,7.095876432353302
+EU-15,RhoneR,Static,2100,7.268514029452641
+EU-15,MeditIsl,Evolving,2100,7.095876432353302
+EU-15,MeditIsl,Static,2100,7.268514029452641
+EU-15,Gironde,Evolving,2100,7.095876432353302
+EU-15,Gironde,Static,2100,7.268514029452641
+EU-15,SpainCstSE,Evolving,2100,7.095876432353302
+EU-15,SpainCstSE,Static,2100,7.268514029452641
+EU-15,TiberR,Evolving,2100,7.095876432353302
+EU-15,TiberR,Static,2100,7.268514029452641
+EU-15,TagusR,Evolving,2100,7.095876432353302
+EU-15,TagusR,Static,2100,7.268514029452641
+EU-15,EbroR,Evolving,2100,7.095876432353302
+EU-15,EbroR,Static,2100,7.268514029452641
+EU-15,DouroR,Evolving,2100,7.095876432353302
+EU-15,DouroR,Static,2100,7.268514029452641
+EU-15,MeditE,Evolving,2100,7.095876432353302
+EU-15,MeditE,Static,2100,7.268514029452641
+EU-15,GuadianaR,Evolving,2100,7.095876432353302
+EU-15,GuadianaR,Static,2100,7.268514029452641
+EU-15,GuadalqR,Evolving,2100,7.095876432353302
+EU-15,GuadalqR,Static,2100,7.268514029452641
+EU-15,AfrCstNW,Evolving,2100,7.095876432353302
+EU-15,AfrCstNW,Static,2100,7.268514029452641
+EU-15,ArgCstS,Evolving,2100,7.095876432353302
+EU-15,ArgCstS,Static,2100,7.268514029452641
+Europe_Eastern,NevaR,Evolving,2100,1.029131499647115
+Europe_Eastern,NevaR,Static,2100,1.6691802878008006
+Europe_Eastern,DaugavaR,Evolving,2100,1.029131499647115
+Europe_Eastern,DaugavaR,Static,2100,1.6691802878008006
+Europe_Eastern,WislaR,Evolving,2100,1.029131499647115
+Europe_Eastern,WislaR,Static,2100,1.6691802878008006
+Europe_Eastern,NemanR,Evolving,2100,1.029131499647115
+Europe_Eastern,NemanR,Static,2100,1.6691802878008006
+Europe_Eastern,DnieperR,Evolving,2100,1.029131499647115
+Europe_Eastern,DnieperR,Static,2100,1.6691802878008006
+Europe_Eastern,BlackSeaN,Evolving,2100,1.029131499647115
+Europe_Eastern,BlackSeaN,Static,2100,1.6691802878008006
+Europe_Eastern,DniesterR,Evolving,2100,1.029131499647115
+Europe_Eastern,DniesterR,Static,2100,1.6691802878008006
+Europe_Eastern,DonR,Evolving,2100,1.029131499647115
+Europe_Eastern,DonR,Static,2100,1.6691802878008006
+Europe_Eastern,DanubeR,Evolving,2100,1.029131499647115
+Europe_Eastern,DanubeR,Static,2100,1.6691802878008006
+Europe_Non_EU,DanubeR,Evolving,2100,2.0427976919449877
+Europe_Non_EU,DanubeR,Static,2100,1.8617256142473686
+Europe_Non_EU,AdrBlkSea,Evolving,2100,2.0427976919449877
+Europe_Non_EU,AdrBlkSea,Static,2100,1.8617256142473686
+Europe_Non_EU,BlackSeaS,Evolving,2100,2.0427976919449877
+Europe_Non_EU,BlackSeaS,Static,2100,1.8617256142473686
+Europe_Non_EU,CaspianSW,Evolving,2100,2.0427976919449877
+Europe_Non_EU,CaspianSW,Static,2100,1.8617256142473686
+Europe_Non_EU,MeditE,Evolving,2100,2.0427976919449877
+Europe_Non_EU,MeditE,Static,2100,1.8617256142473686
+Europe_Non_EU,TigrEuphR,Evolving,2100,2.0427976919449877
+Europe_Non_EU,TigrEuphR,Static,2100,1.8617256142473686
+European Free Trade Association,ScndnvN,Evolving,2100,1.1495629996910022
+European Free Trade Association,ScndnvN,Static,2100,1.126472916435039
+European Free Trade Association,Iceland,Evolving,2100,1.1495629996910022
+European Free Trade Association,Iceland,Static,2100,1.126472916435039
+European Free Trade Association,Sweden,Evolving,2100,1.1495629996910022
+European Free Trade Association,Sweden,Static,2100,1.126472916435039
+European Free Trade Association,RhineR,Evolving,2100,1.1495629996910022
+European Free Trade Association,RhineR,Static,2100,1.126472916435039
+European Free Trade Association,DanubeR,Evolving,2100,1.1495629996910022
+European Free Trade Association,DanubeR,Static,2100,1.126472916435039
+European Free Trade Association,PoR,Evolving,2100,1.1495629996910022
+European Free Trade Association,PoR,Static,2100,1.126472916435039
+European Free Trade Association,RhoneR,Evolving,2100,1.1495629996910022
+European Free Trade Association,RhoneR,Static,2100,1.126472916435039
+India,IndusR,Evolving,2100,7.050827131206144
+India,IndusR,Static,2100,6.554753787345345
+India,SabarmatiR,Evolving,2100,7.050827131206144
+India,SabarmatiR,Static,2100,6.554753787345345
+India,GangesR,Evolving,2100,7.050827131206144
+India,GangesR,Static,2100,6.554753787345345
+India,MahiR,Evolving,2100,7.050827131206144
+India,MahiR,Static,2100,6.554753787345345
+India,BengalBay,Evolving,2100,7.050827131206144
+India,BengalBay,Static,2100,6.554753787345345
+India,TaptiR,Evolving,2100,7.050827131206144
+India,TaptiR,Static,2100,6.554753787345345
+India,BengalW,Evolving,2100,7.050827131206144
+India,BengalW,Static,2100,6.554753787345345
+India,BrahmaniR,Evolving,2100,7.050827131206144
+India,BrahmaniR,Static,2100,6.554753787345345
+India,MahanadiR,Evolving,2100,7.050827131206144
+India,MahanadiR,Static,2100,6.554753787345345
+India,GodavariR,Evolving,2100,7.050827131206144
+India,GodavariR,Static,2100,6.554753787345345
+India,IndCstNE,Evolving,2100,7.050827131206144
+India,IndCstNE,Static,2100,6.554753787345345
+India,IndCstW,Evolving,2100,7.050827131206144
+India,IndCstW,Static,2100,6.554753787345345
+India,IrrawaddyR,Evolving,2100,7.050827131206144
+India,IrrawaddyR,Static,2100,6.554753787345345
+India,KrishnaR,Evolving,2100,7.050827131206144
+India,KrishnaR,Static,2100,6.554753787345345
+India,AdnNicIsl,Evolving,2100,7.050827131206144
+India,AdnNicIsl,Static,2100,6.554753787345345
+India,IndCstE,Evolving,2100,7.050827131206144
+India,IndCstE,Static,2100,6.554753787345345
+India,PennarR,Evolving,2100,7.050827131206144
+India,PennarR,Static,2100,6.554753787345345
+India,CauveryR,Evolving,2100,7.050827131206144
+India,CauveryR,Static,2100,6.554753787345345
+India,IndCstS,Evolving,2100,7.050827131206144
+India,IndCstS,Static,2100,6.554753787345345
+India,NarmadaR,Evolving,2100,7.050827131206144
+India,NarmadaR,Static,2100,6.554753787345345
+Indonesia,IdnE,Evolving,2100,6.702366547036648
+Indonesia,IdnE,Static,2100,4.522563382600228
+Indonesia,BorneoCstN,Evolving,2100,6.702366547036648
+Indonesia,BorneoCstN,Static,2100,4.522563382600228
+Indonesia,Sumatra,Evolving,2100,6.702366547036648
+Indonesia,Sumatra,Static,2100,4.522563382600228
+Indonesia,Sulawesi,Evolving,2100,6.702366547036648
+Indonesia,Sulawesi,Static,2100,4.522563382600228
+Indonesia,Kalimantan,Evolving,2100,6.702366547036648
+Indonesia,Kalimantan,Static,2100,4.522563382600228
+Indonesia,IrianJaya,Evolving,2100,6.702366547036648
+Indonesia,IrianJaya,Static,2100,4.522563382600228
+Indonesia,JavaTimor,Evolving,2100,6.702366547036648
+Indonesia,JavaTimor,Static,2100,4.522563382600228
+Indonesia,SepikR,Evolving,2100,6.702366547036648
+Indonesia,SepikR,Static,2100,4.522563382600228
+Indonesia,FlyR,Evolving,2100,6.702366547036648
+Indonesia,FlyR,Static,2100,4.522563382600228
+Japan,Japan,Evolving,2100,-0.24118315113558328
+Japan,Japan,Static,2100,-0.21227947846731982
+Africa_Eastern,NileR,Evolving,2100,30.177343348699203
+Africa_Eastern,NileR,Static,2100,28.829641251920563
+Africa_Eastern,AfrCstNE,Evolving,2100,30.177343348699203
+Africa_Eastern,AfrCstNE,Static,2100,28.829641251920563
+Africa_Eastern,AfrIntN,Evolving,2100,30.177343348699203
+Africa_Eastern,AfrIntN,Static,2100,28.829641251920563
+Africa_Eastern,LChad,Evolving,2100,30.177343348699203
+Africa_Eastern,LChad,Static,2100,28.829641251920563
+Africa_Eastern,ShebJubR,Evolving,2100,30.177343348699203
+Africa_Eastern,ShebJubR,Static,2100,28.829641251920563
+Africa_Eastern,AfrCstE,Evolving,2100,30.177343348699203
+Africa_Eastern,AfrCstE,Static,2100,28.829641251920563
+Africa_Eastern,Madagascar,Evolving,2100,30.177343348699203
+Africa_Eastern,Madagascar,Static,2100,28.829641251920563
+Africa_Eastern,RiftValley,Evolving,2100,30.177343348699203
+Africa_Eastern,RiftValley,Static,2100,28.829641251920563
+Africa_Eastern,CongoR,Evolving,2100,30.177343348699203
+Africa_Eastern,CongoR,Static,2100,28.829641251920563
+Mexico,MexBaja,Evolving,2100,2.5656635498860036
+Mexico,MexBaja,Static,2100,2.8711805671444783
+Mexico,MexCstNW,Evolving,2100,2.5656635498860036
+Mexico,MexCstNW,Static,2100,2.8711805671444783
+Mexico,MexGulf,Evolving,2100,2.5656635498860036
+Mexico,MexGulf,Static,2100,2.8711805671444783
+Mexico,YucatanP,Evolving,2100,2.5656635498860036
+Mexico,YucatanP,Static,2100,2.8711805671444783
+Mexico,MexInt,Evolving,2100,2.5656635498860036
+Mexico,MexInt,Static,2100,2.8711805671444783
+Mexico,MexCstW,Evolving,2100,2.5656635498860036
+Mexico,MexCstW,Static,2100,2.8711805671444783
+Mexico,Papaloapan,Evolving,2100,2.5656635498860036
+Mexico,Papaloapan,Static,2100,2.8711805671444783
+Mexico,RioLerma,Evolving,2100,2.5656635498860036
+Mexico,RioLerma,Static,2100,2.8711805671444783
+Mexico,RioVerde,Evolving,2100,2.5656635498860036
+Mexico,RioVerde,Static,2100,2.8711805671444783
+Mexico,GrijUsuR,Evolving,2100,2.5656635498860036
+Mexico,GrijUsuR,Static,2100,2.8711805671444783
+Mexico,RioBalsas,Evolving,2100,2.5656635498860036
+Mexico,RioBalsas,Static,2100,2.8711805671444783
+Mexico,CntAmer,Evolving,2100,2.5656635498860036
+Mexico,CntAmer,Static,2100,2.8711805671444783
+Mexico,Tehuantpc,Evolving,2100,2.5656635498860036
+Mexico,Tehuantpc,Static,2100,2.8711805671444783
+Mexico,California,Evolving,2100,2.5656635498860036
+Mexico,California,Static,2100,2.8711805671444783
+Mexico,UsaColoRS,Evolving,2100,2.5656635498860036
+Mexico,UsaColoRS,Static,2100,2.8711805671444783
+Mexico,RioGrande,Evolving,2100,2.5656635498860036
+Mexico,RioGrande,Static,2100,2.8711805671444783
+Middle East,CaspianE,Evolving,2100,0.7033172805480402
+Middle East,CaspianE,Static,2100,0.33945554631874914
+Middle East,CaspianSW,Evolving,2100,0.7033172805480402
+Middle East,CaspianSW,Static,2100,0.33945554631874914
+Middle East,MeditE,Evolving,2100,0.7033172805480402
+Middle East,MeditE,Static,2100,0.33945554631874914
+Middle East,Iran,Evolving,2100,0.7033172805480402
+Middle East,Iran,Static,2100,0.33945554631874914
+Middle East,TigrEuphR,Evolving,2100,0.7033172805480402
+Middle East,TigrEuphR,Static,2100,0.33945554631874914
+Middle East,PersianGulf,Evolving,2100,0.7033172805480402
+Middle East,PersianGulf,Static,2100,0.33945554631874914
+Middle East,FarahrudR,Evolving,2100,0.7033172805480402
+Middle East,FarahrudR,Static,2100,0.33945554631874914
+Middle East,RedSeaE,Evolving,2100,0.7033172805480402
+Middle East,RedSeaE,Static,2100,0.33945554631874914
+Middle East,ArabianP,Evolving,2100,0.7033172805480402
+Middle East,ArabianP,Static,2100,0.33945554631874914
+Middle East,DeadSea,Evolving,2100,0.7033172805480402
+Middle East,DeadSea,Static,2100,0.33945554631874914
+Middle East,Helmand,Evolving,2100,0.7033172805480402
+Middle East,Helmand,Static,2100,0.33945554631874914
+Middle East,SinaiP,Evolving,2100,0.7033172805480402
+Middle East,SinaiP,Static,2100,0.33945554631874914
+Middle East,EJrdnSyr,Evolving,2100,0.7033172805480402
+Middle East,EJrdnSyr,Static,2100,0.33945554631874914
+Middle East,AfrCstNE,Evolving,2100,0.7033172805480402
+Middle East,AfrCstNE,Static,2100,0.33945554631874914
+Middle East,HamuMashR,Evolving,2100,0.7033172805480402
+Middle East,HamuMashR,Static,2100,0.33945554631874914
+Middle East,ArabianSea,Evolving,2100,0.7033172805480402
+Middle East,ArabianSea,Static,2100,0.33945554631874914
+Pakistan,AmuDaryaR,Evolving,2100,-0.8835952957197996
+Pakistan,AmuDaryaR,Static,2100,-0.917792528254671
+Pakistan,Tarim,Evolving,2100,-0.8835952957197996
+Pakistan,Tarim,Static,2100,-0.917792528254671
+Pakistan,IndusR,Evolving,2100,-0.8835952957197996
+Pakistan,IndusR,Static,2100,-0.917792528254671
+Pakistan,Helmand,Evolving,2100,-0.8835952957197996
+Pakistan,Helmand,Static,2100,-0.917792528254671
+Pakistan,HamuMashR,Evolving,2100,-0.8835952957197996
+Pakistan,HamuMashR,Static,2100,-0.917792528254671
+Pakistan,ArabianSea,Evolving,2100,-0.8835952957197996
+Pakistan,ArabianSea,Static,2100,-0.917792528254671
+Pakistan,SabarmatiR,Evolving,2100,-0.8835952957197996
+Pakistan,SabarmatiR,Static,2100,-0.917792528254671
+Russia,SiberiaN,Evolving,2100,-0.2520473833260559
+Russia,SiberiaN,Static,2100,0.06942115620292898
+Russia,SiberiaW,Evolving,2100,-0.2520473833260559
+Russia,SiberiaW,Static,2100,0.06942115620292898
+Russia,KaraSea,Evolving,2100,-0.2520473833260559
+Russia,KaraSea,Static,2100,0.06942115620292898
+Russia,LenaR,Evolving,2100,-0.2520473833260559
+Russia,LenaR,Static,2100,0.06942115620292898
+Russia,ScndnvN,Evolving,2100,-0.2520473833260559
+Russia,ScndnvN,Static,2100,0.06942115620292898
+Russia,BarentsSea,Evolving,2100,-0.2520473833260559
+Russia,BarentsSea,Static,2100,0.06942115620292898
+Russia,Finland,Evolving,2100,-0.2520473833260559
+Russia,Finland,Static,2100,0.06942115620292898
+Russia,DvinaRN,Evolving,2100,-0.2520473833260559
+Russia,DvinaRN,Static,2100,0.06942115620292898
+Russia,NevaR,Evolving,2100,-0.2520473833260559
+Russia,NevaR,Static,2100,0.06942115620292898
+Russia,VolgaR,Evolving,2100,-0.2520473833260559
+Russia,VolgaR,Static,2100,0.06942115620292898
+Russia,BalticSea,Evolving,2100,-0.2520473833260559
+Russia,BalticSea,Static,2100,0.06942115620292898
+Russia,NarvaR,Evolving,2100,-0.2520473833260559
+Russia,NarvaR,Static,2100,0.06942115620292898
+Russia,DaugavaR,Evolving,2100,-0.2520473833260559
+Russia,DaugavaR,Static,2100,0.06942115620292898
+Russia,PolandCst,Evolving,2100,-0.2520473833260559
+Russia,PolandCst,Static,2100,0.06942115620292898
+Russia,NemanR,Evolving,2100,-0.2520473833260559
+Russia,NemanR,Static,2100,0.06942115620292898
+Russia,RusCstSE,Evolving,2100,-0.2520473833260559
+Russia,RusCstSE,Static,2100,0.06942115620292898
+Russia,UralR,Evolving,2100,-0.2520473833260559
+Russia,UralR,Static,2100,0.06942115620292898
+Russia,DnieperR,Evolving,2100,-0.2520473833260559
+Russia,DnieperR,Static,2100,0.06942115620292898
+Russia,Gobi,Evolving,2100,-0.2520473833260559
+Russia,Gobi,Static,2100,0.06942115620292898
+Russia,AmurR,Evolving,2100,-0.2520473833260559
+Russia,AmurR,Static,2100,0.06942115620292898
+Russia,CaspianNE,Evolving,2100,-0.2520473833260559
+Russia,CaspianNE,Static,2100,0.06942115620292898
+Russia,BlackSeaN,Evolving,2100,-0.2520473833260559
+Russia,BlackSeaN,Static,2100,0.06942115620292898
+Russia,YeniseiR,Evolving,2100,-0.2520473833260559
+Russia,YeniseiR,Static,2100,0.06942115620292898
+Russia,DonR,Evolving,2100,-0.2520473833260559
+Russia,DonR,Static,2100,0.06942115620292898
+Russia,ObR,Evolving,2100,-0.2520473833260559
+Russia,ObR,Static,2100,0.06942115620292898
+Russia,BlackSeaS,Evolving,2100,-0.2520473833260559
+Russia,BlackSeaS,Static,2100,0.06942115620292898
+Russia,CaspianSW,Evolving,2100,-0.2520473833260559
+Russia,CaspianSW,Static,2100,0.06942115620292898
+Russia,SyrDaryaR,Evolving,2100,-0.2520473833260559
+Russia,SyrDaryaR,Static,2100,0.06942115620292898
+South Africa,OrangeR,Evolving,2100,0.3430396317854763
+South Africa,OrangeR,Static,2100,0.3803088803018656
+South Africa,AfrCstS,Evolving,2100,0.3430396317854763
+South Africa,AfrCstS,Static,2100,0.3803088803018656
+South Africa,LimpopoR,Evolving,2100,0.3430396317854763
+South Africa,LimpopoR,Static,2100,0.3803088803018656
+South Africa,AfrCstSSW,Evolving,2100,0.3430396317854763
+South Africa,AfrCstSSW,Static,2100,0.3803088803018656
+South America_Northern,SAmerCstN,Evolving,2100,1.191464391862932
+South America_Northern,SAmerCstN,Static,2100,1.1403856674741535
+South America_Northern,OrinocoR,Evolving,2100,1.191464391862932
+South America_Northern,OrinocoR,Static,2100,1.1403856674741535
+South America_Northern,SAmerCstNE,Evolving,2100,1.191464391862932
+South America_Northern,SAmerCstNE,Static,2100,1.1403856674741535
+South America_Northern,MagdalenaR,Evolving,2100,1.191464391862932
+South America_Northern,MagdalenaR,Static,2100,1.1403856674741535
+South America_Northern,AmazonR,Evolving,2100,1.191464391862932
+South America_Northern,AmazonR,Static,2100,1.1403856674741535
+South America_Southern,ColEcuaCst,Evolving,2100,6.464860433075568
+South America_Southern,ColEcuaCst,Static,2100,5.336635713495371
+South America_Southern,AmazonR,Evolving,2100,6.464860433075568
+South America_Southern,AmazonR,Static,2100,5.336635713495371
+South America_Southern,ChileCstS,Evolving,2100,6.464860433075568
+South America_Southern,ChileCstS,Static,2100,5.336635713495371
+South America_Southern,PeruCst,Evolving,2100,6.464860433075568
+South America_Southern,PeruCst,Static,2100,5.336635713495371
+South America_Southern,BrzCstS,Evolving,2100,6.464860433075568
+South America_Southern,BrzCstS,Static,2100,5.336635713495371
+South America_Southern,LaPuna,Evolving,2100,6.464860433075568
+South America_Southern,LaPuna,Static,2100,5.336635713495371
+South America_Southern,Salinas,Evolving,2100,6.464860433075568
+South America_Southern,Salinas,Static,2100,5.336635713495371
+South America_Southern,RioLaPlata,Evolving,2100,6.464860433075568
+South America_Southern,RioLaPlata,Static,2100,5.336635713495371
+South America_Southern,ChileCstN,Evolving,2100,6.464860433075568
+South America_Southern,ChileCstN,Static,2100,5.336635713495371
+South America_Southern,ArgColoR,Evolving,2100,6.464860433075568
+South America_Southern,ArgColoR,Static,2100,5.336635713495371
+South America_Southern,NegroR,Evolving,2100,6.464860433075568
+South America_Southern,NegroR,Static,2100,5.336635713495371
+South America_Southern,ArgCstS,Evolving,2100,6.464860433075568
+South America_Southern,ArgCstS,Static,2100,5.336635713495371
+South Asia,CaspianE,Evolving,2100,1.51178133005381
+South Asia,CaspianE,Static,2100,2.305719198922033
+South Asia,AmuDaryaR,Evolving,2100,1.51178133005381
+South Asia,AmuDaryaR,Static,2100,2.305719198922033
+South Asia,IndusR,Evolving,2100,1.51178133005381
+South Asia,IndusR,Static,2100,2.305719198922033
+South Asia,FarahrudR,Evolving,2100,1.51178133005381
+South Asia,FarahrudR,Static,2100,2.305719198922033
+South Asia,Helmand,Evolving,2100,1.51178133005381
+South Asia,Helmand,Static,2100,2.305719198922033
+South Asia,HamuMashR,Evolving,2100,1.51178133005381
+South Asia,HamuMashR,Static,2100,2.305719198922033
+South Asia,GangesR,Evolving,2100,1.51178133005381
+South Asia,GangesR,Static,2100,2.305719198922033
+South Asia,BengalBay,Evolving,2100,1.51178133005381
+South Asia,BengalBay,Static,2100,2.305719198922033
+South Asia,SriLanka,Evolving,2100,1.51178133005381
+South Asia,SriLanka,Static,2100,2.305719198922033
+South Korea,Korea,Evolving,2100,-0.036337662533774295
+South Korea,Korea,Static,2100,-0.04662633946558596
+Southeast Asia,RusCstSE,Evolving,2100,9.148469001944726
+Southeast Asia,RusCstSE,Static,2100,8.566220849118693
+Southeast Asia,Korea,Evolving,2100,9.148469001944726
+Southeast Asia,Korea,Static,2100,8.566220849118693
+Southeast Asia,BoHai,Evolving,2100,9.148469001944726
+Southeast Asia,BoHai,Static,2100,8.566220849118693
+Southeast Asia,XunJiang,Evolving,2100,9.148469001944726
+Southeast Asia,XunJiang,Static,2100,8.566220849118693
+Southeast Asia,Hong,Evolving,2100,9.148469001944726
+Southeast Asia,Hong,Static,2100,8.566220849118693
+Southeast Asia,GangesR,Evolving,2100,9.148469001944726
+Southeast Asia,GangesR,Static,2100,8.566220849118693
+Southeast Asia,SChinaSea,Evolving,2100,9.148469001944726
+Southeast Asia,SChinaSea,Static,2100,8.566220849118693
+Southeast Asia,BengalBay,Evolving,2100,9.148469001944726
+Southeast Asia,BengalBay,Static,2100,8.566220849118693
+Southeast Asia,Phlppns,Evolving,2100,9.148469001944726
+Southeast Asia,Phlppns,Static,2100,8.566220849118693
+Southeast Asia,Mekong,Evolving,2100,9.148469001944726
+Southeast Asia,Mekong,Static,2100,8.566220849118693
+Southeast Asia,VietnamCst,Evolving,2100,9.148469001944726
+Southeast Asia,VietnamCst,Static,2100,8.566220849118693
+Southeast Asia,Salween,Evolving,2100,9.148469001944726
+Southeast Asia,Salween,Static,2100,8.566220849118693
+Southeast Asia,IrrawaddyR,Evolving,2100,9.148469001944726
+Southeast Asia,IrrawaddyR,Static,2100,8.566220849118693
+Southeast Asia,SittaungR,Evolving,2100,9.148469001944726
+Southeast Asia,SittaungR,Static,2100,8.566220849118693
+Southeast Asia,MalaysiaP,Evolving,2100,9.148469001944726
+Southeast Asia,MalaysiaP,Static,2100,8.566220849118693
+Southeast Asia,ChaoPhrR,Evolving,2100,9.148469001944726
+Southeast Asia,ChaoPhrR,Static,2100,8.566220849118693
+Southeast Asia,ThaiGulf,Evolving,2100,9.148469001944726
+Southeast Asia,ThaiGulf,Static,2100,8.566220849118693
+Southeast Asia,BorneoCstN,Evolving,2100,9.148469001944726
+Southeast Asia,BorneoCstN,Static,2100,8.566220849118693
+Southeast Asia,Kalimantan,Evolving,2100,9.148469001944726
+Southeast Asia,Kalimantan,Static,2100,8.566220849118693
+Southeast Asia,IrianJaya,Evolving,2100,9.148469001944726
+Southeast Asia,IrianJaya,Static,2100,8.566220849118693
+Southeast Asia,PapuaCst,Evolving,2100,9.148469001944726
+Southeast Asia,PapuaCst,Static,2100,8.566220849118693
+Southeast Asia,JavaTimor,Evolving,2100,9.148469001944726
+Southeast Asia,JavaTimor,Static,2100,8.566220849118693
+Southeast Asia,SolomonIsl,Evolving,2100,9.148469001944726
+Southeast Asia,SolomonIsl,Static,2100,8.566220849118693
+Southeast Asia,SepikR,Evolving,2100,9.148469001944726
+Southeast Asia,SepikR,Static,2100,8.566220849118693
+Southeast Asia,FlyR,Evolving,2100,9.148469001944726
+Southeast Asia,FlyR,Static,2100,8.566220849118693
+Southeast Asia,NewCaledn,Evolving,2100,9.148469001944726
+Southeast Asia,NewCaledn,Static,2100,8.566220849118693
+Africa_Northern,MeditE,Evolving,2100,1.4800980680546765
+Africa_Northern,MeditE,Static,2100,0.9405657055871769
+Africa_Northern,MeditS,Evolving,2100,1.4800980680546765
+Africa_Northern,MeditS,Static,2100,0.9405657055871769
+Africa_Northern,AfrCstNW,Evolving,2100,1.4800980680546765
+Africa_Northern,AfrCstNW,Static,2100,0.9405657055871769
+Africa_Northern,NileR,Evolving,2100,1.4800980680546765
+Africa_Northern,NileR,Static,2100,0.9405657055871769
+Africa_Northern,DeadSea,Evolving,2100,1.4800980680546765
+Africa_Northern,DeadSea,Static,2100,0.9405657055871769
+Africa_Northern,SinaiP,Evolving,2100,1.4800980680546765
+Africa_Northern,SinaiP,Static,2100,0.9405657055871769
+Africa_Northern,AfrCstNE,Evolving,2100,1.4800980680546765
+Africa_Northern,AfrCstNE,Static,2100,0.9405657055871769
+Africa_Northern,AfrIntN,Evolving,2100,1.4800980680546765
+Africa_Northern,AfrIntN,Static,2100,0.9405657055871769
+Africa_Northern,NigerR,Evolving,2100,1.4800980680546765
+Africa_Northern,NigerR,Static,2100,0.9405657055871769
+Africa_Northern,LChad,Evolving,2100,1.4800980680546765
+Africa_Northern,LChad,Static,2100,0.9405657055871769
+Argentina,ChileCstS,Evolving,2100,2.881439298802566
+Argentina,ChileCstS,Static,2100,2.9974632116642095
+Argentina,LaPuna,Evolving,2100,2.881439298802566
+Argentina,LaPuna,Static,2100,2.9974632116642095
+Argentina,MarChiq,Evolving,2100,2.881439298802566
+Argentina,MarChiq,Static,2100,2.9974632116642095
+Argentina,Salinas,Evolving,2100,2.881439298802566
+Argentina,Salinas,Static,2100,2.9974632116642095
+Argentina,RioLaPlata,Evolving,2100,2.881439298802566
+Argentina,RioLaPlata,Static,2100,2.9974632116642095
+Argentina,ChileCstN,Evolving,2100,2.881439298802566
+Argentina,ChileCstN,Static,2100,2.9974632116642095
+Argentina,Pampas,Evolving,2100,2.881439298802566
+Argentina,Pampas,Static,2100,2.9974632116642095
+Argentina,ArgCstN,Evolving,2100,2.881439298802566
+Argentina,ArgCstN,Static,2100,2.9974632116642095
+Argentina,ArgColoR,Evolving,2100,2.881439298802566
+Argentina,ArgColoR,Static,2100,2.9974632116642095
+Argentina,NegroR,Evolving,2100,2.881439298802566
+Argentina,NegroR,Static,2100,2.9974632116642095
+Argentina,Patagonia,Evolving,2100,2.881439298802566
+Argentina,Patagonia,Static,2100,2.9974632116642095
+Argentina,ArgCstS,Evolving,2100,2.881439298802566
+Argentina,ArgCstS,Static,2100,2.9974632116642095
+Colombia,SAmerCstN,Evolving,2100,1.9453408303217274
+Colombia,SAmerCstN,Static,2100,1.9007320104565013
+Colombia,OrinocoR,Evolving,2100,1.9453408303217274
+Colombia,OrinocoR,Static,2100,1.9007320104565013
+Colombia,ColEcuaCst,Evolving,2100,1.9453408303217274
+Colombia,ColEcuaCst,Static,2100,1.9007320104565013
+Colombia,MagdalenaR,Evolving,2100,1.9453408303217274
+Colombia,MagdalenaR,Static,2100,1.9007320104565013
+Colombia,AmazonR,Evolving,2100,1.9453408303217274
+Colombia,AmazonR,Static,2100,1.9007320104565013
+Africa_Southern,NileR,Evolving,2100,20.596971189928265
+Africa_Southern,NileR,Static,2100,16.822171550039215
+Africa_Southern,GuineaGulf,Evolving,2100,20.596971189928265
+Africa_Southern,GuineaGulf,Static,2100,16.822171550039215
+Africa_Southern,AfrCstE,Evolving,2100,20.596971189928265
+Africa_Southern,AfrCstE,Static,2100,16.822171550039215
+Africa_Southern,RiftValley,Evolving,2100,20.596971189928265
+Africa_Southern,RiftValley,Static,2100,16.822171550039215
+Africa_Southern,AngolaCst,Evolving,2100,20.596971189928265
+Africa_Southern,AngolaCst,Static,2100,16.822171550039215
+Africa_Southern,CongoR,Evolving,2100,20.596971189928265
+Africa_Southern,CongoR,Static,2100,16.822171550039215
+Africa_Southern,ZambeziR,Evolving,2100,20.596971189928265
+Africa_Southern,ZambeziR,Static,2100,16.822171550039215
+Africa_Southern,AfrCstSE,Evolving,2100,20.596971189928265
+Africa_Southern,AfrCstSE,Static,2100,16.822171550039215
+Africa_Southern,OrangeR,Evolving,2100,20.596971189928265
+Africa_Southern,OrangeR,Static,2100,16.822171550039215
+Africa_Southern,AfrCstSW,Evolving,2100,20.596971189928265
+Africa_Southern,AfrCstSW,Static,2100,16.822171550039215
+Africa_Southern,AfrIntS,Evolving,2100,20.596971189928265
+Africa_Southern,AfrIntS,Static,2100,16.822171550039215
+Africa_Southern,AfrCstS,Evolving,2100,20.596971189928265
+Africa_Southern,AfrCstS,Static,2100,16.822171550039215
+Africa_Southern,LimpopoR,Evolving,2100,20.596971189928265
+Africa_Southern,LimpopoR,Static,2100,16.822171550039215
+Africa_Western,AfrCstNW,Evolving,2100,82.53108898511908
+Africa_Western,AfrCstNW,Static,2100,61.702870254631875
+Africa_Western,NileR,Evolving,2100,82.53108898511908
+Africa_Western,NileR,Static,2100,61.702870254631875
+Africa_Western,AfrCstW,Evolving,2100,82.53108898511908
+Africa_Western,AfrCstW,Static,2100,61.702870254631875
+Africa_Western,AfrIntN,Evolving,2100,82.53108898511908
+Africa_Western,AfrIntN,Static,2100,61.702870254631875
+Africa_Western,NigerR,Evolving,2100,82.53108898511908
+Africa_Western,NigerR,Static,2100,61.702870254631875
+Africa_Western,LChad,Evolving,2100,82.53108898511908
+Africa_Western,LChad,Static,2100,61.702870254631875
+Africa_Western,SenegalR,Evolving,2100,82.53108898511908
+Africa_Western,SenegalR,Static,2100,61.702870254631875
+Africa_Western,VoltaR,Evolving,2100,82.53108898511908
+Africa_Western,VoltaR,Static,2100,61.702870254631875
+Africa_Western,GuineaGulf,Evolving,2100,82.53108898511908
+Africa_Western,GuineaGulf,Static,2100,61.702870254631875
+Africa_Western,CongoR,Evolving,2100,82.53108898511908
+Africa_Western,CongoR,Static,2100,61.702870254631875
+Africa_Western,ZambeziR,Evolving,2100,82.53108898511908
+Africa_Western,ZambeziR,Static,2100,61.702870254631875
+Australia_NZ,AusCstN,Evolving,2100,3.137972809143761
+Australia_NZ,AusCstN,Static,2100,3.417273476797845
+Australia_NZ,AusCstE,Evolving,2100,3.137972809143761
+Australia_NZ,AusCstE,Static,2100,3.417273476797845
+Australia_NZ,AusCstW,Evolving,2100,3.137972809143761
+Australia_NZ,AusCstW,Static,2100,3.417273476797845
+Australia_NZ,AusInt,Evolving,2100,3.137972809143761
+Australia_NZ,AusInt,Static,2100,3.417273476797845
+Australia_NZ,NewZealand,Evolving,2100,3.137972809143761
+Australia_NZ,NewZealand,Static,2100,3.417273476797845
+Australia_NZ,AusCstS,Evolving,2100,3.137972809143761
+Australia_NZ,AusCstS,Static,2100,3.417273476797845
+Australia_NZ,MurrayDrlg,Evolving,2100,3.137972809143761
+Australia_NZ,MurrayDrlg,Static,2100,3.417273476797845
+Australia_NZ,Tasmania,Evolving,2100,3.137972809143761
+Australia_NZ,Tasmania,Static,2100,3.417273476797845
+Brazil,OrinocoR,Evolving,2100,19.178648703861995
+Brazil,OrinocoR,Static,2100,21.224750710386854
+Brazil,SAmerCstNE,Evolving,2100,19.178648703861995
+Brazil,SAmerCstNE,Static,2100,21.224750710386854
+Brazil,AmazonR,Evolving,2100,19.178648703861995
+Brazil,AmazonR,Static,2100,21.224750710386854
+Brazil,BrzCstN,Evolving,2100,19.178648703861995
+Brazil,BrzCstN,Static,2100,21.224750710386854
+Brazil,TocantinsR,Evolving,2100,19.178648703861995
+Brazil,TocantinsR,Static,2100,21.224750710386854
+Brazil,BrzCstE,Evolving,2100,19.178648703861995
+Brazil,BrzCstE,Static,2100,21.224750710386854
+Brazil,ParnaibaR,Evolving,2100,19.178648703861995
+Brazil,ParnaibaR,Static,2100,21.224750710386854
+Brazil,SaoFrancR,Evolving,2100,19.178648703861995
+Brazil,SaoFrancR,Static,2100,21.224750710386854
+Brazil,BrzCstS,Evolving,2100,19.178648703861995
+Brazil,BrzCstS,Static,2100,21.224750710386854
+Brazil,RioLaPlata,Evolving,2100,19.178648703861995
+Brazil,RioLaPlata,Static,2100,21.224750710386854
+Canada,NWTerr,Evolving,2100,16.4138894845808
+Canada,NWTerr,Static,2100,17.598961462494906
+Canada,PacArctic,Evolving,2100,16.4138894845808
+Canada,PacArctic,Static,2100,17.598961462494906
+Canada,Mackenzie,Evolving,2100,16.4138894845808
+Canada,Mackenzie,Static,2100,17.598961462494906
+Canada,HudsonBay,Evolving,2100,16.4138894845808
+Canada,HudsonBay,Static,2100,17.598961462494906
+Canada,CanAtl,Evolving,2100,16.4138894845808
+Canada,CanAtl,Static,2100,17.598961462494906
+Canada,NelsonR,Evolving,2100,16.4138894845808
+Canada,NelsonR,Static,2100,17.598961462494906
+Canada,FraserR,Evolving,2100,16.4138894845808
+Canada,FraserR,Static,2100,17.598961462494906
+Canada,ChurchillR,Evolving,2100,16.4138894845808
+Canada,ChurchillR,Static,2100,17.598961462494906
+Canada,StLwrncR,Evolving,2100,16.4138894845808
+Canada,StLwrncR,Static,2100,17.598961462494906
+Canada,MissouriR,Evolving,2100,16.4138894845808
+Canada,MissouriR,Static,2100,17.598961462494906
+Canada,GreatLakes,Evolving,2100,16.4138894845808
+Canada,GreatLakes,Static,2100,17.598961462494906
+Canada,UsaPacNW,Evolving,2100,16.4138894845808
+Canada,UsaPacNW,Static,2100,17.598961462494906
+Canada,UsaCstNE,Evolving,2100,16.4138894845808
+Canada,UsaCstNE,Static,2100,17.598961462494906
+Central America and Caribbean,Caribbean,Evolving,2100,2.8793788869233796
+Central America and Caribbean,Caribbean,Static,2100,3.055616098538986
+Central America and Caribbean,YucatanP,Evolving,2100,2.8793788869233796
+Central America and Caribbean,YucatanP,Static,2100,3.055616098538986
+Central America and Caribbean,GrijUsuR,Evolving,2100,2.8793788869233796
+Central America and Caribbean,GrijUsuR,Static,2100,3.055616098538986
+Central America and Caribbean,CntAmer,Evolving,2100,2.8793788869233796
+Central America and Caribbean,CntAmer,Static,2100,3.055616098538986
+Central America and Caribbean,SAmerCstN,Evolving,2100,2.8793788869233796
+Central America and Caribbean,SAmerCstN,Static,2100,3.055616098538986
+Central America and Caribbean,ColEcuaCst,Evolving,2100,2.8793788869233796
+Central America and Caribbean,ColEcuaCst,Static,2100,3.055616098538986

@@ -1,3 +1,8 @@
+SaveSourceData <- function(.DF, .Name){
+  .DF %>% readr::write_csv(
+    file.path(DIR_OUTPUT, Project, "MainFigSourceData", paste0(.Name, ".csv")))
+}
+
 
 SavePorjectData <- function(.DFNAME, .DIR_MODULE = "FigData"){
 

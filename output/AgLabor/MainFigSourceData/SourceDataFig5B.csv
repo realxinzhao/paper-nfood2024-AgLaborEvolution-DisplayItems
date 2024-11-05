@@ -1,0 +1,1585 @@
+scenario,region,year,sector,value
+Low productivity,Africa,2015,Agricultural wage,1
+Low productivity,Africa,2020,Agricultural wage,1.026777285439848
+Low productivity,Africa,2025,Agricultural wage,1.1004976729247244
+Low productivity,Africa,2030,Agricultural wage,1.1626605398405605
+Low productivity,Africa,2035,Agricultural wage,1.2261913449439974
+Low productivity,Africa,2040,Agricultural wage,1.308656218029732
+Low productivity,Africa,2045,Agricultural wage,1.398002615025567
+Low productivity,Africa,2050,Agricultural wage,1.5001643106181846
+Low productivity,Africa,2055,Agricultural wage,1.5836257380614511
+Low productivity,Africa,2060,Agricultural wage,1.6718059247573573
+Low productivity,Africa,2065,Agricultural wage,1.7457768452640197
+Low productivity,Africa,2070,Agricultural wage,1.8240742247072042
+Low productivity,Africa,2075,Agricultural wage,1.880733731738165
+Low productivity,Africa,2080,Agricultural wage,1.9429635314093576
+Low productivity,Africa,2085,Agricultural wage,1.9834615668865068
+Low productivity,Africa,2090,Agricultural wage,2.029362563115497
+Low productivity,Africa,2095,Agricultural wage,2.0569286324847904
+Low productivity,Africa,2100,Agricultural wage,2.0887333115492006
+Low productivity,China,2015,Agricultural wage,1
+Low productivity,China,2020,Agricultural wage,1.0155271059538942
+Low productivity,China,2025,Agricultural wage,1.0562767707806358
+Low productivity,China,2030,Agricultural wage,1.1077187922955465
+Low productivity,China,2035,Agricultural wage,1.1567317384291298
+Low productivity,China,2040,Agricultural wage,1.2216819549355247
+Low productivity,China,2045,Agricultural wage,1.2961978524233526
+Low productivity,China,2050,Agricultural wage,1.3870837352363148
+Low productivity,China,2055,Agricultural wage,1.465231545047669
+Low productivity,China,2060,Agricultural wage,1.5544891091560697
+Low productivity,China,2065,Agricultural wage,1.625382880400906
+Low productivity,China,2070,Agricultural wage,1.7069987920572764
+Low productivity,China,2075,Agricultural wage,1.7772245569352039
+Low productivity,China,2080,Agricultural wage,1.8608742714156674
+Low productivity,China,2085,Agricultural wage,1.9331338391176875
+Low productivity,China,2090,Agricultural wage,2.0172260546310072
+Low productivity,China,2095,Agricultural wage,2.0964252298771595
+Low productivity,China,2100,Agricultural wage,2.1837085586081986
+Low productivity,Europe,2015,Agricultural wage,1
+Low productivity,Europe,2020,Agricultural wage,1.0476892620144131
+Low productivity,Europe,2025,Agricultural wage,1.145739597981468
+Low productivity,Europe,2030,Agricultural wage,1.2275317705892794
+Low productivity,Europe,2035,Agricultural wage,1.3058770242240894
+Low productivity,Europe,2040,Agricultural wage,1.4007341694947122
+Low productivity,Europe,2045,Agricultural wage,1.5015856844066062
+Low productivity,Europe,2050,Agricultural wage,1.6145659427980394
+Low productivity,Europe,2055,Agricultural wage,1.7087105527420448
+Low productivity,Europe,2060,Agricultural wage,1.8091209371114443
+Low productivity,Europe,2065,Agricultural wage,1.8975832538086028
+Low productivity,Europe,2070,Agricultural wage,1.992649232155194
+Low productivity,Europe,2075,Agricultural wage,2.066565190998966
+Low productivity,Europe,2080,Agricultural wage,2.1468978785140567
+Low productivity,Europe,2085,Agricultural wage,2.20474307626451
+Low productivity,Europe,2090,Agricultural wage,2.269960003382001
+Low productivity,Europe,2095,Agricultural wage,2.3158938943387546
+Low productivity,Europe,2100,Agricultural wage,2.367929308986995
+Low productivity,South Asia,2015,Agricultural wage,1
+Low productivity,South Asia,2020,Agricultural wage,0.99435341669045
+Low productivity,South Asia,2025,Agricultural wage,1.033891841441497
+Low productivity,South Asia,2030,Agricultural wage,1.0960301751733608
+Low productivity,South Asia,2035,Agricultural wage,1.1708460927315782
+Low productivity,South Asia,2040,Agricultural wage,1.2599646722152371
+Low productivity,South Asia,2045,Agricultural wage,1.3479046304081208
+Low productivity,South Asia,2050,Agricultural wage,1.4453846331849773
+Low productivity,South Asia,2055,Agricultural wage,1.4989008276574902
+Low productivity,South Asia,2060,Agricultural wage,1.5654589912297616
+Low productivity,South Asia,2065,Agricultural wage,1.6157632884151094
+Low productivity,South Asia,2070,Agricultural wage,1.6719144111135966
+Low productivity,South Asia,2075,Agricultural wage,1.712039986732797
+Low productivity,South Asia,2080,Agricultural wage,1.7642942542212077
+Low productivity,South Asia,2085,Agricultural wage,1.8015164721581574
+Low productivity,South Asia,2090,Agricultural wage,1.8482818200751296
+Low productivity,South Asia,2095,Agricultural wage,1.8807648696805843
+Low productivity,South Asia,2100,Agricultural wage,1.9222387633732636
+Low productivity,Latin America,2015,Agricultural wage,1
+Low productivity,Latin America,2020,Agricultural wage,1.0227753932218384
+Low productivity,Latin America,2025,Agricultural wage,1.0835926914597938
+Low productivity,Latin America,2030,Agricultural wage,1.145003669256551
+Low productivity,Latin America,2035,Agricultural wage,1.2042707834911228
+Low productivity,Latin America,2040,Agricultural wage,1.281577181977417
+Low productivity,Latin America,2045,Agricultural wage,1.3697925588558255
+Low productivity,Latin America,2050,Agricultural wage,1.4733680196285186
+Low productivity,Latin America,2055,Agricultural wage,1.5574757304355558
+Low productivity,Latin America,2060,Agricultural wage,1.647193480075014
+Low productivity,Latin America,2065,Agricultural wage,1.724495404994774
+Low productivity,Latin America,2070,Agricultural wage,1.807152655052418
+Low productivity,Latin America,2075,Agricultural wage,1.8726284272412614
+Low productivity,Latin America,2080,Agricultural wage,1.94720967811384
+Low productivity,Latin America,2085,Agricultural wage,2.003872058233907
+Low productivity,Latin America,2090,Agricultural wage,2.0670066639365485
+Low productivity,Latin America,2095,Agricultural wage,2.112491185675938
+Low productivity,Latin America,2100,Agricultural wage,2.1611535240427173
+Low productivity,Middle East,2015,Agricultural wage,1
+Low productivity,Middle East,2020,Agricultural wage,1.0366849954246804
+Low productivity,Middle East,2025,Agricultural wage,1.0942103657782576
+Low productivity,Middle East,2030,Agricultural wage,1.1607379866944758
+Low productivity,Middle East,2035,Agricultural wage,1.2297057780928748
+Low productivity,Middle East,2040,Agricultural wage,1.3107837398910167
+Low productivity,Middle East,2045,Agricultural wage,1.393411539698111
+Low productivity,Middle East,2050,Agricultural wage,1.4850168586102568
+Low productivity,Middle East,2055,Agricultural wage,1.558007633776576
+Low productivity,Middle East,2060,Agricultural wage,1.6384673091349762
+Low productivity,Middle East,2065,Agricultural wage,1.7082759700914238
+Low productivity,Middle East,2070,Agricultural wage,1.7796179814184312
+Low productivity,Middle East,2075,Agricultural wage,1.8337386544438308
+Low productivity,Middle East,2080,Agricultural wage,1.8930117144670782
+Low productivity,Middle East,2085,Agricultural wage,1.940883572541487
+Low productivity,Middle East,2090,Agricultural wage,1.995935797136097
+Low productivity,Middle East,2095,Agricultural wage,2.0322992836121117
+Low productivity,Middle East,2100,Agricultural wage,2.070023000255558
+Low productivity,North America,2015,Agricultural wage,1
+Low productivity,North America,2020,Agricultural wage,1.034028958483562
+Low productivity,North America,2025,Agricultural wage,1.1203033910109603
+Low productivity,North America,2030,Agricultural wage,1.1969196587744033
+Low productivity,North America,2035,Agricultural wage,1.2721571563958862
+Low productivity,North America,2040,Agricultural wage,1.3730309111767822
+Low productivity,North America,2045,Agricultural wage,1.4891456489918473
+Low productivity,North America,2050,Agricultural wage,1.6169297455340843
+Low productivity,North America,2055,Agricultural wage,1.713671500470161
+Low productivity,North America,2060,Agricultural wage,1.811564796346598
+Low productivity,North America,2065,Agricultural wage,1.8936013118945558
+Low productivity,North America,2070,Agricultural wage,1.9750035562293746
+Low productivity,North America,2075,Agricultural wage,2.0295508805593405
+Low productivity,North America,2080,Agricultural wage,2.0925715756590106
+Low productivity,North America,2085,Agricultural wage,2.134963061399301
+Low productivity,North America,2090,Agricultural wage,2.184762588590138
+Low productivity,North America,2095,Agricultural wage,2.217276685729698
+Low productivity,North America,2100,Agricultural wage,2.2545570539272166
+Low productivity,Pacific OECD,2015,Agricultural wage,1
+Low productivity,Pacific OECD,2020,Agricultural wage,1.0137988003236031
+Low productivity,Pacific OECD,2025,Agricultural wage,1.0747647436085301
+Low productivity,Pacific OECD,2030,Agricultural wage,1.1334774598920823
+Low productivity,Pacific OECD,2035,Agricultural wage,1.188288944670532
+Low productivity,Pacific OECD,2040,Agricultural wage,1.2555252111292785
+Low productivity,Pacific OECD,2045,Agricultural wage,1.3298817021746434
+Low productivity,Pacific OECD,2050,Agricultural wage,1.4177875437303924
+Low productivity,Pacific OECD,2055,Agricultural wage,1.4947250906300242
+Low productivity,Pacific OECD,2060,Agricultural wage,1.5784318603299143
+Low productivity,Pacific OECD,2065,Agricultural wage,1.650954963403804
+Low productivity,Pacific OECD,2070,Agricultural wage,1.733086655184705
+Low productivity,Pacific OECD,2075,Agricultural wage,1.798298016192428
+Low productivity,Pacific OECD,2080,Agricultural wage,1.8762803897687408
+Low productivity,Pacific OECD,2085,Agricultural wage,1.9368558009690378
+Low productivity,Pacific OECD,2090,Agricultural wage,2.0051648379360003
+Low productivity,Pacific OECD,2095,Agricultural wage,2.0573645968011807
+Low productivity,Pacific OECD,2100,Agricultural wage,2.1156288486664314
+Low productivity,Reforming,2015,Agricultural wage,1
+Low productivity,Reforming,2020,Agricultural wage,1.018532259357391
+Low productivity,Reforming,2025,Agricultural wage,1.1240329558674746
+Low productivity,Reforming,2030,Agricultural wage,1.2077549844341369
+Low productivity,Reforming,2035,Agricultural wage,1.2963314608080383
+Low productivity,Reforming,2040,Agricultural wage,1.4105721131660987
+Low productivity,Reforming,2045,Agricultural wage,1.5354364399344003
+Low productivity,Reforming,2050,Agricultural wage,1.676578846457981
+Low productivity,Reforming,2055,Agricultural wage,1.7896257910209779
+Low productivity,Reforming,2060,Agricultural wage,1.913581296700297
+Low productivity,Reforming,2065,Agricultural wage,2.0242175364557493
+Low productivity,Reforming,2070,Agricultural wage,2.1362641278892167
+Low productivity,Reforming,2075,Agricultural wage,2.228254911858436
+Low productivity,Reforming,2080,Agricultural wage,2.3269345757137874
+Low productivity,Reforming,2085,Agricultural wage,2.4065035410442666
+Low productivity,Reforming,2090,Agricultural wage,2.492238732893257
+Low productivity,Reforming,2095,Agricultural wage,2.5612582243434066
+Low productivity,Reforming,2100,Agricultural wage,2.635188491010362
+Low productivity,Rest of Asia,2015,Agricultural wage,1
+Low productivity,Rest of Asia,2020,Agricultural wage,1.0097912469878314
+Low productivity,Rest of Asia,2025,Agricultural wage,1.0284762099896103
+Low productivity,Rest of Asia,2030,Agricultural wage,1.0588816582746008
+Low productivity,Rest of Asia,2035,Agricultural wage,1.1017872652140566
+Low productivity,Rest of Asia,2040,Agricultural wage,1.1623026111805161
+Low productivity,Rest of Asia,2045,Agricultural wage,1.2309193074324631
+Low productivity,Rest of Asia,2050,Agricultural wage,1.3159145840623885
+Low productivity,Rest of Asia,2055,Agricultural wage,1.374584098652253
+Low productivity,Rest of Asia,2060,Agricultural wage,1.4425498582988976
+Low productivity,Rest of Asia,2065,Agricultural wage,1.4985086480282424
+Low productivity,Rest of Asia,2070,Agricultural wage,1.5579614623771332
+Low productivity,Rest of Asia,2075,Agricultural wage,1.6017083912799879
+Low productivity,Rest of Asia,2080,Agricultural wage,1.6556001399785676
+Low productivity,Rest of Asia,2085,Agricultural wage,1.6946654022661298
+Low productivity,Rest of Asia,2090,Agricultural wage,1.7434675157249238
+Low productivity,Rest of Asia,2095,Agricultural wage,1.7806470563703847
+Low productivity,Rest of Asia,2100,Agricultural wage,1.8257828917904022
+High productivity,Africa,2015,Agricultural wage,1
+High productivity,Africa,2020,Agricultural wage,0.9865353607140982
+High productivity,Africa,2025,Agricultural wage,1.0108417119353654
+High productivity,Africa,2030,Agricultural wage,1.0148288589870937
+High productivity,Africa,2035,Agricultural wage,1.0274647406146566
+High productivity,Africa,2040,Agricultural wage,1.061161199639493
+High productivity,Africa,2045,Agricultural wage,1.1048961775354154
+High productivity,Africa,2050,Agricultural wage,1.1585827546826202
+High productivity,Africa,2055,Agricultural wage,1.1900513755378443
+High productivity,Africa,2060,Agricultural wage,1.2224863380485294
+High productivity,Africa,2065,Agricultural wage,1.2414501539220968
+High productivity,Africa,2070,Agricultural wage,1.260867625137526
+High productivity,Africa,2075,Agricultural wage,1.2646600164635988
+High productivity,Africa,2080,Agricultural wage,1.2729396912633697
+High productivity,Africa,2085,Agricultural wage,1.2669673372801968
+High productivity,Africa,2090,Agricultural wage,1.265933133247777
+High productivity,Africa,2095,Agricultural wage,1.2541423241376717
+High productivity,Africa,2100,Agricultural wage,1.24620014846057
+High productivity,China,2015,Agricultural wage,1
+High productivity,China,2020,Agricultural wage,0.9413158534079175
+High productivity,China,2025,Agricultural wage,0.9133123457362687
+High productivity,China,2030,Agricultural wage,0.9071224370574192
+High productivity,China,2035,Agricultural wage,0.9105816037854262
+High productivity,China,2040,Agricultural wage,0.9391718508073731
+High productivity,China,2045,Agricultural wage,0.9838921114404813
+High productivity,China,2050,Agricultural wage,1.0472084779794042
+High productivity,China,2055,Agricultural wage,1.102470049275043
+High productivity,China,2060,Agricultural wage,1.1652018038724798
+High productivity,China,2065,Agricultural wage,1.2014426384634662
+High productivity,China,2070,Agricultural wage,1.2458114511608631
+High productivity,China,2075,Agricultural wage,1.2843839258095961
+High productivity,China,2080,Agricultural wage,1.3371862125187797
+High productivity,China,2085,Agricultural wage,1.3847929414277553
+High productivity,China,2090,Agricultural wage,1.443287323153824
+High productivity,China,2095,Agricultural wage,1.4952603459081635
+High productivity,China,2100,Agricultural wage,1.5548358767923953
+High productivity,Europe,2015,Agricultural wage,1
+High productivity,Europe,2020,Agricultural wage,0.9947850391984376
+High productivity,Europe,2025,Agricultural wage,1.0344598821884237
+High productivity,Europe,2030,Agricultural wage,1.0604536558341742
+High productivity,Europe,2035,Agricultural wage,1.0892943639863528
+High productivity,Europe,2040,Agricultural wage,1.1355662203817798
+High productivity,Europe,2045,Agricultural wage,1.1897193744925336
+High productivity,Europe,2050,Agricultural wage,1.2531947745427945
+High productivity,Europe,2055,Agricultural wage,1.2990230757420362
+High productivity,Europe,2060,Agricultural wage,1.3489193201177192
+High productivity,Europe,2065,Agricultural wage,1.3876410395632308
+High productivity,Europe,2070,Agricultural wage,1.4300693505705877
+High productivity,Europe,2075,Agricultural wage,1.4499968753253243
+High productivity,Europe,2080,Agricultural wage,1.4773109902277852
+High productivity,Europe,2085,Agricultural wage,1.488539483256241
+High productivity,Europe,2090,Agricultural wage,1.5054627838731747
+High productivity,Europe,2095,Agricultural wage,1.5095940809041237
+High productivity,Europe,2100,Agricultural wage,1.5199450057257025
+High productivity,South Asia,2015,Agricultural wage,1
+High productivity,South Asia,2020,Agricultural wage,0.9174116612543678
+High productivity,South Asia,2025,Agricultural wage,0.8925075785040458
+High productivity,South Asia,2030,Agricultural wage,0.8915992379071759
+High productivity,South Asia,2035,Agricultural wage,0.9105056192775546
+High productivity,South Asia,2040,Agricultural wage,0.9458189026788952
+High productivity,South Asia,2045,Agricultural wage,0.9812954035312357
+High productivity,South Asia,2050,Agricultural wage,1.0260324120854964
+High productivity,South Asia,2055,Agricultural wage,1.0429801840438744
+High productivity,South Asia,2060,Agricultural wage,1.067802503798894
+High productivity,South Asia,2065,Agricultural wage,1.0823038652299009
+High productivity,South Asia,2070,Agricultural wage,1.1027230162831778
+High productivity,South Asia,2075,Agricultural wage,1.1173283555610407
+High productivity,South Asia,2080,Agricultural wage,1.1400075592203205
+High productivity,South Asia,2085,Agricultural wage,1.154189890699845
+High productivity,South Asia,2090,Agricultural wage,1.1753233109385002
+High productivity,South Asia,2095,Agricultural wage,1.1878747020664442
+High productivity,South Asia,2100,Agricultural wage,1.2056191232847129
+High productivity,Latin America,2015,Agricultural wage,1
+High productivity,Latin America,2020,Agricultural wage,0.978313267834106
+High productivity,Latin America,2025,Agricultural wage,0.9957891623004347
+High productivity,Latin America,2030,Agricultural wage,1.0114041462878625
+High productivity,Latin America,2035,Agricultural wage,1.0306081422266096
+High productivity,Latin America,2040,Agricultural wage,1.0684880668544696
+High productivity,Latin America,2045,Agricultural wage,1.1155623823009304
+High productivity,Latin America,2050,Agricultural wage,1.1747038638753353
+High productivity,Latin America,2055,Agricultural wage,1.2142788042231214
+High productivity,Latin America,2060,Agricultural wage,1.2556255565163368
+High productivity,Latin America,2065,Agricultural wage,1.2867251386665826
+High productivity,Latin America,2070,Agricultural wage,1.3191449821402177
+High productivity,Latin America,2075,Agricultural wage,1.3378432786620007
+High productivity,Latin America,2080,Agricultural wage,1.3634711297451725
+High productivity,Latin America,2085,Agricultural wage,1.37588425168509
+High productivity,Latin America,2090,Agricultural wage,1.3930202482941265
+High productivity,Latin America,2095,Agricultural wage,1.396895568503631
+High productivity,Latin America,2100,Agricultural wage,1.4031755239245407
+High productivity,Middle East,2015,Agricultural wage,1
+High productivity,Middle East,2020,Agricultural wage,1.0050781926250794
+High productivity,Middle East,2025,Agricultural wage,1.03192006792907
+High productivity,Middle East,2030,Agricultural wage,1.0579705365901915
+High productivity,Middle East,2035,Agricultural wage,1.0886293001821883
+High productivity,Middle East,2040,Agricultural wage,1.1310932128636555
+High productivity,Middle East,2045,Agricultural wage,1.1766897768398143
+High productivity,Middle East,2050,Agricultural wage,1.231676050880852
+High productivity,Middle East,2055,Agricultural wage,1.2674624700131076
+High productivity,Middle East,2060,Agricultural wage,1.3098027254066262
+High productivity,Middle East,2065,Agricultural wage,1.3337180448958392
+High productivity,Middle East,2070,Agricultural wage,1.3563308409519963
+High productivity,Middle East,2075,Agricultural wage,1.3653743106106195
+High productivity,Middle East,2080,Agricultural wage,1.3794959728943224
+High productivity,Middle East,2085,Agricultural wage,1.3803121109947816
+High productivity,Middle East,2090,Agricultural wage,1.386173466443534
+High productivity,Middle East,2095,Agricultural wage,1.375778010436675
+High productivity,Middle East,2100,Agricultural wage,1.3655309431753542
+High productivity,North America,2015,Agricultural wage,1
+High productivity,North America,2020,Agricultural wage,0.9721511831621313
+High productivity,North America,2025,Agricultural wage,0.9884445637722756
+High productivity,North America,2030,Agricultural wage,0.9993047648547243
+High productivity,North America,2035,Agricultural wage,1.0245635382727256
+High productivity,North America,2040,Agricultural wage,1.083571082405378
+High productivity,North America,2045,Agricultural wage,1.1633500850723963
+High productivity,North America,2050,Agricultural wage,1.25103838818753
+High productivity,North America,2055,Agricultural wage,1.3059274800158382
+High productivity,North America,2060,Agricultural wage,1.3571371830106451
+High productivity,North America,2065,Agricultural wage,1.395944728498052
+High productivity,North America,2070,Agricultural wage,1.4324799819694551
+High productivity,North America,2075,Agricultural wage,1.4460644702819305
+High productivity,North America,2080,Agricultural wage,1.4661825678870333
+High productivity,North America,2085,Agricultural wage,1.4709365229991054
+High productivity,North America,2090,Agricultural wage,1.4807523318704041
+High productivity,North America,2095,Agricultural wage,1.477993559991896
+High productivity,North America,2100,Agricultural wage,1.4795207372817845
+High productivity,Pacific OECD,2015,Agricultural wage,1
+High productivity,Pacific OECD,2020,Agricultural wage,0.9602004867679141
+High productivity,Pacific OECD,2025,Agricultural wage,0.9659480558249598
+High productivity,Pacific OECD,2030,Agricultural wage,0.9699487946326034
+High productivity,Pacific OECD,2035,Agricultural wage,0.9801298911076595
+High productivity,Pacific OECD,2040,Agricultural wage,1.0032469369130517
+High productivity,Pacific OECD,2045,Agricultural wage,1.037733714369059
+High productivity,Pacific OECD,2050,Agricultural wage,1.0845178223712861
+High productivity,Pacific OECD,2055,Agricultural wage,1.121758771125707
+High productivity,Pacific OECD,2060,Agricultural wage,1.1636390774718877
+High productivity,Pacific OECD,2065,Agricultural wage,1.1966298376054454
+High productivity,Pacific OECD,2070,Agricultural wage,1.2368226091496284
+High productivity,Pacific OECD,2075,Agricultural wage,1.2631927258798727
+High productivity,Pacific OECD,2080,Agricultural wage,1.2962332396647012
+High productivity,Pacific OECD,2085,Agricultural wage,1.3165967957285467
+High productivity,Pacific OECD,2090,Agricultural wage,1.3423978124750806
+High productivity,Pacific OECD,2095,Agricultural wage,1.3567752545785285
+High productivity,Pacific OECD,2100,Agricultural wage,1.3758452157093406
+High productivity,Reforming,2015,Agricultural wage,1
+High productivity,Reforming,2020,Agricultural wage,0.9753025973435127
+High productivity,Reforming,2025,Agricultural wage,1.0371522594873772
+High productivity,Reforming,2030,Agricultural wage,1.067117899767541
+High productivity,Reforming,2035,Agricultural wage,1.108606828181903
+High productivity,Reforming,2040,Agricultural wage,1.1815768208376751
+High productivity,Reforming,2045,Agricultural wage,1.2745490015966654
+High productivity,Reforming,2050,Agricultural wage,1.3847990736307563
+High productivity,Reforming,2055,Agricultural wage,1.4623305032420757
+High productivity,Reforming,2060,Agricultural wage,1.5442170165104305
+High productivity,Reforming,2065,Agricultural wage,1.6154305688851722
+High productivity,Reforming,2070,Agricultural wage,1.6850008774077256
+High productivity,Reforming,2075,Agricultural wage,1.7379188538672017
+High productivity,Reforming,2080,Agricultural wage,1.7957427310561171
+High productivity,Reforming,2085,Agricultural wage,1.8376849867955554
+High productivity,Reforming,2090,Agricultural wage,1.8847438294406038
+High productivity,Reforming,2095,Agricultural wage,1.9172225387630066
+High productivity,Reforming,2100,Agricultural wage,1.9565195726916051
+High productivity,Rest of Asia,2015,Agricultural wage,1
+High productivity,Rest of Asia,2020,Agricultural wage,0.9285166442132824
+High productivity,Rest of Asia,2025,Agricultural wage,0.8689876757211525
+High productivity,Rest of Asia,2030,Agricultural wage,0.8336013838295742
+High productivity,Rest of Asia,2035,Agricultural wage,0.8255780008812124
+High productivity,Rest of Asia,2040,Agricultural wage,0.8363701308944665
+High productivity,Rest of Asia,2045,Agricultural wage,0.8589026913236858
+High productivity,Rest of Asia,2050,Agricultural wage,0.8976887217527055
+High productivity,Rest of Asia,2055,Agricultural wage,0.9151606580443251
+High productivity,Rest of Asia,2060,Agricultural wage,0.9372743706857318
+High productivity,Rest of Asia,2065,Agricultural wage,0.9520428348923777
+High productivity,Rest of Asia,2070,Agricultural wage,0.9688475158337156
+High productivity,Rest of Asia,2075,Agricultural wage,0.9762997427077874
+High productivity,Rest of Asia,2080,Agricultural wage,0.9914290324978737
+High productivity,Rest of Asia,2085,Agricultural wage,0.9983463671753884
+High productivity,Rest of Asia,2090,Agricultural wage,1.0120813108666522
+High productivity,Rest of Asia,2095,Agricultural wage,1.0184419950209695
+High productivity,Rest of Asia,2100,Agricultural wage,1.030030117150457
+High Elas.,Africa,2015,Agricultural wage,1
+High Elas.,Africa,2020,Agricultural wage,1.0022217997600642
+High Elas.,Africa,2025,Agricultural wage,1.0352141317620218
+High Elas.,Africa,2030,Agricultural wage,1.0552159073425833
+High Elas.,Africa,2035,Agricultural wage,1.0782254792092065
+High Elas.,Africa,2040,Agricultural wage,1.1137803179218828
+High Elas.,Africa,2045,Agricultural wage,1.154221256860039
+High Elas.,Africa,2050,Agricultural wage,1.2011584036322243
+High Elas.,Africa,2055,Agricultural wage,1.2339531906764356
+High Elas.,Africa,2060,Agricultural wage,1.2673931363120632
+High Elas.,Africa,2065,Agricultural wage,1.2913490647292076
+High Elas.,Africa,2070,Agricultural wage,1.315611304033775
+High Elas.,Africa,2075,Agricultural wage,1.328377821232504
+High Elas.,Africa,2080,Agricultural wage,1.343591107037295
+High Elas.,Africa,2085,Agricultural wage,1.3480802581006215
+High Elas.,Africa,2090,Agricultural wage,1.35499154275175
+High Elas.,Africa,2095,Agricultural wage,1.3530137691159605
+High Elas.,Africa,2100,Agricultural wage,1.353162973660517
+High Elas.,China,2015,Agricultural wage,1
+High Elas.,China,2020,Agricultural wage,0.9779286146781457
+High Elas.,China,2025,Agricultural wage,0.9797855197993998
+High Elas.,China,2030,Agricultural wage,0.9924983415931004
+High Elas.,China,2035,Agricultural wage,1.0075620801592413
+High Elas.,China,2040,Agricultural wage,1.03472463637381
+High Elas.,China,2045,Agricultural wage,1.0713155389854336
+High Elas.,China,2050,Agricultural wage,1.1199482415355295
+High Elas.,China,2055,Agricultural wage,1.1623136765487436
+High Elas.,China,2060,Agricultural wage,1.2109008500319343
+High Elas.,China,2065,Agricultural wage,1.2434022212227578
+High Elas.,China,2070,Agricultural wage,1.2821300114418377
+High Elas.,China,2075,Agricultural wage,1.3158287545417373
+High Elas.,China,2080,Agricultural wage,1.358572889270331
+High Elas.,China,2085,Agricultural wage,1.3967615642766176
+High Elas.,China,2090,Agricultural wage,1.442182552836057
+High Elas.,China,2095,Agricultural wage,1.4818647514389525
+High Elas.,China,2100,Agricultural wage,1.526806621032642
+High Elas.,Europe,2015,Agricultural wage,1
+High Elas.,Europe,2020,Agricultural wage,1.0132645085719787
+High Elas.,Europe,2025,Agricultural wage,1.0589598024171627
+High Elas.,Europe,2030,Agricultural wage,1.0924357706779517
+High Elas.,Europe,2035,Agricultural wage,1.1248626452163384
+High Elas.,Europe,2040,Agricultural wage,1.1672550106485398
+High Elas.,Europe,2045,Agricultural wage,1.2133070417238647
+High Elas.,Europe,2050,Agricultural wage,1.26516964259247
+High Elas.,Europe,2055,Agricultural wage,1.305418143197187
+High Elas.,Europe,2060,Agricultural wage,1.348334547095063
+High Elas.,Europe,2065,Agricultural wage,1.3833536131005235
+High Elas.,Europe,2070,Agricultural wage,1.4209873964056123
+High Elas.,Europe,2075,Agricultural wage,1.4437830696624667
+High Elas.,Europe,2080,Agricultural wage,1.4710659200500324
+High Elas.,Europe,2085,Agricultural wage,1.4866783555923235
+High Elas.,Europe,2090,Agricultural wage,1.5059653175700476
+High Elas.,Europe,2095,Agricultural wage,1.5158493087502458
+High Elas.,Europe,2100,Agricultural wage,1.5294258157460419
+High Elas.,South Asia,2015,Agricultural wage,1
+High Elas.,South Asia,2020,Agricultural wage,0.9668245670492456
+High Elas.,South Asia,2025,Agricultural wage,0.9677893709891757
+High Elas.,South Asia,2030,Agricultural wage,0.9852190925659495
+High Elas.,South Asia,2035,Agricultural wage,1.0136229575822575
+High Elas.,South Asia,2040,Agricultural wage,1.0509093747657026
+High Elas.,South Asia,2045,Agricultural wage,1.0863624484854244
+High Elas.,South Asia,2050,Agricultural wage,1.1265528422223134
+High Elas.,South Asia,2055,Agricultural wage,1.1426481291843782
+High Elas.,South Asia,2060,Agricultural wage,1.163955887448385
+High Elas.,South Asia,2065,Agricultural wage,1.1763884985003423
+High Elas.,South Asia,2070,Agricultural wage,1.1930820441255103
+High Elas.,South Asia,2075,Agricultural wage,1.202402105722395
+High Elas.,South Asia,2080,Agricultural wage,1.2176232994443508
+High Elas.,South Asia,2085,Agricultural wage,1.2263904577280427
+High Elas.,South Asia,2090,Agricultural wage,1.2406885003824353
+High Elas.,South Asia,2095,Agricultural wage,1.2487876700092841
+High Elas.,South Asia,2100,Agricultural wage,1.2610323803258983
+High Elas.,Latin America,2015,Agricultural wage,1
+High Elas.,Latin America,2020,Agricultural wage,0.997617495373721
+High Elas.,Latin America,2025,Agricultural wage,1.0241296280849046
+High Elas.,Latin America,2030,Agricultural wage,1.0498338919974108
+High Elas.,Latin America,2035,Agricultural wage,1.075518210833439
+High Elas.,Latin America,2040,Agricultural wage,1.1134228034669016
+High Elas.,Latin America,2045,Agricultural wage,1.1570731625481794
+High Elas.,Latin America,2050,Agricultural wage,1.2090330692164055
+High Elas.,Latin America,2055,Agricultural wage,1.2470246186552638
+High Elas.,Latin America,2060,Agricultural wage,1.2862962878391422
+High Elas.,Latin America,2065,Agricultural wage,1.317221315321873
+High Elas.,Latin America,2070,Agricultural wage,1.349183207177618
+High Elas.,Latin America,2075,Agricultural wage,1.371259983605893
+High Elas.,Latin America,2080,Agricultural wage,1.397928787688855
+High Elas.,Latin America,2085,Agricultural wage,1.4145377239219292
+High Elas.,Latin America,2090,Agricultural wage,1.434116426121899
+High Elas.,Latin America,2095,Agricultural wage,1.4439129071207184
+High Elas.,Latin America,2100,Agricultural wage,1.4550735754299027
+High Elas.,Middle East,2015,Agricultural wage,1
+High Elas.,Middle East,2020,Agricultural wage,1.0148389968838107
+High Elas.,Middle East,2025,Agricultural wage,1.0437915285815569
+High Elas.,Middle East,2030,Agricultural wage,1.0757118596560649
+High Elas.,Middle East,2035,Agricultural wage,1.1095942358740993
+High Elas.,Middle East,2040,Agricultural wage,1.1506240622578359
+High Elas.,Middle East,2045,Agricultural wage,1.1924865212444973
+High Elas.,Middle East,2050,Agricultural wage,1.239979555159849
+High Elas.,Middle East,2055,Agricultural wage,1.2735074442301035
+High Elas.,Middle East,2060,Agricultural wage,1.312196006661061
+High Elas.,Middle East,2065,Agricultural wage,1.3387413233087666
+High Elas.,Middle East,2070,Agricultural wage,1.3638027402680912
+High Elas.,Middle East,2075,Agricultural wage,1.3791940775914657
+High Elas.,Middle East,2080,Agricultural wage,1.3979489208751712
+High Elas.,Middle East,2085,Agricultural wage,1.4077179271570133
+High Elas.,Middle East,2090,Agricultural wage,1.4197704901815305
+High Elas.,Middle East,2095,Agricultural wage,1.4198859046017378
+High Elas.,Middle East,2100,Agricultural wage,1.4206031227844553
+High Elas.,North America,2015,Agricultural wage,1
+High Elas.,North America,2020,Agricultural wage,0.9949455326957778
+High Elas.,North America,2025,Agricultural wage,1.0263678405822985
+High Elas.,North America,2030,Agricultural wage,1.0510945803646756
+High Elas.,North America,2035,Agricultural wage,1.0790357840028082
+High Elas.,North America,2040,Agricultural wage,1.1248018670985462
+High Elas.,North America,2045,Agricultural wage,1.1819663651310728
+High Elas.,North America,2050,Agricultural wage,1.244042465407566
+High Elas.,North America,2055,Agricultural wage,1.2854961173956687
+High Elas.,North America,2060,Agricultural wage,1.3248209568264255
+High Elas.,North America,2065,Agricultural wage,1.355875633501857
+High Elas.,North America,2070,Agricultural wage,1.3856432930396394
+High Elas.,North America,2075,Agricultural wage,1.4009951290404028
+High Elas.,North America,2080,Agricultural wage,1.4205898110116943
+High Elas.,North America,2085,Agricultural wage,1.4295742990682985
+High Elas.,North America,2090,Agricultural wage,1.4418964105153615
+High Elas.,North America,2095,Agricultural wage,1.4459914650442451
+High Elas.,North America,2100,Agricultural wage,1.452580500150871
+High Elas.,Pacific OECD,2015,Agricultural wage,1
+High Elas.,Pacific OECD,2020,Agricultural wage,0.9880031379134784
+High Elas.,Pacific OECD,2025,Agricultural wage,1.0085508823848142
+High Elas.,Pacific OECD,2030,Agricultural wage,1.0268712807989546
+High Elas.,Pacific OECD,2035,Agricultural wage,1.0450417354760748
+High Elas.,Pacific OECD,2040,Agricultural wage,1.0708954435506133
+High Elas.,Pacific OECD,2045,Agricultural wage,1.1028600404711777
+High Elas.,Pacific OECD,2050,Agricultural wage,1.14293591200211
+High Elas.,Pacific OECD,2055,Agricultural wage,1.1765969178383293
+High Elas.,Pacific OECD,2060,Agricultural wage,1.2135546412016764
+High Elas.,Pacific OECD,2065,Agricultural wage,1.244083186059049
+High Elas.,Pacific OECD,2070,Agricultural wage,1.279983124513961
+High Elas.,Pacific OECD,2075,Agricultural wage,1.305417671687283
+High Elas.,Pacific OECD,2080,Agricultural wage,1.3352666987909763
+High Elas.,Pacific OECD,2085,Agricultural wage,1.3558587448209776
+High Elas.,Pacific OECD,2090,Agricultural wage,1.380242322710274
+High Elas.,Pacific OECD,2095,Agricultural wage,1.3965268941131408
+High Elas.,Pacific OECD,2100,Agricultural wage,1.4158934908742198
+High Elas.,Reforming,2015,Agricultural wage,1
+High Elas.,Reforming,2020,Agricultural wage,0.9957884406343986
+High Elas.,Reforming,2025,Agricultural wage,1.0563106501648933
+High Elas.,Reforming,2030,Agricultural wage,1.0950812604564581
+High Elas.,Reforming,2035,Agricultural wage,1.1393004673552696
+High Elas.,Reforming,2040,Agricultural wage,1.2036480683208521
+High Elas.,Reforming,2045,Agricultural wage,1.2794870086717178
+High Elas.,Reforming,2050,Agricultural wage,1.3667847918078238
+High Elas.,Reforming,2055,Agricultural wage,1.430424508502465
+High Elas.,Reforming,2060,Agricultural wage,1.4960589748297584
+High Elas.,Reforming,2065,Agricultural wage,1.5537599378665006
+High Elas.,Reforming,2070,Agricultural wage,1.610645777852159
+High Elas.,Reforming,2075,Agricultural wage,1.6547019601407538
+High Elas.,Reforming,2080,Agricultural wage,1.7005302903517052
+High Elas.,Reforming,2085,Agricultural wage,1.7345818527069938
+High Elas.,Reforming,2090,Agricultural wage,1.7718348717765406
+High Elas.,Reforming,2095,Agricultural wage,1.7991395983528558
+High Elas.,Reforming,2100,Agricultural wage,1.830379121584404
+High Elas.,Rest of Asia,2015,Agricultural wage,1
+High Elas.,Rest of Asia,2020,Agricultural wage,0.9749199021600577
+High Elas.,Rest of Asia,2025,Agricultural wage,0.9554117491337466
+High Elas.,Rest of Asia,2030,Agricultural wage,0.9484309526702
+High Elas.,Rest of Asia,2035,Agricultural wage,0.956171477372247
+High Elas.,Rest of Asia,2040,Agricultural wage,0.9762924899322408
+High Elas.,Rest of Asia,2045,Agricultural wage,1.0035447940483722
+High Elas.,Rest of Asia,2050,Agricultural wage,1.0412030178799048
+High Elas.,Rest of Asia,2055,Agricultural wage,1.0621472204644313
+High Elas.,Rest of Asia,2060,Agricultural wage,1.086518359494699
+High Elas.,Rest of Asia,2065,Agricultural wage,1.1047935406780982
+High Elas.,Rest of Asia,2070,Agricultural wage,1.124506584613599
+High Elas.,Rest of Asia,2075,Agricultural wage,1.1366187197763244
+High Elas.,Rest of Asia,2080,Agricultural wage,1.1542756018443807
+High Elas.,Rest of Asia,2085,Agricultural wage,1.164953500642777
+High Elas.,Rest of Asia,2090,Agricultural wage,1.180634001374401
+High Elas.,Rest of Asia,2095,Agricultural wage,1.1901423901159174
+High Elas.,Rest of Asia,2100,Agricultural wage,1.203540079744267
+Low Elas.,Africa,2015,Agricultural wage,1
+Low Elas.,Africa,2020,Agricultural wage,1.012295101016721
+Low Elas.,Africa,2025,Agricultural wage,1.0989613400600347
+Low Elas.,Africa,2030,Agricultural wage,1.1617048413470876
+Low Elas.,Africa,2035,Agricultural wage,1.2372263791550346
+Low Elas.,Africa,2040,Agricultural wage,1.3558374770965862
+Low Elas.,Africa,2045,Agricultural wage,1.4953133410119612
+Low Elas.,Africa,2050,Agricultural wage,1.664999865205682
+Low Elas.,Africa,2055,Agricultural wage,1.7978810333239441
+Low Elas.,Africa,2060,Agricultural wage,1.944422908340793
+Low Elas.,Africa,2065,Agricultural wage,2.061802265102309
+Low Elas.,Africa,2070,Agricultural wage,2.1850107788973445
+Low Elas.,Africa,2075,Agricultural wage,2.260573684616621
+Low Elas.,Africa,2080,Agricultural wage,2.3494542689360447
+Low Elas.,Africa,2085,Agricultural wage,2.3931680662035313
+Low Elas.,Africa,2090,Agricultural wage,2.4537464918616765
+Low Elas.,Africa,2095,Agricultural wage,2.4763538229992563
+Low Elas.,Africa,2100,Agricultural wage,2.509208775946744
+Low Elas.,China,2015,Agricultural wage,1
+Low Elas.,China,2020,Agricultural wage,0.9740047393264134
+Low Elas.,China,2025,Agricultural wage,0.9670139989204443
+Low Elas.,China,2030,Agricultural wage,1.0139249083462252
+Low Elas.,China,2035,Agricultural wage,1.0685675298717507
+Low Elas.,China,2040,Agricultural wage,1.161201752300224
+Low Elas.,China,2045,Agricultural wage,1.2789792455615077
+Low Elas.,China,2050,Agricultural wage,1.4302757120793272
+Low Elas.,China,2055,Agricultural wage,1.5570911884343763
+Low Elas.,China,2060,Agricultural wage,1.7037844427420719
+Low Elas.,China,2065,Agricultural wage,1.814976135351964
+Low Elas.,China,2070,Agricultural wage,1.9462629632827684
+Low Elas.,China,2075,Agricultural wage,2.0556690076891764
+Low Elas.,China,2080,Agricultural wage,2.191659857411865
+Low Elas.,China,2085,Agricultural wage,2.306395623588081
+Low Elas.,China,2090,Agricultural wage,2.4588180097806562
+Low Elas.,China,2095,Agricultural wage,2.585340415241898
+Low Elas.,China,2100,Agricultural wage,2.726984257967041
+Low Elas.,Europe,2015,Agricultural wage,1
+Low Elas.,Europe,2020,Agricultural wage,1.034463766007554
+Low Elas.,Europe,2025,Agricultural wage,1.1628713130711115
+Low Elas.,Europe,2030,Agricultural wage,1.2644162820473712
+Low Elas.,Europe,2035,Agricultural wage,1.3722356099197757
+Low Elas.,Europe,2040,Agricultural wage,1.5246848546424545
+Low Elas.,Europe,2045,Agricultural wage,1.6992194985362175
+Low Elas.,Europe,2050,Agricultural wage,1.9029672195642362
+Low Elas.,Europe,2055,Agricultural wage,2.0664673763841015
+Low Elas.,Europe,2060,Agricultural wage,2.2452263798388317
+Low Elas.,Europe,2065,Agricultural wage,2.3989622513857634
+Low Elas.,Europe,2070,Agricultural wage,2.5646453720150455
+Low Elas.,Europe,2075,Agricultural wage,2.681826181017835
+Low Elas.,Europe,2080,Agricultural wage,2.8155774920866588
+Low Elas.,Europe,2085,Agricultural wage,2.9035538275388197
+Low Elas.,Europe,2090,Agricultural wage,3.012818557460598
+Low Elas.,Europe,2095,Agricultural wage,3.0858129252418975
+Low Elas.,Europe,2100,Agricultural wage,3.174074743241689
+Low Elas.,South Asia,2015,Agricultural wage,1
+Low Elas.,South Asia,2020,Agricultural wage,0.9273047872931245
+Low Elas.,South Asia,2025,Agricultural wage,0.9317162797585989
+Low Elas.,South Asia,2030,Agricultural wage,0.9813019117084429
+Low Elas.,South Asia,2035,Agricultural wage,1.0696064274871337
+Low Elas.,South Asia,2040,Agricultural wage,1.1876747874165403
+Low Elas.,South Asia,2045,Agricultural wage,1.3007256840312489
+Low Elas.,South Asia,2050,Agricultural wage,1.4588303898700432
+Low Elas.,South Asia,2055,Agricultural wage,1.5330667555259359
+Low Elas.,South Asia,2060,Agricultural wage,1.6241851481604899
+Low Elas.,South Asia,2065,Agricultural wage,1.6912936428597876
+Low Elas.,South Asia,2070,Agricultural wage,1.7775466819702075
+Low Elas.,South Asia,2075,Agricultural wage,1.84070340750614
+Low Elas.,South Asia,2080,Agricultural wage,1.9406815012279854
+Low Elas.,South Asia,2085,Agricultural wage,2.013214113813914
+Low Elas.,South Asia,2090,Agricultural wage,2.1034975995655767
+Low Elas.,South Asia,2095,Agricultural wage,2.168715366482777
+Low Elas.,South Asia,2100,Agricultural wage,2.246647105285892
+Low Elas.,Latin America,2015,Agricultural wage,1
+Low Elas.,Latin America,2020,Agricultural wage,1.006077354708186
+Low Elas.,Latin America,2025,Agricultural wage,1.0703619247246001
+Low Elas.,Latin America,2030,Agricultural wage,1.1329777919761546
+Low Elas.,Latin America,2035,Agricultural wage,1.2001302643094336
+Low Elas.,Latin America,2040,Agricultural wage,1.302579071172046
+Low Elas.,Latin America,2045,Agricultural wage,1.425344376133394
+Low Elas.,Latin America,2050,Agricultural wage,1.578220232419933
+Low Elas.,Latin America,2055,Agricultural wage,1.7002187504746984
+Low Elas.,Latin America,2060,Agricultural wage,1.8436291498683515
+Low Elas.,Latin America,2065,Agricultural wage,1.9670276970550553
+Low Elas.,Latin America,2070,Agricultural wage,2.0994049573314024
+Low Elas.,Latin America,2075,Agricultural wage,2.194712338885518
+Low Elas.,Latin America,2080,Agricultural wage,2.309930365721382
+Low Elas.,Latin America,2085,Agricultural wage,2.389636038089962
+Low Elas.,Latin America,2090,Agricultural wage,2.4884825866775344
+Low Elas.,Latin America,2095,Agricultural wage,2.5527147825761185
+Low Elas.,Latin America,2100,Agricultural wage,2.626808596177006
+Low Elas.,Middle East,2015,Agricultural wage,1
+Low Elas.,Middle East,2020,Agricultural wage,1.0316711868039468
+Low Elas.,Middle East,2025,Agricultural wage,1.1023749268397234
+Low Elas.,Middle East,2030,Agricultural wage,1.1819156039535401
+Low Elas.,Middle East,2035,Agricultural wage,1.271579190332127
+Low Elas.,Middle East,2040,Agricultural wage,1.3911004129949138
+Low Elas.,Middle East,2045,Agricultural wage,1.5210990116149667
+Low Elas.,Middle East,2050,Agricultural wage,1.6713022117072929
+Low Elas.,Middle East,2055,Agricultural wage,1.7864379394768732
+Low Elas.,Middle East,2060,Agricultural wage,1.9164530249198328
+Low Elas.,Middle East,2065,Agricultural wage,2.0282501710507876
+Low Elas.,Middle East,2070,Agricultural wage,2.1434765763463552
+Low Elas.,Middle East,2075,Agricultural wage,2.2245093109332363
+Low Elas.,Middle East,2080,Agricultural wage,2.3171240386121394
+Low Elas.,Middle East,2085,Agricultural wage,2.3811835890164788
+Low Elas.,Middle East,2090,Agricultural wage,2.460114253682744
+Low Elas.,Middle East,2095,Agricultural wage,2.504983142223578
+Low Elas.,Middle East,2100,Agricultural wage,2.5541633349545374
+Low Elas.,North America,2015,Agricultural wage,1
+Low Elas.,North America,2020,Agricultural wage,1.0122118535833793
+Low Elas.,North America,2025,Agricultural wage,1.120305016152333
+Low Elas.,North America,2030,Agricultural wage,1.2162725365998446
+Low Elas.,North America,2035,Agricultural wage,1.3268498208648978
+Low Elas.,North America,2040,Agricultural wage,1.504864173841718
+Low Elas.,North America,2045,Agricultural wage,1.7236196005453488
+Low Elas.,North America,2050,Agricultural wage,1.9731463611989302
+Low Elas.,North America,2055,Agricultural wage,2.1630886857308944
+Low Elas.,North America,2060,Agricultural wage,2.3614243118785847
+Low Elas.,North America,2065,Agricultural wage,2.528027962071883
+Low Elas.,North America,2070,Agricultural wage,2.6941697651476613
+Low Elas.,North America,2075,Agricultural wage,2.7982639474750504
+Low Elas.,North America,2080,Agricultural wage,2.9235538335158138
+Low Elas.,North America,2085,Agricultural wage,3.0020740014557417
+Low Elas.,North America,2090,Agricultural wage,3.105613967242107
+Low Elas.,North America,2095,Agricultural wage,3.1688500745729136
+Low Elas.,North America,2100,Agricultural wage,3.245079480809944
+Low Elas.,Pacific OECD,2015,Agricultural wage,1
+Low Elas.,Pacific OECD,2020,Agricultural wage,0.9846853932277964
+Low Elas.,Pacific OECD,2025,Agricultural wage,1.0465435646074537
+Low Elas.,Pacific OECD,2030,Agricultural wage,1.1056395046112157
+Low Elas.,Pacific OECD,2035,Agricultural wage,1.1686630881923978
+Low Elas.,Pacific OECD,2040,Agricultural wage,1.2610393841171352
+Low Elas.,Pacific OECD,2045,Agricultural wage,1.3728569364516399
+Low Elas.,Pacific OECD,2050,Agricultural wage,1.5227234933469274
+Low Elas.,Pacific OECD,2055,Agricultural wage,1.6509297399563276
+Low Elas.,Pacific OECD,2060,Agricultural wage,1.7941030142602836
+Low Elas.,Pacific OECD,2065,Agricultural wage,1.9162375314524986
+Low Elas.,Pacific OECD,2070,Agricultural wage,2.0589330549065896
+Low Elas.,Pacific OECD,2075,Agricultural wage,2.162832619546757
+Low Elas.,Pacific OECD,2080,Agricultural wage,2.2867963568260437
+Low Elas.,Pacific OECD,2085,Agricultural wage,2.3765385485642936
+Low Elas.,Pacific OECD,2090,Agricultural wage,2.486605256486098
+Low Elas.,Pacific OECD,2095,Agricultural wage,2.565220828573999
+Low Elas.,Pacific OECD,2100,Agricultural wage,2.6572263734825783
+Low Elas.,Reforming,2015,Agricultural wage,1
+Low Elas.,Reforming,2020,Agricultural wage,0.9999745443437532
+Low Elas.,Reforming,2025,Agricultural wage,1.1332078243104766
+Low Elas.,Reforming,2030,Agricultural wage,1.2301814175875836
+Low Elas.,Reforming,2035,Agricultural wage,1.3452761884541808
+Low Elas.,Reforming,2040,Agricultural wage,1.5142687077409027
+Low Elas.,Reforming,2045,Agricultural wage,1.7095060086180933
+Low Elas.,Reforming,2050,Agricultural wage,1.9352283534848251
+Low Elas.,Reforming,2055,Agricultural wage,2.112166828788506
+Low Elas.,Reforming,2060,Agricultural wage,2.2980044931941324
+Low Elas.,Reforming,2065,Agricultural wage,2.4639434169506504
+Low Elas.,Reforming,2070,Agricultural wage,2.638486894128301
+Low Elas.,Reforming,2075,Agricultural wage,2.775306171967581
+Low Elas.,Reforming,2080,Agricultural wage,2.927299728978502
+Low Elas.,Reforming,2085,Agricultural wage,3.0445127354106596
+Low Elas.,Reforming,2090,Agricultural wage,3.177699978552255
+Low Elas.,Reforming,2095,Agricultural wage,3.2801833673825302
+Low Elas.,Reforming,2100,Agricultural wage,3.4138580592607677
+Low Elas.,Rest of Asia,2015,Agricultural wage,1
+Low Elas.,Rest of Asia,2020,Agricultural wage,0.9511091286893898
+Low Elas.,Rest of Asia,2025,Agricultural wage,0.9182033456992933
+Low Elas.,Rest of Asia,2030,Agricultural wage,0.9083685998904832
+Low Elas.,Rest of Asia,2035,Agricultural wage,0.9272656723129422
+Low Elas.,Rest of Asia,2040,Agricultural wage,0.993599437185638
+Low Elas.,Rest of Asia,2045,Agricultural wage,1.078474889123395
+Low Elas.,Rest of Asia,2050,Agricultural wage,1.1906696838158235
+Low Elas.,Rest of Asia,2055,Agricultural wage,1.2608455995677357
+Low Elas.,Rest of Asia,2060,Agricultural wage,1.3456394579285387
+Low Elas.,Rest of Asia,2065,Agricultural wage,1.412660422038244
+Low Elas.,Rest of Asia,2070,Agricultural wage,1.4862922790717916
+Low Elas.,Rest of Asia,2075,Agricultural wage,1.5309547899056055
+Low Elas.,Rest of Asia,2080,Agricultural wage,1.597252290966322
+Low Elas.,Rest of Asia,2085,Agricultural wage,1.6376247928429741
+Low Elas.,Rest of Asia,2090,Agricultural wage,1.7102630214282866
+Low Elas.,Rest of Asia,2095,Agricultural wage,1.7581729566248547
+Low Elas.,Rest of Asia,2100,Agricultural wage,1.823179465979105
+Evolving,Africa,2015,Agricultural wage,1
+Evolving,Africa,2020,Agricultural wage,1.004707138982613
+Evolving,Africa,2025,Agricultural wage,1.0525291982524976
+Evolving,Africa,2030,Agricultural wage,1.0833666060398446
+Evolving,Africa,2035,Agricultural wage,1.119157502534381
+Evolving,Africa,2040,Agricultural wage,1.1743937588924118
+Evolving,Africa,2045,Agricultural wage,1.2377553728642527
+Evolving,Africa,2050,Agricultural wage,1.3120948883361772
+Evolving,Africa,2055,Agricultural wage,1.365778211807775
+Evolving,Africa,2060,Agricultural wage,1.4214425589136073
+Evolving,Africa,2065,Agricultural wage,1.4629659670179553
+Evolving,Africa,2070,Agricultural wage,1.5056486132602158
+Evolving,Africa,2075,Agricultural wage,1.5301822569632146
+Evolving,Africa,2080,Agricultural wage,1.5589061700380171
+Evolving,Africa,2085,Agricultural wage,1.570661235197519
+Evolving,Africa,2090,Agricultural wage,1.5868110864813032
+Evolving,Africa,2095,Agricultural wage,1.5883365955304725
+Evolving,Africa,2100,Agricultural wage,1.5932938027240704
+Evolving,China,2015,Agricultural wage,1
+Evolving,China,2020,Agricultural wage,0.9766597724438438
+Evolving,China,2025,Agricultural wage,0.9740553985764232
+Evolving,China,2030,Agricultural wage,0.9948023147909799
+Evolving,China,2035,Agricultural wage,1.0191747611026274
+Evolving,China,2040,Agricultural wage,1.0618778127003754
+Evolving,China,2045,Agricultural wage,1.118167347933882
+Evolving,China,2050,Agricultural wage,1.1920590636763242
+Evolving,China,2055,Agricultural wage,1.2555788104976564
+Evolving,China,2060,Agricultural wage,1.3280289940292145
+Evolving,China,2065,Agricultural wage,1.3777354754354487
+Evolving,China,2070,Agricultural wage,1.4374705619805668
+Evolving,China,2075,Agricultural wage,1.4887985543831643
+Evolving,China,2080,Agricultural wage,1.5535070972485372
+Evolving,China,2085,Agricultural wage,1.610393157912876
+Evolving,China,2090,Agricultural wage,1.6791382462577817
+Evolving,China,2095,Agricultural wage,1.7390333139455478
+Evolving,China,2100,Agricultural wage,1.8065572696324734
+Evolving,Europe,2015,Agricultural wage,1
+Evolving,Europe,2020,Agricultural wage,1.01976163151349
+Evolving,Europe,2025,Agricultural wage,1.0867400304301862
+Evolving,Europe,2030,Agricultural wage,1.1376138795311597
+Evolving,Europe,2035,Agricultural wage,1.188139751720155
+Evolving,Europe,2040,Agricultural wage,1.2556123889166424
+Evolving,Europe,2045,Agricultural wage,1.3300641180114932
+Evolving,Europe,2050,Agricultural wage,1.4147643107558185
+Evolving,Europe,2055,Agricultural wage,1.4807672949570096
+Evolving,Europe,2060,Agricultural wage,1.5513286280973095
+Evolving,Europe,2065,Agricultural wage,1.60988636117438
+Evolving,Europe,2070,Agricultural wage,1.6734279308060154
+Evolving,Europe,2075,Agricultural wage,1.7150506310708733
+Evolving,Europe,2080,Agricultural wage,1.763199560496322
+Evolving,Europe,2085,Agricultural wage,1.7924729520103937
+Evolving,Europe,2090,Agricultural wage,1.828077818243423
+Evolving,Europe,2095,Agricultural wage,1.8485051345170493
+Evolving,Europe,2100,Agricultural wage,1.8749753135057667
+Evolving,South Asia,2015,Agricultural wage,1
+Evolving,South Asia,2020,Agricultural wage,0.95436976928951045
+Evolving,South Asia,2025,Agricultural wage,0.9558831560516187
+Evolving,South Asia,2030,Agricultural wage,0.9814916347199617
+Evolving,South Asia,2035,Agricultural wage,1.024570242897804
+Evolving,South Asia,2040,Agricultural wage,1.08132517760311
+Evolving,South Asia,2045,Agricultural wage,1.1365219873035952
+Evolving,South Asia,2050,Agricultural wage,1.202614256072445
+Evolving,South Asia,2055,Agricultural wage,1.2305309195251575
+Evolving,South Asia,2060,Agricultural wage,1.266559706270296
+Evolving,South Asia,2065,Agricultural wage,1.2929213301142366
+Evolving,South Asia,2070,Agricultural wage,1.3276181513849572
+Evolving,South Asia,2075,Agricultural wage,1.350423856282252
+Evolving,South Asia,2080,Agricultural wage,1.3817609897950525
+Evolving,South Asia,2085,Agricultural wage,1.4025368126316113
+Evolving,South Asia,2090,Agricultural wage,1.433837847010637
+Evolving,South Asia,2095,Agricultural wage,1.454529747074659
+Evolving,South Asia,2100,Agricultural wage,1.4813415302021704
+Evolving,Latin America,2015,Agricultural wage,1
+Evolving,Latin America,2020,Agricultural wage,0.9992562695636985
+Evolving,Latin America,2025,Agricultural wage,1.0363129647499734
+Evolving,Latin America,2030,Agricultural wage,1.0722835152614791
+Evolving,Latin America,2035,Agricultural wage,1.1090099121186494
+Evolving,Latin America,2040,Agricultural wage,1.1636979582083142
+Evolving,Latin America,2045,Agricultural wage,1.227228847346439
+Evolving,Latin America,2050,Agricultural wage,1.3052952861470233
+Evolving,Latin America,2055,Agricultural wage,1.364843396279521
+Evolving,Latin America,2060,Agricultural wage,1.4274784537191834
+Evolving,Latin America,2065,Agricultural wage,1.478208884614976
+Evolving,Latin America,2070,Agricultural wage,1.5312149628871057
+Evolving,Latin America,2075,Agricultural wage,1.5683409051553567
+Evolving,Latin America,2080,Agricultural wage,1.613192417230165
+Evolving,Latin America,2085,Agricultural wage,1.642335000420329
+Evolving,Latin America,2090,Agricultural wage,1.6771040255202059
+Evolving,Latin America,2095,Agricultural wage,1.696401593558959
+Evolving,Latin America,2100,Agricultural wage,1.718894313295421
+Evolving,Middle East,2015,Agricultural wage,1
+Evolving,Middle East,2020,Agricultural wage,1.0202220884891553
+Evolving,Middle East,2025,Agricultural wage,1.061144406980866
+Evolving,Middle East,2030,Agricultural wage,1.106551363115504
+Evolving,Middle East,2035,Agricultural wage,1.155593843515824
+Evolving,Middle East,2040,Agricultural wage,1.216705275219904
+Evolving,Middle East,2045,Agricultural wage,1.2804299976092925
+Evolving,Middle East,2050,Agricultural wage,1.3530003379965871
+Evolving,Middle East,2055,Agricultural wage,1.4058597066849128
+Evolving,Middle East,2060,Agricultural wage,1.465891198074244
+Evolving,Middle East,2065,Agricultural wage,1.5114547867736163
+Evolving,Middle East,2070,Agricultural wage,1.5556334138479675
+Evolving,Middle East,2075,Agricultural wage,1.5829204553885723
+Evolving,Middle East,2080,Agricultural wage,1.6161842658466812
+Evolving,Middle East,2085,Agricultural wage,1.6363898666974437
+Evolving,Middle East,2090,Agricultural wage,1.6605112816665706
+Evolving,Middle East,2095,Agricultural wage,1.6659109832403154
+Evolving,Middle East,2100,Agricultural wage,1.6721680420105025
+Evolving,North America,2015,Agricultural wage,1
+Evolving,North America,2020,Agricultural wage,0.9992511904901191
+Evolving,North America,2025,Agricultural wage,1.0476257627419239
+Evolving,North America,2030,Agricultural wage,1.089050446730147
+Evolving,North America,2035,Agricultural wage,1.1359144682190094
+Evolving,North America,2040,Agricultural wage,1.2120257822011182
+Evolving,North America,2045,Agricultural wage,1.3065186454183757
+Evolving,North America,2050,Agricultural wage,1.4105452823461386
+Evolving,North America,2055,Agricultural wage,1.4826613034827647
+Evolving,North America,2060,Agricultural wage,1.5528498790882013
+Evolving,North America,2065,Agricultural wage,1.6089921184104299
+Evolving,North America,2070,Agricultural wage,1.663459389092136
+Evolving,North America,2075,Agricultural wage,1.693276294082619
+Evolving,North America,2080,Agricultural wage,1.7304581347130477
+Evolving,North America,2085,Agricultural wage,1.7494123754319046
+Evolving,North America,2090,Agricultural wage,1.7745615369315193
+Evolving,North America,2095,Agricultural wage,1.785313357690169
+Evolving,North America,2100,Agricultural wage,1.8003819174819309
+Evolving,Pacific OECD,2015,Agricultural wage,1
+Evolving,Pacific OECD,2020,Agricultural wage,0.9858740523803714
+Evolving,Pacific OECD,2025,Agricultural wage,1.0171077589115263
+Evolving,Pacific OECD,2030,Agricultural wage,1.0455593503127325
+Evolving,Pacific OECD,2035,Agricultural wage,1.074371485296433
+Evolving,Pacific OECD,2040,Agricultural wage,1.115523888908957
+Evolving,Pacific OECD,2045,Agricultural wage,1.1659447843519997
+Evolving,Pacific OECD,2050,Agricultural wage,1.2293581983453161
+Evolving,Pacific OECD,2055,Agricultural wage,1.2835651421829855
+Evolving,Pacific OECD,2060,Agricultural wage,1.3431420725735383
+Evolving,Pacific OECD,2065,Agricultural wage,1.3926067437325733
+Evolving,Pacific OECD,2070,Agricultural wage,1.4507967058993518
+Evolving,Pacific OECD,2075,Agricultural wage,1.4923839427928425
+Evolving,Pacific OECD,2080,Agricultural wage,1.5414539925260473
+Evolving,Pacific OECD,2085,Agricultural wage,1.5758337655539796
+Evolving,Pacific OECD,2090,Agricultural wage,1.6166065419917408
+Evolving,Pacific OECD,2095,Agricultural wage,1.6444726760444348
+Evolving,Pacific OECD,2100,Agricultural wage,1.677365291989185
+Evolving,Reforming,2015,Agricultural wage,1
+Evolving,Reforming,2020,Agricultural wage,0.9961908589280027
+Evolving,Reforming,2025,Agricultural wage,1.0791416352713572
+Evolving,Reforming,2030,Agricultural wage,1.1344291542006166
+Evolving,Reforming,2035,Agricultural wage,1.1978581502511987
+Evolving,Reforming,2040,Agricultural wage,1.2903699627589165
+Evolving,Reforming,2045,Agricultural wage,1.3984395141110995
+Evolving,Reforming,2050,Agricultural wage,1.5227373171254823
+Evolving,Reforming,2055,Agricultural wage,1.6156927079835437
+Evolving,Reforming,2060,Agricultural wage,1.7122990898790478
+Evolving,Reforming,2065,Agricultural wage,1.802028111710252
+Evolving,Reforming,2070,Agricultural wage,1.8946834507904253
+Evolving,Reforming,2075,Agricultural wage,1.96717141080663
+Evolving,Reforming,2080,Agricultural wage,2.044313964648051
+Evolving,Reforming,2085,Agricultural wage,2.102935091326229
+Evolving,Reforming,2090,Agricultural wage,2.167244203151302
+Evolving,Reforming,2095,Agricultural wage,2.215629447969722
+Evolving,Reforming,2100,Agricultural wage,2.269805042169732
+Evolving,Rest of Asia,2015,Agricultural wage,1
+Evolving,Rest of Asia,2020,Agricultural wage,0.9668276178440036
+Evolving,Rest of Asia,2025,Agricultural wage,0.9420793344853157
+Evolving,Rest of Asia,2030,Agricultural wage,0.9334340260338378
+Evolving,Rest of Asia,2035,Agricultural wage,0.9442551671492785
+Evolving,Rest of Asia,2040,Agricultural wage,0.9748618799556855
+Evolving,Rest of Asia,2045,Agricultural wage,1.0163096790102861
+Evolving,Rest of Asia,2050,Agricultural wage,1.0726818769457838
+Evolving,Rest of Asia,2055,Agricultural wage,1.1045324407584225
+Evolving,Rest of Asia,2060,Agricultural wage,1.1415397279846533
+Evolving,Rest of Asia,2065,Agricultural wage,1.1698128602589601
+Evolving,Rest of Asia,2070,Agricultural wage,1.2005011667902663
+Evolving,Rest of Asia,2075,Agricultural wage,1.2194472297117203
+Evolving,Rest of Asia,2080,Agricultural wage,1.2484565187040018
+Evolving,Rest of Asia,2085,Agricultural wage,1.2667262603057408
+Evolving,Rest of Asia,2090,Agricultural wage,1.293401968765922
+Evolving,Rest of Asia,2095,Agricultural wage,1.3097805491439003
+Evolving,Rest of Asia,2100,Agricultural wage,1.3325977810133214
+Low transition,Africa,2015,Agricultural wage,1
+Low transition,Africa,2020,Agricultural wage,1.004707138982613
+Low transition,Africa,2025,Agricultural wage,1.046192897412073
+Low transition,Africa,2030,Agricultural wage,1.0670154916791896
+Low transition,Africa,2035,Agricultural wage,1.0917318060270158
+Low transition,Africa,2040,Agricultural wage,1.1330711490541334
+Low transition,Africa,2045,Agricultural wage,1.178206601893732
+Low transition,Africa,2050,Agricultural wage,1.228559091164737
+Low transition,Africa,2055,Agricultural wage,1.2550128682870283
+Low transition,Africa,2060,Agricultural wage,1.2808103325581839
+Low transition,Africa,2065,Agricultural wage,1.2899987124740813
+Low transition,Africa,2070,Agricultural wage,1.2959199372691346
+Low transition,Africa,2075,Agricultural wage,1.280805219639372
+Low transition,Africa,2080,Agricultural wage,1.264974693375935
+Low transition,Africa,2085,Agricultural wage,1.2310567520043805
+Low transition,Africa,2090,Agricultural wage,1.1997157681951351
+Low transition,Africa,2095,Agricultural wage,1.1566668975226981
+Low transition,Africa,2100,Agricultural wage,1.1147579288588476
+Low transition,China,2015,Agricultural wage,1
+Low transition,China,2020,Agricultural wage,0.9766597724438438
+Low transition,China,2025,Agricultural wage,0.9718194919152083
+Low transition,China,2030,Agricultural wage,0.9894250762782432
+Low transition,China,2035,Agricultural wage,1.0113118581341691
+Low transition,China,2040,Agricultural wage,1.0513667112429728
+Low transition,China,2045,Agricultural wage,1.1035235421186527
+Low transition,China,2050,Agricultural wage,1.1720890771598416
+Low transition,China,2055,Agricultural wage,1.229478908230817
+Low transition,China,2060,Agricultural wage,1.2941512851463894
+Low transition,China,2065,Agricultural wage,1.334461852794373
+Low transition,China,2070,Agricultural wage,1.3817720209149817
+Low transition,China,2075,Agricultural wage,1.4190531584149444
+Low transition,China,2080,Agricultural wage,1.4661956867211823
+Low transition,China,2085,Agricultural wage,1.5027777576855836
+Low transition,China,2090,Agricultural wage,1.5459011852645457
+Low transition,China,2095,Agricultural wage,1.5779663418397067
+Low transition,China,2100,Agricultural wage,1.6150083585892219
+Low transition,Europe,2015,Agricultural wage,1
+Low transition,Europe,2020,Agricultural wage,1.01976163151349
+Low transition,Europe,2025,Agricultural wage,1.0996263608662147
+Low transition,Europe,2030,Agricultural wage,1.1677687499838683
+Low transition,Europe,2035,Agricultural wage,1.2397801824606653
+Low transition,Europe,2040,Agricultural wage,1.333372597080201
+Low transition,Europe,2045,Agricultural wage,1.439230630790865
+Low transition,Europe,2050,Agricultural wage,1.5617796676519367
+Low transition,Europe,2055,Agricultural wage,1.6724275656218837
+Low transition,Europe,2060,Agricultural wage,1.7949022985795204
+Low transition,Europe,2065,Agricultural wage,1.9119372036594124
+Low transition,Europe,2070,Agricultural wage,2.036382163277587
+Low transition,Europe,2075,Agricultural wage,2.136528964326383
+Low transition,Europe,2080,Agricultural wage,2.245226189294591
+Low transition,Europe,2085,Agricultural wage,2.3324300325114775
+Low transition,Europe,2090,Agricultural wage,2.4323758219478244
+Low transition,Europe,2095,Agricultural wage,2.5198612378514094
+Low transition,Europe,2100,Agricultural wage,2.6149444234177435
+Low transition,South Asia,2015,Agricultural wage,1
+Low transition,South Asia,2020,Agricultural wage,0.95436976928951045
+Low transition,South Asia,2025,Agricultural wage,0.9340712572217553
+Low transition,South Asia,2030,Agricultural wage,0.9338602161319932
+Low transition,South Asia,2035,Agricultural wage,0.94965034749273
+Low transition,South Asia,2040,Agricultural wage,0.9754158728199748
+Low transition,South Asia,2045,Agricultural wage,0.9938936926791266
+Low transition,South Asia,2050,Agricultural wage,1.0138725577161898
+Low transition,South Asia,2055,Agricultural wage,1.0031066852818895
+Low transition,South Asia,2060,Agricultural wage,0.9991144913338939
+Low transition,South Asia,2065,Agricultural wage,0.9836369105929361
+Low transition,South Asia,2070,Agricultural wage,0.9703811235469714
+Low transition,South Asia,2075,Agricultural wage,0.9464319708738612
+Low transition,South Asia,2080,Agricultural wage,0.9267526977931705
+Low transition,South Asia,2085,Agricultural wage,0.8997712178829556
+Low transition,South Asia,2090,Agricultural wage,0.8834272579313963
+Low transition,South Asia,2095,Agricultural wage,0.8594731686246077
+Low transition,South Asia,2100,Agricultural wage,0.8386121888570922
+Low transition,Latin America,2015,Agricultural wage,1
+Low transition,Latin America,2020,Agricultural wage,0.9992562695636985
+Low transition,Latin America,2025,Agricultural wage,1.025673518741541
+Low transition,Latin America,2030,Agricultural wage,1.048311908988271
+Low transition,Latin America,2035,Agricultural wage,1.0703157983815754
+Low transition,Latin America,2040,Agricultural wage,1.107387964652114
+Low transition,Latin America,2045,Agricultural wage,1.1486257669603626
+Low transition,Latin America,2050,Agricultural wage,1.197221747423552
+Low transition,Latin America,2055,Agricultural wage,1.2224646853861816
+Low transition,Latin America,2060,Agricultural wage,1.2470243792600235
+Low transition,Latin America,2065,Agricultural wage,1.2570323999920223
+Low transition,Latin America,2070,Agricultural wage,1.2645927274347246
+Low transition,Latin America,2075,Agricultural wage,1.2531544702020392
+Low transition,Latin America,2080,Agricultural wage,1.2432391827763214
+Low transition,Latin America,2085,Agricultural wage,1.2157493028226154
+Low transition,Latin America,2090,Agricultural wage,1.1899971238695157
+Low transition,Latin America,2095,Agricultural wage,1.1501058650880445
+Low transition,Latin America,2100,Agricultural wage,1.110438377832583
+Low transition,Middle East,2015,Agricultural wage,1
+Low transition,Middle East,2020,Agricultural wage,1.0202220884891553
+Low transition,Middle East,2025,Agricultural wage,1.0533869731169054
+Low transition,Middle East,2030,Agricultural wage,1.0882500844991467
+Low transition,Middle East,2035,Agricultural wage,1.1254709281716033
+Low transition,Middle East,2040,Agricultural wage,1.1715703651187521
+Low transition,Middle East,2045,Agricultural wage,1.215122461934165
+Low transition,Middle East,2050,Agricultural wage,1.2620957437161489
+Low transition,Middle East,2055,Agricultural wage,1.2846673206763228
+Low transition,Middle East,2060,Agricultural wage,1.3100747714401129
+Low transition,Middle East,2065,Agricultural wage,1.3136031260562393
+Low transition,Middle East,2070,Agricultural wage,1.3100088208865404
+Low transition,Middle East,2075,Agricultural wage,1.2861676957700963
+Low transition,Middle East,2080,Agricultural wage,1.2615928707451591
+Low transition,Middle East,2085,Agricultural wage,1.2176285829699183
+Low transition,Middle East,2090,Agricultural wage,1.17626934206079
+Low transition,Middle East,2095,Agricultural wage,1.118323536928188
+Low transition,Middle East,2100,Agricultural wage,1.0594461802263753
+Low transition,North America,2015,Agricultural wage,1
+Low transition,North America,2020,Agricultural wage,0.9992511904901191
+Low transition,North America,2025,Agricultural wage,1.0724177618108384
+Low transition,North America,2030,Agricultural wage,1.1447579331625932
+Low transition,North America,2035,Agricultural wage,1.2271725482492575
+Low transition,North America,2040,Agricultural wage,1.3445133384772934
+Low transition,North America,2045,Agricultural wage,1.4879694761597155
+Low transition,North America,2050,Agricultural wage,1.6504168023986536
+Low transition,North America,2055,Agricultural wage,1.7916437538756744
+Low transition,North America,2060,Agricultural wage,1.9393119450511755
+Low transition,North America,2065,Agricultural wage,2.0777308608661436
+Low transition,North America,2070,Agricultural wage,2.218403594778285
+Low transition,North America,2075,Agricultural wage,2.335983930153808
+Low transition,North America,2080,Agricultural wage,2.466545272493382
+Low transition,North America,2085,Agricultural wage,2.581052779370298
+Low transition,North America,2090,Agricultural wage,2.708288816320599
+Low transition,North America,2095,Agricultural wage,2.821718677932473
+Low transition,North America,2100,Agricultural wage,2.94207010113239
+Low transition,Pacific OECD,2015,Agricultural wage,1
+Low transition,Pacific OECD,2020,Agricultural wage,0.9858740523803714
+Low transition,Pacific OECD,2025,Agricultural wage,1.0340683015398413
+Low transition,Pacific OECD,2030,Agricultural wage,1.0838682986773025
+Low transition,Pacific OECD,2035,Agricultural wage,1.1375034163037943
+Low transition,Pacific OECD,2040,Agricultural wage,1.2079654914127242
+Low transition,Pacific OECD,2045,Agricultural wage,1.294634988812244
+Low transition,Pacific OECD,2050,Agricultural wage,1.401274783963512
+Low transition,Pacific OECD,2055,Agricultural wage,1.5050404538078241
+Low transition,Pacific OECD,2060,Agricultural wage,1.6220637678235639
+Low transition,Pacific OECD,2065,Agricultural wage,1.7341601072497888
+Low transition,Pacific OECD,2070,Agricultural wage,1.8636804479736975
+Low transition,Pacific OECD,2075,Agricultural wage,1.983427263228848
+Low transition,Pacific OECD,2080,Agricultural wage,2.1203649873332657
+Low transition,Pacific OECD,2085,Agricultural wage,2.2443415445032775
+Low transition,Pacific OECD,2090,Agricultural wage,2.3835692996798725
+Low transition,Pacific OECD,2095,Agricultural wage,2.513572182665419
+Low transition,Pacific OECD,2100,Agricultural wage,2.6534849024930667
+Low transition,Reforming,2015,Agricultural wage,1
+Low transition,Reforming,2020,Agricultural wage,0.9961908589280027
+Low transition,Reforming,2025,Agricultural wage,1.0782246900367645
+Low transition,Reforming,2030,Agricultural wage,1.1331168338796371
+Low transition,Reforming,2035,Agricultural wage,1.197015947156224
+Low transition,Reforming,2040,Agricultural wage,1.289003481467199
+Low transition,Reforming,2045,Agricultural wage,1.3934225833916465
+Low transition,Reforming,2050,Agricultural wage,1.5112167370398213
+Low transition,Reforming,2055,Agricultural wage,1.5948228611291049
+Low transition,Reforming,2060,Agricultural wage,1.6789202252229807
+Low transition,Reforming,2065,Agricultural wage,1.7516215794638927
+Low transition,Reforming,2070,Agricultural wage,1.8175111084150983
+Low transition,Reforming,2075,Agricultural wage,1.8548226011564448
+Low transition,Reforming,2080,Agricultural wage,1.8875829475266848
+Low transition,Reforming,2085,Agricultural wage,1.8957081763567862
+Low transition,Reforming,2090,Agricultural wage,1.9045819098024857
+Low transition,Reforming,2095,Agricultural wage,1.8953582964858193
+Low transition,Reforming,2100,Agricultural wage,1.8879349938364813
+Low transition,Rest of Asia,2015,Agricultural wage,1
+Low transition,Rest of Asia,2020,Agricultural wage,0.9668276178440036
+Low transition,Rest of Asia,2025,Agricultural wage,0.9310968191139648
+Low transition,Rest of Asia,2030,Agricultural wage,0.9095234382507755
+Low transition,Rest of Asia,2035,Agricultural wage,0.9081762351930053
+Low transition,Rest of Asia,2040,Agricultural wage,0.9228195890214737
+Low transition,Rest of Asia,2045,Agricultural wage,0.9461753394752255
+Low transition,Rest of Asia,2050,Agricultural wage,0.9803195935544581
+Low transition,Rest of Asia,2055,Agricultural wage,0.9886965493107143
+Low transition,Rest of Asia,2060,Agricultural wage,0.9992747224453457
+Low transition,Rest of Asia,2065,Agricultural wage,0.9991895023326738
+Low transition,Rest of Asia,2070,Agricultural wage,0.9981505422356317
+Low transition,Rest of Asia,2075,Agricultural wage,0.9836848814080535
+Low transition,Rest of Asia,2080,Agricultural wage,0.9730359937118435
+Low transition,Rest of Asia,2085,Agricultural wage,0.950603158946389
+Low transition,Rest of Asia,2090,Agricultural wage,0.9320179216083753
+Low transition,Rest of Asia,2095,Agricultural wage,0.904388473163824
+Low transition,Rest of Asia,2100,Agricultural wage,0.8801895875527865
+High transition,Africa,2015,Agricultural wage,1
+High transition,Africa,2020,Agricultural wage,1.004707138982613
+High transition,Africa,2025,Agricultural wage,1.0591188209795144
+High transition,Africa,2030,Agricultural wage,1.0997497923457749
+High transition,Africa,2035,Agricultural wage,1.1459138714881802
+High transition,Africa,2040,Agricultural wage,1.2141704080062732
+High transition,Africa,2045,Agricultural wage,1.294281479195301
+High transition,Africa,2050,Agricultural wage,1.3895941876338946
+High transition,Africa,2055,Agricultural wage,1.4672845241708592
+High transition,Africa,2060,Agricultural wage,1.5514445622481599
+High transition,Africa,2065,Agricultural wage,1.6244235765053014
+High transition,Africa,2070,Agricultural wage,1.7051031113040596
+High transition,Africa,2075,Agricultural wage,1.771651003317355
+High transition,Africa,2080,Agricultural wage,1.8482592603093875
+High transition,Africa,2085,Agricultural wage,1.9113145639633116
+High transition,Africa,2090,Agricultural wage,1.9856322333275853
+High transition,Africa,2095,Agricultural wage,2.0481279047770005
+High transition,Africa,2100,Agricultural wage,2.1231144368840384
+High transition,China,2015,Agricultural wage,1
+High transition,China,2020,Agricultural wage,0.9766597724438438
+High transition,China,2025,Agricultural wage,0.9767491236139402
+High transition,China,2030,Agricultural wage,1.0006586457681372
+High transition,China,2035,Agricultural wage,1.0277180094091038
+High transition,China,2040,Agricultural wage,1.073050963780014
+High transition,China,2045,Agricultural wage,1.1323001501525138
+High transition,China,2050,Agricultural wage,1.2098084608750372
+High transition,China,2055,Agricultural wage,1.2768341774182363
+High transition,China,2060,Agricultural wage,1.3541888892245468
+High transition,China,2065,Agricultural wage,1.4097100043952269
+High transition,China,2070,Agricultural wage,1.476488090552731
+High transition,China,2075,Agricultural wage,1.5359708664127678
+High transition,China,2080,Agricultural wage,1.6114994104950184
+High transition,China,2085,Agricultural wage,1.6836951559326836
+High transition,China,2090,Agricultural wage,1.7717571162888464
+High transition,China,2095,Agricultural wage,1.8564918092633338
+High transition,China,2100,Agricultural wage,1.9596413529128698
+High transition,Europe,2015,Agricultural wage,1
+High transition,Europe,2020,Agricultural wage,1.01976163151349
+High transition,Europe,2025,Agricultural wage,1.0743808666353651
+High transition,Europe,2030,Agricultural wage,1.1096753771959444
+High transition,Europe,2035,Agricultural wage,1.1417115442689751
+High transition,Europe,2040,Agricultural wage,1.1868077564828006
+High transition,Europe,2045,Agricultural wage,1.234709527661036
+High transition,Europe,2050,Agricultural wage,1.2883835389165912
+High transition,Europe,2055,Agricultural wage,1.3198180008010743
+High transition,Europe,2060,Agricultural wage,1.3541268505289383
+High transition,Europe,2065,Agricultural wage,1.3776342591365058
+High transition,Europe,2070,Agricultural wage,1.4076147109527317
+High transition,Europe,2075,Agricultural wage,1.4207954412756307
+High transition,Europe,2080,Agricultural wage,1.4423858091745922
+High transition,Europe,2085,Agricultural wage,1.4519178267656896
+High transition,Europe,2090,Agricultural wage,1.4710405229242793
+High transition,Europe,2095,Agricultural wage,1.4797239117235212
+High transition,Europe,2100,Agricultural wage,1.4980699365546346
+High transition,South Asia,2015,Agricultural wage,1
+High transition,South Asia,2020,Agricultural wage,0.95436976928951045
+High transition,South Asia,2025,Agricultural wage,0.9789168717169459
+High transition,South Asia,2030,Agricultural wage,1.0329279637157425
+High transition,South Asia,2035,Agricultural wage,1.1066695463696459
+High transition,South Asia,2040,Agricultural wage,1.2001949970303063
+High transition,South Asia,2045,Agricultural wage,1.3029936055166882
+High transition,South Asia,2050,Agricultural wage,1.4223644932622665
+High transition,South Asia,2055,Agricultural wage,1.5037572410388529
+High transition,South Asia,2060,Agricultural wage,1.5981765309349523
+High transition,South Asia,2065,Agricultural wage,1.6766720918213864
+High transition,South Asia,2070,Agricultural wage,1.770316947309149
+High transition,South Asia,2075,Agricultural wage,1.8531567458327869
+High transition,South Asia,2080,Agricultural wage,1.9534012634696818
+High transition,South Asia,2085,Agricultural wage,2.048422205595366
+High transition,South Asia,2090,Agricultural wage,2.1618567913423785
+High transition,South Asia,2095,Agricultural wage,2.268124002067215
+High transition,South Asia,2100,Agricultural wage,2.395936533403269
+High transition,Latin America,2015,Agricultural wage,1
+High transition,Latin America,2020,Agricultural wage,0.9992562695636985
+High transition,Latin America,2025,Agricultural wage,1.0459951607194016
+High transition,Latin America,2030,Agricultural wage,1.0943988710209258
+High transition,Latin America,2035,Agricultural wage,1.1447826937096248
+High transition,Latin America,2040,Agricultural wage,1.2158309454118634
+High transition,Latin America,2045,Agricultural wage,1.3005509756382614
+High transition,Latin America,2050,Agricultural wage,1.4050893716074289
+High transition,Latin America,2055,Agricultural wage,1.492929621292089
+High transition,Latin America,2060,Agricultural wage,1.5871990384814332
+High transition,Latin America,2065,Agricultural wage,1.6723577578260849
+High transition,Latin America,2070,Agricultural wage,1.7634296933351503
+High transition,Latin America,2075,Agricultural wage,1.8439842739224437
+High transition,Latin America,2080,Agricultural wage,1.938600299318881
+High transition,Latin America,2085,Agricultural wage,2.026004003469251
+High transition,Latin America,2090,Agricultural wage,2.1327589584567836
+High transition,Latin America,2095,Agricultural wage,2.235910735198972
+High transition,Latin America,2100,Agricultural wage,2.3599409265539166
+High transition,Middle East,2015,Agricultural wage,1
+High transition,Middle East,2020,Agricultural wage,1.0202220884891553
+High transition,Middle East,2025,Agricultural wage,1.0670387377064046
+High transition,Middle East,2030,Agricultural wage,1.1206647815800104
+High transition,Middle East,2035,Agricultural wage,1.1791134596836021
+High transition,Middle East,2040,Agricultural wage,1.2519723337427764
+High transition,Middle East,2045,Agricultural wage,1.3301484711837301
+High transition,Middle East,2050,Agricultural wage,1.4205501924931785
+High transition,Middle East,2055,Agricultural wage,1.493878964246556
+High transition,Middle East,2060,Agricultural wage,1.5762676932969506
+High transition,Middle East,2065,Agricultural wage,1.6489864224297832
+High transition,Middle East,2070,Agricultural wage,1.7235600108818414
+High transition,Middle East,2075,Agricultural wage,1.78397896177341
+High transition,Middle East,2080,Agricultural wage,1.8544141529887965
+High transition,Middle East,2085,Agricultural wage,1.9169517654138808
+High transition,Middle East,2090,Agricultural wage,1.9979802642968434
+High transition,Middle East,2095,Agricultural wage,2.0679125825412394
+High transition,Middle East,2100,Agricultural wage,2.14935327238403
+High transition,North America,2015,Agricultural wage,1
+High transition,North America,2020,Agricultural wage,0.9992511904901191
+High transition,North America,2025,Agricultural wage,1.0243572461791317
+High transition,North America,2030,Agricultural wage,1.0384060456515167
+High transition,North America,2035,Agricultural wage,1.0552407120833591
+High transition,North America,2040,Agricultural wage,1.0971888237717462
+High transition,North America,2045,Agricultural wage,1.1517817171014915
+High transition,North America,2050,Agricultural wage,1.2098538651440873
+High transition,North America,2055,Agricultural wage,1.2307189248671877
+High transition,North America,2060,Agricultural wage,1.2472019710439795
+High transition,North America,2065,Agricultural wage,1.2502101408266832
+High transition,North America,2070,Agricultural wage,1.2528395952733864
+High transition,North America,2075,Agricultural wage,1.2339235339867765
+High transition,North America,2080,Agricultural wage,1.2222775755567883
+High transition,North America,2085,Agricultural wage,1.1978224176078616
+High transition,North America,2090,Agricultural wage,1.1815542846867841
+High transition,North America,2095,Agricultural wage,1.1558933956355983
+High transition,North America,2100,Agricultural wage,1.1368270798091766
+High transition,Pacific OECD,2015,Agricultural wage,1
+High transition,Pacific OECD,2020,Agricultural wage,0.9858740523803714
+High transition,Pacific OECD,2025,Agricultural wage,1.0012867793643665
+High transition,Pacific OECD,2030,Agricultural wage,1.0109410323814483
+High transition,Pacific OECD,2035,Agricultural wage,1.0188968456866652
+High transition,Pacific OECD,2040,Agricultural wage,1.0360025599275915
+High transition,Pacific OECD,2045,Agricultural wage,1.0587808719702243
+High transition,Pacific OECD,2050,Agricultural wage,1.0895770189929452
+High transition,Pacific OECD,2055,Agricultural wage,1.1063474072554453
+High transition,Pacific OECD,2060,Agricultural wage,1.126249549320522
+High transition,Pacific OECD,2065,Agricultural wage,1.1364074728621094
+High transition,Pacific OECD,2070,Agricultural wage,1.1543521836059674
+High transition,Pacific OECD,2075,Agricultural wage,1.1584019945080148
+High transition,Pacific OECD,2080,Agricultural wage,1.1697499163388947
+High transition,Pacific OECD,2085,Agricultural wage,1.169796943762698
+High transition,Pacific OECD,2090,Agricultural wage,1.1760175132852473
+High transition,Pacific OECD,2095,Agricultural wage,1.1721346838155462
+High transition,Pacific OECD,2100,Agricultural wage,1.17257224332398
+High transition,Reforming,2015,Agricultural wage,1
+High transition,Reforming,2020,Agricultural wage,0.9961908589280027
+High transition,Reforming,2025,Agricultural wage,1.0807946280982783
+High transition,Reforming,2030,Agricultural wage,1.1378553772094968
+High transition,Reforming,2035,Agricultural wage,1.2023545940418596
+High transition,Reforming,2040,Agricultural wage,1.2978393022333816
+High transition,Reforming,2045,Agricultural wage,1.4122245643833122
+High transition,Reforming,2050,Agricultural wage,1.5482752980478218
+High transition,Reforming,2055,Agricultural wage,1.6568387974531344
+High transition,Reforming,2060,Agricultural wage,1.7727438164419709
+High transition,Reforming,2065,Agricultural wage,1.8851343300396242
+High transition,Reforming,2070,Agricultural wage,2.0077872643726966
+High transition,Reforming,2075,Agricultural wage,2.1182398984373476
+High transition,Reforming,2080,Agricultural wage,2.2435277639968194
+High transition,Reforming,2085,Agricultural wage,2.3598416983147272
+High transition,Reforming,2090,Agricultural wage,2.4907547222950384
+High transition,Reforming,2095,Agricultural wage,2.6117340826323097
+High transition,Reforming,2100,Agricultural wage,2.753159209423142
+High transition,Rest of Asia,2015,Agricultural wage,1
+High transition,Rest of Asia,2020,Agricultural wage,0.9668276178440036
+High transition,Rest of Asia,2025,Agricultural wage,0.9530872345710799
+High transition,Rest of Asia,2030,Agricultural wage,0.9574370867051183
+High transition,Rest of Asia,2035,Agricultural wage,0.9833059238857469
+High transition,Rest of Asia,2040,Agricultural wage,1.0299231387111456
+High transition,Rest of Asia,2045,Agricultural wage,1.0890477649665555
+High transition,Rest of Asia,2050,Agricultural wage,1.167918072647426
+High transition,Rest of Asia,2055,Agricultural wage,1.2233999923845857
+High transition,Rest of Asia,2060,Agricultural wage,1.28828332242395
+High transition,Rest of Asia,2065,Agricultural wage,1.3480280609885897
+High transition,Rest of Asia,2070,Agricultural wage,1.4136946907869805
+High transition,Rest of Asia,2075,Agricultural wage,1.4687976530018332
+High transition,Rest of Asia,2080,Agricultural wage,1.5387706182809835
+High transition,Rest of Asia,2085,Agricultural wage,1.6013928955437133
+High transition,Rest of Asia,2090,Agricultural wage,1.682799861471987
+High transition,Rest of Asia,2095,Agricultural wage,1.761623026111805
+High transition,Rest of Asia,2100,Agricultural wage,1.858170160993485
+Static,Africa,2015,Agricultural wage,1
+Static,Africa,2020,Agricultural wage,0.9999999999999998
+Static,Africa,2025,Agricultural wage,0.9999999999999998
+Static,Africa,2030,Agricultural wage,0.9999999999999998
+Static,Africa,2035,Agricultural wage,1
+Static,Africa,2040,Agricultural wage,0.9999999999999998
+Static,Africa,2045,Agricultural wage,1
+Static,Africa,2050,Agricultural wage,0.9999999999999998
+Static,Africa,2055,Agricultural wage,1
+Static,Africa,2060,Agricultural wage,1
+Static,Africa,2065,Agricultural wage,1
+Static,Africa,2070,Agricultural wage,0.9999999999999998
+Static,Africa,2075,Agricultural wage,0.9999999999999998
+Static,Africa,2080,Agricultural wage,0.9999999999999998
+Static,Africa,2085,Agricultural wage,0.9999999999999998
+Static,Africa,2090,Agricultural wage,0.9999999999999998
+Static,Africa,2095,Agricultural wage,1
+Static,Africa,2100,Agricultural wage,1
+Static,China,2015,Agricultural wage,1
+Static,China,2020,Agricultural wage,1
+Static,China,2025,Agricultural wage,1.0000000000000002
+Static,China,2030,Agricultural wage,1.0000000000000002
+Static,China,2035,Agricultural wage,1
+Static,China,2040,Agricultural wage,1.0000000000000002
+Static,China,2045,Agricultural wage,1.0000000000000002
+Static,China,2050,Agricultural wage,1.0000000000000002
+Static,China,2055,Agricultural wage,1.0000000000000002
+Static,China,2060,Agricultural wage,1
+Static,China,2065,Agricultural wage,1.0000000000000002
+Static,China,2070,Agricultural wage,1
+Static,China,2075,Agricultural wage,1
+Static,China,2080,Agricultural wage,1
+Static,China,2085,Agricultural wage,1.0000000000000002
+Static,China,2090,Agricultural wage,1.0000000000000002
+Static,China,2095,Agricultural wage,1
+Static,China,2100,Agricultural wage,1.0000000000000002
+Static,Europe,2015,Agricultural wage,1
+Static,Europe,2020,Agricultural wage,1
+Static,Europe,2025,Agricultural wage,1
+Static,Europe,2030,Agricultural wage,0.9999999999999999
+Static,Europe,2035,Agricultural wage,1.0000000000000002
+Static,Europe,2040,Agricultural wage,1
+Static,Europe,2045,Agricultural wage,0.9999999999999999
+Static,Europe,2050,Agricultural wage,1
+Static,Europe,2055,Agricultural wage,0.9999999999999999
+Static,Europe,2060,Agricultural wage,1
+Static,Europe,2065,Agricultural wage,1
+Static,Europe,2070,Agricultural wage,0.9999999999999999
+Static,Europe,2075,Agricultural wage,0.9999999999999999
+Static,Europe,2080,Agricultural wage,1.0000000000000002
+Static,Europe,2085,Agricultural wage,1
+Static,Europe,2090,Agricultural wage,1.0000000000000002
+Static,Europe,2095,Agricultural wage,1
+Static,Europe,2100,Agricultural wage,1
+Static,South Asia,2015,Agricultural wage,1
+Static,South Asia,2020,Agricultural wage,1
+Static,South Asia,2025,Agricultural wage,1.0000000000000002
+Static,South Asia,2030,Agricultural wage,1
+Static,South Asia,2035,Agricultural wage,1
+Static,South Asia,2040,Agricultural wage,1
+Static,South Asia,2045,Agricultural wage,1.0000000000000002
+Static,South Asia,2050,Agricultural wage,1
+Static,South Asia,2055,Agricultural wage,1
+Static,South Asia,2060,Agricultural wage,1
+Static,South Asia,2065,Agricultural wage,1
+Static,South Asia,2070,Agricultural wage,1.0000000000000002
+Static,South Asia,2075,Agricultural wage,1
+Static,South Asia,2080,Agricultural wage,1.0000000000000002
+Static,South Asia,2085,Agricultural wage,1.0000000000000002
+Static,South Asia,2090,Agricultural wage,1.0000000000000002
+Static,South Asia,2095,Agricultural wage,1
+Static,South Asia,2100,Agricultural wage,1
+Static,Latin America,2015,Agricultural wage,1
+Static,Latin America,2020,Agricultural wage,1
+Static,Latin America,2025,Agricultural wage,1
+Static,Latin America,2030,Agricultural wage,1
+Static,Latin America,2035,Agricultural wage,1
+Static,Latin America,2040,Agricultural wage,1
+Static,Latin America,2045,Agricultural wage,0.9999999999999999
+Static,Latin America,2050,Agricultural wage,0.9999999999999999
+Static,Latin America,2055,Agricultural wage,1
+Static,Latin America,2060,Agricultural wage,0.9999999999999999
+Static,Latin America,2065,Agricultural wage,1
+Static,Latin America,2070,Agricultural wage,1
+Static,Latin America,2075,Agricultural wage,0.9999999999999999
+Static,Latin America,2080,Agricultural wage,1
+Static,Latin America,2085,Agricultural wage,1
+Static,Latin America,2090,Agricultural wage,1
+Static,Latin America,2095,Agricultural wage,0.9999999999999999
+Static,Latin America,2100,Agricultural wage,0.9999999999999999
+Static,Middle East,2015,Agricultural wage,1
+Static,Middle East,2020,Agricultural wage,1
+Static,Middle East,2025,Agricultural wage,1
+Static,Middle East,2030,Agricultural wage,1
+Static,Middle East,2035,Agricultural wage,1
+Static,Middle East,2040,Agricultural wage,1
+Static,Middle East,2045,Agricultural wage,1
+Static,Middle East,2050,Agricultural wage,1
+Static,Middle East,2055,Agricultural wage,1
+Static,Middle East,2060,Agricultural wage,1
+Static,Middle East,2065,Agricultural wage,1
+Static,Middle East,2070,Agricultural wage,1
+Static,Middle East,2075,Agricultural wage,1
+Static,Middle East,2080,Agricultural wage,1
+Static,Middle East,2085,Agricultural wage,1
+Static,Middle East,2090,Agricultural wage,1
+Static,Middle East,2095,Agricultural wage,1
+Static,Middle East,2100,Agricultural wage,1
+Static,North America,2015,Agricultural wage,1
+Static,North America,2020,Agricultural wage,1.0000000000000002
+Static,North America,2025,Agricultural wage,1
+Static,North America,2030,Agricultural wage,1.0000000000000002
+Static,North America,2035,Agricultural wage,1.0000000000000002
+Static,North America,2040,Agricultural wage,1
+Static,North America,2045,Agricultural wage,1.0000000000000002
+Static,North America,2050,Agricultural wage,1.0000000000000002
+Static,North America,2055,Agricultural wage,1
+Static,North America,2060,Agricultural wage,1
+Static,North America,2065,Agricultural wage,1
+Static,North America,2070,Agricultural wage,1.0000000000000002
+Static,North America,2075,Agricultural wage,1
+Static,North America,2080,Agricultural wage,1.0000000000000002
+Static,North America,2085,Agricultural wage,1.0000000000000002
+Static,North America,2090,Agricultural wage,1.0000000000000002
+Static,North America,2095,Agricultural wage,1.0000000000000002
+Static,North America,2100,Agricultural wage,1.0000000000000002
+Static,Pacific OECD,2015,Agricultural wage,1
+Static,Pacific OECD,2020,Agricultural wage,1
+Static,Pacific OECD,2025,Agricultural wage,1
+Static,Pacific OECD,2030,Agricultural wage,0.9999999999999999
+Static,Pacific OECD,2035,Agricultural wage,1
+Static,Pacific OECD,2040,Agricultural wage,1
+Static,Pacific OECD,2045,Agricultural wage,1
+Static,Pacific OECD,2050,Agricultural wage,1
+Static,Pacific OECD,2055,Agricultural wage,1
+Static,Pacific OECD,2060,Agricultural wage,1
+Static,Pacific OECD,2065,Agricultural wage,1
+Static,Pacific OECD,2070,Agricultural wage,1
+Static,Pacific OECD,2075,Agricultural wage,1
+Static,Pacific OECD,2080,Agricultural wage,0.9999999999999999
+Static,Pacific OECD,2085,Agricultural wage,1
+Static,Pacific OECD,2090,Agricultural wage,1
+Static,Pacific OECD,2095,Agricultural wage,1
+Static,Pacific OECD,2100,Agricultural wage,0.9999999999999999
+Static,Reforming,2015,Agricultural wage,1
+Static,Reforming,2020,Agricultural wage,1
+Static,Reforming,2025,Agricultural wage,1.0000000000000002
+Static,Reforming,2030,Agricultural wage,1
+Static,Reforming,2035,Agricultural wage,0.9999999999999999
+Static,Reforming,2040,Agricultural wage,1
+Static,Reforming,2045,Agricultural wage,1.0000000000000002
+Static,Reforming,2050,Agricultural wage,1
+Static,Reforming,2055,Agricultural wage,1.0000000000000002
+Static,Reforming,2060,Agricultural wage,1
+Static,Reforming,2065,Agricultural wage,1
+Static,Reforming,2070,Agricultural wage,1
+Static,Reforming,2075,Agricultural wage,1
+Static,Reforming,2080,Agricultural wage,1.0000000000000002
+Static,Reforming,2085,Agricultural wage,1
+Static,Reforming,2090,Agricultural wage,1
+Static,Reforming,2095,Agricultural wage,1
+Static,Reforming,2100,Agricultural wage,1
+Static,Rest of Asia,2015,Agricultural wage,1
+Static,Rest of Asia,2020,Agricultural wage,0.9999999999999998
+Static,Rest of Asia,2025,Agricultural wage,1
+Static,Rest of Asia,2030,Agricultural wage,1
+Static,Rest of Asia,2035,Agricultural wage,1
+Static,Rest of Asia,2040,Agricultural wage,1
+Static,Rest of Asia,2045,Agricultural wage,1
+Static,Rest of Asia,2050,Agricultural wage,1
+Static,Rest of Asia,2055,Agricultural wage,1
+Static,Rest of Asia,2060,Agricultural wage,1
+Static,Rest of Asia,2065,Agricultural wage,1
+Static,Rest of Asia,2070,Agricultural wage,1
+Static,Rest of Asia,2075,Agricultural wage,1
+Static,Rest of Asia,2080,Agricultural wage,1
+Static,Rest of Asia,2085,Agricultural wage,0.9999999999999998
+Static,Rest of Asia,2090,Agricultural wage,1
+Static,Rest of Asia,2095,Agricultural wage,0.9999999999999998
+Static,Rest of Asia,2100,Agricultural wage,1
+Low productivity,World,2015,Agricultural wage,1
+Low productivity,World,2020,Agricultural wage,1.0284036981400866
+Low productivity,World,2025,Agricultural wage,1.103865339091103
+Low productivity,World,2030,Agricultural wage,1.172858429928069
+Low productivity,World,2035,Agricultural wage,1.2398385262925293
+Low productivity,World,2040,Agricultural wage,1.3252378598778758
+Low productivity,World,2045,Agricultural wage,1.4203174012372137
+Low productivity,World,2050,Agricultural wage,1.5285571879922875
+Low productivity,World,2055,Agricultural wage,1.6163060234043292
+Low productivity,World,2060,Agricultural wage,1.7093543417953678
+Low productivity,World,2065,Agricultural wage,1.7891882335735727
+Low productivity,World,2070,Agricultural wage,1.874038819283108
+Low productivity,World,2075,Agricultural wage,1.9384605727490731
+Low productivity,World,2080,Agricultural wage,2.0120511212032155
+Low productivity,World,2085,Agricultural wage,2.06645932355864
+Low productivity,World,2090,Agricultural wage,2.1282718203259217
+Low productivity,World,2095,Agricultural wage,2.173087099798199
+Low productivity,World,2100,Agricultural wage,2.2230663773915684
+High productivity,World,2015,Agricultural wage,1
+High productivity,World,2020,Agricultural wage,0.9744193309801623
+High productivity,World,2025,Agricultural wage,0.9924906185246457
+High productivity,World,2030,Agricultural wage,1.0051544774345293
+High productivity,World,2035,Agricultural wage,1.0255982898460796
+High productivity,World,2040,Agricultural wage,1.0675748346444853
+High productivity,World,2045,Agricultural wage,1.1224415125413731
+High productivity,World,2050,Agricultural wage,1.188092056560323
+High productivity,World,2055,Agricultural wage,1.2333902885672374
+High productivity,World,2060,Agricultural wage,1.2805987059486008
+High productivity,World,2065,Agricultural wage,1.3162686541130357
+High productivity,World,2070,Agricultural wage,1.3543061592073387
+High productivity,World,2075,Agricultural wage,1.3746559419141722
+High productivity,World,2080,Agricultural wage,1.4019721119921942
+High productivity,World,2085,Agricultural wage,1.4153123771064888
+High productivity,World,2090,Agricultural wage,1.434113044687168
+High productivity,World,2095,Agricultural wage,1.4406712324231286
+High productivity,World,2100,Agricultural wage,1.4517989377029505
+High Elas.,World,2015,Agricultural wage,1
+High Elas.,World,2020,Agricultural wage,0.9972078246532194
+High Elas.,World,2025,Agricultural wage,1.0273084364807676
+High Elas.,World,2030,Agricultural wage,1.0521108804993369
+High Elas.,World,2035,Agricultural wage,1.0780663916962783
+High Elas.,World,2040,Agricultural wage,1.1162976265920967
+High Elas.,World,2045,Agricultural wage,1.1615510782736598
+High Elas.,World,2050,Agricultural wage,1.21380001542507
+High Elas.,World,2055,Agricultural wage,1.2525245929498177
+High Elas.,World,2060,Agricultural wage,1.2926995941130295
+High Elas.,World,2065,Agricultural wage,1.3247142661503022
+High Elas.,World,2070,Agricultural wage,1.3585841907749432
+High Elas.,World,2075,Agricultural wage,1.3803328730633637
+High Elas.,World,2080,Agricultural wage,1.4065222657759238
+High Elas.,World,2085,Agricultural wage,1.4225684285377618
+High Elas.,World,2090,Agricultural wage,1.4421797413649105
+High Elas.,World,2095,Agricultural wage,1.453065991816218
+High Elas.,World,2100,Agricultural wage,1.466751801973292
+Low Elas.,World,2015,Agricultural wage,1
+Low Elas.,World,2020,Agricultural wage,1.006881863138204
+Low Elas.,World,2025,Agricultural wage,1.0940457572080935
+Low Elas.,World,2030,Agricultural wage,1.1724225612656025
+Low Elas.,World,2035,Agricultural wage,1.2594461141677133
+Low Elas.,World,2040,Agricultural wage,1.3914663086232495
+Low Elas.,World,2045,Agricultural wage,1.549271807402275
+Low Elas.,World,2050,Agricultural wage,1.739032167374046
+Low Elas.,World,2055,Agricultural wage,1.8898038879081511
+Low Elas.,World,2060,Agricultural wage,2.0549698057948405
+Low Elas.,World,2065,Agricultural wage,2.194982054827193
+Low Elas.,World,2070,Agricultural wage,2.3450629292366894
+Low Elas.,World,2075,Agricultural wage,2.449279291649486
+Low Elas.,World,2080,Agricultural wage,2.572921230055833
+Low Elas.,World,2085,Agricultural wage,2.6568411698306287
+Low Elas.,World,2090,Agricultural wage,2.7626818604467385
+Low Elas.,World,2095,Agricultural wage,2.833312500455338
+Low Elas.,World,2100,Agricultural wage,2.9173441058347955
+Evolving,World,2015,Agricultural wage,1
+Evolving,World,2020,Agricultural wage,0.9994423263811139
+Evolving,World,2025,Agricultural wage,1.0437318841994678
+Evolving,World,2030,Agricultural wage,1.0819472821688987
+Evolving,World,2035,Agricultural wage,1.1225853918291846
+Evolving,World,2040,Agricultural wage,1.1828534805232007
+Evolving,World,2045,Agricultural wage,1.2543425056412454
+Evolving,World,2050,Agricultural wage,1.3377603910757618
+Evolving,World,2055,Agricultural wage,1.4010151167584153
+Evolving,World,2060,Agricultural wage,1.4672136546338896
+Evolving,World,2065,Agricultural wage,1.5210082857254597
+Evolving,World,2070,Agricultural wage,1.5783467676954945
+Evolving,World,2075,Agricultural wage,1.6162558906663125
+Evolving,World,2080,Agricultural wage,1.6614879900913593
+Evolving,World,2085,Agricultural wage,1.6902446567493035
+Evolving,World,2090,Agricultural wage,1.7253062338377498
+Evolving,World,2095,Agricultural wage,1.746103237473276
+Evolving,World,2100,Agricultural wage,1.7716402465493537
+Low transition,World,2015,Agricultural wage,1
+Low transition,World,2020,Agricultural wage,0.9994423263811139
+Low transition,World,2025,Agricultural wage,1.054213891267094
+Low transition,World,2030,Agricultural wage,1.1057130204026564
+Low transition,World,2035,Agricultural wage,1.1622516565298664
+Low transition,World,2040,Agricultural wage,1.2411373261046004
+Low transition,World,2045,Agricultural wage,1.3346949065766525
+Low transition,World,2050,Agricultural wage,1.4438233273316952
+Low transition,World,2055,Agricultural wage,1.5372973914185781
+Low transition,World,2060,Agricultural wage,1.6381916956753981
+Low transition,World,2065,Agricultural wage,1.7295677074601148
+Low transition,World,2070,Agricultural wage,1.8264974705715142
+Low transition,World,2075,Agricultural wage,1.9044982826057446
+Low transition,World,2080,Agricultural wage,1.9921156068733377
+Low transition,World,2085,Agricultural wage,2.0629370051803115
+Low transition,World,2090,Agricultural wage,2.143987849090548
+Low transition,World,2095,Agricultural wage,2.212587273457271
+Low transition,World,2100,Agricultural wage,2.2871771567598222
+High transition,World,2015,Agricultural wage,1
+High transition,World,2020,Agricultural wage,0.9994423263811139
+High transition,World,2025,Agricultural wage,1.0338712112946806
+High transition,World,2030,Agricultural wage,1.0605055172776323
+High transition,World,2035,Agricultural wage,1.088047522495048
+High transition,World,2040,Agricultural wage,1.1333072804292457
+High transition,World,2045,Agricultural wage,1.1878029076622174
+High transition,World,2050,Agricultural wage,1.2519591636198548
+High transition,World,2055,Agricultural wage,1.2933242321826774
+High transition,World,2060,Agricultural wage,1.3371179109669775
+High transition,World,2065,Agricultural wage,1.3697885485738788
+High transition,World,2070,Agricultural wage,1.4076562720680388
+High transition,World,2075,Agricultural wage,1.4299670028275009
+High transition,World,2080,Agricultural wage,1.4617630098770085
+High transition,World,2085,Agricultural wage,1.4828331243885973
+High transition,World,2090,Agricultural wage,1.5147365553250876
+High transition,World,2095,Agricultural wage,1.538022786606012
+High transition,World,2100,Agricultural wage,1.5717548892960893
+Static,World,2015,Agricultural wage,1
+Static,World,2020,Agricultural wage,0.9999999999999999
+Static,World,2025,Agricultural wage,0.9999999999999999
+Static,World,2030,Agricultural wage,1
+Static,World,2035,Agricultural wage,1
+Static,World,2040,Agricultural wage,1
+Static,World,2045,Agricultural wage,0.9999999999999999
+Static,World,2050,Agricultural wage,0.9999999999999999
+Static,World,2055,Agricultural wage,0.9999999999999999
+Static,World,2060,Agricultural wage,0.9999999999999999
+Static,World,2065,Agricultural wage,0.9999999999999999
+Static,World,2070,Agricultural wage,0.9999999999999999
+Static,World,2075,Agricultural wage,0.9999999999999999
+Static,World,2080,Agricultural wage,1
+Static,World,2085,Agricultural wage,1
+Static,World,2090,Agricultural wage,1
+Static,World,2095,Agricultural wage,1
+Static,World,2100,Agricultural wage,0.9999999999999999

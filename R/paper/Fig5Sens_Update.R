@@ -268,7 +268,12 @@ p_sens_fert + p_sens_water + patchwork::plot_spacer() + pleg + plot_layout(width
 
 Plaborstat_AllScens %>%
   filter(!(sector == "Agricultural labor" & scenario == "Static")) %>%
-  filter(grepl("labor", sector)) %>%
+  filter(grepl("labor", sector)) ->
+  SourceDataFig5A
+
+SourceDataFig5A %>% SaveSourceData("SourceDataFig5A")
+
+SourceDataFig5A %>%
   Plot_Sens(.Type = "R") +
   geom_rect(data = Plaborstat_AllScens %>% Plot_Sens(.Type = "R", .ReturnData = T) %>%
               filter(scen0 == "Static", sector == "Agricultural labor"),
@@ -285,14 +290,24 @@ cowplot::get_legend(p1) -> pleg
 
 
 Plaborstat_AllScens %>%
-  filter(grepl("wage", sector)) %>%
+  filter(grepl("wage", sector)) ->
+  SourceDataFig5B
+
+SourceDataFig5B %>% SaveSourceData("SourceDataFig5B")
+
+SourceDataFig5B %>%
   Plot_Sens(.Type = "R") +
   scale_y_continuous(breaks = seq(0.5, 1.8, 0.1), limits = c(0.45, 1.85), expand = c(0,0)) +
   ggtitle("(B) Wage") ->
   p3;p3
 
 PAgPrice %>% select(-prod) %>%
-  filter(grepl("Staple|Livestock", sector)) %>%
+  filter(grepl("Staple|Livestock", sector)) ->
+  SourceDataFig5C
+
+SourceDataFig5C %>% SaveSourceData("SourceDataFig5C")
+
+SourceDataFig5C %>%
   Plot_Sens() +
   scale_y_continuous(breaks = seq(0.5, 1.8, 0.1), limits = c(0.85, 1.55), expand = c(0,0)) +
   ggtitle("(C) Agricultural prices") ->
@@ -323,7 +338,12 @@ pNCEM1 %>% filter(grepl("Ag", sector)) %>%
                          labels =
                            c(expression(paste(CH[4], " Agriculture")),
                              expression(paste(N[2], "O Agriculture")),
-                             expression(paste(CO[2], " LULUCF")))) ) %>%
+                             expression(paste(CO[2], " LULUCF")))) ) ->
+SourceDataFig5D
+
+SourceDataFig5D %>% SaveSourceData("SourceDataFig5D")
+
+SourceDataFig5D %>%
   Plot_Sens(.Type = "A", .Unit = expression(paste(GtCO[2]-eq))) +
   facet_wrap(~sector, scales = "free_y", nrow = 1,
              labeller = label_parsed) +

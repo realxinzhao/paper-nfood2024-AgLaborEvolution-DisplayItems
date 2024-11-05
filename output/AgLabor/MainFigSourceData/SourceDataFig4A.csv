@@ -1,0 +1,97 @@
+scenario,land,year,value,region,scenarioYear
+Evolving,Cropland: Energy,2050,305.4831606993556,World,Evo. 2050
+Evolving,Cropland: Energy,2100,345.2556139810281,World,Evo. 2100
+Evolving,Cropland: Staples,2050,108.12518390612479,World,Evo. 2050
+Evolving,Cropland: Staples,2100,216.7119167055372,World,Evo. 2100
+Evolving,Cropland: Others,2050,68.98746697032993,World,Evo. 2050
+Evolving,Cropland: Others,2100,230.60527811886345,World,Evo. 2100
+Evolving,Forest,2050,-47.9945954233699,World,Evo. 2050
+Evolving,Forest,2100,-134.408857091154,World,Evo. 2100
+Evolving,Pasture,2050,-146.09355890021516,World,Evo. 2050
+Evolving,Pasture,2100,-216.59430397489587,World,Evo. 2100
+Evolving,Other natural,2050,-288.50738736509993,World,Evo. 2050
+Evolving,Other natural,2100,-441.5702222505997,World,Evo. 2100
+Static,Cropland: Energy,2050,290.41912946709874,World,Sta. 2050
+Static,Cropland: Energy,2100,324.6658107465278,World,Sta. 2100
+Static,Cropland: Staples,2050,60.649415108655035,World,Sta. 2050
+Static,Cropland: Staples,2100,96.99798825299217,World,Sta. 2100
+Static,Cropland: Others,2050,45.13057851356257,World,Sta. 2050
+Static,Cropland: Others,2100,158.2822714310928,World,Sta. 2100
+Static,Forest,2050,-53.11329565014012,World,Sta. 2050
+Static,Forest,2100,-129.65202296227517,World,Sta. 2100
+Static,Pasture,2050,-71.64945348574929,World,Sta. 2050
+Static,Pasture,2100,-43.2840491983352,World,Sta. 2100
+Static,Other natural,2050,-271.43609586469984,World,Sta. 2050
+Static,Other natural,2100,-407.0091987214,World,Sta. 2100
+Evolving,Cropland: Energy,2050,92.4611406382828,Africa,Evo. 2050
+Evolving,Cropland: Energy,2100,73.2977501878609,Africa,Evo. 2100
+Evolving,Cropland: Energy,2050,15.470598646871897,China,Evo. 2050
+Evolving,Cropland: Energy,2100,22.562921540158,China,Evo. 2100
+Evolving,Cropland: Energy,2050,49.661955869501,North America,Evo. 2050
+Evolving,Cropland: Energy,2100,63.494545813313,North America,Evo. 2100
+Evolving,Cropland: Staples,2050,70.17520190592973,Africa,Evo. 2050
+Evolving,Cropland: Staples,2100,191.3778059440732,Africa,Evo. 2100
+Evolving,Cropland: Staples,2050,6.010768358552454,China,Evo. 2050
+Evolving,Cropland: Staples,2100,-10.428225983491672,China,Evo. 2100
+Evolving,Cropland: Staples,2050,-1.9010939420860211,North America,Evo. 2050
+Evolving,Cropland: Staples,2100,0.6384663975942999,North America,Evo. 2100
+Evolving,Cropland: Others,2050,49.02000045572865,Africa,Evo. 2050
+Evolving,Cropland: Others,2100,174.8801474406879,Africa,Evo. 2100
+Evolving,Cropland: Others,2050,8.737518227093304,China,Evo. 2050
+Evolving,Cropland: Others,2100,6.719965330929611,China,Evo. 2100
+Evolving,Cropland: Others,2050,-6.894842428980667,North America,Evo. 2050
+Evolving,Cropland: Others,2100,-3.28505706287379,North America,Evo. 2100
+Evolving,Forest,2050,-31.562490465999986,Africa,Evo. 2050
+Evolving,Forest,2100,-85.37871554900008,Africa,Evo. 2100
+Evolving,Forest,2050,26.737476979000036,China,Evo. 2050
+Evolving,Forest,2100,14.24876205489997,China,Evo. 2100
+Evolving,Forest,2050,6.133456931000069,North America,Evo. 2050
+Evolving,Forest,2100,5.531777672000089,North America,Evo. 2100
+Evolving,Pasture,2050,-64.21105407999994,Africa,Evo. 2050
+Evolving,Pasture,2100,-125.05332801999998,Africa,Evo. 2100
+Evolving,Pasture,2050,-32.38840568310002,China,Evo. 2050
+Evolving,Pasture,2100,-23.63306979660001,China,Evo. 2100
+Evolving,Pasture,2050,-30.991740405900032,North America,Evo. 2050
+Evolving,Pasture,2100,-42.59325807809,North America,Evo. 2100
+Evolving,Other natural,2050,-115.88226231299996,Africa,Evo. 2050
+Evolving,Other natural,2100,-229.1233468369,Africa,Evo. 2100
+Evolving,Other natural,2050,-24.56794069,China,Evo. 2050
+Evolving,Other natural,2100,-9.470099549999986,China,Evo. 2100
+Evolving,Other natural,2050,-16.007828771999925,North America,Evo. 2050
+Evolving,Other natural,2100,-23.78655122099991,North America,Evo. 2100
+Static,Cropland: Energy,2050,86.6801454215856,Africa,Sta. 2050
+Static,Cropland: Energy,2100,75.5706118399352,Africa,Sta. 2100
+Static,Cropland: Energy,2050,11.8884693195991,China,Sta. 2050
+Static,Cropland: Energy,2100,18.029581043728093,China,Sta. 2100
+Static,Cropland: Energy,2050,50.560770806443,North America,Sta. 2050
+Static,Cropland: Energy,2100,61.07629322034901,North America,Sta. 2100
+Static,Cropland: Staples,2050,34.95194657670089,Africa,Sta. 2050
+Static,Cropland: Staples,2100,89.62735083401657,Africa,Sta. 2100
+Static,Cropland: Staples,2050,-5.645973639919745,China,Sta. 2050
+Static,Cropland: Staples,2100,-26.646406666692656,China,Sta. 2100
+Static,Cropland: Staples,2050,7.005950222693187,North America,Sta. 2050
+Static,Cropland: Staples,2100,14.489034815526324,North America,Sta. 2100
+Static,Cropland: Others,2050,25.411151283558922,Africa,Sta. 2050
+Static,Cropland: Others,2100,112.91855044723172,Africa,Sta. 2100
+Static,Cropland: Others,2050,-1.0724061399322977,China,Sta. 2050
+Static,Cropland: Others,2100,-5.210825920395216,China,Sta. 2100
+Static,Cropland: Others,2050,4.335756838946878,North America,Sta. 2050
+Static,Cropland: Others,2100,12.255265696647967,North America,Sta. 2100
+Static,Forest,2050,-25.426062415000047,Africa,Sta. 2050
+Static,Forest,2100,-63.72288674100008,Africa,Sta. 2100
+Static,Forest,2050,19.668352067200033,China,Sta. 2050
+Static,Forest,2100,3.6976793898000153,China,Sta. 2100
+Static,Forest,2050,-0.48642472999995334,North America,Sta. 2050
+Static,Forest,2100,0.03346513400015283,North America,Sta. 2100
+Static,Pasture,2050,-17.485327180000013,Africa,Sta. 2050
+Static,Pasture,2100,-12.477395119999983,Africa,Sta. 2100
+Static,Pasture,2050,-9.501515055600066,China,Sta. 2050
+Static,Pasture,2100,7.765077761800001,China,Sta. 2100
+Static,Pasture,2050,-41.3356387172,North America,Sta. 2050
+Static,Pasture,2100,-58.467233251420026,North America,Sta. 2100
+Static,Other natural,2050,-104.13141535499994,Africa,Sta. 2050
+Static,Other natural,2100,-201.91561910369995,Africa,Sta. 2100
+Static,Other natural,2050,-15.336839159999982,China,Sta. 2050
+Static,Other natural,2100,2.3651267200000348,China,Sta. 2100
+Static,Other natural,2050,-20.080438818999937,North America,Sta. 2050
+Static,Other natural,2100,-29.386858366999945,North America,Sta. 2100
